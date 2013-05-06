@@ -1,0 +1,7 @@
+*.000
+*.bak
+*-cache.lib
+*.gbr
+*.gtl
+*.drl
+libs
