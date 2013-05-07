@@ -3,4 +3,4 @@ Ultimate Hacking Keyboard electronics
 
 Contained are the schematics and board layout KiCad files for the Ultimate Hacking Keyboard.
 
-You have to fetch (or symlink) the Ultimate Gadget Laboratories KiCad library into the libs subdirectory in order to be able to properly open these files with KiCad.
+You have to fetch the Ultimate Gadget Laboratories KiCad library and the Opendous KiCad library into the library directory of KiCad in order to be able to properly open these files.
