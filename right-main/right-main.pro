@@ -1,5 +1,5 @@
-update=Tue 07 May 2013 12:54:32 PM CEST
-last_client=eeschema
+update=Tue 07 May 2013 09:56:17 PM CEST
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=
@@ -18,21 +18,22 @@ EdgeLar=39
 TxtLar=120
 MSegLar=150
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
 LibName4=pin_array
 LibName5=divers
-LibName6=libcms
-LibName7=display
-LibName8=led
-LibName9=dip_sockets
-LibName10=pga_sockets
-LibName11=valves
-LibName12=libs/cherry-mx
-LibName13=libs/md2-40st
-LibName14=libs/ux60-mb-5s8
+LibName6=smd_capacitors
+LibName7=smd_resistors
+LibName8=smd_crystal&oscillator
+LibName9=smd_transistors
+LibName10=libcms
+LibName11=display
+LibName12=led
+LibName13=dip_sockets
+LibName14=pga_sockets
+LibName15=valves
+LibDir=
 [eeschema]
 version=1
 LibDir=../libs/opendous/library
@@ -74,3 +75,8 @@ LibName29=contrib
 LibName30=valves
 LibName31=device
 LibName32=opendous
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
