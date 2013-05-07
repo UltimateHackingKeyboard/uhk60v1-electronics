@@ -1,0 +1,820 @@
+# EESchema Netlist Version 1.1 created  Sat 15 Dec 2012 11:54:41 PM CET
+(
+ ( /50C92502 $noname  SW11 SPST {Lib=SPST}
+  (    1 N-000018 )
+  (    2 N-000086 )
+ )
+ ( /50C92521 $noname  SW12 SPST {Lib=SPST}
+  (    1 N-000018 )
+  (    2 N-000085 )
+ )
+ ( /50C926B3 $noname  SW13 SPST {Lib=SPST}
+  (    1 N-000018 )
+  (    2 N-000084 )
+ )
+ ( /50C9A908 $noname  SW14 SPST {Lib=SPST}
+  (    1 N-000018 )
+  (    2 N-000083 )
+ )
+ ( /50C9A90E $noname  SW15 SPST {Lib=SPST}
+  (    1 N-000018 )
+  (    2 N-000082 )
+ )
+ ( /50C9A917 $noname  SW16 SPST {Lib=SPST}
+  (    1 N-000018 )
+  (    2 N-000081 )
+ )
+ ( /50C9A94B $noname  SW17 SPST {Lib=SPST}
+  (    1 N-000018 )
+  (    2 N-000080 )
+ )
+ ( /50C9AC5E $noname  SW21 SPST {Lib=SPST}
+  (    1 N-000022 )
+  (    2 N-000079 )
+ )
+ ( /50C9AC64 $noname  SW22 SPST {Lib=SPST}
+  (    1 N-000022 )
+  (    2 N-000078 )
+ )
+ ( /50C9AC6A $noname  SW23 SPST {Lib=SPST}
+  (    1 N-000022 )
+  (    2 N-000077 )
+ )
+ ( /50C9AC82 $noname  SW24 SPST {Lib=SPST}
+  (    1 N-000022 )
+  (    2 N-000076 )
+ )
+ ( /50C9AC88 $noname  SW25 SPST {Lib=SPST}
+  (    1 N-000022 )
+  (    2 N-000075 )
+ )
+ ( /50C9AC8E $noname  SW26 SPST {Lib=SPST}
+  (    1 N-000022 )
+  (    2 N-000094 )
+ )
+ ( /50C9ACA6 $noname  SW27 SPST {Lib=SPST}
+  (    1 N-000022 )
+  (    2 N-000099 )
+ )
+ ( /50C9ACC6 $noname  SW31 SPST {Lib=SPST}
+  (    1 N-000023 )
+  (    2 N-000098 )
+ )
+ ( /50C9ACCC $noname  SW32 SPST {Lib=SPST}
+  (    1 N-000023 )
+  (    2 N-000097 )
+ )
+ ( /50C9ACD2 $noname  SW33 SPST {Lib=SPST}
+  (    1 N-000023 )
+  (    2 N-000096 )
+ )
+ ( /50C9ACEA $noname  SW34 SPST {Lib=SPST}
+  (    1 N-000023 )
+  (    2 N-000095 )
+ )
+ ( /50C9ACF0 $noname  SW35 SPST {Lib=SPST}
+  (    1 N-000023 )
+  (    2 N-000087 )
+ )
+ ( /50C9ACF6 $noname  SW36 SPST {Lib=SPST}
+  (    1 N-000023 )
+  (    2 N-000093 )
+ )
+ ( /50C9AD0E $noname  SW37 SPST {Lib=SPST}
+  (    1 N-000023 )
+  (    2 N-000092 )
+ )
+ ( /50C9AD2E $noname  SW41 SPST {Lib=SPST}
+  (    1 N-000024 )
+  (    2 N-000091 )
+ )
+ ( /50C9AD34 $noname  SW42 SPST {Lib=SPST}
+  (    1 N-000024 )
+  (    2 N-000090 )
+ )
+ ( /50C9AD3A $noname  SW43 SPST {Lib=SPST}
+  (    1 N-000024 )
+  (    2 N-000089 )
+ )
+ ( /50C9AD52 $noname  SW44 SPST {Lib=SPST}
+  (    1 N-000024 )
+  (    2 N-000088 )
+ )
+ ( /50C9AD58 $noname  SW45 SPST {Lib=SPST}
+  (    1 N-000024 )
+  (    2 N-000067 )
+ )
+ ( /50C9AD5E $noname  SW46 SPST {Lib=SPST}
+  (    1 N-000024 )
+  (    2 N-000066 )
+ )
+ ( /50C9AD76 $noname  SW47 SPST {Lib=SPST}
+  (    1 N-000024 )
+  (    2 N-000070 )
+ )
+ ( /50C9AD96 $noname  SW51 SPST {Lib=SPST}
+  (    1 N-000006 )
+  (    2 N-000065 )
+ )
+ ( /50C9AD9C $noname  SW52 SPST {Lib=SPST}
+  (    1 N-000006 )
+  (    2 N-000064 )
+ )
+ ( /50C9ADA2 $noname  SW53 SPST {Lib=SPST}
+  (    1 N-000006 )
+  (    2 N-000063 )
+ )
+ ( /50C9ADBA $noname  SW54 SPST {Lib=SPST}
+  (    1 N-000006 )
+  (    2 N-000054 )
+ )
+ ( /50C9ADC0 $noname  SW55 SPST {Lib=SPST}
+  (    1 N-000006 )
+  (    2 N-000021 )
+ )
+ ( /50C9ADC6 $noname  SW56 SPST {Lib=SPST}
+  (    1 N-000006 )
+  (    2 N-000020 )
+ )
+ ( /50C9ADDE $noname  SW57 SPST {Lib=SPST}
+  (    1 N-000006 )
+  (    2 N-000019 )
+ )
+ ( /50C9B2CB $noname  R1 10K {Lib=R}
+  (    1 N-000018 )
+  (    2 GND )
+ )
+ ( /50C9B553 $noname  R2 10K {Lib=R}
+  (    1 N-000022 )
+  (    2 ? )
+ )
+ ( /50C9B559 $noname  R3 10K {Lib=R}
+  (    1 N-000023 )
+  (    2 GND )
+ )
+ ( /50C9B55F $noname  R4 10K {Lib=R}
+  (    1 N-000024 )
+  (    2 ? )
+ )
+ ( /50C9B565 $noname  R5 10K {Lib=R}
+  (    1 N-000006 )
+  (    2 GND )
+ )
+ ( /50CA6AA3 $noname  D12 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000085 )
+ )
+ ( /50CA6AA9 $noname  D13 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000084 )
+ )
+ ( /50CA6AAF $noname  D14 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000083 )
+ )
+ ( /50CA6AB5 $noname  D15 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000082 )
+ )
+ ( /50CA6ABB $noname  D16 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000081 )
+ )
+ ( /50CA6AC1 $noname  D17 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000080 )
+ )
+ ( /50CA6AE5 $noname  D27 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000099 )
+ )
+ ( /50CA6AEB $noname  D37 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000092 )
+ )
+ ( /50CA6AF1 $noname  D47 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000070 )
+ )
+ ( /50CA6AF7 $noname  D57 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000019 )
+ )
+ ( /50CA6AFD $noname  D26 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000094 )
+ )
+ ( /50CA6B03 $noname  D36 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000093 )
+ )
+ ( /50CA6B09 $noname  D46 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000066 )
+ )
+ ( /50CA6B0F $noname  D56 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000020 )
+ )
+ ( /50CA6B15 $noname  D25 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000075 )
+ )
+ ( /50CA6B1B $noname  D35 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000087 )
+ )
+ ( /50CA6B21 $noname  D45 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000067 )
+ )
+ ( /50CA6B27 $noname  D55 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000021 )
+ )
+ ( /50CA6B2D $noname  D24 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000076 )
+ )
+ ( /50CA6B33 $noname  D34 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000095 )
+ )
+ ( /50CA6B39 $noname  D44 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000088 )
+ )
+ ( /50CA6B3F $noname  D54 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000054 )
+ )
+ ( /50CA6B45 $noname  D23 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000077 )
+ )
+ ( /50CA6B4B $noname  D33 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000096 )
+ )
+ ( /50CA6B51 $noname  D43 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000089 )
+ )
+ ( /50CA6B57 $noname  D53 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000063 )
+ )
+ ( /50CA6B5D $noname  D22 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000078 )
+ )
+ ( /50CA6B63 $noname  D32 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000097 )
+ )
+ ( /50CA6B69 $noname  D42 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000090 )
+ )
+ ( /50CA6B6F $noname  D52 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000064 )
+ )
+ ( /50CA6B75 $noname  D21 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000079 )
+ )
+ ( /50CA6B7B $noname  D31 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000098 )
+ )
+ ( /50CA6B81 $noname  D41 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000091 )
+ )
+ ( /50CA6B87 $noname  D51 DIODE {Lib=DIODE}
+  (    1 ? )
+  (    2 N-000065 )
+ )
+ ( /50CA7687 $noname  C_USB1 1uF {Lib=CP}
+  (    1 GND )
+  (    2 N-000008 )
+ )
+ ( /50CA769E $noname  C_X1 15pF {Lib=CP}
+  (    1 GND )
+  (    2 N-000015 )
+ )
+ ( /50C9299C $noname  D11 DIODE {Lib=DIODE}
+  (    1 N-000086 )
+  (    2 ? )
+ )
+ ( /50CB7FC4 $noname  X1 16Mhz {Lib=CRYSTAL}
+  (    1 N-000007 )
+  (    2 N-000015 )
+ )
+ ( /50CB8974 $noname  C_X2 15pF {Lib=CP}
+  (    1 GND )
+  (    2 N-000007 )
+ )
+ ( /50CB9AE1 $noname  R_U1 22 {Lib=R}
+  (    1 N-000012 )
+  (    2 N-000014 )
+ )
+ ( /50CB9AEE $noname  R_U2 22 {Lib=R}
+  (    1 N-000011 )
+  (    2 N-000013 )
+ )
+ ( /50CCF102 $noname  CR1 ESD {Lib=ESD}
+  (    1 N-000009 )
+  (    2 N-000012 )
+ )
+ ( /50CCF29F $noname  CR2 ESD {Lib=ESD}
+  (    1 N-000010 )
+  (    2 N-000011 )
+ )
+ ( /50CCF315 $noname  J_USB1 USB_3 {Lib=USB_3}
+  (    1 N-000038 )
+  (    2 N-000010 )
+  (    3 N-000009 )
+  (    4 ? )
+  (    5 GND )
+ )
+ ( /50A1AF3F TQFP32-QFN32  IC1 AT90USB16 {Lib=AT90USB16}
+  (    1 N-000015 )
+  (    2 N-000007 )
+  (    3 GND )
+  (    4 VCC )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 ? )
+  (   21 ? )
+  (   22 ? )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 N-000008 )
+  (   28 GND )
+  (   29 N-000014 )
+  (   30 N-000013 )
+  (   31 VCC )
+  (   32 VCC )
+  (   33 GND )
+ )
+ ( /50CD04D6 $noname  C_F1 100nF {Lib=CP}
+  (    1 N-000025 )
+  (    2 GND )
+ )
+ ( /50CD04DC $noname  C_F2 100nF {Lib=CP}
+  (    1 N-000025 )
+  (    2 GND )
+ )
+ ( /50CD16C3 $noname  F1 FUSE {Lib=FUSE}
+  (    ~ VCC )
+ )
+ ( /50CD1B69 $noname  P_ISP1 CONN_6 {Lib=CONN_6}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+ )
+ ( /50CD1BB6 $noname  P_RJ1 CONN_4 {Lib=CONN_4}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D12
+ D?
+ S*
+$endlist
+$component D13
+ D?
+ S*
+$endlist
+$component D14
+ D?
+ S*
+$endlist
+$component D15
+ D?
+ S*
+$endlist
+$component D16
+ D?
+ S*
+$endlist
+$component D17
+ D?
+ S*
+$endlist
+$component D27
+ D?
+ S*
+$endlist
+$component D37
+ D?
+ S*
+$endlist
+$component D47
+ D?
+ S*
+$endlist
+$component D57
+ D?
+ S*
+$endlist
+$component D26
+ D?
+ S*
+$endlist
+$component D36
+ D?
+ S*
+$endlist
+$component D46
+ D?
+ S*
+$endlist
+$component D56
+ D?
+ S*
+$endlist
+$component D25
+ D?
+ S*
+$endlist
+$component D35
+ D?
+ S*
+$endlist
+$component D45
+ D?
+ S*
+$endlist
+$component D55
+ D?
+ S*
+$endlist
+$component D24
+ D?
+ S*
+$endlist
+$component D34
+ D?
+ S*
+$endlist
+$component D44
+ D?
+ S*
+$endlist
+$component D54
+ D?
+ S*
+$endlist
+$component D23
+ D?
+ S*
+$endlist
+$component D33
+ D?
+ S*
+$endlist
+$component D43
+ D?
+ S*
+$endlist
+$component D53
+ D?
+ S*
+$endlist
+$component D22
+ D?
+ S*
+$endlist
+$component D32
+ D?
+ S*
+$endlist
+$component D42
+ D?
+ S*
+$endlist
+$component D52
+ D?
+ S*
+$endlist
+$component D21
+ D?
+ S*
+$endlist
+$component D31
+ D?
+ S*
+$endlist
+$component D41
+ D?
+ S*
+$endlist
+$component D51
+ D?
+ S*
+$endlist
+$component C_USB1
+ CP*
+ SM*
+$endlist
+$component C_X1
+ CP*
+ SM*
+$endlist
+$component D11
+ D?
+ S*
+$endlist
+$component C_X2
+ CP*
+ SM*
+$endlist
+$component R_U1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R_U2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C_F1
+ CP*
+ SM*
+$endlist
+$component C_F2
+ CP*
+ SM*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 6 "" ""
+ SW54 1
+ SW53 1
+ SW52 1
+ SW55 1
+ SW51 1
+ R5 1
+ SW56 1
+ SW57 1
+Net 7 "" ""
+ IC1 2
+ X1 1
+ C_X2 2
+Net 8 "" ""
+ IC1 27
+ C_USB1 2
+Net 9 "" ""
+ J_USB1 3
+ CR1 1
+Net 10 "" ""
+ CR2 1
+ J_USB1 2
+Net 11 "" ""
+ CR2 2
+ R_U2 1
+Net 12 "" ""
+ CR1 2
+ R_U1 1
+Net 13 "" ""
+ IC1 30
+ R_U2 2
+Net 14 "" ""
+ R_U1 2
+ IC1 29
+Net 15 "" ""
+ IC1 1
+ C_X1 2
+ X1 2
+Net 18 "" ""
+ SW14 1
+ SW16 1
+ SW13 1
+ SW12 1
+ SW17 1
+ SW11 1
+ R1 1
+ SW15 1
+Net 19 "" ""
+ SW57 2
+ D57 2
+Net 20 "" ""
+ D56 2
+ SW56 2
+Net 21 "" ""
+ D55 2
+ SW55 2
+Net 22 "" ""
+ SW26 1
+ SW27 1
+ SW25 1
+ SW24 1
+ R2 1
+ SW23 1
+ SW22 1
+ SW21 1
+Net 23 "" ""
+ R3 1
+ SW31 1
+ SW32 1
+ SW33 1
+ SW34 1
+ SW35 1
+ SW36 1
+ SW37 1
+Net 24 "" ""
+ R4 1
+ SW45 1
+ SW46 1
+ SW47 1
+ SW41 1
+ SW42 1
+ SW43 1
+ SW44 1
+Net 25 "" ""
+ C_F2 1
+ C_F1 1
+Net 26 "GND" "GND"
+ IC1 33
+ R5 2
+ C_X1 1
+ C_X2 1
+ R3 2
+ R1 2
+ J_USB1 5
+ C_USB1 1
+ C_F2 2
+ IC1 3
+ C_F1 2
+ IC1 28
+Net 27 "VCC" "VCC"
+ IC1 31
+ IC1 32
+ IC1 4
+Net 38 "" ""
+ F1 ~
+ J_USB1 1
+Net 54 "" ""
+ D54 2
+ SW54 2
+Net 63 "" ""
+ SW53 2
+ D53 2
+Net 64 "" ""
+ SW52 2
+ D52 2
+Net 65 "" ""
+ D51 2
+ SW51 2
+Net 66 "" ""
+ D46 2
+ SW46 2
+Net 67 "" ""
+ D45 2
+ SW45 2
+Net 70 "" ""
+ SW47 2
+ D47 2
+Net 75 "" ""
+ D25 2
+ SW25 2
+Net 76 "" ""
+ D24 2
+ SW24 2
+Net 77 "" ""
+ D23 2
+ SW23 2
+Net 78 "" ""
+ D22 2
+ SW22 2
+Net 79 "" ""
+ D21 2
+ SW21 2
+Net 80 "" ""
+ SW17 2
+ D17 2
+Net 81 "" ""
+ D16 2
+ SW16 2
+Net 82 "" ""
+ D15 2
+ SW15 2
+Net 83 "" ""
+ SW14 2
+ D14 2
+Net 84 "" ""
+ SW13 2
+ D13 2
+Net 85 "" ""
+ SW12 2
+ D12 2
+Net 86 "" ""
+ D11 1
+ SW11 2
+Net 87 "" ""
+ SW35 2
+ D35 2
+Net 88 "" ""
+ D44 2
+ SW44 2
+Net 89 "" ""
+ D43 2
+ SW43 2
+Net 90 "" ""
+ D42 2
+ SW42 2
+Net 91 "" ""
+ D41 2
+ SW41 2
+Net 92 "" ""
+ D37 2
+ SW37 2
+Net 93 "" ""
+ SW36 2
+ D36 2
+Net 94 "" ""
+ SW26 2
+ D26 2
+Net 95 "" ""
+ D34 2
+ SW34 2
+Net 96 "" ""
+ D33 2
+ SW33 2
+Net 97 "" ""
+ D32 2
+ SW32 2
+Net 98 "" ""
+ D31 2
+ SW31 2
+Net 99 "" ""
+ D27 2
+ SW27 2
+}
+#End
