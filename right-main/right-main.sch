@@ -1,4 +1,5 @@
-EESchema Schematic File Version 2  date Tue 12 Mar 2013 10:56:15 PM CET
+EESchema Schematic File Version 2  date Tue 07 May 2013 06:19:44 PM CEST
+LIBS:ugl
 LIBS:power
 LIBS:transistors
 LIBS:conn
@@ -28,17 +29,15 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:opendous
-LIBS:ugl
 LIBS:device
-LIBS:right-main-cache
-EELAYER 27 0
+LIBS:opendous
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Ultimate Hacking Keyboard - Right Main Board"
-Date "12 mar 2013"
+Date "7 may 2013"
 Rev "3"
 Comp "Ultimate Gadget Laboratories Kft."
 Comment1 ""
@@ -1674,9 +1673,9 @@ Connection ~ 3100 4000
 Wire Wire Line
 	3100 4000 2650 4000
 Wire Wire Line
-	1600 4450 3100 4450
+	3100 4450 1600 4450
 Wire Wire Line
-	3100 4450 3100 3500
+	3100 3500 3100 4450
 Wire Wire Line
 	2650 3550 3100 3550
 Wire Wire Line
@@ -1735,8 +1734,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 3450 2150 3500
 Connection ~ 2150 3250
-Wire Wire Line
-	1750 3450 1750 3500
 Wire Wire Line
 	2050 3900 2050 4000
 Connection ~ 2050 3700
@@ -1842,7 +1839,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 1350 2050 1350
 Wire Wire Line
-	1250 1550 2050 1550
+	1500 1550 2050 1550
 Wire Wire Line
 	4200 5800 4850 5800
 Connection ~ 5650 5600
@@ -1964,7 +1961,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 2850 7600 3000
 Wire Wire Line
-	8100 3000 8100 2850
+	8100 2850 8100 3000
 Connection ~ 8100 2850
 Wire Wire Line
 	8600 2850 8600 3000
@@ -2138,4 +2135,6 @@ Wire Wire Line
 	2000 4400 2000 4450
 Connection ~ 2000 4450
 Connection ~ 1750 3250
+Wire Wire Line
+	1750 3450 1750 3500
 $EndSCHEMATC
