@@ -4,4 +4,4 @@
 *.gbr
 *.gtl
 *.drl
-libs
+*-bak
