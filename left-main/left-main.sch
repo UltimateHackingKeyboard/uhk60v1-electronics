@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 12 Mar 2013 10:57:11 PM CET
+EESchema Schematic File Version 2
 LIBS:ugl
 LIBS:power
 LIBS:device
@@ -31,8 +31,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:opendous
-LIBS:left-main-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -2317,4 +2316,14 @@ Wire Wire Line
 Connection ~ 2250 800 
 Wire Wire Line
 	1850 1000 1850 1050
+Text Notes 2150 4650 0    60   ~ 0
+Put the PCA9634 there!
+Text Notes 2100 7700 0    60   ~ 0
+Put the TPIC6C595 there!
+Text Notes 7100 5550 0    60   ~ 0
+Use 8 lines instead of 6 there!
+Text Notes 6950 6700 0    60   ~ 0
+Use 6 lines instead of 8 there!
+Text Notes 5350 4450 0    60   ~ 0
+Reverse the LEDs on the display (both schematic and board)!
 $EndSCHEMATC
