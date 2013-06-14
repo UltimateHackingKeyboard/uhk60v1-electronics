@@ -1203,7 +1203,7 @@ MISO
 Text Label 5350 2400 0    40   ~ 0
 SCK
 Text Notes 3500 1300 0    40   ~ 0
-Given that the position and orientation of IC1 is not fixed\nyet the following lines are not wired to GPIO pins yet:\n* ROW1, ROW2, ROW3, ROW4, ROW5\n* COL1, COL2, COL3, COL4, COL5, COL6, COL7\n* DISPLAY_ENABLE, RCLK\n
+Given that the position and orientation of IC1 is not fixed yet\non the board the following lines are not wired to GPIO pins yet:\n* ROW1, ROW2, ROW3, ROW4, ROW5\n* COL1, COL2, COL3, COL4, COL5, COL6, COL7\n* DISPLAY_ENABLE, RCLK\n
 $Comp
 L C C_F1
 U 1 1 5134D4E5
@@ -1909,4 +1909,8 @@ Wire Wire Line
 Wire Wire Line
 	4500 6800 4500 6750
 Connection ~ 4500 7000
+Text Notes 3450 7600 2    40   ~ 0
+The wires between PCA9634 and P_LED_COLS1 can be interchanged for optimal board routing.
+Text Notes 6700 7600 2    40   ~ 0
+The wires between TPIC6C595 and P_LED_ROWS1 can be interchanged for optimal board routing.
 $EndSCHEMATC
