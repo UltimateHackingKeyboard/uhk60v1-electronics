@@ -956,9 +956,9 @@ F 3 "" H 6000 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4550 6400 2    40   ~ 0
-RCLK
+RCK
 Text Label 4550 6250 2    40   ~ 0
-SCK
+SRCK
 Text Label 4350 7000 2    40   ~ 0
 *DISPLAY_ENABLE
 $Comp
@@ -1196,14 +1196,8 @@ Text Label 5350 3500 0    40   ~ 0
 RX
 Text Label 5350 3600 0    40   ~ 0
 TX
-Text Label 5350 2200 0    40   ~ 0
-MOSI
-Text Label 5350 2300 0    40   ~ 0
-MISO
-Text Label 5350 2400 0    40   ~ 0
-SCK
 Text Notes 3500 1300 0    40   ~ 0
-Given that the position and orientation of IC1 is not fixed yet\non the board the following lines are not wired to GPIO pins yet:\n* ROW1, ROW2, ROW3, ROW4, ROW5\n* COL1, COL2, COL3, COL4, COL5, COL6, COL7\n* DISPLAY_ENABLE, RCLK\n
+Given that the position and orientation of IC1 is not fixed yet\non the board the following lines are not wired to GPIO pins yet:\n* ROW1, ROW2, ROW3, ROW4, ROW5\n* COL1, COL2, COL3, COL4, COL5, COL6, COL7\n* DISPLAY_ENABLE, SER_IN, SRCK, RCK\n
 $Comp
 L C C_F1
 U 1 1 5134D4E5
@@ -1913,4 +1907,6 @@ Text Notes 3450 7600 2    40   ~ 0
 The wires between PCA9634 and P_LED_COLS1 can be interchanged for optimal board routing.
 Text Notes 6700 7600 2    40   ~ 0
 The wires between TPIC6C595 and P_LED_ROWS1 can be interchanged for optimal board routing.
+Text Label 4550 6150 2    40   ~ 0
+SER_IN
 $EndSCHEMATC
