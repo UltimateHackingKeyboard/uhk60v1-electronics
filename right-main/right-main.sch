@@ -1502,7 +1502,7 @@ ROW4
 Text Label 7400 2800 0    40   ~ 0
 ROW5
 Text Notes 4350 1100 0    40   ~ 0
-Given that the position and orientation of U1 is not fixed\nyet the following lines are not wired to GPIO pins yet:\n* ROW1, ROW2, ROW3, ROW4, ROW5\n* COL1, COL2, COL3, COL4, COL5, COL6, COL7\n* EEPROM_SELECT
+Given that the position and orientation of U1 is not fixed yet\non the board the following lines are not wired to GPIO pins yet:\n* ROW1, ROW2, ROW3, ROW4, ROW5\n* COL1, COL2, COL3, COL4, COL5, COL6, COL7\n* EEPROM_SELECT
 Text Notes 700  4650 0    40   ~ 0
 * Pi filter on VCC\n* 230400 Hz (115200  baud * safety factor of 2) low-pass RC filter on TX.
 Text Notes 850  2600 0    40   ~ 0
@@ -2193,4 +2193,6 @@ Wire Wire Line
 	1450 5700 2000 5700
 Text Label 2000 5700 0    40   ~ 0
 VCC_BOTTOM
+Text Notes 3650 7550 0    40   ~ 0
+VCC_*, TX_*, RX_* can be exchanged between 1B*, 2B*, 3B*, 4B* for optimal board routing.
 $EndSCHEMATC
