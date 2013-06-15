@@ -31,6 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:device
 LIBS:opendous
+LIBS:right-main-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1140,7 +1141,7 @@ F 3 "" H 2450 1850 60  0001 C CNN
 	1    2450 1850
 	1    0    0    -1  
 $EndComp
-Text Notes 8850 1400 0    40   ~ 0
+Text Notes 8700 1400 0    60   ~ 0
 Keyboard matrix\n
 Text Notes 700  4100 1    40   ~ 0
 RJ11 jack\nremotely connecting the\ntwo keyboard halves
