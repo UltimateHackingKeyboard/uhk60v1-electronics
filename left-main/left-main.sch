@@ -31,6 +31,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:opendous
+LIBS:left-main-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1909,4 +1910,12 @@ Text Notes 6700 7600 2    40   ~ 0
 The wires between TPIC6C595 and P_LED_ROWS1 can be interchanged for optimal board routing.
 Text Label 4550 6150 2    40   ~ 0
 SER_IN
+Text Label 5350 2300 0    40   ~ 0
+MISO
+Text Label 5350 2400 0    40   ~ 0
+SCK
+Text Label 5350 2200 0    40   ~ 0
+MOSI
+Text Label 5350 3350 0    40   ~ 0
+RESET
 $EndSCHEMATC
