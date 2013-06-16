@@ -1141,7 +1141,7 @@ F 3 "" H 2450 1850 60  0001 C CNN
 	1    2450 1850
 	1    0    0    -1  
 $EndComp
-Text Notes 8700 1400 0    60   ~ 0
+Text Notes 8700 1400 0    60   ~ 12
 Keyboard matrix\n
 Text Notes 700  4100 1    40   ~ 0
 RJ11 jack\nremotely connecting the\ntwo keyboard halves
