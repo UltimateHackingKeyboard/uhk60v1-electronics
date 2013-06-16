@@ -2195,4 +2195,6 @@ Text Label 2000 5700 0    40   ~ 0
 VCC_BOTTOM
 Text Notes 3650 7550 0    40   ~ 0
 VCC_*, TX_*, RX_* can be exchanged between 1B*, 2B*, 3B*, 4B* for optimal board routing.
+Text Notes 4650 4900 0    60   ~ 12
+FET MUX\nrouting power and signals\nbetween the halves through\ntop vs bottom connection
 $EndSCHEMATC
