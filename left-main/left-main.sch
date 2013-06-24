@@ -2169,4 +2169,6 @@ Wire Wire Line
 	2900 6300 3200 6300
 Wire Wire Line
 	2650 6200 3200 6200
+Text Notes 2350 6000 1    40   ~ 0
+<- Column 1 features white LEDs\n     which need a resistor of a different\n     value than the rest which are red.
 $EndSCHEMATC

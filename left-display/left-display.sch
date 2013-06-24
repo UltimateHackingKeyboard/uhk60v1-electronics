@@ -30,6 +30,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:left-display-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1054,4 +1055,6 @@ F 3 "" H 7650 4600 60  0000 C CNN
 	1    7650 4600
 	-1   0    0    -1  
 $EndComp
+Text Notes 4150 5800 1    40   ~ 0
+Column 1 features white LEDs ->\nunlike the rest which are red.
 $EndSCHEMATC
