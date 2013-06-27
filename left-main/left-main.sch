@@ -994,7 +994,7 @@ L C C_F8
 U 1 1 513486A1
 P 2000 1850
 F 0 "C_F8" H 2000 1950 40  0000 C CNN
-F 1 "0.1uF" H 2000 1740 40  0000 C CNN
+F 1 "0.1nF" H 2000 1740 40  0000 C CNN
 F 2 "" H 2000 1850 60  0000 C CNN
 F 3 "" H 2000 1850 60  0000 C CNN
 	1    2000 1850
@@ -1005,7 +1005,7 @@ L R R1
 U 1 1 51348BBE
 P 2250 1750
 F 0 "R1" H 2255 1850 40  0000 C CNN
-F 1 "7" H 2250 1650 40  0000 C CNN
+F 1 "1K" H 2250 1650 40  0000 C CNN
 F 2 "" H 2250 1750 60  0001 C CNN
 F 3 "" H 2250 1750 60  0001 C CNN
 	1    2250 1750
@@ -1154,7 +1154,7 @@ F 3 "" H 4250 6350 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Notes 800  2300 0    40   ~ 0
-* Pi filter on VCC\n* 230400 Hz (115200  baud * safety factor of 2)\n  low-pass RC filter on TX.
+* Pi filter on VCC\n* Low-pass RC filter on TX
 $Comp
 L ESD CR1
 U 1 1 513E6C50

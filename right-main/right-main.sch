@@ -1360,7 +1360,7 @@ L R R_F1
 U 1 1 512D48CD
 P 2300 3700
 F 0 "R_F1" H 2305 3800 40  0000 C CNN
-F 1 "7" H 2300 3600 40  0000 C CNN
+F 1 "1K" H 2300 3600 40  0000 C CNN
 F 2 "" H 2300 3700 60  0001 C CNN
 F 3 "" H 2300 3700 60  0001 C CNN
 	1    2300 3700
@@ -1382,7 +1382,7 @@ L C C_F5
 U 1 1 512D48DF
 P 2050 3800
 F 0 "C_F5" H 2050 3900 40  0000 C CNN
-F 1 "0.1uF" H 2050 3690 40  0000 C CNN
+F 1 "0.1nF" H 2050 3690 40  0000 C CNN
 F 2 "" H 2050 3800 60  0001 C CNN
 F 3 "" H 2050 3800 60  0001 C CNN
 	1    2050 3800
@@ -1504,7 +1504,7 @@ ROW5
 Text Notes 4350 1100 0    40   ~ 0
 Given that the position and orientation of U1 is not fixed yet\non the board the following lines are not wired to GPIO pins yet:\n* ROW1, ROW2, ROW3, ROW4, ROW5\n* COL1, COL2, COL3, COL4, COL5, COL6, COL7\n* EEPROM_SELECT
 Text Notes 700  4650 0    40   ~ 0
-* Pi filter on VCC\n* 230400 Hz (115200  baud * safety factor of 2) low-pass RC filter on TX.
+* Pi filter on VCC\n* Low-pass RC filter on TX
 Text Notes 850  2600 0    40   ~ 0
 Keyboard parts merged:\n    proximity connection is connected\n    remote connection is explicitly disabled to avoid ground loop\n    (GND disabled by SW1 and VCC, TX, RX disabled by the FET MUX)\nKeyboard parts unmerged:\n    proximity connection is unconnected\n    remote connection is connected\n    (GND enabled by SW1 and VCC, TX, RX enabled by the FET MUX)
 Text Notes 850  650  0    40   ~ 0
