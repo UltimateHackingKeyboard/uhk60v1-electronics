@@ -2183,17 +2183,6 @@ F 3 "" H 3250 7300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C9
-U 1 1 51C91DD8
-P 3550 7300
-F 0 "C9" H 3550 7400 40  0000 C CNN
-F 1 "100uF" H 3550 7190 40  0000 C CNN
-F 2 "" H 3550 7300 60  0000 C CNN
-F 3 "" H 3550 7300 60  0000 C CNN
-	1    3550 7300
-	0    -1   -1   0   
-$EndComp
-$Comp
 L C C6
 U 1 1 51C91DDE
 P 2650 7300
@@ -2220,7 +2209,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 7400 3550 7400
 Text Notes 3750 7350 0    40   ~ 0
-<- This should be a tantalum capacitor.
+<- Tantalum capacitor
 $Comp
 L R R3
 U 1 1 51C9904E
@@ -2253,4 +2242,15 @@ Text Notes 3800 6850 1    40   ~ 0
 LED matrix columns
 Text Notes 6800 6650 1    40   ~ 0
 LED matrix rows
+$Comp
+L CP C9
+U 1 1 51D56BFD
+P 3550 7300
+F 0 "C9" H 3550 7400 40  0000 C CNN
+F 1 "100uF" H 3550 7200 40  0000 C CNN
+F 2 "" H 3550 7300 60  0000 C CNN
+F 3 "" H 3550 7300 60  0000 C CNN
+	1    3550 7300
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
