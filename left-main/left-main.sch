@@ -388,28 +388,6 @@ F 3 "" H 8100 4050 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_8 P4
-U 1 1 50EB69BB
-P 3550 6550
-F 0 "P4" V 3500 6550 60  0000 C CNN
-F 1 "CONN_8" V 3600 6550 60  0000 C CNN
-F 2 "" H 3550 6550 60  0001 C CNN
-F 3 "" H 3550 6550 60  0001 C CNN
-	1    3550 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_6 P5
-U 1 1 50EB89DA
-P 6550 6400
-F 0 "P5" V 6500 6400 60  0000 C CNN
-F 1 "CONN_6" V 6600 6400 60  0000 C CNN
-F 2 "" H 6550 6400 60  0001 C CNN
-F 3 "" H 6550 6400 60  0001 C CNN
-	1    6550 6400
-	1    0    0    -1  
-$EndComp
-$Comp
 L SPST SW11
 U 1 1 512E8C90
 P 7350 4050
@@ -943,21 +921,21 @@ F 3 "" H 6250 3150 60  0001 C CNN
 	1    6250 3150
 	0    -1   -1   0   
 $EndComp
-Text Label 4800 6400 2    40   ~ 0
+Text Label 4350 6400 2    40   ~ 0
 RCK
-Text Label 4800 6250 2    40   ~ 0
+Text Label 4350 6250 2    40   ~ 0
 SRCK
-Text Label 4600 7000 2    40   ~ 0
+Text Label 4150 7000 2    40   ~ 0
 *DISPLAY_ENABLE
 $Comp
 L R R4
 U 1 1 51346274
-P 4750 6900
-F 0 "R4" H 4755 7000 40  0000 C CNN
-F 1 "10K" H 4750 6800 40  0000 C CNN
-F 2 "" H 4750 6900 60  0001 C CNN
-F 3 "" H 4750 6900 60  0001 C CNN
-	1    4750 6900
+P 4300 6900
+F 0 "R4" H 4305 7000 40  0000 C CNN
+F 1 "10K" H 4300 6800 40  0000 C CNN
+F 2 "" H 4300 6900 60  0001 C CNN
+F 3 "" H 4300 6900 60  0001 C CNN
+	1    4300 6900
 	0    -1   -1   0   
 $EndComp
 Text Label 1600 4200 0    40   ~ 0
@@ -1075,7 +1053,7 @@ RX
 Text Label 5350 3600 0    40   ~ 0
 TX
 Text Notes 3500 1300 0    40   ~ 0
-Given that the position and orientation of IC1 is not fixed yet\non the board the following lines are not wired to GPIO pins yet:\n* ROW1, ROW2, ROW3, ROW4, ROW5\n* COL1, COL2, COL3, COL4, COL5, COL6, COL7\n* DISPLAY_ENABLE, SER_IN, SRCK, RCK\n
+Given that the position and orientation of U1 is not fixed yet\non the board the following lines are not wired to GPIO pins yet:\n* ROW1, ROW2, ROW3, ROW4, ROW5\n* COL1, COL2, COL3, COL4, COL5, COL6, COL7\n* DISPLAY_ENABLE, SER_IN, SRCK, RCK\n
 $Comp
 L C C3
 U 1 1 5134D4E5
@@ -1123,34 +1101,34 @@ $EndComp
 $Comp
 L GND #PWR07
 U 1 1 51366DF7
-P 4250 6500
-F 0 "#PWR07" H 4250 6500 30  0001 C CNN
-F 1 "GND" H 4250 6430 30  0001 C CNN
-F 2 "" H 4250 6500 60  0001 C CNN
-F 3 "" H 4250 6500 60  0001 C CNN
-	1    4250 6500
+P 3800 6500
+F 0 "#PWR07" H 3800 6500 30  0001 C CNN
+F 1 "GND" H 3800 6430 30  0001 C CNN
+F 2 "" H 3800 6500 60  0001 C CNN
+F 3 "" H 3800 6500 60  0001 C CNN
+	1    3800 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR08
 U 1 1 51366DFD
-P 4250 6200
-F 0 "#PWR08" H 4250 6300 30  0001 C CNN
-F 1 "VCC" H 4250 6300 30  0000 C CNN
-F 2 "" H 4250 6200 60  0000 C CNN
-F 3 "" H 4250 6200 60  0000 C CNN
-	1    4250 6200
+P 3800 6200
+F 0 "#PWR08" H 3800 6300 30  0001 C CNN
+F 1 "VCC" H 3800 6300 30  0000 C CNN
+F 2 "" H 3800 6200 60  0000 C CNN
+F 3 "" H 3800 6200 60  0000 C CNN
+	1    3800 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C10
 U 1 1 51366E03
-P 4250 6350
-F 0 "C10" H 4250 6450 40  0000 C CNN
-F 1 "0.1uF" H 4250 6240 40  0000 C CNN
-F 2 "" H 4250 6350 60  0000 C CNN
-F 3 "" H 4250 6350 60  0000 C CNN
-	1    4250 6350
+P 3800 6350
+F 0 "C10" H 3800 6450 40  0000 C CNN
+F 1 "0.1uF" H 3800 6240 40  0000 C CNN
+F 2 "" H 3800 6350 60  0000 C CNN
+F 3 "" H 3800 6350 60  0000 C CNN
+	1    3800 6350
 	0    -1   -1   0   
 $EndComp
 Text Notes 800  2300 0    40   ~ 0
@@ -1221,30 +1199,30 @@ SCL
 $Comp
 L GND #PWR09
 U 1 1 51BA72E7
-P 5500 7300
-F 0 "#PWR09" H 5500 7300 30  0001 C CNN
-F 1 "GND" H 5500 7230 30  0001 C CNN
-F 2 "" H 5500 7300 60  0001 C CNN
-F 3 "" H 5500 7300 60  0001 C CNN
-	1    5500 7300
+P 5050 7300
+F 0 "#PWR09" H 5050 7300 30  0001 C CNN
+F 1 "GND" H 5050 7230 30  0001 C CNN
+F 2 "" H 5050 7300 60  0001 C CNN
+F 3 "" H 5050 7300 60  0001 C CNN
+	1    5050 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR010
 U 1 1 51BA72ED
-P 4750 7050
-F 0 "#PWR010" H 4750 7050 30  0001 C CNN
-F 1 "GND" H 4750 6980 30  0001 C CNN
-F 2 "" H 4750 7050 60  0001 C CNN
-F 3 "" H 4750 7050 60  0001 C CNN
-	1    4750 7050
+P 4300 7050
+F 0 "#PWR010" H 4300 7050 30  0001 C CNN
+F 1 "GND" H 4300 6980 30  0001 C CNN
+F 2 "" H 4300 7050 60  0001 C CNN
+F 3 "" H 4300 7050 60  0001 C CNN
+	1    4300 7050
 	1    0    0    -1  
 $EndComp
-Text Notes 3700 7600 2    40   ~ 0
-The wires between PCA9634 and P_LED_COLS1 can be interchanged for optimal board routing.
-Text Notes 6900 7600 2    40   ~ 0
-The wires between TPIC6C595 and P_LED_ROWS1 can be interchanged for optimal board routing.
-Text Label 4800 6150 2    40   ~ 0
+Text Notes 3500 7600 2    40   ~ 0
+The wires between U2 and P4 can be interchanged for optimal board routing.
+Text Notes 6200 7600 2    40   ~ 0
+The wires between U3 and P4 can be interchanged for optimal board routing.
+Text Label 4350 6150 2    40   ~ 0
 SER_IN
 Text Label 5350 2300 0    40   ~ 0
 MISO
@@ -1389,12 +1367,12 @@ $EndComp
 $Comp
 L TPIC6C595 U3
 U 1 1 51BA6D4E
-P 5500 6550
-F 0 "U3" H 5300 7150 60  0000 C CNN
-F 1 "TPIC6C595" H 5800 5900 60  0000 C CNN
-F 2 "" H 5500 6750 60  0000 C CNN
-F 3 "" H 5500 6750 60  0000 C CNN
-	1    5500 6550
+P 5050 6550
+F 0 "U3" H 4850 7150 60  0000 C CNN
+F 1 "TPIC6C595" H 5350 5900 60  0000 C CNN
+F 2 "" H 5050 6750 60  0000 C CNN
+F 3 "" H 5050 6750 60  0000 C CNN
+	1    5050 6550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1411,12 +1389,12 @@ $EndComp
 $Comp
 L VCC #PWR024
 U 1 1 51BE27C2
-P 5500 5850
-F 0 "#PWR024" H 5500 5950 30  0001 C CNN
-F 1 "VCC" H 5500 5950 30  0000 C CNN
-F 2 "" H 5500 5850 60  0000 C CNN
-F 3 "" H 5500 5850 60  0000 C CNN
-	1    5500 5850
+P 5050 5850
+F 0 "#PWR024" H 5050 5950 30  0001 C CNN
+F 1 "VCC" H 5050 5950 30  0000 C CNN
+F 2 "" H 5050 5850 60  0000 C CNN
+F 3 "" H 5050 5850 60  0000 C CNN
+	1    5050 5850
 	1    0    0    -1  
 $EndComp
 Text Label 10700 5350 3    40   ~ 0
@@ -1446,24 +1424,24 @@ $EndComp
 $Comp
 L VCC #PWR027
 U 1 1 51BE2D18
-P 4750 6750
-F 0 "#PWR027" H 4750 6850 30  0001 C CNN
-F 1 "VCC" H 4750 6850 30  0000 C CNN
-F 2 "" H 4750 6750 60  0000 C CNN
-F 3 "" H 4750 6750 60  0000 C CNN
-	1    4750 6750
+P 4300 6750
+F 0 "#PWR027" H 4300 6850 30  0001 C CNN
+F 1 "VCC" H 4300 6850 30  0000 C CNN
+F 2 "" H 4300 6750 60  0000 C CNN
+F 3 "" H 4300 6750 60  0000 C CNN
+	1    4300 6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 6800 4750 6750
+	4300 6800 4300 6750
 Wire Wire Line
-	4900 6800 4750 6800
+	4450 6800 4300 6800
 Wire Wire Line
 	1700 7300 1700 7350
 Wire Wire Line
 	10700 5350 10700 4050
 Wire Wire Line
-	5500 5850 5500 5900
+	5050 5850 5050 5900
 Wire Wire Line
 	1550 2950 1550 3000
 Wire Wire Line
@@ -1487,33 +1465,33 @@ Wire Wire Line
 	6250 2900 6250 3050
 Wire Wire Line
 	3250 4200 3350 4200
-Connection ~ 4750 7000
+Connection ~ 4300 7000
 Wire Wire Line
-	4750 7000 4750 7050
+	4300 7000 4300 7050
 Wire Wire Line
-	4900 6900 4900 6800
+	4450 6900 4450 6800
 Wire Wire Line
-	6100 6650 6200 6650
+	5650 6650 5850 6650
 Wire Wire Line
-	6100 6550 6200 6550
+	5650 6550 5850 6550
 Wire Wire Line
-	6100 6450 6200 6450
+	5650 6450 5850 6450
 Wire Wire Line
-	6100 6350 6200 6350
+	5650 6350 5850 6350
 Wire Wire Line
-	6100 6250 6200 6250
+	5650 6250 5850 6250
 Wire Wire Line
-	6100 6150 6200 6150
+	5650 6150 5850 6150
 Wire Wire Line
-	5500 7250 5500 7300
+	5050 7250 5050 7300
 Wire Wire Line
-	4600 7000 4900 7000
+	4150 7000 4450 7000
 Wire Wire Line
-	4900 6400 4800 6400
+	4450 6400 4350 6400
 Wire Wire Line
-	4900 6250 4800 6250
+	4450 6250 4350 6250
 Wire Wire Line
-	4900 6150 4800 6150
+	4450 6150 4350 6150
 Wire Wire Line
 	950  6100 950  6150
 Wire Wire Line
@@ -1556,9 +1534,9 @@ Connection ~ 1800 3200
 Wire Wire Line
 	6250 3350 6250 3250
 Wire Wire Line
-	4250 6450 4250 6500
+	3800 6450 3800 6500
 Wire Wire Line
-	4250 6200 4250 6250
+	3800 6200 3800 6250
 Wire Wire Line
 	2950 7400 2950 7450
 Wire Wire Line
@@ -2092,9 +2070,9 @@ Wire Wire Line
 Wire Wire Line
 	2150 6600 2200 6600
 Wire Wire Line
-	3150 6400 3200 6400
+	3150 6400 3350 6400
 Wire Wire Line
-	3150 6500 3200 6500
+	3150 6500 3350 6500
 Wire Wire Line
 	2400 6600 2450 6600
 Wire Wire Line
@@ -2112,7 +2090,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 6650 3150 6600
 Wire Wire Line
-	3150 6600 3200 6600
+	3150 6600 3350 6600
 Wire Wire Line
 	2150 6700 2200 6700
 Wire Wire Line
@@ -2132,7 +2110,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 6650 2900 6700
 Wire Wire Line
-	2900 6700 3200 6700
+	2900 6700 3350 6700
 Wire Wire Line
 	2150 6800 2450 6800
 Wire Wire Line
@@ -2152,7 +2130,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 6750 3150 6800
 Wire Wire Line
-	3150 6800 3200 6800
+	3150 6800 3350 6800
 Wire Wire Line
 	2150 6900 2700 6900
 Wire Wire Line
@@ -2164,11 +2142,11 @@ Wire Wire Line
 Wire Wire Line
 	2900 6900 2950 6900
 Wire Wire Line
-	3150 6900 3200 6900
+	3150 6900 3350 6900
 Wire Wire Line
-	2900 6300 3200 6300
+	2900 6300 3350 6300
 Wire Wire Line
-	2650 6200 3200 6200
+	2650 6200 3350 6200
 Text Notes 2350 6000 1    40   ~ 0
 <- Column 1 features white LEDs\n     which need a resistor of a different\n     value than the rest which are red.
 $Comp
@@ -2238,9 +2216,9 @@ Wire Wire Line
 	5950 3050 5950 2950
 Connection ~ 5950 2950
 Connection ~ 6250 2950
-Text Notes 3800 6850 1    40   ~ 0
+Text Notes 3500 6850 1    40   ~ 0
 LED matrix columns
-Text Notes 6800 6650 1    40   ~ 0
+Text Notes 6000 6600 1    40   ~ 0
 LED matrix rows
 $Comp
 L CP C9
@@ -2253,4 +2231,99 @@ F 3 "" H 3550 7300 60  0000 C CNN
 	1    3550 7300
 	0    -1   -1   0   
 $EndComp
+Text Label 3350 6200 2    40   ~ 0
+COL1
+Text Label 3350 6300 2    40   ~ 0
+COL2
+Text Label 3350 6400 2    40   ~ 0
+COL3
+Text Label 3350 6500 2    40   ~ 0
+COL4
+Text Label 3350 6600 2    40   ~ 0
+COL5
+Text Label 3350 6700 2    40   ~ 0
+COL6
+Text Label 3350 6800 2    40   ~ 0
+COL7
+Text Label 3350 6900 2    40   ~ 0
+COL8
+Text Label 5850 6150 2    40   ~ 0
+ROW1
+Text Label 5850 6250 2    40   ~ 0
+ROW2
+Text Label 5850 6350 2    40   ~ 0
+ROW3
+Text Label 5850 6450 2    40   ~ 0
+ROW4
+Text Label 5850 6550 2    40   ~ 0
+ROW5
+Text Label 5850 6650 2    40   ~ 0
+ROW6
+$Comp
+L CONN_14 P4
+U 1 1 52619B99
+P 6750 6600
+F 0 "P4" V 6720 6600 60  0000 C CNN
+F 1 "CONN_14" V 6830 6600 60  0000 C CNN
+F 2 "" H 6750 6600 60  0000 C CNN
+F 3 "" H 6750 6600 60  0000 C CNN
+	1    6750 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5950 6200 5950
+Text Label 6200 5950 0    40   ~ 0
+ROW1
+Wire Wire Line
+	6400 6050 6200 6050
+Wire Wire Line
+	6400 6150 6200 6150
+Wire Wire Line
+	6400 6250 6200 6250
+Wire Wire Line
+	6400 6350 6200 6350
+Wire Wire Line
+	6400 6450 6200 6450
+Wire Wire Line
+	6400 6550 6200 6550
+Wire Wire Line
+	6400 6650 6200 6650
+Wire Wire Line
+	6400 6750 6200 6750
+Wire Wire Line
+	6400 6850 6200 6850
+Wire Wire Line
+	6400 6950 6200 6950
+Wire Wire Line
+	6400 7050 6200 7050
+Wire Wire Line
+	6400 7150 6200 7150
+Wire Wire Line
+	6400 7250 6200 7250
+Text Label 6200 6050 0    40   ~ 0
+ROW2
+Text Label 6200 6150 0    40   ~ 0
+ROW3
+Text Label 6200 6250 0    40   ~ 0
+ROW4
+Text Label 6200 6350 0    40   ~ 0
+ROW5
+Text Label 6200 6450 0    40   ~ 0
+ROW6
+Text Label 6200 6550 0    40   ~ 0
+COL1
+Text Label 6200 6650 0    40   ~ 0
+COL2
+Text Label 6200 6750 0    40   ~ 0
+COL3
+Text Label 6200 6850 0    40   ~ 0
+COL4
+Text Label 6200 6950 0    40   ~ 0
+COL5
+Text Label 6200 7050 0    40   ~ 0
+COL6
+Text Label 6200 7150 0    40   ~ 0
+COL7
+Text Label 6200 7250 0    40   ~ 0
+COL8
 $EndSCHEMATC
