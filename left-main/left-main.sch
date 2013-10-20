@@ -809,7 +809,7 @@ $EndComp
 Text Notes 4050 5150 0    60   ~ 12
 Keyboard matrix
 Text Notes 4500 6850 2    40   ~ 0
-↑\n|\n|\n|\nThe bottommost switch -+\nUnlike all the other keys this one is backed by an     \nOmron SS-{01|5|}-F[-2|-3]D microswitch instead of a Cherry MX switch.     
+↑\n|\n|\n|\n|\nThe bottommost switch -+\nUnlike all the other keys this one is backed by an     \nOmron SS-{01|5|}-F[-2|-3]D microswitch instead of a Cherry MX switch.     
 Text Label 2700 5400 0    40   ~ 0
 ROW1
 Text Label 2700 5700 0    40   ~ 0
