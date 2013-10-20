@@ -5,7 +5,7 @@
     (no_connects 5)
     (area 134.553409 80.474016 271.163409 205.384019)
     (thickness 1.6)
-    (drawings 362)
+    (drawings 363)
     (tracks 0)
     (zones 0)
     (modules 33)
@@ -934,7 +934,7 @@
   )
 
   (module "Cherry MX" (layer F.Cu) (tedit 502BED42) (tstamp 526414AF)
-    (at 255.78 169.42 180)
+    (at 259.41 169.54 180)
     (path /512EB921)
     (fp_text reference SW46 (at 0 -10.16 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -1103,6 +1103,7 @@
     )
   )
 
+  (gr_circle (center 264.0684 169.179022) (end 263.538405 170.589021) (layer Edge.Cuts) (width 0.01) (tstamp 52643307))
   (gr_circle (center 192.068412 193.259019) (end 192.068412 194.009019) (layer Edge.Cuts) (width 0.01))
   (gr_circle (center 194.608405 188.179017) (end 194.608405 190.179017) (layer Edge.Cuts) (width 0.01))
   (gr_circle (center 198.418403 190.719018) (end 198.418403 191.469018) (layer Edge.Cuts) (width 0.01))
