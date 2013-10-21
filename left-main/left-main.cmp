@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Sun 20 Oct 2013 11:59:11 PM CEST
+Cmp-Mod V01 Created by PcbNew date = Mon 21 Oct 2013 10:18:52 AM CEST
 
 BeginCmp
 TimeStamp = /513150A5;
@@ -501,196 +501,196 @@ BeginCmp
 TimeStamp = /512E8C90;
 Reference = SW11;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512E928F;
 Reference = SW12;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512E96BC;
 Reference = SW13;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512E9870;
 Reference = SW14;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512E9AE1;
 Reference = SW15;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512E9D6F;
 Reference = SW16;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EA103;
 Reference = SW17;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512E90C4;
 Reference = SW21;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EA010;
 Reference = SW22;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EA0FD;
 Reference = SW23;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EA29C;
 Reference = SW24;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EA7E0;
 Reference = SW25;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EA973;
 Reference = SW26;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EADA8;
 Reference = SW31;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EAE62;
 Reference = SW32;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EAE68;
 Reference = SW33;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EAE6E;
 Reference = SW34;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EAE74;
 Reference = SW35;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EAE7A;
 Reference = SW36;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EB903;
 Reference = SW41;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EB909;
 Reference = SW42;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EB90F;
 Reference = SW43;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EB915;
 Reference = SW44;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EB91B;
 Reference = SW45;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EB921;
 Reference = SW46;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EC393;
 Reference = SW51;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EC399;
 Reference = SW52;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EC39F;
 Reference = SW53;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
@@ -704,14 +704,14 @@ BeginCmp
 TimeStamp = /512EC3AB;
 Reference = SW55;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EC3B1;
 Reference = SW56;
 ValeurCmp = SPST;
-IdModule  = Cherry MX;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
