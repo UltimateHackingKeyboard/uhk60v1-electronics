@@ -1,11 +1,11 @@
 (kicad_pcb (version 3) (host pcbnew "(2013-mar-13)-testing")
 
   (general
-    (links 0)
+    (links 5)
     (no_connects 5)
     (area -8.064501 -11.3284 272.122901 211.979)
     (thickness 1.6)
-    (drawings 265)
+    (drawings 262)
     (tracks 0)
     (zones 0)
     (modules 41)
@@ -357,8 +357,8 @@
     )
   )
 
-  (module SS-5GLD (layer F.Cu) (tedit 5264378A) (tstamp 526414DB)
-    (at 251.76 206.65 180)
+  (module SS-5GLD (layer F.Cu) (tedit 5264378A) (tstamp 5265A570)
+    (at 251.908408 202.27902 180)
     (path /512EC3A5)
     (fp_text reference SW54 (at 0 -4.5 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1209,9 +1209,6 @@
 
   (gr_circle (center 225.265815 94.896253) (end 225.265815 96.496253) (layer Edge.Cuts) (width 0.01))
   (gr_circle (center 223.501548 84.890607) (end 223.501548 86.490607) (layer Edge.Cuts) (width 0.01))
-  (gr_circle (center 244.108405 202.27902) (end 244.108405 202.97902) (layer Edge.Cuts) (width 0.01))
-  (gr_circle (center 251.408408 202.27902) (end 251.408408 202.97902) (layer Edge.Cuts) (width 0.01))
-  (gr_circle (center 260.208411 202.27902) (end 260.208411 202.97902) (layer Edge.Cuts) (width 0.01))
   (gr_circle (center 215.739005 92.062513) (end 215.739005 92.512513) (layer Edge.Cuts) (width 0.01))
   (gr_circle (center 218.460944 92.872159) (end 218.460944 93.322159) (layer Edge.Cuts) (width 0.01))
   (gr_circle (center 215.297935 89.561109) (end 215.297935 90.011109) (layer Edge.Cuts) (width 0.01))
