@@ -1085,10 +1085,10 @@
     )
   )
 
-  (module Cherry_MX   locked (layer F.Cu) (tedit 5264E276) (tstamp 526414E6)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 5264F7CB) (tstamp 526414E6)
     (at 218.008399 188.179017 180)
     (path /512EC3AB)
-    (fp_text reference SW55 (at 0 -9.5 180) (layer F.SilkS)
+    (fp_text reference SW54 (at 0 -9.5 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_text value SPST (at 0 9.3 180) (layer F.SilkS) hide
@@ -1181,10 +1181,10 @@
     )
   )
 
-  (module SS-5GLD (layer F.Cu) (tedit 5264F704) (tstamp 5265A570)
+  (module SS-5GLD (layer F.Cu) (tedit 5264F7D5) (tstamp 5265A570)
     (at 251.908408 202.27902 180)
     (path /512EC3A5)
-    (fp_text reference SW54 (at 0 -4.5 180) (layer F.SilkS)
+    (fp_text reference SW55 (at 0 -4.5 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SPST (at 0 4.7 180) (layer F.SilkS) hide

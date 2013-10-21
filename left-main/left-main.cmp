@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Mon 21 Oct 2013 10:18:52 AM CEST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 21 Oct 2013 11:47:48 AM CEST
 
 BeginCmp
 TimeStamp = /513150A5;
@@ -697,14 +697,14 @@ BeginCmp
 TimeStamp = /512EC3A5;
 Reference = SW54;
 ValeurCmp = SPST;
-IdModule  = SS-5GLD;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EC3AB;
 Reference = SW55;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = SS-5GLD;
 EndCmp
 
 BeginCmp
