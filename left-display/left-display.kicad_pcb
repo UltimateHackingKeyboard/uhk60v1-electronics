@@ -3,9 +3,9 @@
   (general
     (links 94)
     (no_connects 0)
-    (area 102.642669 89.033349 182.741571 109.132371)
+    (area 101.8176 46.0404 182.741571 109.132371)
     (thickness 1.6002)
-    (drawings 4)
+    (drawings 5)
     (tracks 356)
     (zones 0)
     (modules 49)
@@ -13,7 +13,7 @@
   )
 
   (page A4)
-  (title_block 
+  (title_block
     (title "Ultimate Hacking Keyboard - LED Display Board")
     (rev 3)
     (company "Ultimate Gadget Laboratories Kft.")
@@ -70,7 +70,7 @@
       (layerselection 3178497)
       (usegerberextensions true)
       (excludeedgelayer true)
-      (linewidth 60)
+      (linewidth 0.150000)
       (plotframeref false)
       (viasonmask false)
       (mode 1)
@@ -1598,6 +1598,9 @@
     )
   )
 
+  (gr_text "Display PCB layer:\n* 1.55mm thickness\n* black soldermask\n* white silkscreen\n\nInsulator layer\n* 0.5mm thickness\n* etch away all copper from both sides\n* no soldermask\n* no silkscreen" (at 102.59 63.12) (layer Cmts.User)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
   (gr_line (start 102.6922 107.08386) (end 102.6922 109.08284) (angle 90) (layer Edge.Cuts) (width 0.09906))
   (gr_line (start 178.69154 89.08288) (end 102.6922 107.08386) (angle 90) (layer Edge.Cuts) (width 0.09906))
   (gr_line (start 182.69204 109.08284) (end 178.69154 89.08288) (angle 90) (layer Edge.Cuts) (width 0.09906))
