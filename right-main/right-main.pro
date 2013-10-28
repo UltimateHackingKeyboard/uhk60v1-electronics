@@ -1,5 +1,5 @@
-update=Wed 08 May 2013 02:31:37 AM CEST
-last_client=pcbnew
+update=Mon 28 Oct 2013 10:37:33 PM CET
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=../libs/opendous/library
@@ -41,11 +41,6 @@ LibName29=contrib
 LibName30=valves
 LibName31=device
 LibName32=opendous
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
@@ -66,20 +61,25 @@ DrawSegmentWidth="    0.200000"
 BoardOutlineThickness="    0.100000"
 ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
+LibName1=ugl
+LibName2=sockets
+LibName3=connect
+LibName4=discret
+LibName5=pin_array
+LibName6=divers
+LibName7=smd_capacitors
+LibName8=smd_resistors
+LibName9=smd_crystal&oscillator
+LibName10=smd_transistors
+LibName11=libcms
+LibName12=display
+LibName13=led
+LibName14=dip_sockets
+LibName15=pga_sockets
+LibName16=valves
 LibDir=
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=smd_capacitors
-LibName7=smd_resistors
-LibName8=smd_crystal&oscillator
-LibName9=smd_transistors
-LibName10=libcms
-LibName11=display
-LibName12=led
-LibName13=dip_sockets
-LibName14=pga_sockets
-LibName15=valves
-LibName16=ugl
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
