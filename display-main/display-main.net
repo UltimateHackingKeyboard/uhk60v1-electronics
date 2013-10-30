@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/laci/projects/uhk/kicad/left-display/left-display.sch)
+    (source /home/laci/projects/uhk/kicad/display-main/display-main.sch)
     (date "Tue 08 Jan 2013 12:44:50 AM CET")
     (tool "eeschema (2012-nov-02)-testing"))
   (components
