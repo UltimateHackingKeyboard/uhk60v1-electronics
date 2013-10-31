@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 138.0876 77.5104 160.889543 102.077521)
+    (area 137.87 81.31 160.312857 102.077521)
     (thickness 1.6002)
     (drawings 6)
     (tracks 0)
@@ -104,7 +104,7 @@
     (add_net "")
   )
 
-  (gr_text "* 1mm thickness\n* black soldermask\n* ENIG finish\n* no silkscreen\n" (at 138.02 82.81) (layer Cmts.User)
+  (gr_text "* 1mm board thickness\n* black soldermask\n* ENIG finish\n* no silkscreen\n" (at 138.02 82.81) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_arc (start 156.09316 99.8728) (end 156.09316 98.87204) (angle 90) (layer Edge.Cuts) (width 0.01016))

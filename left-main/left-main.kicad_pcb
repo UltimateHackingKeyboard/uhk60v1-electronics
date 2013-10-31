@@ -3,7 +3,7 @@
   (general
     (links 181)
     (no_connects 181)
-    (area 132.675445 78.58 272.122901 207.60802)
+    (area 80.965445 34.16 220.412901 163.18802)
     (thickness 1.6)
     (drawings 194)
     (tracks 0)
@@ -3670,7 +3670,7 @@
     )
   )
 
-  (gr_text "* 1.55mm thickness\n* black soldermask\n* white silkscreen\n" (at 82.18 35.66) (layer Cmts.User) (tstamp 526EC8A2)
+  (gr_text "* 1.55mm board thickness\n* black soldermask\n* white silkscreen\n" (at 82.18 35.66) (layer Cmts.User) (tstamp 526EC8A2)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_line (start 216.048399 139.059017) (end 216.048399 153.059021) (angle 90) (layer Edge.Cuts) (width 0.01))
