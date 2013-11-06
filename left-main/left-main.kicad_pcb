@@ -13,6 +13,12 @@
   )
 
   (page A4)
+  (title_block
+    (title "Ultimate Hacking Keyboard - Left Main Board")
+    (rev 3)
+    (company "Ultimate Gadget Laboratories Kft.")
+  )
+
   (layers
     (15 F.Cu signal)
     (0 B.Cu signal)
