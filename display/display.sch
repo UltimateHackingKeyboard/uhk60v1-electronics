@@ -30,7 +30,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:display-main-cache
+LIBS:display-main
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268

@@ -47,7 +47,7 @@ LibName30=contrib
 LibName31=valves
 [pcbnew]
 version=1
-LastNetListRead=display-main.net
+LastNetListRead=display.net
 UseCmpFile=1
 PadDrill="    0.812800"
 PadDrillOvalY="    0.812800"
