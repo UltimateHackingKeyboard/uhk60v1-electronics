@@ -1,0 +1,339 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sat 16 Nov 2013 04:58:44 PM CET
+
+BeginCmp
+TimeStamp = /5137E846;
+Reference = D12;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E84C;
+Reference = D13;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E852;
+Reference = D14;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E858;
+Reference = D15;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E85E;
+Reference = D16;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E864;
+Reference = D17;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E86A;
+Reference = D18;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E893;
+Reference = D21;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E899;
+Reference = D22;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E89F;
+Reference = D23;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E8A5;
+Reference = D24;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E8AB;
+Reference = D25;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E8B1;
+Reference = D26;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E8B7;
+Reference = D27;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E8BD;
+Reference = D28;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E8EB;
+Reference = D31;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E8F1;
+Reference = D32;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E8F7;
+Reference = D33;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E8FD;
+Reference = D34;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E903;
+Reference = D35;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E909;
+Reference = D36;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E90F;
+Reference = D37;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E915;
+Reference = D38;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E94A;
+Reference = D41;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E950;
+Reference = D42;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E956;
+Reference = D43;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E95C;
+Reference = D44;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E962;
+Reference = D45;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E968;
+Reference = D46;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E96E;
+Reference = D47;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E974;
+Reference = D48;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E9AC;
+Reference = D51;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E9B2;
+Reference = D52;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E9B8;
+Reference = D53;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E9BE;
+Reference = D54;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E9C4;
+Reference = D55;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E9CA;
+Reference = D56;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E9D0;
+Reference = D57;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E9D6;
+Reference = D58;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137E563;
+Reference = D61;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137EA0E;
+Reference = D62;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137EA14;
+Reference = D63;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137EA1A;
+Reference = D64;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137EA20;
+Reference = D65;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137EA26;
+Reference = D66;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137EA2C;
+Reference = D67;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /5137EA32;
+Reference = D68;
+ValeurCmp = LED;
+IdModule  = SM0603_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = /52618298;
+Reference = P1;
+ValeurCmp = CONN_14;
+IdModule  = SFV14R-2STE1HLF;
+EndCmp
+
+EndListe
