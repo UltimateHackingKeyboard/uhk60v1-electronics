@@ -1,5 +1,5 @@
-update=Sat 16 Nov 2013 04:54:37 PM CET
-last_client=cvpcb
+update=Sat 16 Nov 2013 09:16:45 PM CET
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=../libs
@@ -40,14 +40,19 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-LastNetListRead=display.net
+LastNetListRead=
 UseCmpFile=1
-PadDrill="    0.812800"
-PadDrillOvalY="    0.812800"
-PadSizeH="    1.524000"
-PadSizeV="    1.524000"
+PadDrill="    0.000000"
+PadDrillOvalY="    0.000000"
+PadSizeH="    0.800000"
+PadSizeV="    0.800000"
 PcbTextSizeV="    2.032000"
 PcbTextSizeH="    1.524000"
 PcbTextThickness="    0.304800"
@@ -60,21 +65,20 @@ DrawSegmentWidth="    0.381000"
 BoardOutlineThickness="    0.381000"
 ModuleOutlineThickness="    0.381000"
 [pcbnew/libraries]
-LibName1=ugl
-LibName2=sockets
-LibName3=connect
-LibName4=discret
-LibName5=pin_array
-LibName6=divers
-LibName7=libcms
-LibName8=display
-LibName9=led
-LibName10=dip_sockets
-LibName11=pga_sockets
-LibName12=valves
-LibDir=../libs
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibDir=
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=smd_capacitors
+LibName7=smd_resistors
+LibName8=smd_crystal&oscillator
+LibName9=smd_dil
+LibName10=smd_transistors
+LibName11=libcms
+LibName12=display
+LibName13=led
+LibName14=dip_sockets
+LibName15=pga_sockets
+LibName16=valves
