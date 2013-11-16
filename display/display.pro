@@ -1,10 +1,5 @@
-update=Wed 08 May 2013 01:28:21 AM CEST
-last_client=pcbnew
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+update=Sat 16 Nov 2013 04:54:37 PM CET
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=../libs
@@ -65,16 +60,21 @@ DrawSegmentWidth="    0.381000"
 BoardOutlineThickness="    0.381000"
 ModuleOutlineThickness="    0.381000"
 [pcbnew/libraries]
+LibName1=ugl
+LibName2=sockets
+LibName3=connect
+LibName4=discret
+LibName5=pin_array
+LibName6=divers
+LibName7=libcms
+LibName8=display
+LibName9=led
+LibName10=dip_sockets
+LibName11=pga_sockets
+LibName12=valves
 LibDir=../libs
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=libcms
-LibName7=display
-LibName8=led
-LibName9=dip_sockets
-LibName10=pga_sockets
-LibName11=valves
-LibName12=ugl
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
