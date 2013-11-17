@@ -74,7 +74,6 @@ LibName5=divers
 LibName6=smd_capacitors
 LibName7=smd_resistors
 LibName8=smd_crystal&oscillator
-LibName9=smd_dil
 LibName10=smd_transistors
 LibName11=libcms
 LibName12=display
