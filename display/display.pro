@@ -1,4 +1,4 @@
-update=Sun 17 Nov 2013 02:49:15 AM CET
+update=Sun 17 Nov 2013 05:16:37 PM CET
 last_client=pcbnew
 [eeschema]
 version=1
@@ -47,7 +47,7 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=display.net
 UseCmpFile=1
 PadDrill="    0.000000"
 PadDrillOvalY="    0.000000"
@@ -66,18 +66,12 @@ BoardOutlineThickness="    0.381000"
 ModuleOutlineThickness="    0.381000"
 [pcbnew/libraries]
 LibDir=
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=smd_capacitors
-LibName7=smd_resistors
-LibName8=smd_crystal&oscillator
-LibName10=smd_transistors
-LibName11=libcms
-LibName12=display
-LibName13=led
-LibName14=dip_sockets
-LibName15=pga_sockets
-LibName16=valves
+LibName1=ugl
+LibName2=sockets
+LibName3=connect
+LibName4=discret
+LibName5=pin_array
+LibName6=divers
+LibName7=smd_capacitors
+LibName8=smd_resistors
+LibName9=smd_crystal&oscillator
