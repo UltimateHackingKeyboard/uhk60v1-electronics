@@ -81,7 +81,6 @@ Connection ~ 5450 3200
 Connection ~ 5950 3200
 Connection ~ 6450 3200
 Connection ~ 6950 3200
-Connection ~ 3950 3600
 Connection ~ 4450 3600
 Connection ~ 4950 3600
 Connection ~ 5450 3600
@@ -90,7 +89,6 @@ Connection ~ 6450 3600
 Connection ~ 6950 3600
 Wire Wire Line
 	3750 4000 7450 4000
-Connection ~ 3950 4000
 Connection ~ 4450 4000
 Connection ~ 4950 4000
 Connection ~ 5450 4000
@@ -114,10 +112,6 @@ Wire Wire Line
 	3950 2800 3950 3000
 Wire Wire Line
 	3950 3200 3950 3400
-Wire Wire Line
-	3950 3600 3950 3800
-Wire Wire Line
-	3950 4000 3950 4200
 Wire Wire Line
 	3950 4400 3950 4600
 Wire Wire Line
@@ -212,8 +206,6 @@ Wire Wire Line
 	7450 4000 7450 4200
 Connection ~ 4350 3000
 Connection ~ 4350 3400
-Connection ~ 4350 3800
-Connection ~ 4350 4200
 Connection ~ 4350 4600
 Connection ~ 4850 3000
 Connection ~ 5350 3000
@@ -319,10 +311,6 @@ Wire Wire Line
 Wire Wire Line
 	7750 3400 7850 3400
 Wire Wire Line
-	3950 3800 4050 3800
-Wire Wire Line
-	4250 3800 4350 3800
-Wire Wire Line
 	4450 3800 4550 3800
 Wire Wire Line
 	4750 3800 4850 3800
@@ -350,10 +338,6 @@ Wire Wire Line
 	7450 3800 7550 3800
 Wire Wire Line
 	7750 3800 7850 3800
-Wire Wire Line
-	3950 4200 4050 4200
-Wire Wire Line
-	4250 4200 4350 4200
 Wire Wire Line
 	4450 4200 4550 4200
 Wire Wire Line
@@ -727,17 +711,6 @@ F 3 "" H 7650 3400 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L LED D41
-U 1 1 5137E94A
-P 4150 3800
-F 0 "D41" H 4150 3900 40  0000 C CNN
-F 1 "LED" H 4150 3700 50  0001 C CNN
-F 2 "" H 4150 3800 60  0000 C CNN
-F 3 "" H 4150 3800 60  0000 C CNN
-	1    4150 3800
-	-1   0    0    -1  
-$EndComp
-$Comp
 L LED D42
 U 1 1 5137E950
 P 4650 3800
@@ -812,17 +785,6 @@ F 1 "LED" H 7650 3700 50  0001 C CNN
 F 2 "" H 7650 3800 60  0000 C CNN
 F 3 "" H 7650 3800 60  0000 C CNN
 	1    7650 3800
-	-1   0    0    -1  
-$EndComp
-$Comp
-L LED D51
-U 1 1 5137E9AC
-P 4150 4200
-F 0 "D51" H 4150 4300 40  0000 C CNN
-F 1 "LED" H 4150 4100 50  0001 C CNN
-F 2 "" H 4150 4200 60  0000 C CNN
-F 3 "" H 4150 4200 60  0000 C CNN
-	1    4150 4200
 	-1   0    0    -1  
 $EndComp
 $Comp
