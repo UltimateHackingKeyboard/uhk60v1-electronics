@@ -358,9 +358,9 @@
     )
   )
 
-  (module hole_4.8mm (layer F.Cu) (tedit 528AA2AF) (tstamp 528A985A)
+  (module hole_4.8mm (layer F.Cu) (tedit 528AA57E) (tstamp 528A985A)
     (at 176.64 115.98)
-    (fp_text reference "hole 4.6mm" (at 0 -3.7) (layer F.SilkS) hide
+    (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value VAL** (at 0 3.8) (layer F.SilkS) hide
