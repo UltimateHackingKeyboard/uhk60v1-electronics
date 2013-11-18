@@ -306,9 +306,9 @@
     (add_net VCC)
   )
 
-  (module hole_5.7mm (layer F.Cu) (tedit 528AA3EF) (tstamp 528AA3F4)
+  (module hole_5.7mm (layer F.Cu) (tedit 528AA548) (tstamp 528AA3F4)
     (at 154.33 48.19)
-    (fp_text reference "hole 5.5mm" (at 0 -4.2) (layer F.SilkS) hide
+    (fp_text reference "hole 5.7mm" (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value VAL** (at 0 4.3) (layer F.SilkS) hide
@@ -319,9 +319,9 @@
     )
   )
 
-  (module hole_5.7mm (layer F.Cu) (tedit 528AA3AE) (tstamp 528AA3B1)
+  (module hole_5.7mm (layer F.Cu) (tedit 528AA534) (tstamp 528AA3B1)
     (at 135.92 47.12)
-    (fp_text reference "hole 5.5mm" (at 0 -4.2) (layer F.SilkS) hide
+    (fp_text reference "hole 5.7mm" (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value VAL** (at 0 4.3) (layer F.SilkS) hide
