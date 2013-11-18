@@ -401,12 +401,12 @@ $EndComp
 $Comp
 L R R11
 U 1 1 512E8FC6
-P 2550 5400
-F 0 "R11" H 2555 5500 40  0000 C CNN
-F 1 "10K" H 2550 5300 40  0000 C CNN
-F 2 "" H 2550 5400 60  0001 C CNN
-F 3 "" H 2550 5400 60  0001 C CNN
-	1    2550 5400
+P 2350 5400
+F 0 "R11" H 2355 5500 40  0000 C CNN
+F 1 "10K" H 2350 5300 40  0000 C CNN
+F 2 "" H 2350 5400 60  0001 C CNN
+F 3 "" H 2350 5400 60  0001 C CNN
+	1    2350 5400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -742,84 +742,84 @@ $EndComp
 $Comp
 L R R12
 U 1 1 512ECCDF
-P 2550 5700
-F 0 "R12" H 2555 5800 40  0000 C CNN
-F 1 "10K" H 2550 5600 40  0000 C CNN
-F 2 "" H 2550 5700 60  0001 C CNN
-F 3 "" H 2550 5700 60  0001 C CNN
-	1    2550 5700
+P 2350 5700
+F 0 "R12" H 2355 5800 40  0000 C CNN
+F 1 "10K" H 2350 5600 40  0000 C CNN
+F 2 "" H 2350 5700 60  0001 C CNN
+F 3 "" H 2350 5700 60  0001 C CNN
+	1    2350 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R13
 U 1 1 512ECCE5
-P 2550 6000
-F 0 "R13" H 2555 6100 40  0000 C CNN
-F 1 "10K" H 2550 5900 40  0000 C CNN
-F 2 "" H 2550 6000 60  0001 C CNN
-F 3 "" H 2550 6000 60  0001 C CNN
-	1    2550 6000
+P 2350 6000
+F 0 "R13" H 2355 6100 40  0000 C CNN
+F 1 "10K" H 2350 5900 40  0000 C CNN
+F 2 "" H 2350 6000 60  0001 C CNN
+F 3 "" H 2350 6000 60  0001 C CNN
+	1    2350 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R14
 U 1 1 512ECCEB
-P 2550 6300
-F 0 "R14" H 2555 6400 40  0000 C CNN
-F 1 "10K" H 2550 6200 40  0000 C CNN
-F 2 "" H 2550 6300 60  0001 C CNN
-F 3 "" H 2550 6300 60  0001 C CNN
-	1    2550 6300
+P 2350 6300
+F 0 "R14" H 2355 6400 40  0000 C CNN
+F 1 "10K" H 2350 6200 40  0000 C CNN
+F 2 "" H 2350 6300 60  0001 C CNN
+F 3 "" H 2350 6300 60  0001 C CNN
+	1    2350 6300
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R15
 U 1 1 512ECCF1
-P 2550 6600
-F 0 "R15" H 2555 6700 40  0000 C CNN
-F 1 "10K" H 2550 6500 40  0000 C CNN
-F 2 "" H 2550 6600 60  0001 C CNN
-F 3 "" H 2550 6600 60  0001 C CNN
-	1    2550 6600
+P 2350 6600
+F 0 "R15" H 2355 6700 40  0000 C CNN
+F 1 "10K" H 2350 6500 40  0000 C CNN
+F 2 "" H 2350 6600 60  0001 C CNN
+F 3 "" H 2350 6600 60  0001 C CNN
+	1    2350 6600
 	1    0    0    -1  
 $EndComp
 Text Label 3350 6850 3    40   ~ 0
-COL1
+KEYS_COL1
 Text Label 3850 6850 3    40   ~ 0
-COL2
+KEYS_COL2
 Text Label 4350 6850 3    40   ~ 0
-COL3
+KEYS_COL3
 Text Label 4850 6850 3    40   ~ 0
-COL4
+KEYS_COL4
 Text Label 5350 6850 3    40   ~ 0
-COL5
+KEYS_COL5
 Text Label 5850 6850 3    40   ~ 0
-COL6
+KEYS_COL6
 $Comp
 L GND #PWR01
 U 1 1 512EDC40
-P 2450 6850
-F 0 "#PWR01" H 2450 6850 30  0001 C CNN
-F 1 "GND" H 2450 6780 30  0001 C CNN
-F 2 "" H 2450 6850 60  0001 C CNN
-F 3 "" H 2450 6850 60  0001 C CNN
-	1    2450 6850
+P 2250 6850
+F 0 "#PWR01" H 2250 6850 30  0001 C CNN
+F 1 "GND" H 2250 6780 30  0001 C CNN
+F 2 "" H 2250 6850 60  0001 C CNN
+F 3 "" H 2250 6850 60  0001 C CNN
+	1    2250 6850
 	1    0    0    -1  
 $EndComp
 Text Notes 4050 5150 0    60   ~ 12
 Keyboard matrix
-Text Notes 5000 6850 2    40   ~ 0
-↑\n|\n|\n|\n|\nThe bottommost switch -+\nUnlike all the other keys this one is backed by an     \nOmron SS-{01|5|}-F[-2|-3]D microswitch instead of a Cherry MX switch.     
-Text Label 2700 5400 0    40   ~ 0
-ROW1
-Text Label 2700 5700 0    40   ~ 0
-ROW2
-Text Label 2700 6000 0    40   ~ 0
-ROW3
-Text Label 2700 6300 0    40   ~ 0
-ROW4
-Text Label 2700 6600 0    40   ~ 0
-ROW5
+Text Notes 5050 6850 2    40   ~ 0
+↑\n|\n|\n|\n|\n|\n|\n|\nThe bottommost switch -+\nUnlike all the other keys this one is backed by an     \nOmron SS-{01|5|}-F[-2|-3]D microswitch instead of a Cherry MX switch.     
+Text Label 2500 5400 0    40   ~ 0
+KEYS_ROW1
+Text Label 2500 5700 0    40   ~ 0
+KEYS_ROW2
+Text Label 2500 6000 0    40   ~ 0
+KEYS_ROW3
+Text Label 2500 6300 0    40   ~ 0
+KEYS_ROW4
+Text Label 2500 6600 0    40   ~ 0
+KEYS_ROW5
 $Comp
 L ATMEGA48-A U1
 U 1 1 5130EF01
@@ -1052,8 +1052,8 @@ Text Label 5350 3500 0    40   ~ 0
 RX
 Text Label 5350 3600 0    40   ~ 0
 TX
-Text Notes 3500 1300 0    40   ~ 0
-Given that the position and orientation of U1 is not fixed yet\non the board the following lines are not wired to GPIO pins yet:\n* ROW1, ROW2, ROW3, ROW4, ROW5\n* COL1, COL2, COL3, COL4, COL5, COL6, COL7\n* DISPLAY_ENABLE, SER_IN, SRCK, RCK\n
+Text Notes 3200 1300 0    40   ~ 0
+Given that the position and orientation of U1 is not fixed yet\non the board the following lines are not wired to GPIO pins yet:\n* KEYS_ROW1, KEYS_ROW2, KEYS_ROW3, KEYS_ROW4, KEYS_ROW5\n* KEYS_COL1, KEYS_COL2, KEYS_COL3, KEYS_COL4, KEYS_COL5, KEYS_COL6, KEYS_COL7\n* DISPLAY_ENABLE, SER_IN, SRCK, RCK\n
 $Comp
 L C C3
 U 1 1 5134D4E5
@@ -1394,7 +1394,7 @@ F 3 "" H 8350 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6350 6850 3    40   ~ 0
-COL7
+KEYS_COL7
 $Comp
 L GND #PWR025
 U 1 1 51349321
@@ -1604,7 +1604,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 5550 3650 5550
 Wire Wire Line
-	2650 5400 2900 5400
+	2450 5400 2900 5400
 Wire Wire Line
 	2900 5400 3400 5400
 Wire Wire Line
@@ -1645,7 +1645,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 5700 3400 5850
 Wire Wire Line
-	2650 5700 2900 5700
+	2450 5700 2900 5700
 Wire Wire Line
 	2900 5700 3400 5700
 Wire Wire Line
@@ -1686,7 +1686,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 6000 3400 6150
 Wire Wire Line
-	2650 6000 2900 6000
+	2450 6000 2900 6000
 Wire Wire Line
 	2900 6000 3400 6000
 Wire Wire Line
@@ -1725,7 +1725,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 6300 3400 6450
 Wire Wire Line
-	2650 6300 2900 6300
+	2450 6300 2900 6300
 Wire Wire Line
 	2900 6300 3400 6300
 Wire Wire Line
@@ -1787,15 +1787,15 @@ Wire Wire Line
 	5600 6750 5650 6750
 Connection ~ 5400 6600
 Wire Wire Line
-	2450 5400 2450 5700
+	2250 5400 2250 5700
 Wire Wire Line
-	2450 5700 2450 6000
+	2250 5700 2250 6000
 Wire Wire Line
-	2450 6000 2450 6300
+	2250 6000 2250 6300
 Wire Wire Line
-	2450 6300 2450 6600
+	2250 6300 2250 6600
 Wire Wire Line
-	2450 6600 2450 6850
+	2250 6600 2250 6850
 Wire Wire Line
 	3850 5550 3850 5850
 Wire Wire Line
@@ -1885,10 +1885,10 @@ Connection ~ 2900 5700
 Connection ~ 2900 6000
 Connection ~ 2900 6300
 Connection ~ 2900 6600
-Connection ~ 2450 5700
-Connection ~ 2450 6000
-Connection ~ 2450 6300
-Connection ~ 2450 6600
+Connection ~ 2250 5700
+Connection ~ 2250 6000
+Connection ~ 2250 6300
+Connection ~ 2250 6600
 Wire Wire Line
 	3100 6150 3150 6150
 Wire Wire Line
@@ -1898,7 +1898,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 5550 4150 5550
 Wire Wire Line
-	2650 6600 2900 6600
+	2450 6600 2900 6600
 Wire Wire Line
 	2900 6600 3400 6600
 Wire Wire Line
