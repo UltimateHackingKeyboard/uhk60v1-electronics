@@ -2341,9 +2341,17 @@ F 3 "" H 9700 1800 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9700 1700 10900 1700
+	9700 1700 10000 1700
 Wire Wire Line
-	9700 1900 10900 1900
+	10000 1700 10600 1700
+Wire Wire Line
+	10600 1700 10900 1700
+Wire Wire Line
+	9700 1900 10000 1900
+Wire Wire Line
+	10000 1900 10600 1900
+Wire Wire Line
+	10600 1900 10900 1900
 Text Notes 10900 1400 2    40   ~ 0
 Tantalum capacitor -+\n|\n|\n|\nv
 $Comp
@@ -2488,4 +2496,10 @@ Text Label 7950 6800 0    40   ~ 0
 LEDS_ROW6
 Text Notes 8350 3150 0    60   ~ 12
 LED matrix sink
+Connection ~ 10000 1700
+Connection ~ 10000 1900
+Connection ~ 10600 1700
+Connection ~ 10600 1900
+Connection ~ 10300 1700
+Connection ~ 10300 1900
 $EndSCHEMATC
