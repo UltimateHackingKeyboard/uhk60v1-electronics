@@ -2433,7 +2433,7 @@ $EndComp
 Wire Wire Line
 	8300 5500 7950 5500
 Text Label 7950 5500 0    40   ~ 0
-LED_ROW1
+LED_COL1
 Wire Wire Line
 	8300 5600 7950 5600
 Wire Wire Line
@@ -2461,31 +2461,31 @@ Wire Wire Line
 Wire Wire Line
 	8300 6800 7950 6800
 Text Label 7950 5600 0    40   ~ 0
-LED_ROW2
-Text Label 7950 5700 0    40   ~ 0
-LED_ROW3
-Text Label 7950 5800 0    40   ~ 0
-LED_ROW4
-Text Label 7950 5900 0    40   ~ 0
-LED_ROW5
-Text Label 7950 6000 0    40   ~ 0
-LED_ROW6
-Text Label 7950 6100 0    40   ~ 0
-LED_COL1
-Text Label 7950 6200 0    40   ~ 0
 LED_COL2
-Text Label 7950 6300 0    40   ~ 0
+Text Label 7950 5700 0    40   ~ 0
 LED_COL3
-Text Label 7950 6400 0    40   ~ 0
+Text Label 7950 5800 0    40   ~ 0
 LED_COL4
-Text Label 7950 6500 0    40   ~ 0
+Text Label 7950 5900 0    40   ~ 0
 LED_COL5
-Text Label 7950 6600 0    40   ~ 0
+Text Label 7950 6000 0    40   ~ 0
 LED_COL6
-Text Label 7950 6700 0    40   ~ 0
+Text Label 7950 6100 0    40   ~ 0
 LED_COL7
-Text Label 7950 6800 0    40   ~ 0
+Text Label 7950 6200 0    40   ~ 0
 LED_COL8
+Text Label 7950 6300 0    40   ~ 0
+LED_ROW1
+Text Label 7950 6400 0    40   ~ 0
+LED_ROW2
+Text Label 7950 6500 0    40   ~ 0
+LED_ROW3
+Text Label 7950 6600 0    40   ~ 0
+LED_ROW4
+Text Label 7950 6700 0    40   ~ 0
+LED_ROW5
+Text Label 7950 6800 0    40   ~ 0
+LED_ROW6
 Text Notes 8350 3150 0    60   ~ 12
 LED matrix sink
 $EndSCHEMATC
