@@ -306,6 +306,19 @@
     (add_net VCC)
   )
 
+  (module hole_2.4mm (layer F.Cu) (tedit 528A9981) (tstamp 52659BE8)
+    (at 154.16 42.62)
+    (fp_text reference hole_2.4mm (at 0 -2.4) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 2.4) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 2.4 2.4) (drill 2.4)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
   (module hole_5.7mm (layer F.Cu) (tedit 528AA548) (tstamp 528AA3F4)
     (at 154.33 48.19)
     (fp_text reference "hole 5.7mm" (at 0 -4.2) (layer F.SilkS) hide
@@ -328,19 +341,6 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "" thru_hole circle (at 2.578411 3.589026) (size 5.7 5.7) (drill 5.7)
-      (layers *.Cu *.Mask F.SilkS)
-    )
-  )
-
-  (module hole_2.2mm (layer F.Cu) (tedit 52651E9B) (tstamp 52659BE8)
-    (at 154.16 42.62)
-    (fp_text reference hole_2.2mm (at 0 -2.4) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 2.5) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2)
       (layers *.Cu *.Mask F.SilkS)
     )
   )
