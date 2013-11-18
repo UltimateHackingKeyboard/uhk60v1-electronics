@@ -2228,9 +2228,9 @@ Wire Wire Line
 Wire Wire Line
 	7850 1900 7900 1900
 Wire Wire Line
-	8850 1700 9200 1700
+	8850 1700 9250 1700
 Wire Wire Line
-	8850 1800 9200 1800
+	8850 1800 9250 1800
 Wire Wire Line
 	8100 1900 8150 1900
 Wire Wire Line
@@ -2248,7 +2248,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 1950 8850 1900
 Wire Wire Line
-	8850 1900 9200 1900
+	8850 1900 9250 1900
 Wire Wire Line
 	7850 2000 7900 2000
 Wire Wire Line
@@ -2268,7 +2268,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 1950 8600 2000
 Wire Wire Line
-	8600 2000 9200 2000
+	8600 2000 9250 2000
 Wire Wire Line
 	7850 2100 8150 2100
 Wire Wire Line
@@ -2288,7 +2288,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 2050 8850 2100
 Wire Wire Line
-	8850 2100 9200 2100
+	8850 2100 9250 2100
 Wire Wire Line
 	7850 2200 8400 2200
 Wire Wire Line
@@ -2300,11 +2300,11 @@ Wire Wire Line
 Wire Wire Line
 	8600 2200 8650 2200
 Wire Wire Line
-	8850 2200 9200 2200
+	8850 2200 9250 2200
 Wire Wire Line
-	8600 1600 9200 1600
+	8600 1600 9250 1600
 Wire Wire Line
-	8350 1500 9200 1500
+	8350 1500 9250 1500
 Text Notes 7950 1150 0    40   ~ 0
  +- Column 1 features white LEDs\n |   which need a resistor of a different\n |   value than the rest which are red.\n v
 $Comp
@@ -2376,7 +2376,7 @@ Wire Wire Line
 	5950 3050 5950 2950
 Connection ~ 5950 2950
 Connection ~ 6250 2950
-Text Notes 9350 2150 1    40   ~ 0
+Text Notes 9400 2150 1    40   ~ 0
 LED matrix columns
 Text Notes 9450 4200 1    40   ~ 0
 LED matrix rows
@@ -2391,34 +2391,34 @@ F 3 "" H 10900 1800 60  0000 C CNN
 	1    10900 1800
 	0    -1   -1   0   
 $EndComp
-Text Label 9200 1500 2    40   ~ 0
-LED_COL1
-Text Label 9200 1600 2    40   ~ 0
-LED_COL2
-Text Label 9200 1700 2    40   ~ 0
-LED_COL3
-Text Label 9200 1800 2    40   ~ 0
-LED_COL4
-Text Label 9200 1900 2    40   ~ 0
-LED_COL5
-Text Label 9200 2000 2    40   ~ 0
-LED_COL6
-Text Label 9200 2100 2    40   ~ 0
-LED_COL7
-Text Label 9200 2200 2    40   ~ 0
-LED_COL8
+Text Label 9250 1500 2    40   ~ 0
+LEDS_COL1
+Text Label 9250 1600 2    40   ~ 0
+LEDS_COL2
+Text Label 9250 1700 2    40   ~ 0
+LEDS_COL3
+Text Label 9250 1800 2    40   ~ 0
+LEDS_COL4
+Text Label 9250 1900 2    40   ~ 0
+LEDS_COL5
+Text Label 9250 2000 2    40   ~ 0
+LEDS_COL6
+Text Label 9250 2100 2    40   ~ 0
+LEDS_COL7
+Text Label 9250 2200 2    40   ~ 0
+LEDS_COL8
 Text Label 9300 3750 2    40   ~ 0
-LED_ROW1
+LEDS_ROW1
 Text Label 9300 3850 2    40   ~ 0
-LED_ROW2
+LEDS_ROW2
 Text Label 9300 3950 2    40   ~ 0
-LED_ROW3
+LEDS_ROW3
 Text Label 9300 4050 2    40   ~ 0
-LED_ROW4
+LEDS_ROW4
 Text Label 9300 4150 2    40   ~ 0
-LED_ROW5
+LEDS_ROW5
 Text Label 9300 4250 2    40   ~ 0
-LED_ROW6
+LEDS_ROW6
 $Comp
 L CONN_14 P4
 U 1 1 52619B99
@@ -2433,7 +2433,7 @@ $EndComp
 Wire Wire Line
 	8300 5500 7950 5500
 Text Label 7950 5500 0    40   ~ 0
-LED_COL1
+LEDS_COL1
 Wire Wire Line
 	8300 5600 7950 5600
 Wire Wire Line
@@ -2461,31 +2461,31 @@ Wire Wire Line
 Wire Wire Line
 	8300 6800 7950 6800
 Text Label 7950 5600 0    40   ~ 0
-LED_COL2
+LEDS_COL2
 Text Label 7950 5700 0    40   ~ 0
-LED_COL3
+LEDS_COL3
 Text Label 7950 5800 0    40   ~ 0
-LED_COL4
+LEDS_COL4
 Text Label 7950 5900 0    40   ~ 0
-LED_COL5
+LEDS_COL5
 Text Label 7950 6000 0    40   ~ 0
-LED_COL6
+LEDS_COL6
 Text Label 7950 6100 0    40   ~ 0
-LED_COL7
+LEDS_COL7
 Text Label 7950 6200 0    40   ~ 0
-LED_COL8
+LEDS_COL8
 Text Label 7950 6300 0    40   ~ 0
-LED_ROW1
+LEDS_ROW1
 Text Label 7950 6400 0    40   ~ 0
-LED_ROW2
+LEDS_ROW2
 Text Label 7950 6500 0    40   ~ 0
-LED_ROW3
+LEDS_ROW3
 Text Label 7950 6600 0    40   ~ 0
-LED_ROW4
+LEDS_ROW4
 Text Label 7950 6700 0    40   ~ 0
-LED_ROW5
+LEDS_ROW5
 Text Label 7950 6800 0    40   ~ 0
-LED_ROW6
+LEDS_ROW6
 Text Notes 8350 3150 0    60   ~ 12
 LED matrix sink
 $EndSCHEMATC
