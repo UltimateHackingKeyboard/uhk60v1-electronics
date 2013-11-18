@@ -59,8 +59,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 2.4 2.4)
-    (pad_drill 2.4)
+    (pad_size 5.7 5.7)
+    (pad_drill 5.7)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (visible_elements FFFFBF7F)
@@ -306,7 +306,20 @@
     (add_net VCC)
   )
 
-  (module hole_5.5mm (layer F.Cu) (tedit 528AA2D8) (tstamp 52659709)
+  (module hole_5.7mm (layer F.Cu) (tedit 528AA3EF) (tstamp 528AA3F4)
+    (at 154.33 48.19)
+    (fp_text reference "hole 5.5mm" (at 0 -4.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 4.3) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 4.418411 0.769026) (size 5.7 5.7) (drill 5.7)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module hole_5.7mm (layer F.Cu) (tedit 528AA3AE) (tstamp 528AA3B1)
     (at 135.92 47.12)
     (fp_text reference "hole 5.5mm" (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -314,7 +327,7 @@
     (fp_text value VAL** (at 0 4.3) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" thru_hole circle (at 2.578411 3.589026) (size 5.5 5.5) (drill 5.5)
+    (pad "" thru_hole circle (at 2.578411 3.589026) (size 5.7 5.7) (drill 5.7)
       (layers *.Cu *.Mask F.SilkS)
     )
   )
@@ -328,19 +341,6 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad "" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2)
-      (layers *.Cu *.Mask F.SilkS)
-    )
-  )
-
-  (module hole_5.5mm (layer F.Cu) (tedit 5264DD9E) (tstamp 5265971A)
-    (at 154.33 48.19)
-    (fp_text reference "hole 5.5mm" (at 0 -4.2) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 4.3) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 4.418411 0.769026) (size 5.5 5.5) (drill 5.5)
       (layers *.Cu *.Mask F.SilkS)
     )
   )
