@@ -56,7 +56,7 @@
     (pad_drill 5.7)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFBFFF)
+    (visible_elements FFFFFFFF)
     (pcbplotparams
       (layerselection 269254657)
       (usegerberextensions true)
@@ -1372,8 +1372,8 @@
     )
   )
 
-  (module 009155005541006 (layer F.Cu) (tedit 526850AD) (tstamp 526637F2)
-    (at 216.048399 146.059019 90)
+  (module 009155005541006 (layer F.Cu) (tedit 526850AD) (tstamp 528E4BE1)
+    (at 216.048399 143.859021 90)
     (path /5130F32D)
     (attr smd)
     (fp_text reference P2 (at 0 -7 90) (layer F.SilkS) hide
@@ -3610,7 +3610,7 @@
     )
   )
 
-  (gr_text 0.6 (at 118.2 56.175) (layer Eco1.User) (tstamp 528E41FC)
+  (gr_text 0.6 (at 118.27 56.18) (layer Eco1.User) (tstamp 528E41FC)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
   (gr_text 1 (at 217.55 129.625) (layer Eco1.User) (tstamp 528D5D61)
