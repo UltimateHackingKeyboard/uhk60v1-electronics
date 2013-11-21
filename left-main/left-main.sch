@@ -924,7 +924,7 @@ $EndComp
 Text Label 7650 4000 2    40   ~ 0
 RCK
 Text Label 7650 3850 2    40   ~ 0
-SRCK
+SCK
 Text Label 7450 4600 2    40   ~ 0
 *DISPLAY_ENABLE
 $Comp
@@ -1053,7 +1053,7 @@ RX
 Text Label 5350 3600 0    40   ~ 0
 TX
 Text Notes 3200 1300 0    40   ~ 0
-Given that the position and orientation of U1 is not fixed yet\non the board the following lines are not wired to GPIO pins yet:\n* KEYS_ROW1, KEYS_ROW2, KEYS_ROW3, KEYS_ROW4, KEYS_ROW5\n* KEYS_COL1, KEYS_COL2, KEYS_COL3, KEYS_COL4, KEYS_COL5, KEYS_COL6, KEYS_COL7\n* DISPLAY_ENABLE, SER_IN, SRCK, RCK\n
+Given that the position and orientation of U1 is not fixed yet\non the board the following lines are not wired to GPIO pins yet:\n* KEYS_ROW1, KEYS_ROW2, KEYS_ROW3, KEYS_ROW4, KEYS_ROW5\n* KEYS_COL1, KEYS_COL2, KEYS_COL3, KEYS_COL4, KEYS_COL5, KEYS_COL6, KEYS_COL7\n* DISPLAY_ENABLE, SRCK, RCK\n
 $Comp
 L C C3
 U 1 1 5134D4E5
@@ -1219,7 +1219,7 @@ F 3 "" H 7600 4650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 7650 3750 2    40   ~ 0
-SER_IN
+MOSI
 Text Label 5350 2300 0    40   ~ 0
 MISO
 Text Label 5350 2400 0    40   ~ 0
