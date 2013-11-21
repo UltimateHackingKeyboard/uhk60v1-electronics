@@ -3617,7 +3617,7 @@
     )
   )
 
-  (gr_line (start 112.048407 56.759014) (end 124.34841 56.759014) (angle 90) (layer Eco2.User) (width 0.01))
+  (gr_line (start 112.048407 56.759014) (end 124.34841 56.759014) (angle 90) (layer Edge.Cuts) (width 0.01))
   (gr_line (start 104.048407 56.759014) (end 82.84841 56.759014) (angle 90) (layer Edge.Cuts) (width 0.01) (tstamp 528D55A1))
   (gr_circle (center 154.16 42.62) (end 154.16 44.27) (layer Eco1.User) (width 0.01) (tstamp 528A90ED))
   (gr_text "* 1.55mm board thickness\n* black soldermask\n* white silkscreen\n" (at 82.9 41.3) (layer Cmts.User) (tstamp 526EC8A2)
