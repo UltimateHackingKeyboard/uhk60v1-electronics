@@ -2344,4 +2344,10 @@ Text Label 5350 4100 0    40   ~ 0
 KEYS_COL6
 Text Label 5350 4200 0    40   ~ 0
 KEYS_COL5
+Text Label 5350 3700 0    40   ~ 0
+*DISPLAY_ENABLE
+Text Label 5350 3800 0    40   ~ 0
+KEYS_COL2
+Text Label 5350 3900 0    40   ~ 0
+KEYS_COL1
 $EndSCHEMATC
