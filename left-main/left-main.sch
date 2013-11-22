@@ -1053,7 +1053,7 @@ RX
 Text Label 5350 3600 0    40   ~ 0
 TX
 Text Notes 3200 1300 0    40   ~ 0
-Given that the position and orientation of U1 is not fixed yet\non the board the following lines are not wired to GPIO pins yet:\n* KEYS_ROW1, KEYS_ROW2, KEYS_ROW3\n* RCK\n
+Given that the position and orientation of U1 is not fixed yet\non the board the following lines are not wired to GPIO pins yet:\n* RCK\n
 $Comp
 L C C3
 U 1 1 5134D4E5
@@ -2366,4 +2366,10 @@ Text Label 5350 2850 0    40   ~ 0
 KEYS_ROW4
 Text Label 5350 2950 0    40   ~ 0
 KEYS_ROW5
+Text Label 5350 1900 0    40   ~ 0
+KEYS_ROW1
+Text Label 5350 2000 0    40   ~ 0
+KEYS_ROW2
+Text Label 5350 2100 0    40   ~ 0
+KEYS_ROW3
 $EndSCHEMATC
