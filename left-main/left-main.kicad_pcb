@@ -3624,7 +3624,7 @@
   (gr_text 0.4 (at 157.48 109.69 290) (layer Eco1.User) (tstamp 528F0FBF)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text "The Eco1.User layer contains soft keepout areas\nwhere component height is limited by the number\nof millimetres featured in the the invividual areas." (at 57.85 42.72) (layer Eco1.User)
+  (gr_text "The Eco1.User layer contains soft keepout areas\nwhere component height on the bottom layer is\nlimited by the number of millimetres featured in\nthe the invividual areas." (at 60.9 40.3) (layer Eco1.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_text 0.6 (at 118.27 56.18) (layer Eco1.User) (tstamp 528E41FC)
