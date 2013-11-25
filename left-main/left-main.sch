@@ -926,7 +926,7 @@ RCK
 Text Label 7650 3850 2    40   ~ 0
 SCK
 Text Label 7450 4600 2    40   ~ 0
-*DISPLAY_ENABLE
+DISPLAY_ENABLE
 $Comp
 L R R4
 U 1 1 51346274
@@ -1662,8 +1662,6 @@ Text Label 5350 4100 0    40   ~ 0
 KEYS_COL6
 Text Label 5350 4200 0    40   ~ 0
 KEYS_COL5
-Text Label 5350 3700 0    40   ~ 0
-*DISPLAY_ENABLE
 Text Label 5350 3800 0    40   ~ 0
 KEYS_COL2
 Text Label 5350 3900 0    40   ~ 0
@@ -2354,4 +2352,6 @@ Wire Wire Line
 Connection ~ 2000 3500
 Text Label 2000 3600 3    40   ~ 0
 GNDPWR2
+Text Label 5350 3700 0    40   ~ 0
+DISPLAY_ENABLE
 $EndSCHEMATC
