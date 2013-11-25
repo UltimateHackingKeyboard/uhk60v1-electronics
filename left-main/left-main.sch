@@ -1207,17 +1207,6 @@ F 3 "" H 8350 4900 60  0001 C CNN
 	1    8350 4900
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR010
-U 1 1 51BA72ED
-P 7600 4650
-F 0 "#PWR010" H 7600 4650 30  0001 C CNN
-F 1 "GND" H 7600 4580 30  0001 C CNN
-F 2 "" H 7600 4650 60  0001 C CNN
-F 3 "" H 7600 4650 60  0001 C CNN
-	1    7600 4650
-	1    0    0    -1  
-$EndComp
 Text Label 7650 3750 2    40   ~ 0
 MOSI
 Text Label 5350 2300 0    40   ~ 0
@@ -1713,8 +1702,6 @@ Wire Wire Line
 Wire Wire Line
 	3050 4200 3350 4200
 Connection ~ 7600 4600
-Wire Wire Line
-	7600 4600 7600 4650
 Wire Wire Line
 	7750 4500 7750 4400
 Wire Wire Line
@@ -2354,4 +2341,5 @@ Text Label 2000 3600 3    40   ~ 0
 GNDPWR2
 Text Label 5350 3700 0    40   ~ 0
 DISPLAY_ENABLE
+Connection ~ 7600 4400
 $EndSCHEMATC
