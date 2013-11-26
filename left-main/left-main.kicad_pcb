@@ -26,7 +26,9 @@
     (21 F.SilkS user)
     (22 B.Mask user)
     (23 F.Mask user)
+    (25 Cmts.User user)
     (26 Eco1.User user)
+    (27 Eco2.User user)
     (28 Edge.Cuts user)
   )
 
