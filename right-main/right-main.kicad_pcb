@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 46.2736 -160.804998 220.845075 158.73715)
+    (area 73.1736 41.471 225.584555 169.329)
     (thickness 1.6)
     (drawings 188)
     (tracks 0)
@@ -104,7 +104,7 @@
     (add_net "")
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FA22)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FA22)
     (at 138.2 92.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -127,7 +127,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FA4B)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FA4B)
     (at 119.2 92.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -150,7 +150,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FA64)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FA64)
     (at 100.2 92.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -173,7 +173,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FA79)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FA79)
     (at 81.2 92.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -196,7 +196,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FA8E)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FA8E)
     (at 91.2 73.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -219,7 +219,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 52934609)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 52934609)
     (at 110.2 73.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -242,7 +242,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FAB8)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FAB8)
     (at 129.2 73.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -265,7 +265,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FACD)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FACD)
     (at 148.2 73.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -288,7 +288,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FAE2)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FAE2)
     (at 167.2 73.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -311,7 +311,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FAF7)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FAF7)
     (at 186.2 73.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -334,7 +334,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FB0C)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FB0C)
     (at 209.7 73.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -357,7 +357,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FB21)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FB21)
     (at 157.2 92.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -380,7 +380,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FB36)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FB36)
     (at 176.2 92.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -403,7 +403,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FB4B)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FB4B)
     (at 195.2 92.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -426,7 +426,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FB60)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FB60)
     (at 214.2 92.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -449,7 +449,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FB8A)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FB8A)
     (at 95.7 130.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -472,7 +472,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FB9F)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FB9F)
     (at 114.899997 130.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -495,7 +495,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FBB4)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FBB4)
     (at 134.100002 130.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -518,7 +518,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FBC9)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FBC9)
     (at 153.299998 130.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -541,7 +541,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FBDE)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FBDE)
     (at 172.499999 130.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -564,7 +564,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FBF3)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FBF3)
     (at 205.2 149.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -587,7 +587,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FC08)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FC08)
     (at 98.899997 149.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -610,7 +610,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FC1D)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FC1D)
     (at 128.250003 149.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -633,7 +633,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FC32)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FC32)
     (at 151.649997 149.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -656,7 +656,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FC47)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FC47)
     (at 175.049998 149.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -679,7 +679,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FC5C)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FC5C)
     (at 202.95 130.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -702,7 +702,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FC71)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FC71)
     (at 207.45 111.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -725,7 +725,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FC86)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FC86)
     (at 181.61 111.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -748,7 +748,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FC9B)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FC9B)
     (at 162.52 111.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -771,7 +771,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FCDA)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FCDA)
     (at 143.430003 111.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -794,7 +794,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FCEF)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FCEF)
     (at 124.339999 111.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -817,7 +817,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FD04)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FD04)
     (at 105.250003 111.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -840,7 +840,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52934390) (tstamp 5189FD19)
+  (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FD19)
     (at 86.160007 111.7 180)
     (fp_text reference "Cherry MX" (at 0 -9.2 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -863,7 +863,7 @@
     )
   )
 
-  (module SS-5GLD (layer F.Cu) (tedit 518A384B) (tstamp 518A9533)
+  (module SS-5GLD   locked (layer F.Cu) (tedit 518A384B) (tstamp 518A9533)
     (at 96.250003 163.8)
     (fp_text reference SS-5GLD (at 0 -4.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -886,7 +886,7 @@
     )
   )
 
-  (module 5555154-2 (layer F.Cu) (tedit 528A61E4) (tstamp 518A4D85)
+  (module 5555154-2   locked (layer F.Cu) (tedit 528A61E4) (tstamp 518A4D85)
     (at 118.372363 49.990771 260.6)
     (fp_text reference 5555154-2 (at 0 -19.7 260.6) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -924,7 +924,7 @@
     )
   )
 
-  (module hole_4.8mm (layer F.Cu) (tedit 529408D4) (tstamp 529465A3)
+  (module hole_4.8mm   locked (layer F.Cu) (tedit 529408D4) (tstamp 529465A3)
     (at 124.6 128.9)
     (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -937,7 +937,7 @@
     )
   )
 
-  (module hole_4.8mm (layer F.Cu) (tedit 529408F0) (tstamp 529465AC)
+  (module hole_4.8mm   locked (layer F.Cu) (tedit 529408F0) (tstamp 529465AC)
     (at 163 127.3)
     (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -950,7 +950,7 @@
     )
   )
 
-  (module hole_4.8mm (layer F.Cu) (tedit 52940908) (tstamp 529465B5)
+  (module hole_4.8mm   locked (layer F.Cu) (tedit 52940908) (tstamp 529465B5)
     (at 219.7 117.3)
     (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -963,7 +963,7 @@
     )
   )
 
-  (module hole_4.8mm (layer F.Cu) (tedit 5294091F) (tstamp 529465BE)
+  (module hole_4.8mm   locked (layer F.Cu) (tedit 5294091F) (tstamp 529465BE)
     (at 178.7 87.2)
     (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -976,7 +976,7 @@
     )
   )
 
-  (module hole_4.8mm (layer F.Cu) (tedit 5294093B) (tstamp 529465C7)
+  (module hole_4.8mm   locked (layer F.Cu) (tedit 5294093B) (tstamp 529465C7)
     (at 110.5 87.8)
     (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -989,7 +989,7 @@
     )
   )
 
-  (module vertical_pcb (layer F.Cu) (tedit 52940A0F) (tstamp 518A95F5)
+  (module vertical_pcb   locked (layer F.Cu) (tedit 52940A0F) (tstamp 518A95F5)
     (at 82.2 150.97)
     (fp_text reference vertical_pcb (at -4 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1018,7 +1018,7 @@
     )
   )
 
-  (module UX60-MB-5S8 (layer F.Cu) (tedit 52940A6A) (tstamp 518A0017)
+  (module UX60-MB-5S8   locked (layer F.Cu) (tedit 52940A6A) (tstamp 518A0017)
     (at 140.849803 53.601924 85.4)
     (fp_text reference UX60-MB-5S8 (at 0 -4.699 85.4) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -1050,7 +1050,7 @@
     )
   )
 
-  (module hole_4.5mm (layer F.Cu) (tedit 52940D66) (tstamp 52958288)
+  (module hole_4.5mm   locked (layer F.Cu) (tedit 52940D66) (tstamp 52958288)
     (at 141.5 66.3)
     (fp_text reference "hole 4.5mm" (at 0 -3.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1063,7 +1063,7 @@
     )
   )
 
-  (module hole_2.4mm (layer F.Cu) (tedit 52940DEF) (tstamp 5295DFCC)
+  (module hole_2.4mm   locked (layer F.Cu) (tedit 52940DEF) (tstamp 5295DFCC)
     (at 141.6 44.7)
     (fp_text reference "hole 2.4mm" (at 0 -2.4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
