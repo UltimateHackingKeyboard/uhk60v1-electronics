@@ -3,12 +3,12 @@
   (general
     (links 0)
     (no_connects 0)
-    (area -0.005001 -119.704998 220.845075 161.119)
+    (area 46.2736 -160.804998 220.845075 158.73715)
     (thickness 1.6)
-    (drawings 268)
+    (drawings 263)
     (tracks 0)
     (zones 0)
-    (modules 37)
+    (modules 42)
     (nets 1)
   )
 
@@ -59,11 +59,11 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1 1)
-    (pad_drill 1)
+    (pad_size 4.8 4.8)
+    (pad_drill 4.8)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFB97F)
+    (visible_elements FFFFBBFF)
     (pcbplotparams
       (layerselection 268468225)
       (usegerberextensions true)
@@ -985,6 +985,71 @@
     )
   )
 
+  (module hole_4.8mm (layer F.Cu) (tedit 529408D4) (tstamp 529465A3)
+    (at 97.7 -73.9)
+    (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 3.8) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at -0.099997 -7.2) (size 4.8 4.8) (drill 4.8)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module hole_4.8mm (layer F.Cu) (tedit 529408F0) (tstamp 529465AC)
+    (at 136.1 -75.5)
+    (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 3.8) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at -0.099999 -5.6) (size 4.8 4.8) (drill 4.8)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module hole_4.8mm (layer F.Cu) (tedit 52940908) (tstamp 529465B5)
+    (at 192.8 -85.5)
+    (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 3.8) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at 0.5 -5.6) (size 4.8 4.8) (drill 4.8)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module hole_4.8mm (layer F.Cu) (tedit 5294091F) (tstamp 529465BE)
+    (at 151.8 -115.6)
+    (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 3.8) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at -2 -4.5) (size 4.8 4.8) (drill 4.8)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module hole_4.8mm (layer F.Cu) (tedit 5294093B) (tstamp 529465C7)
+    (at 83.6 -115)
+    (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 3.8) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" thru_hole circle (at -0.8 -4.1) (size 4.8 4.8) (drill 4.8)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
   (gr_line (start 58.999997 -35.9) (end 79.200002 -35.9) (angle 90) (layer Edge.Cuts) (width 0.01))
   (gr_line (start 54.999997 -42.1) (end 54.999997 -43.2) (angle 90) (layer Edge.Cuts) (width 0.01))
   (gr_arc (start 54.999997 -43.700005) (end 54.999997 -44.2) (angle 179.9987432) (layer Edge.Cuts) (width 0.01))
@@ -1108,11 +1173,6 @@
   (gr_circle (center 158.495071 113.487152) (end 158.495071 115.587152) (layer Edge.Cuts) (width 0.1))
   (gr_circle (center 215.795074 103.487152) (end 215.795074 105.587152) (layer Edge.Cuts) (width 0.1))
   (gr_circle (center 172.295074 74.487152) (end 172.295074 76.587152) (layer Edge.Cuts) (width 0.1))
-  (gr_circle (center 82.8 -119.1) (end 82.8 -116.7) (layer Edge.Cuts) (width 0.01))
-  (gr_circle (center 97.600003 -81.1) (end 97.600003 -78.7) (layer Edge.Cuts) (width 0.01))
-  (gr_circle (center 136.000001 -81.1) (end 136.000001 -78.7) (layer Edge.Cuts) (width 0.01))
-  (gr_circle (center 193.3 -91.1) (end 193.3 -88.7) (layer Edge.Cuts) (width 0.01))
-  (gr_circle (center 149.8 -120.1) (end 149.8 -117.7) (layer Edge.Cuts) (width 0.01))
   (gr_circle (center 114.499997 -142.400003) (end 114.499997 -140.150003) (layer Edge.Cuts) (width 0.01))
   (gr_circle (center 114.8 -154.900003) (end 114.8 -153.700003) (layer Edge.Cuts) (width 0.01))
   (gr_arc (start 79.700001 -41.599999) (end 79.200002 -41.6) (angle 89.9981487) (layer Edge.Cuts) (width 0.01))
