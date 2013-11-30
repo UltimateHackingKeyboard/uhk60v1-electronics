@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 53.75 23.13 225.584555 169.329)
+    (area 53.75 23.13 226.236955 169.4814)
     (thickness 1.6)
     (drawings 235)
     (tracks 0)
@@ -33,11 +33,11 @@
   )
 
   (setup
-    (last_trace_width 0.254)
-    (trace_clearance 0.254)
+    (last_trace_width 0.4064)
+    (trace_clearance 0.4064)
     (zone_clearance 0.508)
     (zone_45_only no)
-    (trace_min 0.254)
+    (trace_min 0.2032)
     (segment_width 0.2)
     (edge_width 0.1)
     (via_size 0.889)
@@ -90,13 +90,31 @@
   (net 0 "")
 
   (net_class Default "This is the default net class."
-    (clearance 0.254)
-    (trace_width 0.254)
+    (clearance 0.4064)
+    (trace_width 0.4064)
     (via_dia 0.889)
     (via_drill 0.635)
     (uvia_dia 0.508)
     (uvia_drill 0.127)
     (add_net "")
+  )
+
+  (net_class "12 mil" ""
+    (clearance 0.3048)
+    (trace_width 0.3048)
+    (via_dia 0.889)
+    (via_drill 0.635)
+    (uvia_dia 0.508)
+    (uvia_drill 0.127)
+  )
+
+  (net_class "8 mil" ""
+    (clearance 0.2032)
+    (trace_width 0.2032)
+    (via_dia 0.889)
+    (via_drill 0.635)
+    (uvia_dia 0.508)
+    (uvia_drill 0.127)
   )
 
   (module Cherry_MX   locked (layer F.Cu) (tedit 52934390) (tstamp 5189FA22)
