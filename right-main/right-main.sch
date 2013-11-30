@@ -1162,7 +1162,7 @@ F 3 "" H 1250 1450 60  0001 C CNN
 $EndComp
 Text Notes 650  1900 1    40   ~ 0
 USB connector\nand protection / filter circuitry
-Text Notes 8200 4450 1    40   ~ 0
+Text Notes 8700 4450 1    40   ~ 0
 The bottommost switch ------------->\nUnlike all the other keys\nthis one is backed by an\nOmron SS-{01|5|}-F[-2|-3]D microswitch\ninstead of a Cherry MX switch.
 $Comp
 L VCC #PWR015
