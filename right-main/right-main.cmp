@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Mon 25 Nov 2013 11:49:13 AM CET
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 01 Dec 2013 11:39:10 AM CET
 
 BeginCmp
 TimeStamp = /50DA313C;
@@ -53,7 +53,7 @@ BeginCmp
 TimeStamp = /50E0344F;
 Reference = C8;
 ValeurCmp = 10uF;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -403,7 +403,7 @@ BeginCmp
 TimeStamp = /512EB389;
 Reference = P2;
 ValeurCmp = CONN_5;
-IdModule  = ;
+IdModule  = vertical_pcb;
 EndCmp
 
 BeginCmp
@@ -501,7 +501,7 @@ BeginCmp
 TimeStamp = /512D3EA5;
 Reference = SW1;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = MCFTE-3C-V;
 EndCmp
 
 BeginCmp
@@ -704,14 +704,14 @@ BeginCmp
 TimeStamp = /50C9AD9C;
 Reference = SW52;
 ValeurCmp = SPST;
-IdModule  = SS-5GLD;
+IdModule  = Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9ADA2;
 Reference = SW53;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = SS-5GLD;
 EndCmp
 
 BeginCmp
@@ -753,14 +753,14 @@ BeginCmp
 TimeStamp = /50D902F7;
 Reference = U2;
 ValeurCmp = EEPROM_HN58X25256;
-IdModule  = ;
+IdModule  = HN58X25-SOP8;
 EndCmp
 
 BeginCmp
 TimeStamp = /51ACD3B8;
 Reference = U3;
 ValeurCmp = SN74CBTLV3257;
-IdModule  = ;
+IdModule  = SN74CBT3257-SOIC;
 EndCmp
 
 BeginCmp

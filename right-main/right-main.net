@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/uhk-electronics/right-main/right-main.sch)
-    (date "Mon 28 Oct 2013 10:35:21 PM CET")
+    (date "Sat 30 Nov 2013 08:01:36 PM CET")
     (tool "eeschema (2013-mar-13)-testing"))
   (components
     (comp (ref SW11)
