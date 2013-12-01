@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 01 Dec 2013 11:49:34 PM CET
+
+BeginCmp
+TimeStamp = /529BB9E0;
+Reference = P11;
+ValeurCmp = CONN_1;
+IdModule  = vertical_pcb_pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /529BB9E6;
+Reference = P12;
+ValeurCmp = CONN_1;
+IdModule  = vertical_pcb_pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /529BB9EC;
+Reference = P13;
+ValeurCmp = CONN_1;
+IdModule  = vertical_pcb_pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /529BB9F2;
+Reference = P14;
+ValeurCmp = CONN_1;
+IdModule  = vertical_pcb_pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /529BBCD2;
+Reference = P15;
+ValeurCmp = CONN_1;
+IdModule  = vertical_pcb_pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /529BB9BF;
+Reference = P21;
+ValeurCmp = CONN_1;
+IdModule  = vertical_pcb_pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /529BB9CE;
+Reference = P22;
+ValeurCmp = CONN_1;
+IdModule  = vertical_pcb_pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /529BB9D4;
+Reference = P23;
+ValeurCmp = CONN_1;
+IdModule  = vertical_pcb_pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /529BB9DA;
+Reference = P24;
+ValeurCmp = CONN_1;
+IdModule  = vertical_pcb_pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /529BBCD8;
+Reference = P25;
+ValeurCmp = CONN_1;
+IdModule  = vertical_pcb_pad;
+EndCmp
+
+EndListe
