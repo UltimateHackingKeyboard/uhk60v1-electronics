@@ -1912,7 +1912,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B174D)
-    (at 96.5 79.5 180)
+    (at 96.2 72.4 180)
     (path /50C9299C)
     (fp_text reference D11 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -1937,7 +1937,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B1759)
-    (at 115.5 80 180)
+    (at 115.2 79.6 180)
     (path /50CA6AA3)
     (fp_text reference D12 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -1962,7 +1962,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B1765)
-    (at 134.5 80 180)
+    (at 134.2 79.6 180)
     (path /50CA6AA9)
     (fp_text reference D13 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -1987,7 +1987,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B1771)
-    (at 153.5 80 180)
+    (at 150.4 79.6 180)
     (path /50CA6AAF)
     (fp_text reference D14 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2012,7 +2012,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B177D)
-    (at 172.5 80 180)
+    (at 172.2 79.6 180)
     (path /50CA6AB5)
     (fp_text reference D15 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2037,7 +2037,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B1789)
-    (at 191.5 80 180)
+    (at 191.2 79.6 180)
     (path /50CA6ABB)
     (fp_text reference D16 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2061,8 +2061,8 @@
     )
   )
 
-  (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B1795)
-    (at 215 80 180)
+  (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529D0A7A)
+    (at 214.8 79.6 180)
     (path /50CA6AC1)
     (fp_text reference D17 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2087,7 +2087,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B17A1)
-    (at 105.5 99 180)
+    (at 101.6 98.6 180)
     (path /50CA6B75)
     (fp_text reference D21 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2112,7 +2112,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B17AD)
-    (at 124.5 99 180)
+    (at 124.2 98.6 180)
     (path /50CA6B5D)
     (fp_text reference D22 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2137,7 +2137,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B17B9)
-    (at 143.5 99 180)
+    (at 140.2 98.6 180)
     (path /50CA6B45)
     (fp_text reference D23 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2162,7 +2162,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B17C5)
-    (at 162.5 99 180)
+    (at 162.2 98.6 180)
     (path /50CA6B2D)
     (fp_text reference D24 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2187,7 +2187,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B17D1)
-    (at 181.5 99 180)
+    (at 179.6 98.6 180)
     (path /50CA6B15)
     (fp_text reference D25 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2212,7 +2212,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B17DD)
-    (at 200.5 99 180)
+    (at 200.2 98.6 180)
     (path /50CA6AFD)
     (fp_text reference D26 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2237,7 +2237,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B17E9)
-    (at 219.5 99 180)
+    (at 219.2 98.6 180)
     (path /50CA6AE5)
     (fp_text reference D27 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2262,7 +2262,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B17F5)
-    (at 86.5 98.5 180)
+    (at 86.2 91.6 180)
     (path /50CA6B7B)
     (fp_text reference D31 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2287,7 +2287,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B1801)
-    (at 110.5 118 180)
+    (at 110.2 117.6 180)
     (path /50CA6B63)
     (fp_text reference D32 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2312,7 +2312,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B180D)
-    (at 129.5 118 180)
+    (at 129.4 117.6 180)
     (path /50CA6B4B)
     (fp_text reference D33 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2337,7 +2337,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B1819)
-    (at 148.5 118 180)
+    (at 148.4 117.6 180)
     (path /50CA6B33)
     (fp_text reference D34 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2362,7 +2362,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B1825)
-    (at 167.5 118 180)
+    (at 167.4 117.6 180)
     (path /50CA6B1B)
     (fp_text reference D35 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2387,7 +2387,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B1831)
-    (at 186.5 118 180)
+    (at 186.6 117.6 180)
     (path /50CA6B03)
     (fp_text reference D36 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2412,7 +2412,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B183D)
-    (at 212.5 118 180)
+    (at 212.4 117.6 180)
     (path /50CA6AEB)
     (fp_text reference D37 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2437,7 +2437,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B1849)
-    (at 91 117.5 180)
+    (at 91.2 110.6 180)
     (path /50CA6B81)
     (fp_text reference D41 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2461,8 +2461,8 @@
     )
   )
 
-  (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B1855)
-    (at 101 136.5 180)
+  (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529D06AA)
+    (at 100.8 129.4 180)
     (path /50CA6B69)
     (fp_text reference D42 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2487,7 +2487,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B1861)
-    (at 120 137 180)
+    (at 120 136.6 180)
     (path /50CA6B51)
     (fp_text reference D43 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2512,7 +2512,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B186D)
-    (at 139.5 137 180)
+    (at 139.2 136.6 180)
     (path /50CA6B39)
     (fp_text reference D44 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2537,12 +2537,12 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B1879)
-    (at 155.5 137)
+    (at 155.4 136.6 180)
     (path /50CA6B21)
-    (fp_text reference D45 (at 0 -1.4) (layer F.SilkS)
+    (fp_text reference D45 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value DIODE (at 0 1.4) (layer F.SilkS) hide
+    (fp_text value DIODE (at 0 1.4 180) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -1.35 0.8) (end -1.35 0.7) (layer F.SilkS) (width 0.15))
@@ -2551,18 +2551,18 @@
     (fp_line (start 1.35 -0.8) (end 1.35 -0.7) (layer F.SilkS) (width 0.15))
     (fp_line (start -1.35 0.8) (end 1.35 0.8) (layer F.SilkS) (width 0.15))
     (fp_line (start -1.35 -0.8) (end 1.35 -0.8) (layer F.SilkS) (width 0.15))
-    (pad 1 smd rect (at -1.1811 0) (size 0.9144 1.2192)
+    (pad 1 smd rect (at -1.1811 0 180) (size 0.9144 1.2192)
       (layers F.Cu F.Mask)
       (net 5 /COL5)
     )
-    (pad 2 smd rect (at 1.1811 0) (size 0.9144 1.2192)
+    (pad 2 smd rect (at 1.1811 0 180) (size 0.9144 1.2192)
       (layers F.Cu F.Mask)
       (net 41 N-0000019)
     )
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B1885)
-    (at 177.5 137 180)
+    (at 177.6 136.6 180)
     (path /50CA6B09)
     (fp_text reference D46 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2587,12 +2587,12 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B1891)
-    (at 206 137)
+    (at 206.2 136.6 180)
     (path /50CA6AF1)
-    (fp_text reference D47 (at 0 -1.4) (layer F.SilkS)
+    (fp_text reference D47 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value DIODE (at 0 1.4) (layer F.SilkS) hide
+    (fp_text value DIODE (at 0 1.4 180) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -1.35 0.8) (end -1.35 0.7) (layer F.SilkS) (width 0.15))
@@ -2601,18 +2601,18 @@
     (fp_line (start 1.35 -0.8) (end 1.35 -0.7) (layer F.SilkS) (width 0.15))
     (fp_line (start -1.35 0.8) (end 1.35 0.8) (layer F.SilkS) (width 0.15))
     (fp_line (start -1.35 -0.8) (end 1.35 -0.8) (layer F.SilkS) (width 0.15))
-    (pad 1 smd rect (at -1.1811 0) (size 0.9144 1.2192)
+    (pad 1 smd rect (at -1.1811 0 180) (size 0.9144 1.2192)
       (layers F.Cu F.Mask)
       (net 7 /COL7)
     )
-    (pad 2 smd rect (at 1.1811 0) (size 0.9144 1.2192)
+    (pad 2 smd rect (at 1.1811 0 180) (size 0.9144 1.2192)
       (layers F.Cu F.Mask)
       (net 44 N-0000021)
     )
   )
 
-  (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B189D)
-    (at 104 156 180)
+  (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529D0B1E)
+    (at 104 148.4 180)
     (path /50CA6B6F)
     (fp_text reference D52 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2637,12 +2637,12 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B18A9)
-    (at 100.5 161.5)
+    (at 104 159 270)
     (path /50CA6B57)
-    (fp_text reference D53 (at 0 -1.4) (layer F.SilkS)
+    (fp_text reference D53 (at 0 -1.4 270) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
-    (fp_text value DIODE (at 0 1.4) (layer F.SilkS) hide
+    (fp_text value DIODE (at 0 1.4 270) (layer F.SilkS) hide
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -1.35 0.8) (end -1.35 0.7) (layer F.SilkS) (width 0.15))
@@ -2651,18 +2651,18 @@
     (fp_line (start 1.35 -0.8) (end 1.35 -0.7) (layer F.SilkS) (width 0.15))
     (fp_line (start -1.35 0.8) (end 1.35 0.8) (layer F.SilkS) (width 0.15))
     (fp_line (start -1.35 -0.8) (end 1.35 -0.8) (layer F.SilkS) (width 0.15))
-    (pad 1 smd rect (at -1.1811 0) (size 0.9144 1.2192)
+    (pad 1 smd rect (at -1.1811 0 270) (size 0.9144 1.2192)
       (layers F.Cu F.Mask)
       (net 3 /COL3)
     )
-    (pad 2 smd rect (at 1.1811 0) (size 0.9144 1.2192)
+    (pad 2 smd rect (at 1.1811 0 270) (size 0.9144 1.2192)
       (layers F.Cu F.Mask)
       (net 46 N-0000023)
     )
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B18B5)
-    (at 133.5 156 180)
+    (at 133.2 155.6 180)
     (path /50CA6B3F)
     (fp_text reference D54 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2687,7 +2687,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B18C1)
-    (at 157 156 180)
+    (at 156.6 155.6 180)
     (path /50CA6B27)
     (fp_text reference D55 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2712,7 +2712,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B18CD)
-    (at 180.5 156 180)
+    (at 180 155.6 180)
     (path /50CA6B0F)
     (fp_text reference D56 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -2737,7 +2737,7 @@
   )
 
   (module SOD-123 (layer F.Cu) (tedit 52698E60) (tstamp 529B18D9)
-    (at 210.5 156 180)
+    (at 210.2 155.6 180)
     (path /50CA6AF7)
     (fp_text reference D57 (at 0 -1.4 180) (layer F.SilkS)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
@@ -3097,7 +3097,7 @@
     )
   )
 
-  (module SM0805 (layer F.Cu) (tedit 528A8D1F) (tstamp 529B1957)
+  (module SM0805 (layer F.Cu) (tedit 528A8D1F) (tstamp 529D0D1E)
     (at 220 80)
     (path /50C9B2CB)
     (attr smd)
