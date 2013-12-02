@@ -3,7 +3,7 @@
   (general
     (links 187)
     (no_connects 187)
-    (area 74.194999 41.995002 225.205001 166.905001)
+    (area 53.75 23.13 226.236955 169.4814)
     (thickness 1.6)
     (drawings 235)
     (tracks 0)
@@ -3242,8 +3242,8 @@
     )
   )
 
-  (module MCFTE-3C-V (layer F.Cu) (tedit 529B113A) (tstamp 529B198F)
-    (at 80.5 113)
+  (module MCFTE-3C-V   locked (layer F.Cu) (tedit 529B113A) (tstamp 529CF7A9)
+    (at 80.550007 107.7)
     (path /512D3EA5)
     (fp_text reference SW1 (at 0 -4.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
