@@ -132,7 +132,7 @@ F 1 "SPST" H 7700 1950 40  0001 C CNN
 F 2 "" H 7700 2050 60  0001 C CNN
 F 3 "" H 7700 2050 60  0001 C CNN
 	1    7700 2050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L SPST SW22
@@ -220,7 +220,7 @@ F 1 "SPST" H 8200 2250 40  0001 C CNN
 F 2 "" H 8200 2350 60  0001 C CNN
 F 3 "" H 8200 2350 60  0001 C CNN
 	1    8200 2350
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L SPST SW33
