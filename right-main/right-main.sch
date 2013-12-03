@@ -2232,4 +2232,8 @@ Text Label 6150 2800 0    40   ~ 0
 COL4
 Text Label 4350 3500 2    40   ~ 0
 COL3
+Text Label 6150 2700 0    40   ~ 0
+ROW4
+Text Label 6150 2600 0    40   ~ 0
+ROW5
 $EndSCHEMATC
