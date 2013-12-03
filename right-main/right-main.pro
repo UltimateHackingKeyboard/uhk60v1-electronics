@@ -1,5 +1,5 @@
-update=Sat 30 Nov 2013 09:16:38 PM CET
-last_client=cvpcb
+update=Tue 03 Dec 2013 05:57:02 PM CET
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=../libs/opendous/library
@@ -41,14 +41,19 @@ LibName29=contrib
 LibName30=valves
 LibName31=device
 LibName32=opendous
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-LastNetListRead=
-UseCmpFile=1
-PadDrill="    0.500000"
-PadDrillOvalY="    0.500000"
-PadSizeH="    0.900000"
-PadSizeV="    2.200000"
+LastNetListRead=right-main.net
+UseCmpFile=0
+PadDrill="    0.000000"
+PadDrillOvalY="    0.000000"
+PadSizeH="    1.000000"
+PadSizeV="    1.900000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
@@ -61,6 +66,7 @@ DrawSegmentWidth="    0.200000"
 BoardOutlineThickness="    0.100000"
 ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
+LibDir=
 LibName1=ugl
 LibName2=sockets
 LibName3=connect
@@ -77,9 +83,3 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms

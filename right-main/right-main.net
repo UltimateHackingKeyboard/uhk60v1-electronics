@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/uhk-electronics/right-main/right-main.sch)
-    (date "Tue 03 Dec 2013 12:35:11 PM CET")
+    (date "Tue 03 Dec 2013 06:07:40 PM CET")
     (tool "eeschema (2013-mar-13)-testing"))
   (components
     (comp (ref SW11)
@@ -612,12 +612,6 @@
         (pin (num 6) (name C) (type input))
         (pin (num 7) (name HOLD) (type input))
         (pin (num 8) (name VCC) (type input))))
-    (libpart (lib ugl) (part FUSE)
-      (fields
-        (field (name Reference) F)
-        (field (name Value) FUSE))
-      (pins
-        (pin (num ~) (name ~) (type input))))
     (libpart (lib ugl) (part INDUCTOR)
       (fields
         (field (name Reference) L)
@@ -735,7 +729,14 @@
         (pin (num 2) (name DN) (type BiDi))
         (pin (num 3) (name DP) (type BiDi))
         (pin (num 4) (name GND) (type power_in))
-        (pin (num 5) (name SHIELD) (type power_in)))))
+        (pin (num 5) (name SHIELD) (type power_in))))
+    (libpart (lib ugl) (part FUSE)
+      (fields
+        (field (name Reference) F)
+        (field (name Value) FUSE))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input)))))
   (libraries
     (library (logical ugl)
       (uri /usr/share/kicad/library/ugl.lib))
@@ -815,6 +816,7 @@
       (node (ref U2) (pin 7))
       (node (ref U3) (pin 16))
       (node (ref R4) (pin 1))
+      (node (ref F1) (pin 1))
       (node (ref U1) (pin 32))
       (node (ref C7) (pin 1))
       (node (ref C3) (pin 2))
@@ -859,7 +861,7 @@
     (net (code 23) (name /VBUS_WIRE)
       (node (ref J1) (pin 1))
       (node (ref CR1) (pin 2))
-      (node (ref F1) (pin ~)))
+      (node (ref F1) (pin 2)))
     (net (code 24) (name "")
       (node (ref U1) (pin 20)))
     (net (code 25) (name GNDPWR)
