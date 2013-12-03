@@ -2222,4 +2222,10 @@ Text Label 6150 2500 0    40   ~ 0
 HWB
 Wire Wire Line
 	6350 2500 6350 2400
+Text Label 6150 1900 0    40   ~ 0
+COL7
+Text Label 6150 3200 0    40   ~ 0
+COL6
+Text Label 6150 3100 0    40   ~ 0
+COL5
 $EndSCHEMATC
