@@ -2216,4 +2216,6 @@ Text Label 1850 1450 2    40   ~ 0
 VBUS_WIRE
 Wire Wire Line
 	1500 1250 1500 1000
+Text Label 3700 2450 0    40   ~ 0
+UCAP
 $EndSCHEMATC
