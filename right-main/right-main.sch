@@ -2236,4 +2236,12 @@ Text Label 6150 2700 0    40   ~ 0
 ROW4
 Text Label 6150 2600 0    40   ~ 0
 ROW5
+Text Label 4350 3400 2    40   ~ 0
+ROW1
+Text Label 4350 3300 2    40   ~ 0
+ROW2
+Text Label 4350 3200 2    40   ~ 0
+ROW3
+Text Label 4350 3900 2    40   ~ 0
+EEPROM_SELECT
 $EndSCHEMATC
