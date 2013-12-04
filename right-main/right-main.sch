@@ -1501,8 +1501,6 @@ Text Label 7400 2500 0    40   ~ 0
 ROW4
 Text Label 7400 2800 0    40   ~ 0
 ROW5
-Text Notes 4350 1100 0    40   ~ 0
-Given that the position and orientation of U1 is not fixed yet\non the board the following lines are not wired to GPIO pins yet:\n* ROW1, ROW2, ROW3, ROW4, ROW5\n* COL1, COL2, COL3, COL4, COL5, COL6, COL7\n* EEPROM_SELECT
 Text Notes 700  4650 0    40   ~ 0
 * Pi filter on VCC\n* Low-pass RC filter on TX
 Text Notes 850  2600 0    40   ~ 0
