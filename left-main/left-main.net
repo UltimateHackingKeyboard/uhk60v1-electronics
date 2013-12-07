@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/left-main/left-main.sch)
-    (date "Fri 06 Dec 2013 11:45:13 PM CET")
+    (date "Sat 07 Dec 2013 01:01:03 AM CET")
     (tool "eeschema (2013-mar-13)-testing"))
   (components
     (comp (ref D13)
@@ -1058,10 +1058,10 @@
       (node (ref P4) (pin 11)))
     (net (code 67) (name /LEDS_ROW5)
       (node (ref P4) (pin 13))
-      (node (ref U3) (pin 11)))
+      (node (ref U3) (pin 12)))
     (net (code 68) (name /LEDS_ROW6)
-      (node (ref U3) (pin 12))
-      (node (ref P4) (pin 14)))
+      (node (ref P4) (pin 14))
+      (node (ref U3) (pin 11)))
     (net (code 69) (name /MISO)
       (node (ref U1) (pin 16))
       (node (ref P3) (pin 1)))

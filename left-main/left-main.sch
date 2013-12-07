@@ -1591,9 +1591,9 @@ LEDS_ROW3
 Text Label 9300 4050 2    40   ~ 0
 LEDS_ROW4
 Text Label 9300 4150 2    40   ~ 0
-LEDS_ROW5
-Text Label 9300 4250 2    40   ~ 0
 LEDS_ROW6
+Text Label 9300 4250 2    40   ~ 0
+LEDS_ROW5
 $Comp
 L CONN_14 P4
 U 1 1 52619B99
