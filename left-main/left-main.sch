@@ -946,7 +946,7 @@ Text Label 1750 6750 0    40   ~ 0
 MOSI
 Text Label 1750 6850 0    40   ~ 0
 RESET
-Text Notes 600  3400 0    40   ~ 0
+Text Notes 600  3450 0    40   ~ 0
 Closely connecting the two keyboard halves
 Text Label 2100 4200 0    40   ~ 0
 RX
@@ -1044,7 +1044,7 @@ F 3 "" H 2250 1250 60  0000 C CNN
 $EndComp
 Text Label 2150 1850 0    40   ~ 0
 TX
-Text Notes 600  750  0    40   ~ 0
+Text Notes 600  800  0    40   ~ 0
 Remotely connecting the two keyboard halves
 Text Label 5750 2650 0    40   ~ 0
 RX
@@ -2401,9 +2401,9 @@ Wire Wire Line
 Connection ~ 9300 6800
 Text Notes 2850 700  0    60   ~ 12
 MCU
-Text Notes 600  650  0    60   ~ 12
+Text Notes 600  700  0    60   ~ 12
 RJ11 jack
-Text Notes 600  3300 0    60   ~ 12
+Text Notes 600  3350 0    60   ~ 12
 Board-to-board connector
 Text Notes 600  5750 0    60   ~ 12
 ISP header
