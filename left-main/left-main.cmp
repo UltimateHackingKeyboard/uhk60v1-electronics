@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 05 Dec 2013 11:18:50 PM CET
+Cmp-Mod V01 Created by PcbNew date = Sat 07 Dec 2013 03:36:57 PM CET
 
 BeginCmp
 TimeStamp = /513150A5;
@@ -368,7 +368,7 @@ BeginCmp
 TimeStamp = /52619B99;
 Reference = P4;
 ValeurCmp = CONN_14;
-IdModule  = SFV14R-2STE1HLF;
+IdModule  = SFV18R-2STE1HLF;
 EndCmp
 
 BeginCmp
