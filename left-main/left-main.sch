@@ -1594,44 +1594,33 @@ Text Label 9300 4150 2    40   ~ 0
 LEDS_ROW6
 Text Label 9300 4250 2    40   ~ 0
 LEDS_ROW5
-$Comp
-L CONN_14 P4
-U 1 1 52619B99
-P 8650 6150
-F 0 "P4" V 8620 6150 60  0000 C CNN
-F 1 "CONN_14" V 8730 6150 60  0000 C CNN
-F 2 "" H 8650 6150 60  0000 C CNN
-F 3 "" H 8650 6150 60  0000 C CNN
-	1    8650 6150
-	1    0    0    -1  
-$EndComp
-Text Label 7950 5500 0    40   ~ 0
+Text Label 8050 5200 0    40   ~ 0
 LEDS_COL1
-Text Label 7950 5600 0    40   ~ 0
+Text Label 8050 5300 0    40   ~ 0
 LEDS_COL2
-Text Label 7950 5700 0    40   ~ 0
+Text Label 8050 5400 0    40   ~ 0
 LEDS_COL3
-Text Label 7950 5800 0    40   ~ 0
+Text Label 8050 5500 0    40   ~ 0
 LEDS_COL4
-Text Label 7950 5900 0    40   ~ 0
+Text Label 8050 5600 0    40   ~ 0
 LEDS_COL5
-Text Label 7950 6000 0    40   ~ 0
+Text Label 8050 5700 0    40   ~ 0
 LEDS_COL6
-Text Label 7950 6100 0    40   ~ 0
+Text Label 8050 5800 0    40   ~ 0
 LEDS_COL7
-Text Label 7950 6200 0    40   ~ 0
+Text Label 8050 6100 0    40   ~ 0
 LEDS_COL8
-Text Label 7950 6300 0    40   ~ 0
+Text Label 8050 6200 0    40   ~ 0
 LEDS_ROW1
-Text Label 7950 6400 0    40   ~ 0
+Text Label 8050 6300 0    40   ~ 0
 LEDS_ROW2
-Text Label 7950 6500 0    40   ~ 0
+Text Label 8050 6400 0    40   ~ 0
 LEDS_ROW3
-Text Label 7950 6600 0    40   ~ 0
+Text Label 8050 6500 0    40   ~ 0
 LEDS_ROW4
-Text Label 7950 6700 0    40   ~ 0
+Text Label 8050 6600 0    40   ~ 0
 LEDS_ROW5
-Text Label 7950 6800 0    40   ~ 0
+Text Label 8050 6700 0    40   ~ 0
 LEDS_ROW6
 Text Notes 8350 3150 0    60   ~ 12
 LED matrix sink
@@ -2287,33 +2276,33 @@ Wire Wire Line
 Connection ~ 6200 2950
 Connection ~ 6500 2950
 Wire Wire Line
-	8300 5500 7950 5500
+	8400 5200 8050 5200
 Wire Wire Line
-	8300 5600 7950 5600
+	8400 5300 8050 5300
 Wire Wire Line
-	8300 5700 7950 5700
+	8400 5400 8050 5400
 Wire Wire Line
-	8300 5800 7950 5800
+	8400 5500 8050 5500
 Wire Wire Line
-	8300 5900 7950 5900
+	8400 5600 8050 5600
 Wire Wire Line
-	8300 6000 7950 6000
+	8400 5700 8050 5700
 Wire Wire Line
-	8300 6100 7950 6100
+	8400 5800 8050 5800
 Wire Wire Line
-	8300 6200 7950 6200
+	8400 6100 8050 6100
 Wire Wire Line
-	8300 6300 7950 6300
+	8400 6200 8050 6200
 Wire Wire Line
-	8300 6400 7950 6400
+	8400 6300 8050 6300
 Wire Wire Line
-	8300 6500 7950 6500
+	8400 6400 8050 6400
 Wire Wire Line
-	8300 6600 7950 6600
+	8400 6500 8050 6500
 Wire Wire Line
-	8300 6700 7950 6700
+	8400 6600 8050 6600
 Wire Wire Line
-	8300 6800 7950 6800
+	8400 6700 8050 6700
 Connection ~ 10000 1700
 Connection ~ 10000 1900
 Connection ~ 10600 1700
@@ -2401,4 +2390,39 @@ Text Label 9100 4450 3    40   ~ 0
 KEYS_COL3_DRAIN
 Text Label 9550 4450 3    40   ~ 0
 KEYS_COL3_BASE
+$Comp
+L CONN_18 P4
+U 1 1 52A33478
+P 8650 5950
+F 0 "P4" V 8700 5950 60  0000 C CNN
+F 1 "CONN_18" V 8800 5950 60  0000 C CNN
+F 2 "" H 8650 5950 60  0000 C CNN
+F 3 "" H 8650 5950 60  0000 C CNN
+	1    8650 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52A334C6
+P 8000 6850
+F 0 "#PWR?" H 8000 6850 30  0001 C CNN
+F 1 "GND" H 8000 6780 30  0001 C CNN
+F 2 "" H 8000 6850 60  0001 C CNN
+F 3 "" H 8000 6850 60  0001 C CNN
+	1    8000 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 6800 8000 6800
+Wire Wire Line
+	8000 5100 8000 6850
+Wire Wire Line
+	8000 5100 8400 5100
+Connection ~ 8000 6800
+Wire Wire Line
+	8000 5900 8400 5900
+Connection ~ 8000 5900
+Wire Wire Line
+	8000 6000 8400 6000
+Connection ~ 8000 6000
 $EndSCHEMATC
