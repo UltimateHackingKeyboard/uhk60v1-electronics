@@ -1127,7 +1127,7 @@ F 3 "" H 10750 3900 60  0000 C CNN
 	1    10750 3900
 	0    -1   -1   0   
 $EndComp
-Text Notes 600  2850 0    40   ~ 0
+Text Notes 600  2900 0    40   ~ 0
 * Pi filter on VCC\n* Low-pass RC filter on TX
 $Comp
 L ESD CR1
@@ -1606,7 +1606,7 @@ Text Label 9150 6750 1    40   ~ 0
 LEDS_COL6
 Text Label 9250 6750 1    40   ~ 0
 LEDS_COL7
-Text Label 9550 6750 1    40   ~ 0
+Text Label 9350 6750 1    40   ~ 0
 LEDS_COL8
 Text Label 9650 6750 1    40   ~ 0
 LEDS_ROW1
@@ -1728,12 +1728,12 @@ $EndComp
 $Comp
 L GND #PWR027
 U 1 1 52A334C6
-P 9350 6900
-F 0 "#PWR027" H 9350 6900 30  0001 C CNN
-F 1 "GND" H 9350 6830 30  0001 C CNN
-F 2 "" H 9350 6900 60  0001 C CNN
-F 3 "" H 9350 6900 60  0001 C CNN
-	1    9350 6900
+P 9450 6900
+F 0 "#PWR027" H 9450 6900 30  0001 C CNN
+F 1 "GND" H 9450 6830 30  0001 C CNN
+F 2 "" H 9450 6900 60  0001 C CNN
+F 3 "" H 9450 6900 60  0001 C CNN
+	1    9450 6900
 	1    0    0    -1  
 $EndComp
 Text Notes 7850 5800 0    60   ~ 12
@@ -2372,8 +2372,6 @@ Wire Wire Line
 Wire Wire Line
 	9250 6400 9250 6750
 Wire Wire Line
-	9550 6400 9550 6750
-Wire Wire Line
 	9650 6400 9650 6750
 Wire Wire Line
 	9750 6400 9750 6750
@@ -2413,14 +2411,11 @@ Wire Wire Line
 Wire Wire Line
 	4150 2400 4050 2400
 Wire Wire Line
-	10250 6400 10250 6800
+	10250 6800 10250 6400
 Wire Wire Line
 	8550 6800 8550 6400
 Wire Wire Line
-	9350 6400 9350 6900
-Connection ~ 9350 6800
-Wire Wire Line
-	9450 6800 9450 6400
+	9450 6400 9450 6900
 Connection ~ 9450 6800
 Wire Notes Line
 	7700 3300 11200 3300
@@ -2447,5 +2442,10 @@ Wire Notes Line
 Entry Wire Line
 	8850 4050 8950 4150
 Wire Wire Line
-	10250 6800 8550 6800
+	8550 6800 10250 6800
+Wire Wire Line
+	9350 6400 9350 6750
+Wire Wire Line
+	9550 6400 9550 6800
+Connection ~ 9550 6800
 $EndSCHEMATC
