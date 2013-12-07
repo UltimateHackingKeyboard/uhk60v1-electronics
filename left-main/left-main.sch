@@ -1726,10 +1726,10 @@ F 3 "" H 9400 6150 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR027
 U 1 1 52A334C6
 P 9350 6900
-F 0 "#PWR?" H 9350 6900 30  0001 C CNN
+F 0 "#PWR027" H 9350 6900 30  0001 C CNN
 F 1 "GND" H 9350 6830 30  0001 C CNN
 F 2 "" H 9350 6900 60  0001 C CNN
 F 3 "" H 9350 6900 60  0001 C CNN
@@ -1737,7 +1737,7 @@ F 3 "" H 9350 6900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 7850 5800 0    60   ~ 12
-LED matrix sink
+LED display connector
 Wire Wire Line
 	8300 4700 8300 4650
 Wire Wire Line
