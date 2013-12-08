@@ -1336,8 +1336,8 @@ F 3 "" H 2100 1700 60  0001 C CNN
 	1    2100 1700
 	0    -1   -1   0   
 $EndComp
-Text Notes 3850 3800 0    40   ~ 0
-HWB and GND should be broken out for testing\npurposes by using nearby pads for DFU booting.
+Text Notes 3850 3850 0    40   ~ 0
+HWB and GND should be broken out for testing purposes by using nearby pads for DFU booting.
 $Comp
 L SPST SW1
 U 1 1 512D3EA5
@@ -1498,7 +1498,7 @@ ROW5
 Text Notes 600  4750 0    40   ~ 0
 * Pi filter on VCC\n* Low-pass RC filter on TX
 Text Notes 8450 3800 0    40   ~ 0
-Keyboard parts merged:\n    proximity connection is connected\n    remote connection is explicitly disabled to avoid ground loop\n    (GND disabled by SW1 and VCC, TX, RX disabled by the FET MUX)\nKeyboard parts unmerged:\n    proximity connection is unconnected\n    remote connection is connected\n    (GND enabled by SW1 and VCC, TX, RX enabled by the FET MUX)
+Keyboard parts unmerged:\n    * proximity connection is unconnected\n    * remote connection is connected\n      (GND enabled by SW1 and VCC, TX, RX enabled by the FET MUX)\nKeyboard parts merged:\n    * proximity connection is connected\n    * remote connection is explicitly disabled to avoid ground loop\n      (GND disabled by SW1 and VCC, TX, RX disabled by the FET MUX)
 Text Notes 600  2250 0    40   ~ 0
 Protection / filter circuitry designed based on the\n"Atmel AVR1017: XMEGA - USB Hardware Design Recommendations" application note\nthat can be accessed at http://www.atmel.com/Images/doc8388.pdf
 $Comp
@@ -1712,7 +1712,7 @@ MCU\n
 Text Notes 8450 700  0    60   ~ 12
 EEPROM\n
 Text Notes 8450 3450 0    40   ~ 0
-Routing power and signals between the halves through top vs bottom connection
+Routing power and signals between the two\nhalves through the remote vs proximity connection
 Text Notes 600  700  0    60   ~ 12
 USB connector\n
 Text Notes 600  5200 0    60   ~ 12
