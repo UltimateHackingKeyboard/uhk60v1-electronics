@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Sat 07 Dec 2013 03:36:57 PM CET
+Cmp-Mod V01 Created by PcbNew date = Sun 08 Dec 2013 10:38:01 AM CET
 
 BeginCmp
 TimeStamp = /513150A5;
@@ -354,7 +354,7 @@ BeginCmp
 TimeStamp = /5130F32D;
 Reference = P2;
 ValeurCmp = CONN_5;
-IdModule  = 009155005541006;
+IdModule  = 009155005541006_uhk;
 EndCmp
 
 BeginCmp
