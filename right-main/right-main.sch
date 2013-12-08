@@ -1341,12 +1341,12 @@ HWB and GND should be broken out for testing purposes by using nearby pads for D
 $Comp
 L SPST SW1
 U 1 1 512D3EA5
-P 10500 5200
-F 0 "SW1" H 10500 5300 40  0000 C CNN
-F 1 "SPST" H 10500 5100 40  0001 C CNN
-F 2 "" H 10500 5200 60  0001 C CNN
-F 3 "" H 10500 5200 60  0001 C CNN
-	1    10500 5200
+P 10500 5400
+F 0 "SW1" H 10500 5500 40  0000 C CNN
+F 1 "SPST" H 10500 5300 40  0001 C CNN
+F 2 "" H 10500 5400 60  0001 C CNN
+F 3 "" H 10500 5400 60  0001 C CNN
+	1    10500 5400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1437,7 +1437,7 @@ F 3 "" H 2050 3250 60  0001 C CNN
 	1    2050 3250
 	1    0    0    -1  
 $EndComp
-Text Notes 10500 4600 2    40   ~ 0
+Text Notes 10500 4800 2    40   ~ 0
 Normally closed sensor switch placed _ \nbetween the two keyboard halves  |\n|\n|\n|\n|\n|\nv
 $Comp
 L GNDPWR #PWR021
@@ -1498,7 +1498,7 @@ ROW5
 Text Notes 600  4750 0    40   ~ 0
 * Pi filter on VCC\n* Low-pass RC filter on TX
 Text Notes 8450 3800 0    40   ~ 0
-Keyboard parts unmerged:\n    * proximity connection is unconnected\n    * remote connection is connected\n      (GND enabled by SW1 and VCC, TX, RX enabled by the FET MUX)\nKeyboard parts merged:\n    * proximity connection is connected\n    * remote connection is explicitly disabled to avoid ground loop\n      (GND disabled by SW1 and VCC, TX, RX disabled by the FET MUX)
+Keyboard halves unmerged:\n    * proximity connection is physically disconnected\n    * remote connection is connected\n      (SWITCHED_GND enabled by SW1 and\n       VCC_TOP, TX_TOP, RX_TOP enabled by the FET MUX)\n\nKeyboard halves merged:\n    * proximity connection is physically connected\n      (VCC_BOTTOM, TX_BOTTOM, RX_BOTTOM also enabled by the FET MUX)\n    * remote connection is explicitly disconnected to avoid ground loop\n      (SWITCHED_GND disabled by SW1 and\n       VCC_TOP, TX_TOP, RX_TOP disabled by the FET MUX)
 Text Notes 600  2250 0    40   ~ 0
 Protection / filter circuitry designed based on the\n"Atmel AVR1017: XMEGA - USB Hardware Design Recommendations" application note\nthat can be accessed at http://www.atmel.com/Images/doc8388.pdf
 $Comp
@@ -1548,107 +1548,107 @@ $EndComp
 $Comp
 L SN74CBTLV3257 U3
 U 1 1 51ACD3B8
-P 9550 5800
-F 0 "U3" H 9350 5100 40  0000 C CNN
-F 1 "SN74CBTLV3257" H 9250 6550 30  0000 C CNN
-F 2 "" H 9550 5800 60  0000 C CNN
-F 3 "" H 9550 5800 60  0000 C CNN
-	1    9550 5800
+P 9550 6000
+F 0 "U3" H 9350 5300 40  0000 C CNN
+F 1 "SN74CBTLV3257" H 9250 6750 30  0000 C CNN
+F 2 "" H 9550 6000 60  0000 C CNN
+F 3 "" H 9550 6000 60  0000 C CNN
+	1    9550 6000
 	1    0    0    -1  
 $EndComp
-Text Label 9050 5650 2    40   ~ 0
-VCC
-Text Label 9050 5750 2    40   ~ 0
-TX
 Text Label 9050 5850 2    40   ~ 0
+VCC
+Text Label 9050 5950 2    40   ~ 0
+TX
+Text Label 9050 6050 2    40   ~ 0
 RX
 $Comp
 L GND #PWR023
 U 1 1 51ACDAEB
-P 9550 6650
-F 0 "#PWR023" H 9550 6650 30  0001 C CNN
-F 1 "GND" H 9550 6580 30  0001 C CNN
-F 2 "" H 9550 6650 60  0001 C CNN
-F 3 "" H 9550 6650 60  0001 C CNN
-	1    9550 6650
+P 9550 6850
+F 0 "#PWR023" H 9550 6850 30  0001 C CNN
+F 1 "GND" H 9550 6780 30  0001 C CNN
+F 2 "" H 9550 6850 60  0001 C CNN
+F 3 "" H 9550 6850 60  0001 C CNN
+	1    9550 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR024
 U 1 1 51ACDAF1
-P 9550 4950
-F 0 "#PWR024" H 9550 5050 30  0001 C CNN
-F 1 "VCC" H 9550 5050 30  0000 C CNN
-F 2 "" H 9550 4950 60  0001 C CNN
-F 3 "" H 9550 4950 60  0001 C CNN
-	1    9550 4950
+P 9550 5150
+F 0 "#PWR024" H 9550 5250 30  0001 C CNN
+F 1 "VCC" H 9550 5250 30  0000 C CNN
+F 2 "" H 9550 5150 60  0001 C CNN
+F 3 "" H 9550 5150 60  0001 C CNN
+	1    9550 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR025
 U 1 1 51ACE56C
-P 10600 5350
-F 0 "#PWR025" H 10600 5350 30  0001 C CNN
-F 1 "GND" H 10600 5280 30  0001 C CNN
-F 2 "" H 10600 5350 60  0001 C CNN
-F 3 "" H 10600 5350 60  0001 C CNN
-	1    10600 5350
+P 10600 5550
+F 0 "#PWR025" H 10600 5550 30  0001 C CNN
+F 1 "GND" H 10600 5480 30  0001 C CNN
+F 2 "" H 10600 5550 60  0001 C CNN
+F 3 "" H 10600 5550 60  0001 C CNN
+	1    10600 5550
 	1    0    0    -1  
 $EndComp
-Text Label 10050 5500 0    40   ~ 0
+Text Label 10050 5700 0    40   ~ 0
 VCC_TOP
-Text Label 10050 5600 0    40   ~ 0
+Text Label 10050 5800 0    40   ~ 0
 VCC_BOTTOM
-Text Label 10050 5750 0    40   ~ 0
+Text Label 10050 5950 0    40   ~ 0
 TX_TOP
-Text Label 10050 5850 0    40   ~ 0
+Text Label 10050 6050 0    40   ~ 0
 TX_BOTTOM
-Text Label 10050 6000 0    40   ~ 0
+Text Label 10050 6200 0    40   ~ 0
 RX_TOP
-Text Label 10050 6100 0    40   ~ 0
+Text Label 10050 6300 0    40   ~ 0
 RX_BOTTOM
 $Comp
 L R R4
 U 1 1 51ACEA08
-P 10100 5100
-F 0 "R4" H 10105 5200 40  0000 C CNN
-F 1 "10K" H 10100 5000 40  0000 C CNN
-F 2 "" H 10100 5100 60  0001 C CNN
-F 3 "" H 10100 5100 60  0001 C CNN
-	1    10100 5100
+P 10100 5300
+F 0 "R4" H 10105 5400 40  0000 C CNN
+F 1 "10K" H 10100 5200 40  0000 C CNN
+F 2 "" H 10100 5300 60  0001 C CNN
+F 3 "" H 10100 5300 60  0001 C CNN
+	1    10100 5300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L VCC #PWR026
 U 1 1 51ACF3E3
-P 10100 4950
-F 0 "#PWR026" H 10100 5050 30  0001 C CNN
-F 1 "VCC" H 10100 5050 30  0000 C CNN
-F 2 "" H 10100 4950 60  0001 C CNN
-F 3 "" H 10100 4950 60  0001 C CNN
-	1    10100 4950
+P 10100 5150
+F 0 "#PWR026" H 10100 5250 30  0001 C CNN
+F 1 "VCC" H 10100 5250 30  0000 C CNN
+F 2 "" H 10100 5150 60  0001 C CNN
+F 3 "" H 10100 5150 60  0001 C CNN
+	1    10100 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C7
 U 1 1 51ACF9D4
-P 9150 6600
-F 0 "C7" H 9150 6700 40  0000 C CNN
-F 1 "0.1uF" H 9150 6490 40  0000 C CNN
-F 2 "" H 9150 6600 60  0001 C CNN
-F 3 "" H 9150 6600 60  0001 C CNN
-	1    9150 6600
+P 9150 6800
+F 0 "C7" H 9150 6900 40  0000 C CNN
+F 1 "0.1uF" H 9150 6690 40  0000 C CNN
+F 2 "" H 9150 6800 60  0001 C CNN
+F 3 "" H 9150 6800 60  0001 C CNN
+	1    9150 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR027
 U 1 1 51ACFB17
-P 8950 6550
-F 0 "#PWR027" H 8950 6650 30  0001 C CNN
-F 1 "VCC" H 8950 6650 30  0000 C CNN
-F 2 "" H 8950 6550 60  0001 C CNN
-F 3 "" H 8950 6550 60  0001 C CNN
-	1    8950 6550
+P 8950 6750
+F 0 "#PWR027" H 8950 6850 30  0001 C CNN
+F 1 "VCC" H 8950 6850 30  0000 C CNN
+F 2 "" H 8950 6750 60  0001 C CNN
+F 3 "" H 8950 6750 60  0001 C CNN
+	1    8950 6750
 	1    0    0    -1  
 $EndComp
 Text Label 2600 3250 0    40   ~ 0
@@ -1657,7 +1657,7 @@ Text Label 2600 3700 0    40   ~ 0
 TX_TOP
 Text Label 2600 4150 0    40   ~ 0
 RX_TOP
-Text Label 10350 5200 1    40   ~ 0
+Text Label 10350 5400 1    40   ~ 0
 SWITCHED_GND
 Text Label 2600 4450 0    40   ~ 0
 SWITCHED_GND
@@ -1712,7 +1712,7 @@ MCU\n
 Text Notes 8450 700  0    60   ~ 12
 EEPROM\n
 Text Notes 8450 3450 0    40   ~ 0
-Routing power and signals between the two halves through\nthe remote vs proximity connection to avoid ground loop
+Routing power and signals between the two keyboard halves\nthrough the remote vs proximity connection to avoid ground loop
 Text Notes 600  700  0    60   ~ 12
 USB connector\n
 Text Notes 600  5200 0    60   ~ 12
@@ -1729,7 +1729,7 @@ Wire Wire Line
 	1600 1200 2950 1200
 Wire Wire Line
 	5350 900  5350 950 
-Connection ~ 10100 5200
+Connection ~ 10100 5400
 Wire Wire Line
 	1850 5650 2400 5650
 Wire Wire Line
@@ -1741,42 +1741,42 @@ Wire Wire Line
 Wire Wire Line
 	2150 3250 2600 3250
 Wire Wire Line
-	8950 6600 9050 6600
+	8950 6800 9050 6800
 Wire Wire Line
-	8950 6550 8950 6600
+	8950 6750 8950 6800
 Wire Wire Line
-	9550 6600 9250 6600
-Connection ~ 10600 5300
+	9550 6800 9250 6800
+Connection ~ 10600 5500
 Wire Wire Line
-	10600 5200 10600 5350
+	10600 5400 10600 5550
 Wire Wire Line
-	9950 5300 10600 5300
+	9950 5500 10600 5500
 Wire Wire Line
-	10100 4950 10100 5000
+	10100 5150 10100 5200
 Wire Wire Line
-	9950 5200 10400 5200
+	9950 5400 10400 5400
 Wire Wire Line
-	9950 6100 10050 6100
+	9950 6300 10050 6300
 Wire Wire Line
-	9950 6000 10050 6000
+	9950 6200 10050 6200
 Wire Wire Line
-	9950 5850 10050 5850
+	9950 6050 10050 6050
 Wire Wire Line
-	9950 5750 10050 5750
+	9950 5950 10050 5950
 Wire Wire Line
-	9950 5600 10050 5600
+	9950 5800 10050 5800
 Wire Wire Line
-	9950 5500 10050 5500
+	9950 5700 10050 5700
 Wire Wire Line
-	9550 6600 9550 6650
+	9550 6800 9550 6850
 Wire Wire Line
-	9550 4950 9550 5000
+	9550 5150 9550 5200
+Wire Wire Line
+	9150 6050 9050 6050
+Wire Wire Line
+	9150 5950 9050 5950
 Wire Wire Line
 	9150 5850 9050 5850
-Wire Wire Line
-	9150 5750 9050 5750
-Wire Wire Line
-	9150 5650 9050 5650
 Wire Wire Line
 	1850 3450 1850 3500
 Connection ~ 1850 3250
