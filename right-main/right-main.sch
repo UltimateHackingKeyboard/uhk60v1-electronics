@@ -1146,7 +1146,7 @@ Keyboard matrix\n
 Text Notes 600  2900 0    40   ~ 0
 Remotely connecting the two keyboard halves
 Text Notes 600  5300 0    40   ~ 0
-Closely connecting the two keyboard halves
+Proximity-connecting the two keyboard halves
 $Comp
 L USBCONN J1
 U 1 1 50D9B038
@@ -1712,7 +1712,7 @@ MCU\n
 Text Notes 8450 700  0    60   ~ 12
 EEPROM\n
 Text Notes 8450 3450 0    40   ~ 0
-Routing power and signals between the two\nhalves through the remote vs proximity connection
+Routing power and signals between the two halves through\nthe remote vs proximity connection to avoid ground loop
 Text Notes 600  700  0    60   ~ 12
 USB connector\n
 Text Notes 600  5200 0    60   ~ 12
