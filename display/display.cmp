@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Sat 07 Dec 2013 03:42:44 PM CET
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 08 Dec 2013 01:20:39 PM CET
 
 BeginCmp
 TimeStamp = /5137E846;
@@ -162,13 +162,6 @@ IdModule  = SM0603_Diode;
 EndCmp
 
 BeginCmp
-TimeStamp = /5137E94A;
-Reference = D41;
-ValeurCmp = LED;
-IdModule  = SM0603_Diode;
-EndCmp
-
-BeginCmp
 TimeStamp = /5137E950;
 Reference = D42;
 ValeurCmp = LED;
@@ -213,13 +206,6 @@ EndCmp
 BeginCmp
 TimeStamp = /5137E974;
 Reference = D48;
-ValeurCmp = LED;
-IdModule  = SM0603_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5137E9AC;
-Reference = D51;
 ValeurCmp = LED;
 IdModule  = SM0603_Diode;
 EndCmp
@@ -330,9 +316,9 @@ IdModule  = SM0603_Diode;
 EndCmp
 
 BeginCmp
-TimeStamp = /52618298;
+TimeStamp = /52A46D8F;
 Reference = P1;
-ValeurCmp = CONN_14;
+ValeurCmp = CONN_18;
 IdModule  = SFV18R-2STE1HLF;
 EndCmp
 

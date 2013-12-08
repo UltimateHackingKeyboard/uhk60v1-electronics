@@ -1,5 +1,40 @@
-update=Sun 17 Nov 2013 05:16:37 PM CET
-last_client=pcbnew
+update=Sun 08 Dec 2013 01:11:33 PM CET
+last_client=eeschema
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[pcbnew]
+version=1
+LastNetListRead=display.net
+UseCmpFile=1
+PadDrill="    0.000000"
+PadDrillOvalY="    0.000000"
+PadSizeH="    0.800000"
+PadSizeV="    0.800000"
+PcbTextSizeV="    2.032000"
+PcbTextSizeH="    1.524000"
+PcbTextThickness="    0.304800"
+ModuleTextSizeV="    1.524000"
+ModuleTextSizeH="    1.524000"
+ModuleTextSizeThickness="    0.304800"
+SolderMaskClearance="    0.254000"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.381000"
+BoardOutlineThickness="    0.381000"
+ModuleOutlineThickness="    0.381000"
+[pcbnew/libraries]
+LibDir=
+LibName1=ugl
+LibName2=sockets
+LibName3=connect
+LibName4=discret
+LibName5=pin_array
+LibName6=divers
+LibName7=smd_capacitors
+LibName8=smd_resistors
+LibName9=smd_crystal&oscillator
 [eeschema]
 version=1
 LibDir=../libs
@@ -40,38 +75,4 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[pcbnew]
-version=1
-LastNetListRead=display.net
-UseCmpFile=1
-PadDrill="    0.000000"
-PadDrillOvalY="    0.000000"
-PadSizeH="    0.800000"
-PadSizeV="    0.800000"
-PcbTextSizeV="    2.032000"
-PcbTextSizeH="    1.524000"
-PcbTextThickness="    0.304800"
-ModuleTextSizeV="    1.524000"
-ModuleTextSizeH="    1.524000"
-ModuleTextSizeThickness="    0.304800"
-SolderMaskClearance="    0.254000"
-SolderMaskMinWidth="    0.000000"
-DrawSegmentWidth="    0.381000"
-BoardOutlineThickness="    0.381000"
-ModuleOutlineThickness="    0.381000"
-[pcbnew/libraries]
-LibDir=
-LibName1=ugl
-LibName2=sockets
-LibName3=connect
-LibName4=discret
-LibName5=pin_array
-LibName6=divers
-LibName7=smd_capacitors
-LibName8=smd_resistors
-LibName9=smd_crystal&oscillator
+LibName32=opendous
