@@ -23,7 +23,7 @@
     (15 Front signal)
     (0 Back signal)
     (20 B.SilkS user hide)
-    (21 F.SilkS user hide)
+    (21 F.SilkS user)
     (22 B.Mask user)
     (23 F.Mask user)
     (25 Cmts.User user)
@@ -62,7 +62,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0.254)
     (aux_axis_origin 0 0)
-    (visible_elements FFFDFF7F)
+    (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 284196865)
       (usegerberextensions true)
@@ -133,10 +133,10 @@
     (add_net GND)
   )
 
-  (module SFV18R-2STE1HLF (layer Front) (tedit 52A78395) (tstamp 52A4BACA)
+  (module SFV18R-2STE1HLF (layer Front) (tedit 52A78EF1) (tstamp 52A4BACA)
     (at 125.914496 101.167706 189.8)
     (path /52A46D8F)
-    (fp_text reference P1 (at 3.343077 -2.525117 189.8) (layer F.SilkS)
+    (fp_text reference P1 (at 6.614678 -5.276204 189.8) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_18 (at 0 1.2 189.8) (layer F.SilkS) hide
