@@ -1737,7 +1737,7 @@
   (gr_text "Part name   : Ultimate Hacking Keyboard LED display\nPart number : uhkusb1_display1\n\nUltimateHackingKeyboard.com\nby UltimateGadgetLabs.com\n" (at 180.32 101.59) (layer B.SilkS) (tstamp 528901BF)
     (effects (font (size 1.016 0.762) (thickness 0.1524)) (justify left mirror))
   )
-  (gr_text "* design is 8mil-8mil-13mil trace-clearance-minimum_drill\n* 1.55mm board thickness\n* black soldermask\n* white silkscreen\n" (at 114 73) (layer Cmts.User) (tstamp 52A44DCC)
+  (gr_text "* design is 8mil-8mil-13mil trace-clearance-minimum_drill\n* 1.55mm board thickness\n* black soldermask\n* white silkscreen\n" (at 110 70) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_line (start 120.740606 102.058423) (end 131.088392 100.27699) (angle 90) (layer Edge.Cuts) (width 0.01))
