@@ -33,7 +33,7 @@
   )
 
   (setup
-    (last_trace_width 0.4064)
+    (last_trace_width 0.2032)
     (user_trace_width 0.2032)
     (user_trace_width 0.3048)
     (user_trace_width 0.4064)
@@ -1597,7 +1597,7 @@
   (gr_text "Part name   : Ultimate Hacking Keyboard LED display\nPart number : uhkusb1_display1\n\nUltimateHackingKeyboard.com\nby UltimateGadgetLabs.com\n" (at 180.32 101.59) (layer B.SilkS) (tstamp 528901BF)
     (effects (font (size 1.016 0.762) (thickness 0.1524)) (justify left mirror))
   )
-  (gr_text "* 1.55mm board thickness\n* black soldermask\n* white silkscreen\n" (at 114 73) (layer Cmts.User) (tstamp 52A44DCC)
+  (gr_text "* design is 8mil-8mil-13mil trace-clearance-minimum_drill\n* 1.55mm board thickness\n* black soldermask\n* white silkscreen\n" (at 114 73) (layer Cmts.User) (tstamp 52A44DCC)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_line (start 120.740606 102.058423) (end 131.088392 100.27699) (angle 90) (layer Edge.Cuts) (width 0.01))
@@ -1820,7 +1820,7 @@
   (segment (start 171.68114 104.07142) (end 171.84116 104.07142) (width 0.4064) (layer Front) (net 6) (tstamp 503B2A12))
   (segment (start 171.92498 104.15524) (end 171.84116 104.07142) (width 0.4064) (layer Front) (net 6) (tstamp 5022CCD8))
   (segment (start 173.9392 104.15524) (end 171.92498 104.15524) (width 0.4064) (layer Front) (net 6))
-  (segment (start 155.934439 104.16576) (end 155.37216 104.16576) (width 0.4064) (layer Front) (net 7) (status 400000))
+  (segment (start 155.934439 104.16576) (end 155.37216 104.16576) (width 0.4064) (layer Front) (net 7))
   (segment (start 155.37216 104.16576) (end 154.94 103.7336) (width 0.4064) (layer Front) (net 7) (tstamp 52A794C8))
   (segment (start 154.5336 105.0544) (end 154.5336 104.14) (width 0.4064) (layer Back) (net 7))
   (via (at 154.94 103.7336) (size 0.508) (drill 0.3302) (layers Front Back) (net 7))
