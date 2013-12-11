@@ -4557,7 +4557,7 @@
   (segment (start 141.68 61.9328) (end 141.68 65.184) (width 0.8128) (layer F.Cu) (net 81) (tstamp 529F9366))
   (segment (start 145.3376 58.2752) (end 141.68 61.9328) (width 0.8128) (layer F.Cu) (net 81))
   (segment (start 156.1592 65.4304) (end 156.1592 66.7156) (width 0.8128) (layer B.Cu) (net 81) (tstamp 52A88B04))
-  (via (at 156.1592 65.4304) (size 0.889) (layers F.Cu B.Cu) (net 81))
+  (via (at 156.1592 65.4304) (size 0.889) (drill 0.635) (layers F.Cu B.Cu) (net 81) (status 1000000))
   (segment (start 155.3032 64.5744) (end 156.1592 65.4304) (width 0.8128) (layer F.Cu) (net 81) (tstamp 52A88AFB))
   (segment (start 181.7104 55.024) (end 193.9024 55.024) (width 0.8128) (layer B.Cu) (net 81))
   (segment (start 180.9636 54.2772) (end 181.7104 55.024) (width 0.8128) (layer B.Cu) (net 81) (tstamp 529F9CAB))
