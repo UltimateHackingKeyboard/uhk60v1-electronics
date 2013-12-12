@@ -261,7 +261,7 @@
     )
   )
 
-  (gr_text r1 (at 155 99.1) (layer Back)
+  (gr_text r1 (at 155.5496 99.1616) (layer Back)
     (effects (font (size 2.032 1.524) (thickness 0.3048)) (justify mirror))
   )
   (gr_text "* design is 16mil-8mil-25mil trace-clearance-minimum_drill\n* 1mm board thickness\n* black soldermask\n* ENIG finish on top\n* no silkscreen\n" (at 138.02 82.81) (layer Cmts.User)
