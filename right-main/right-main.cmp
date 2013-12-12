@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 03 Dec 2013 05:56:39 PM CET
+Cmp-Mod V01 Created by PcbNew date = Thu 12 Dec 2013 04:45:46 PM CET
 
 BeginCmp
 TimeStamp = /50DA313C;
@@ -501,7 +501,7 @@ BeginCmp
 TimeStamp = /512D3EA5;
 Reference = SW1;
 ValeurCmp = SPST;
-IdModule  = MCFTE-3C-V;
+IdModule  = MCFTE-3C-V_UHK;
 EndCmp
 
 BeginCmp
