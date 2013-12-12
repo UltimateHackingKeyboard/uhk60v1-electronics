@@ -3,9 +3,9 @@
   (general
     (links 5)
     (no_connects 0)
-    (area 135.3612 81.31 165.027143 103.8208)
+    (area 135.3612 81.31 210.669997 103.8208)
     (thickness 1.6002)
-    (drawings 15)
+    (drawings 16)
     (tracks 20)
     (zones 0)
     (modules 10)
@@ -15,7 +15,7 @@
   (page A4)
   (title_block
     (title "Ultimate Hacking Keyboard - Vertical Connector Board")
-    (rev 3)
+    (rev 1)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
@@ -261,6 +261,9 @@
     )
   )
 
+  (gr_text r1 (at 155 99.1) (layer Back)
+    (effects (font (size 2.032 1.524) (thickness 0.3048)) (justify mirror))
+  )
   (gr_text "* design is 16mil-8mil-25mil trace-clearance-minimum_drill\n* 1mm board thickness\n* black soldermask\n* ENIG finish on top\n* no silkscreen\n" (at 138.02 82.81) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
