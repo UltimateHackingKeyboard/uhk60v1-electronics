@@ -33,12 +33,12 @@
   )
 
   (setup
-    (last_trace_width 0.4064)
-    (user_trace_width 0.4064)
-    (trace_clearance 0.4064)
+    (last_trace_width 0.889)
+    (user_trace_width 0.889)
+    (trace_clearance 0.635)
     (zone_clearance 0.508)
     (zone_45_only no)
-    (trace_min 0.4064)
+    (trace_min 0.889)
     (segment_width 0.381)
     (edge_width 0.01016)
     (via_size 0.889)
@@ -97,8 +97,8 @@
   (net 5 N-000005)
 
   (net_class Default "This is the default net class."
-    (clearance 0.4064)
-    (trace_width 0.4064)
+    (clearance 0.635)
+    (trace_width 0.889)
     (via_dia 0.889)
     (via_drill 0.635)
     (uvia_dia 0.508)
@@ -127,7 +127,7 @@
   )
 
   (module vertical_pcb_pad (layer Front) (tedit 529BBFA3) (tstamp 529BBD6B)
-    (at 151 99.2)
+    (at 151 98.7)
     (path /529BBCD2)
     (fp_text reference P15 (at 0 -3.3) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -186,7 +186,7 @@
     )
   )
 
-  (module vertical_pcb_pad (layer Back) (tedit 529BBFA3) (tstamp 529BBAB8)
+  (module vertical_pcb_pad (layer Back) (tedit 529BBFA3) (tstamp 52AA23D8)
     (at 141.59 99.2)
     (path /529BB9BF)
     (fp_text reference P21 (at 0 3.3) (layer B.SilkS) hide
@@ -202,7 +202,7 @@
   )
 
   (module vertical_pcb_pad (layer Front) (tedit 529BBFA3) (tstamp 529BBAE1)
-    (at 148.5 99.2)
+    (at 148.5 98.7)
     (path /529BB9F2)
     (fp_text reference P14 (at 0 -3.3) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -217,7 +217,7 @@
   )
 
   (module vertical_pcb_pad (layer Front) (tedit 529BBFA3) (tstamp 529BBAE7)
-    (at 146 99.2)
+    (at 146 98.7)
     (path /529BB9EC)
     (fp_text reference P13 (at 0 -3.3) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -231,23 +231,8 @@
     )
   )
 
-  (module vertical_pcb_pad (layer Front) (tedit 529BBFA3) (tstamp 529BBAED)
-    (at 143.5 99.2)
-    (path /529BB9E6)
-    (fp_text reference P12 (at 0 -3.3) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad 1 smd rect (at 0 0) (size 1.4 1.8)
-      (layers Front F.Mask)
-      (net 2 N-000002)
-    )
-  )
-
   (module vertical_pcb_pad (layer Front) (tedit 529BBFA3) (tstamp 529BBAF3)
-    (at 141 99.2)
+    (at 141 98.7)
     (path /529BB9E0)
     (fp_text reference P11 (at 0 -3.3) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -258,6 +243,21 @@
     (pad 1 smd rect (at 0 0) (size 1.4 1.8)
       (layers Front F.Mask)
       (net 1 N-000001)
+    )
+  )
+
+  (module vertical_pcb_pad (layer Front) (tedit 529BBFA3) (tstamp 529BBAED)
+    (at 143.5 98.7)
+    (path /529BB9E6)
+    (fp_text reference P12 (at 0 -3.3) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (pad 1 smd rect (at 0 0) (size 1.4 1.8)
+      (layers Front F.Mask)
+      (net 2 N-000002)
     )
   )
 
@@ -282,25 +282,25 @@
   (gr_line (start 138.4 102.4) (end 140.4 102.4) (angle 90) (layer Edge.Cuts) (width 0.01))
   (gr_line (start 140.4 102.4) (end 140.4 100.8) (angle 90) (layer Edge.Cuts) (width 0.01))
 
-  (segment (start 141 99.2) (end 141 98.3) (width 0.4064) (layer Front) (net 1))
-  (segment (start 141.59 98.89) (end 141.59 99.2) (width 0.4064) (layer Back) (net 1) (tstamp 529BC25C))
-  (segment (start 141 98.3) (end 141.59 98.89) (width 0.4064) (layer Back) (net 1) (tstamp 529BC25B))
-  (via (at 141 98.3) (size 0.889) (drill 0.635) (layers Front Back) (net 1))
-  (segment (start 143.5 99.2) (end 143.5 98.3) (width 0.4064) (layer Front) (net 2))
-  (segment (start 144.13 98.93) (end 144.13 99.2) (width 0.4064) (layer Back) (net 2) (tstamp 529BC24A))
-  (segment (start 143.5 98.3) (end 144.13 98.93) (width 0.4064) (layer Back) (net 2) (tstamp 529BC249))
-  (via (at 143.5 98.3) (size 0.889) (drill 0.635) (layers Front Back) (net 2))
-  (segment (start 146 99.2) (end 146 98.3) (width 0.4064) (layer Front) (net 3))
-  (segment (start 146.67 98.97) (end 146.67 99.2) (width 0.4064) (layer Back) (net 3) (tstamp 529BC280))
-  (segment (start 146 98.3) (end 146.67 98.97) (width 0.4064) (layer Back) (net 3) (tstamp 529BC27F))
-  (via (at 146 98.3) (size 0.889) (drill 0.635) (layers Front Back) (net 3))
-  (segment (start 148.5 99.2) (end 148.5 98.3) (width 0.4064) (layer Front) (net 4))
-  (segment (start 149.21 99.01) (end 149.21 99.2) (width 0.4064) (layer Back) (net 4) (tstamp 529BC290))
-  (segment (start 148.5 98.3) (end 149.21 99.01) (width 0.4064) (layer Back) (net 4) (tstamp 529BC28F))
-  (via (at 148.5 98.3) (size 0.889) (drill 0.635) (layers Front Back) (net 4))
-  (segment (start 151 99.2) (end 151 98.3) (width 0.4064) (layer Front) (net 5))
-  (segment (start 151.75 99.05) (end 151.75 99.2) (width 0.4064) (layer Back) (net 5) (tstamp 529BC297))
-  (segment (start 151 98.3) (end 151.75 99.05) (width 0.4064) (layer Back) (net 5) (tstamp 529BC296))
-  (via (at 151 98.3) (size 0.889) (drill 0.635) (layers Front Back) (net 5))
+  (segment (start 141 98.7) (end 141 99.6) (width 0.889) (layer Front) (net 1))
+  (segment (start 141.19 99.6) (end 141.59 99.2) (width 0.889) (layer Back) (net 1) (tstamp 52AA28AB))
+  (segment (start 141 99.6) (end 141.19 99.6) (width 0.889) (layer Back) (net 1) (tstamp 52AA28AA))
+  (via (at 141 99.6) (size 0.889) (drill 0.635) (layers Front Back) (net 1))
+  (segment (start 143.5 98.7) (end 143.5 99.6) (width 0.889) (layer Front) (net 2))
+  (segment (start 143.73 99.6) (end 144.13 99.2) (width 0.889) (layer Back) (net 2) (tstamp 52AA28B6))
+  (segment (start 143.5 99.6) (end 143.73 99.6) (width 0.889) (layer Back) (net 2) (tstamp 52AA28B5))
+  (via (at 143.5 99.6) (size 0.889) (drill 0.635) (layers Front Back) (net 2))
+  (segment (start 146 98.7) (end 146 99.6) (width 0.889) (layer Front) (net 3))
+  (segment (start 146.27 99.6) (end 146.67 99.2) (width 0.889) (layer Back) (net 3) (tstamp 52AA28BD))
+  (segment (start 146 99.6) (end 146.27 99.6) (width 0.889) (layer Back) (net 3) (tstamp 52AA28BC))
+  (via (at 146 99.6) (size 0.889) (drill 0.635) (layers Front Back) (net 3))
+  (segment (start 148.5 98.7) (end 148.5 99.6) (width 0.889) (layer Front) (net 4))
+  (segment (start 148.81 99.6) (end 149.21 99.2) (width 0.889) (layer Back) (net 4) (tstamp 52AA28C6))
+  (segment (start 148.5 99.6) (end 148.81 99.6) (width 0.889) (layer Back) (net 4) (tstamp 52AA28C5))
+  (via (at 148.5 99.6) (size 0.889) (drill 0.635) (layers Front Back) (net 4))
+  (segment (start 151 98.7) (end 151 99.6) (width 0.889) (layer Front) (net 5))
+  (segment (start 151.35 99.6) (end 151.75 99.2) (width 0.889) (layer Back) (net 5) (tstamp 52AA28CD))
+  (segment (start 151 99.6) (end 151.35 99.6) (width 0.889) (layer Back) (net 5) (tstamp 52AA28CC))
+  (via (at 151 99.6) (size 0.889) (drill 0.635) (layers Front Back) (net 5))
 
 )
