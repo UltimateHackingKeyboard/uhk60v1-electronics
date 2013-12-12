@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Sun 08 Dec 2013 10:38:01 AM CET
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 13 Dec 2013 12:34:04 AM CET
 
 BeginCmp
 TimeStamp = /513150A5;
@@ -123,217 +123,217 @@ BeginCmp
 TimeStamp = /50103655;
 Reference = D11;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B49B;
 Reference = D12;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B526;
 Reference = D13;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B539;
 Reference = D14;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B53F;
 Reference = D15;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B545;
 Reference = D16;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B54B;
 Reference = D17;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B80B;
 Reference = D21;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B812;
 Reference = D22;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B81A;
 Reference = D23;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B820;
 Reference = D24;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B826;
 Reference = D25;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B82C;
 Reference = D26;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B84B;
 Reference = D31;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B852;
 Reference = D32;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B85A;
 Reference = D33;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B860;
 Reference = D34;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B866;
 Reference = D35;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B86C;
 Reference = D36;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B88B;
 Reference = D41;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B892;
 Reference = D42;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B89A;
 Reference = D43;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B8A0;
 Reference = D44;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B8A6;
 Reference = D45;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B8AC;
 Reference = D46;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B8CB;
 Reference = D51;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B8D2;
 Reference = D52;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B8DA;
 Reference = D53;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B8E0;
 Reference = D54;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B8E6;
 Reference = D55;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /5011B8EC;
 Reference = D56;
 ValeurCmp = DIODE;
-IdModule  = SOD-123;
+IdModule  = SOD-123_Diode;
 EndCmp
 
 BeginCmp
@@ -365,9 +365,9 @@ IdModule  = pin_array_3x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /52619B99;
+TimeStamp = /52A33478;
 Reference = P4;
-ValeurCmp = CONN_14;
+ValeurCmp = CONN_18;
 IdModule  = SFV18R-2STE1HLF;
 EndCmp
 
