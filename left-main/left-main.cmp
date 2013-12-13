@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Fri 13 Dec 2013 10:53:23 AM CET
+Cmp-Mod V01 Created by PcbNew date = Fri 13 Dec 2013 12:42:30 PM CET
 
 BeginCmp
 TimeStamp = /513150A5;
@@ -60,7 +60,7 @@ BeginCmp
 TimeStamp = /51D56BFD;
 Reference = C9;
 ValeurCmp = 100uF;
-IdModule  = SM1206;
+IdModule  = SM1206_Tantalum;
 EndCmp
 
 BeginCmp
