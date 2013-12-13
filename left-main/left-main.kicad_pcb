@@ -23,7 +23,7 @@
     (15 F.Cu signal)
     (0 B.Cu signal)
     (20 B.SilkS user)
-    (21 F.SilkS user hide)
+    (21 F.SilkS user)
     (22 B.Mask user)
     (23 F.Mask user)
     (25 Cmts.User user)
