@@ -88,7 +88,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory /home/laci/download/))
+      (outputdirectory "../gerbers"))
   )
 
   (net 0 "")

@@ -1,6 +1,5 @@
 Fix MCU footprints to not to contain excess drawing lines on the silkscreen.
 Precisely position reference designators and avoid them getting clipped by silkscreen clipping.
-Check and fix per project directories for generated gerbers and drill files.
 Check unassociated modules in pcbnew with the read netlist command.
 Upgrade library to new format if fully supported.
 Use staggered headers for ISP headers and for the vertical PCB.
