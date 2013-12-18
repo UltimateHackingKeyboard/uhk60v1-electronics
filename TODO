@@ -3,3 +3,4 @@ Precisely position reference designators and avoid them getting clipped by silks
 Check unassociated modules in pcbnew with the read netlist command.
 Upgrade library to new format if fully supported.
 Use staggered headers for ISP headers and for the vertical PCB.
+Try to keep tracks far away from large drill holes.
