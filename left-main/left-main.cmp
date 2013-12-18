@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Fri 13 Dec 2013 12:42:30 PM CET
+Cmp-Mod V01 Created by PcbNew date = Wed 18 Dec 2013 06:30:28 PM CET
 
 BeginCmp
 TimeStamp = /513150A5;
@@ -746,14 +746,14 @@ BeginCmp
 TimeStamp = /51BA4E0E;
 Reference = U2;
 ValeurCmp = PCA9634;
-IdModule  = PCA9634;
+IdModule  = PCA9634_TSSOP;
 EndCmp
 
 BeginCmp
 TimeStamp = /51BA6D4E;
 Reference = U3;
 ValeurCmp = TPIC6C595;
-IdModule  = TPIC6C595;
+IdModule  = TPIC6C595_TSSOP;
 EndCmp
 
 BeginCmp
