@@ -1,3 +1,2 @@
-Fix MCU footprints to not to contain excess drawing lines on the silkscreen.
 Precisely position reference designators and avoid them getting clipped by silkscreen clipping.
 Try to keep tracks far away from large drill holes.

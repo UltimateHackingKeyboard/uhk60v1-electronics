@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Thu 19 Dec 2013 08:07:05 PM CET
+Cmp-Mod V01 Created by PcbNew date = Thu 19 Dec 2013 08:35:37 PM CET
 
 BeginCmp
 TimeStamp = /50DA313C;
@@ -746,7 +746,7 @@ BeginCmp
 TimeStamp = /50A1AF3F;
 Reference = U1;
 ValeurCmp = ATMEGA32U2;
-IdModule  = TQFP32;
+IdModule  = ATMEGA_TQFP32;
 EndCmp
 
 BeginCmp
