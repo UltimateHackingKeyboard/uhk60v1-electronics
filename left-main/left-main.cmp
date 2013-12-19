@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Wed 18 Dec 2013 06:30:28 PM CET
+Cmp-Mod V01 Created by PcbNew date = Thu 19 Dec 2013 07:36:33 PM CET
 
 BeginCmp
 TimeStamp = /513150A5;
@@ -361,7 +361,7 @@ BeginCmp
 TimeStamp = /5130F33C;
 Reference = P3;
 ValeurCmp = CONN_6;
-IdModule  = isp6pin;
+IdModule  = isp6pin_staggered;
 EndCmp
 
 BeginCmp
