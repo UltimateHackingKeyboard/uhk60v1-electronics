@@ -15,7 +15,7 @@
   (page A4)
   (title_block
     (title "Ultimate Hacking Keyboard - Left Main Board")
-    (rev 3)
+    (rev 4)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
@@ -4692,7 +4692,7 @@
     )
   )
 
-  (gr_text "Part name: Ultimate Hacking Keyboard left main board | Part number: uhkusb1_leftmain3 | UltimateHackingKeyboard.com by UltimateGadgetLabs.com\n" (at 127.3048 150.1648) (layer B.SilkS) (tstamp 52AB0CDC)
+  (gr_text "Part name: Ultimate Hacking Keyboard left main board | Part number: uhkusb1_leftmain4 | UltimateHackingKeyboard.com by UltimateGadgetLabs.com\n" (at 127.3048 150.1648) (layer B.SilkS) (tstamp 52AB0CDC)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify right mirror))
   )
   (gr_text GNDPWR1 (at 218.15 39.425 100) (layer B.SilkS)
