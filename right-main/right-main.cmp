@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Thu 19 Dec 2013 07:42:25 PM CET
+Cmp-Mod V01 Created by PcbNew date = Thu 19 Dec 2013 08:07:05 PM CET
 
 BeginCmp
 TimeStamp = /50DA313C;
@@ -403,7 +403,7 @@ BeginCmp
 TimeStamp = /512EB389;
 Reference = P2;
 ValeurCmp = CONN_5;
-IdModule  = vertical_pcb;
+IdModule  = vertical_pcb_staggered;
 EndCmp
 
 BeginCmp
