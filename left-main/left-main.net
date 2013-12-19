@@ -341,7 +341,6 @@
       (tstamp 512ECCF1))
     (comp (ref U1)
       (value ATMEGA48-A)
-      (footprint TQFP32)
       (libsource (lib atmel) (part ATMEGA48-A))
       (sheetpath (names /) (tstamps /))
       (tstamp 5130EF01))
@@ -705,7 +704,6 @@
       (fields
         (field (name Reference) IC)
         (field (name Value) ATMEGA168-A)
-        (field (name Footprint) TQFP32))
       (pins
         (pin (num 1) (name "(PCINT19/OC2B/INT1)PD3") (type BiDi))
         (pin (num 2) (name "(PCINT20/XCK/T0)PD4") (type BiDi))

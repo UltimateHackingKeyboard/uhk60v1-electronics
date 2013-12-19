@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/right-main/right-main.sch)
-    (date "Wed 11 Dec 2013 08:37:42 PM CET")
+    (date "Thu 19 Dec 2013 01:20:41 AM CET")
     (tool "eeschema (2013-mar-13)-testing"))
   (components
     (comp (ref SW11)
@@ -401,7 +401,6 @@
       (tstamp 50CD1B69))
     (comp (ref U1)
       (value ATMEGA32U2)
-      (footprint TQFP32-QFN32)
       (libsource (lib opendous) (part AT90USB16))
       (sheetpath (names /) (tstamps /))
       (tstamp 50A1AF3F))
@@ -663,7 +662,6 @@
       (fields
         (field (name Reference) IC)
         (field (name Value) at90usb16)
-        (field (name Footprint) TQFP32-QFN32))
       (pins
         (pin (num 1) (name XTAL1) (type BiDi))
         (pin (num 2) (name "XTAL2(PC0)") (type BiDi))
