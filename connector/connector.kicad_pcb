@@ -3,9 +3,9 @@
   (general
     (links 5)
     (no_connects 0)
-    (area 135.3612 81.31 210.669997 103.8208)
+    (area 135.1326 81.31 210.669997 104.0494)
     (thickness 1.6002)
-    (drawings 16)
+    (drawings 17)
     (tracks 20)
     (zones 0)
     (modules 10)
@@ -62,7 +62,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 3178497)
+      (layerselection 4194304)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.150000)
@@ -84,9 +84,9 @@
       (subtractmaskfromsilk true)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../gerbers"))
+      (outputdirectory ../gerbers))
   )
 
   (net 0 "")
@@ -261,6 +261,9 @@
     )
   )
 
+  (gr_text r1 (at 155.5496 99.1616) (layer B.Mask)
+    (effects (font (size 2.032 1.524) (thickness 0.3048)) (justify mirror))
+  )
   (gr_text r1 (at 155.5496 99.1616) (layer Back)
     (effects (font (size 2.032 1.524) (thickness 0.3048)) (justify mirror))
   )
