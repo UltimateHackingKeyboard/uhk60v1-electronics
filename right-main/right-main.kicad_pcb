@@ -4670,10 +4670,10 @@
     )
   )
 
-  (module vertical_pcb_staggered (layer F.Cu) (tedit 52B34376) (tstamp 518A95F5)
+  (module vertical_pcb_staggered (layer F.Cu) (tedit 52B982DA) (tstamp 518A95F5)
     (at 117.2 140.97)
     (path /512EB389)
-    (fp_text reference P2 (at -3.1 0 90) (layer F.SilkS)
+    (fp_text reference P2 (at 1.5 8.23 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_5 (at 2.3 0 90) (layer F.SilkS) hide
