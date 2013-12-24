@@ -2869,14 +2869,14 @@
     )
   )
 
-  (module SM0805 (layer B.Cu) (tedit 52AAE591) (tstamp 52685713)
+  (module SM0805 (layer B.Cu) (tedit 52B97BFC) (tstamp 52685713)
     (at 204.8256 40.132 270)
     (path /51348F74)
     (attr smd)
     (fp_text reference L1 (at 0 1.4 270) (layer B.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)) (justify mirror))
     )
-    (fp_text value INDUCTOR (at 0 -1.45 270) (layer B.SilkS)
+    (fp_text value INDUCTOR (at 0 -1.45 270) (layer B.SilkS) hide
       (effects (font (size 0.508 0.4572) (thickness 0.1143)) (justify mirror))
     )
     (fp_line (start -1.45 0.8) (end 1.45 0.8) (layer B.SilkS) (width 0.127))
