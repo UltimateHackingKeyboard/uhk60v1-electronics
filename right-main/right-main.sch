@@ -31,7 +31,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:device
 LIBS:opendous
-LIBS:right-main-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1698,9 +1697,9 @@ ROW4
 Text Label 7050 2050 0    40   ~ 0
 ROW5
 Text Label 5250 2850 2    40   ~ 0
-ROW3
-Text Label 5250 2750 2    40   ~ 0
 ROW2
+Text Label 5250 2750 2    40   ~ 0
+ROW3
 Text Label 5250 2650 2    40   ~ 0
 ROW1
 Text Label 5250 3350 2    40   ~ 0
