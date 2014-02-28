@@ -31,7 +31,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:opendous
-LIBS:display-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -956,7 +955,7 @@ Text Label 3150 3050 0    40   ~ 0
 ROW4
 Text Label 3150 3150 0    40   ~ 0
 ROW5
-Text Label 3150 3250 0    40   ~ 0
+Text Label 3150 3450 0    40   ~ 0
 COL8
 Text Label 3150 3550 0    40   ~ 0
 COL1
@@ -1009,8 +1008,6 @@ Wire Wire Line
 Wire Wire Line
 	3350 3150 3150 3150
 Wire Wire Line
-	3350 3250 3150 3250
-Wire Wire Line
 	3350 3550 3150 3550
 Wire Wire Line
 	3350 3650 3150 3650
@@ -1030,11 +1027,13 @@ Wire Wire Line
 	3350 4250 3100 4250
 Connection ~ 3100 4250
 Wire Wire Line
-	3350 3450 3100 3450
-Connection ~ 3100 3450
-Wire Wire Line
 	3350 3350 3100 3350
 Connection ~ 3100 3350
 Wire Wire Line
 	3100 2550 3100 4350
+Wire Wire Line
+	3350 3450 3150 3450
+Wire Wire Line
+	3350 3250 3100 3250
+Connection ~ 3100 3250
 $EndSCHEMATC
