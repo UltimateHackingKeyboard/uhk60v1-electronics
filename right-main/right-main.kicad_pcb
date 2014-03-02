@@ -4958,7 +4958,7 @@
   (gr_text "* design is 8mil-8mil-25mil trace-clearance-minimum_drill\n* 1.55mm board thickness\n* black soldermask\n* white silkscreen\n" (at 20 26) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
-  (gr_text "The Eco1.User layer contains soft keepout areas\nfor the bottom layer where component height is\nlimited by the number of millimetres featured in\nthe the invividual areas." (at 20 38.5) (layer Eco1.User) (tstamp 52A9D747)
+  (gr_text "The Eco1.User layer contains soft keepout areas for the\nbottom layer where component height is limited to the\nnumber of millimetres featured in the the invividual areas.\nBy default height is limited to 2.4 mm." (at 20 38.5) (layer Eco1.User) (tstamp 52A9D747)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_text 0.4 (at 144.73 70.42 90) (layer Eco1.User) (tstamp 52952390)
