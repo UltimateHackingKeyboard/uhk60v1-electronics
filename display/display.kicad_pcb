@@ -3,7 +3,7 @@
   (general
     (links 105)
     (no_connects 17)
-    (area 92.844401 61.5 190.000001 115.000001)
+    (area 92.599401 61.91222 190.000001 115.000001)
     (thickness 1.6002)
     (drawings 37)
     (tracks 432)
@@ -412,7 +412,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879ABC)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879ABC)
     (at 160.84296 99.33178 90)
     (path /5137E846)
     (attr smd)
@@ -442,7 +442,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879AC5)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879AC5)
     (at 162.84194 99.33178 90)
     (path /5137E84C)
     (attr smd)
@@ -472,7 +472,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879ACE)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879ACE)
     (at 166.34206 96.5835 180)
     (path /5137E852)
     (attr smd)
@@ -502,7 +502,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879AD7)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879AD7)
     (at 169.84218 99.33178 90)
     (path /5137E858)
     (attr smd)
@@ -532,7 +532,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879AE0)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879AE0)
     (at 171.84116 99.33178 90)
     (path /5137E85E)
     (attr smd)
@@ -562,7 +562,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879AE9)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879AE9)
     (at 175.34128 96.5835 180)
     (path /5137E864)
     (attr smd)
@@ -592,7 +592,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879AF2)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879AF2)
     (at 178.8414 99.33178 90)
     (path /5137E86A)
     (attr smd)
@@ -622,7 +622,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879AFB)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879AFB)
     (at 148.09216 105.83164)
     (path /5137E563)
     (attr smd)
@@ -652,7 +652,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 5288F951)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5288F951)
     (at 159.0929 99.33178 90)
     (path /5137E899)
     (attr smd)
@@ -682,7 +682,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879B0D)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B0D)
     (at 164.592 99.33178 90)
     (path /5137E89F)
     (attr smd)
@@ -712,7 +712,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879B16)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B16)
     (at 166.34206 99.33178 270)
     (path /5137E8A5)
     (attr smd)
@@ -742,7 +742,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879B1F)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B1F)
     (at 168.09212 99.33178 90)
     (path /5137E8AB)
     (attr smd)
@@ -772,7 +772,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879B28)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B28)
     (at 173.59122 99.33178 90)
     (path /5137E8B1)
     (attr smd)
@@ -802,7 +802,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879B31)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B31)
     (at 175.34128 99.33178 270)
     (path /5137E8B7)
     (attr smd)
@@ -832,7 +832,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 5288F186)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5288F186)
     (at 177.09134 99.33178 90)
     (path /5137E8BD)
     (attr smd)
@@ -862,7 +862,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879B43)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B43)
     (at 142.34272 105.83164)
     (path /5137E8EB)
     (attr smd)
@@ -892,7 +892,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879B4C)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B4C)
     (at 159.0929 102.0826 180)
     (path /5137E8F1)
     (attr smd)
@@ -922,7 +922,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879B55)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B55)
     (at 164.592 102.0826 180)
     (path /5137E8F7)
     (attr smd)
@@ -952,7 +952,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879B5E)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B5E)
     (at 157.34284 107.5817 180)
     (path /5137E8FD)
     (attr smd)
@@ -982,7 +982,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879B67)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B67)
     (at 168.09212 102.0826)
     (path /5137E903)
     (attr smd)
@@ -1012,7 +1012,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879B70)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B70)
     (at 173.59122 102.0826)
     (path /5137E909)
     (attr smd)
@@ -1042,7 +1042,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 5288D924)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5288D924)
     (at 155.59278 102.0826)
     (path /5137E90F)
     (attr smd)
@@ -1072,7 +1072,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879B82)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B82)
     (at 177.09134 102.0826 180)
     (path /5137E915)
     (attr smd)
@@ -1102,7 +1102,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879B94)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B94)
     (at 159.0929 104.83342 270)
     (path /5137E950)
     (attr smd)
@@ -1132,7 +1132,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879B9D)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B9D)
     (at 164.592 104.83342 270)
     (path /5137E956)
     (attr smd)
@@ -1162,7 +1162,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879BA6)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879BA6)
     (at 166.34206 104.83342 90)
     (path /5137E95C)
     (attr smd)
@@ -1192,7 +1192,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879BAF)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879BAF)
     (at 168.09212 104.83342 270)
     (path /5137E962)
     (attr smd)
@@ -1222,7 +1222,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 5288F2EF)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5288F2EF)
     (at 173.59122 104.83342 270)
     (path /5137E968)
     (attr smd)
@@ -1252,7 +1252,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 5288F2E3)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5288F2E3)
     (at 175.34128 104.83342 90)
     (path /5137E96E)
     (attr smd)
@@ -1282,7 +1282,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 5288F2BF)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5288F2BF)
     (at 177.09134 104.83342 270)
     (path /5137E974)
     (attr smd)
@@ -1312,7 +1312,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879BDC)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879BDC)
     (at 160.84296 104.83342 270)
     (path /5137E9B2)
     (attr smd)
@@ -1342,7 +1342,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879BE5)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879BE5)
     (at 162.84194 104.83342 270)
     (path /5137E9B8)
     (attr smd)
@@ -1372,7 +1372,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879BEE)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879BEE)
     (at 166.34206 107.5817 180)
     (path /5137E9BE)
     (attr smd)
@@ -1402,7 +1402,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879BF7)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879BF7)
     (at 169.84218 104.83342 270)
     (path /5137E9C4)
     (attr smd)
@@ -1432,7 +1432,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879C00)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879C00)
     (at 171.84116 104.83342 270)
     (path /5137E9CA)
     (attr smd)
@@ -1462,7 +1462,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 5288F1B5)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5288F1B5)
     (at 175.34128 107.5817 180)
     (path /5137E9D0)
     (attr smd)
@@ -1492,7 +1492,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879C12)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879C12)
     (at 178.8414 104.83342 270)
     (path /5137E9D6)
     (attr smd)
@@ -1522,7 +1522,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879C1B)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879C1B)
     (at 136.81772 105.83164)
     (path /5137E893)
     (attr smd)
@@ -1552,7 +1552,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879C24)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879C24)
     (at 153.84272 99.33178 90)
     (path /5137EA0E)
     (attr smd)
@@ -1582,7 +1582,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879C2D)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879C2D)
     (at 157.34284 99.33178 270)
     (path /5137EA14)
     (attr smd)
@@ -1612,7 +1612,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 5311024F)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5311024F)
     (at 155.59278 99.33178 270)
     (path /5137EA1A)
     (attr smd)
@@ -1642,7 +1642,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 5288D773)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5288D773)
     (at 157.34284 96.5835 180)
     (path /5137EA20)
     (attr smd)
@@ -1672,7 +1672,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879C48)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879C48)
     (at 157.34284 104.83342 90)
     (path /5137EA26)
     (attr smd)
@@ -1702,7 +1702,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 52879C51)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879C51)
     (at 155.59278 104.83342 270)
     (path /5137EA2C)
     (attr smd)
@@ -1732,7 +1732,7 @@
     )
   )
 
-  (module SM0603_Diode (layer Front) (tedit 52AA1288) (tstamp 5288F813)
+  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5288F813)
     (at 153.84272 104.83342 90)
     (path /5137EA32)
     (attr smd)
