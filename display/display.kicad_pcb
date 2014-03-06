@@ -15,7 +15,7 @@
   (page A4)
   (title_block
     (title "Ultimate Hacking Keyboard - LED Display Board")
-    (rev 2)
+    (rev 3)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
@@ -1798,7 +1798,7 @@
     (arrow2a (pts (xy 182.655 79.67222) (xy 181.528496 79.085799)))
     (arrow2b (pts (xy 182.655 79.67222) (xy 181.528496 80.258641)))
   )
-  (gr_text "Part name   : Ultimate Hacking Keyboard LED display\nPart number : uhkusb1_display2\nUltimateHackingKeyboard.com by UltimateGadgetLabs.com\n" (at 181.2544 103.4288) (layer B.SilkS) (tstamp 528901BF)
+  (gr_text "Part name   : Ultimate Hacking Keyboard LED display\nPart number : uhkusb1_display3\nUltimateHackingKeyboard.com by UltimateGadgetLabs.com\n" (at 181.2544 103.4288) (layer B.SilkS) (tstamp 528901BF)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left mirror))
   )
   (gr_text "* design is 8mil-8mil-13mil trace-clearance-minimum_drill\n* 1.55mm board thickness\n* black soldermask\n* white silkscreen\n" (at 113.755 63.41222) (layer Cmts.User)
