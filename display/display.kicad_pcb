@@ -21,8 +21,8 @@
 
   (layers
     (15 Front signal)
-    (0 Back signal hide)
-    (20 B.SilkS user hide)
+    (0 Back signal)
+    (20 B.SilkS user)
     (21 F.SilkS user)
     (22 B.Mask user)
     (23 F.Mask user)
@@ -33,7 +33,7 @@
   )
 
   (setup
-    (last_trace_width 0.2032)
+    (last_trace_width 0.4064)
     (user_trace_width 0.2032)
     (user_trace_width 0.3048)
     (user_trace_width 0.4064)
@@ -1911,6 +1911,9 @@
   (via (at 163.8808 100.076) (size 0.508) (drill 0.3302) (layers Front Back) (net 3))
   (segment (start 163.87502 100.08178) (end 163.8808 100.076) (width 0.4064) (layer Front) (net 3) (tstamp 52A7C95D))
   (segment (start 162.84194 100.08178) (end 163.87502 100.08178) (width 0.4064) (layer Front) (net 3))
+  (segment (start 157.3784 106.4768) (end 158.09284 107.19124) (width 0.4064) (layer Front) (net 4))
+  (via (at 157.3784 106.4768) (size 0.508) (drill 0.3302) (layers Front Back) (net 4))
+  (segment (start 158.09284 107.19124) (end 158.09284 107.5817) (width 0.4064) (layer Front) (net 4) (tstamp 5318ADAF))
   (segment (start 165.5064 106.172) (end 157.6832 106.172) (width 0.4064) (layer Back) (net 4))
   (segment (start 157.6832 106.172) (end 157.3784 106.4768) (width 0.4064) (layer Back) (net 4) (tstamp 5318B321))
   (segment (start 165.5064 106.172) (end 166.33952 105.33888) (width 0.4064) (layer Back) (net 4))
@@ -1932,10 +1935,7 @@
   (segment (start 150.1648 101.8032) (end 153.3144 98.6536) (width 0.4064) (layer Back) (net 4))
   (via (at 122.0216 108.6104) (size 0.508) (drill 0.3302) (layers Front Back) (net 4))
   (segment (start 122.2248 108.6104) (end 122.0216 108.6104) (width 0.2032) (layer Front) (net 4) (tstamp 53187BFE))
-  (segment (start 158.09284 107.5817) (end 158.09284 107.29284) (width 0.4064) (layer Front) (net 4))
-  (via (at 157.3784 106.4768) (size 0.508) (drill 0.3302) (layers Front Back) (net 4))
   (segment (start 157.39872 106.45648) (end 157.3784 106.4768) (width 0.4064) (layer Back) (net 4) (tstamp 53111E20))
-  (segment (start 158.09284 107.29284) (end 157.3784 106.4768) (width 0.4064) (layer Front) (net 4) (tstamp 53111E32))
   (segment (start 158.09284 107.49604) (end 158.09284 107.5817) (width 0.4064) (layer Front) (net 4) (tstamp 52A6CE3C))
   (segment (start 166.33952 97.63506) (end 166.33952 98.57924) (width 0.4064) (layer Front) (net 4))
   (segment (start 166.33952 98.57924) (end 166.34206 98.58178) (width 0.4064) (layer Front) (net 4) (tstamp 531107DF))
