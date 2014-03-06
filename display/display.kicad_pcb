@@ -21,7 +21,7 @@
 
   (layers
     (15 Front signal)
-    (0 Back signal)
+    (0 Back signal hide)
     (20 B.SilkS user hide)
     (21 F.SilkS user)
     (22 B.Mask user)
@@ -33,7 +33,7 @@
   )
 
   (setup
-    (last_trace_width 0.4064)
+    (last_trace_width 0.2032)
     (user_trace_width 0.2032)
     (user_trace_width 0.3048)
     (user_trace_width 0.4064)
@@ -62,7 +62,7 @@
     (pad_drill 0.3302)
     (pad_to_mask_clearance 0.1016)
     (aux_axis_origin 0 0)
-    (visible_elements FFFCFFFF)
+    (visible_elements FFFEFF7F)
     (pcbplotparams
       (layerselection 317751297)
       (usegerberextensions true)
@@ -133,10 +133,10 @@
     (add_net GND)
   )
 
-  (module SFV18R-2STE1HLF (layer Front) (tedit 52A78EF1) (tstamp 5317B101)
+  (module SFV18R-2STE1HLF (layer Front) (tedit 5318AA55) (tstamp 5318AC17)
     (at 125.669496 101.579926 189.8)
     (path /52A46D8F)
-    (fp_text reference P1 (at 6.614678 -5.276204 189.8) (layer F.SilkS)
+    (fp_text reference P1 (at 6.655322 -5.160173 189.8) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CONN_18 (at 0 1.2 189.8) (layer F.SilkS) hide
@@ -412,11 +412,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879ABC)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A960) (tstamp 52879ABC)
     (at 160.84296 99.33178 90)
     (path /5137E846)
     (attr smd)
-    (fp_text reference D12 (at 0 -1.05 90) (layer F.SilkS)
+    (fp_text reference D12 (at 1.69418 -0.01016 180) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 90) (layer F.SilkS) hide
@@ -442,11 +442,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879AC5)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A965) (tstamp 52879AC5)
     (at 162.84194 99.33178 90)
     (path /5137E84C)
     (attr smd)
-    (fp_text reference D13 (at 0 -1.05 90) (layer F.SilkS)
+    (fp_text reference D13 (at 1.69418 0.02286 180) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 90) (layer F.SilkS) hide
@@ -472,11 +472,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879ACE)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A9D8) (tstamp 52879ACE)
     (at 166.34206 96.5835 180)
     (path /5137E852)
     (attr smd)
-    (fp_text reference D14 (at 0 -1.05 180) (layer F.SilkS)
+    (fp_text reference D14 (at 0.02286 0.9779 360) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 180) (layer F.SilkS) hide
@@ -502,11 +502,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879AD7)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A98F) (tstamp 52879AD7)
     (at 169.84218 99.33178 90)
     (path /5137E858)
     (attr smd)
-    (fp_text reference D15 (at 0 -1.05 90) (layer F.SilkS)
+    (fp_text reference D15 (at 1.69418 0.03302 180) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 90) (layer F.SilkS) hide
@@ -532,11 +532,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879AE0)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A993) (tstamp 52879AE0)
     (at 171.84116 99.33178 90)
     (path /5137E85E)
     (attr smd)
-    (fp_text reference D16 (at 0 -1.05 90) (layer F.SilkS)
+    (fp_text reference D16 (at 1.69418 -0.03556 180) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 90) (layer F.SilkS) hide
@@ -562,11 +562,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879AE9)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A9DD) (tstamp 52879AE9)
     (at 175.34128 96.5835 180)
     (path /5137E864)
     (attr smd)
-    (fp_text reference D17 (at 0 -1.05 180) (layer F.SilkS)
+    (fp_text reference D17 (at -0.02032 0.9779 360) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 180) (layer F.SilkS) hide
@@ -592,11 +592,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879AF2)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A9B4) (tstamp 52879AF2)
     (at 178.8414 99.33178 90)
     (path /5137E86A)
     (attr smd)
-    (fp_text reference D18 (at 0 -1.05 90) (layer F.SilkS)
+    (fp_text reference D18 (at 1.69418 -0.0254 180) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 90) (layer F.SilkS) hide
@@ -652,11 +652,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5288F951)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A95E) (tstamp 5288F951)
     (at 159.0929 99.33178 90)
     (path /5137E899)
     (attr smd)
-    (fp_text reference D22 (at 0 -1.05 90) (layer F.SilkS)
+    (fp_text reference D22 (at 1.69418 0.0127 180) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 90) (layer F.SilkS) hide
@@ -682,11 +682,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B0D)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A969) (tstamp 52879B0D)
     (at 164.592 99.33178 90)
     (path /5137E89F)
     (attr smd)
-    (fp_text reference D23 (at 0 -1.05 90) (layer F.SilkS)
+    (fp_text reference D23 (at 1.69418 0 180) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 90) (layer F.SilkS) hide
@@ -712,11 +712,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B16)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A985) (tstamp 52879B16)
     (at 166.34206 99.33178 270)
     (path /5137E8A5)
     (attr smd)
-    (fp_text reference D24 (at 0 -1.05 270) (layer F.SilkS)
+    (fp_text reference D24 (at 1.76022 0.02286 360) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 270) (layer F.SilkS) hide
@@ -742,11 +742,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B1F)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A989) (tstamp 52879B1F)
     (at 168.09212 99.33178 90)
     (path /5137E8AB)
     (attr smd)
-    (fp_text reference D25 (at 0 -1.05 90) (layer F.SilkS)
+    (fp_text reference D25 (at 1.69418 -0.04572 180) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 90) (layer F.SilkS) hide
@@ -772,11 +772,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B28)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A999) (tstamp 52879B28)
     (at 173.59122 99.33178 90)
     (path /5137E8B1)
     (attr smd)
-    (fp_text reference D26 (at 0 -1.05 90) (layer F.SilkS)
+    (fp_text reference D26 (at 1.69418 0.04318 180) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 90) (layer F.SilkS) hide
@@ -802,11 +802,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B31)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A9AF) (tstamp 52879B31)
     (at 175.34128 99.33178 270)
     (path /5137E8B7)
     (attr smd)
-    (fp_text reference D27 (at 0 -1.05 270) (layer F.SilkS)
+    (fp_text reference D27 (at 1.76022 -0.02032 360) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 270) (layer F.SilkS) hide
@@ -832,11 +832,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5288F186)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A9AA) (tstamp 5288F186)
     (at 177.09134 99.33178 90)
     (path /5137E8BD)
     (attr smd)
-    (fp_text reference D28 (at 0 -1.05 90) (layer F.SilkS)
+    (fp_text reference D28 (at 1.69418 -0.00254 180) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 90) (layer F.SilkS) hide
@@ -892,11 +892,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B4C)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318AA04) (tstamp 52879B4C)
     (at 159.0929 102.0826 180)
     (path /5137E8F1)
     (attr smd)
-    (fp_text reference D32 (at 0 -1.05 180) (layer F.SilkS)
+    (fp_text reference D32 (at -2.2479 -0.0254 270) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 180) (layer F.SilkS) hide
@@ -922,11 +922,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B55)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A875) (tstamp 52879B55)
     (at 164.592 102.0826 180)
     (path /5137E8F7)
     (attr smd)
-    (fp_text reference D33 (at 0 -1.05 180) (layer F.SilkS)
+    (fp_text reference D33 (at 1.8288 -0.0254 270) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 180) (layer F.SilkS) hide
@@ -982,11 +982,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B67)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A87D) (tstamp 52879B67)
     (at 168.09212 102.0826)
     (path /5137E903)
     (attr smd)
-    (fp_text reference D35 (at 0 -1.05) (layer F.SilkS)
+    (fp_text reference D35 (at 1.88468 0.0254 90) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1) (layer F.SilkS) hide
@@ -1012,11 +1012,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B70)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A887) (tstamp 5318A8F3)
     (at 173.59122 102.0826)
     (path /5137E909)
     (attr smd)
-    (fp_text reference D36 (at 0 -1.05) (layer F.SilkS)
+    (fp_text reference D36 (at -2.19202 0.0254 90) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1) (layer F.SilkS) hide
@@ -1042,11 +1042,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5288D924)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318AA07) (tstamp 5288D924)
     (at 155.59278 102.0826)
     (path /5137E90F)
     (attr smd)
-    (fp_text reference D37 (at 0 -1.05) (layer F.SilkS)
+    (fp_text reference D37 (at -2.17678 0.0254 90) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1) (layer F.SilkS) hide
@@ -1072,11 +1072,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B82)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A895) (tstamp 5318A8FF)
     (at 177.09134 102.0826 180)
     (path /5137E915)
     (attr smd)
-    (fp_text reference D38 (at 0 -1.05 180) (layer F.SilkS)
+    (fp_text reference D38 (at -2.23266 -0.0254 270) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 180) (layer F.SilkS) hide
@@ -1102,11 +1102,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B94)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318AA1E) (tstamp 52879B94)
     (at 159.0929 104.83342 270)
     (path /5137E950)
     (attr smd)
-    (fp_text reference D42 (at 0 -1.05 270) (layer F.SilkS)
+    (fp_text reference D42 (at 1.74498 -0.0127 360) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 270) (layer F.SilkS) hide
@@ -1132,11 +1132,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879B9D)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318AA25) (tstamp 52879B9D)
     (at 164.592 104.83342 270)
     (path /5137E956)
     (attr smd)
-    (fp_text reference D43 (at 0 -1.05 270) (layer F.SilkS)
+    (fp_text reference D43 (at 1.74498 0 360) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 270) (layer F.SilkS) hide
@@ -1162,11 +1162,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879BA6)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A8F8) (tstamp 52879BA6)
     (at 166.34206 104.83342 90)
     (path /5137E95C)
     (attr smd)
-    (fp_text reference D44 (at 0 -1.05 90) (layer F.SilkS)
+    (fp_text reference D44 (at 1.70942 -0.02286 180) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 90) (layer F.SilkS) hide
@@ -1192,11 +1192,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879BAF)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318AA27) (tstamp 52879BAF)
     (at 168.09212 104.83342 270)
     (path /5137E962)
     (attr smd)
-    (fp_text reference D45 (at 0 -1.05 270) (layer F.SilkS)
+    (fp_text reference D45 (at 1.74498 0.04572 360) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 270) (layer F.SilkS) hide
@@ -1222,11 +1222,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5288F2EF)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318AA33) (tstamp 5288F2EF)
     (at 173.59122 104.83342 270)
     (path /5137E968)
     (attr smd)
-    (fp_text reference D46 (at 0 -1.05 270) (layer F.SilkS)
+    (fp_text reference D46 (at 1.74498 -0.04318 360) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 270) (layer F.SilkS) hide
@@ -1252,11 +1252,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5288F2E3)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A901) (tstamp 5288F2E3)
     (at 175.34128 104.83342 90)
     (path /5137E96E)
     (attr smd)
-    (fp_text reference D47 (at 0 -1.05 90) (layer F.SilkS)
+    (fp_text reference D47 (at 1.70942 0.02032 180) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 90) (layer F.SilkS) hide
@@ -1282,11 +1282,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5288F2BF)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318AA35) (tstamp 5288F2BF)
     (at 177.09134 104.83342 270)
     (path /5137E974)
     (attr smd)
-    (fp_text reference D48 (at 0 -1.05 270) (layer F.SilkS)
+    (fp_text reference D48 (at 1.74498 0.00254 360) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 270) (layer F.SilkS) hide
@@ -1312,11 +1312,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879BDC)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318AA22) (tstamp 52879BDC)
     (at 160.84296 104.83342 270)
     (path /5137E9B2)
     (attr smd)
-    (fp_text reference D52 (at 0 -1.05 270) (layer F.SilkS)
+    (fp_text reference D52 (at 1.74498 0.01016 360) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 270) (layer F.SilkS) hide
@@ -1342,11 +1342,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879BE5)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318AA23) (tstamp 52879BE5)
     (at 162.84194 104.83342 270)
     (path /5137E9B8)
     (attr smd)
-    (fp_text reference D53 (at 0 -1.05 270) (layer F.SilkS)
+    (fp_text reference D53 (at 1.74498 -0.02286 360) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 270) (layer F.SilkS) hide
@@ -1402,11 +1402,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879BF7)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318AA29) (tstamp 52879BF7)
     (at 169.84218 104.83342 270)
     (path /5137E9C4)
     (attr smd)
-    (fp_text reference D55 (at 0 -1.05 270) (layer F.SilkS)
+    (fp_text reference D55 (at 1.74498 -0.03302 360) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 270) (layer F.SilkS) hide
@@ -1432,11 +1432,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879C00)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318AA2C) (tstamp 52879C00)
     (at 171.84116 104.83342 270)
     (path /5137E9CA)
     (attr smd)
-    (fp_text reference D56 (at 0 -1.05 270) (layer F.SilkS)
+    (fp_text reference D56 (at 1.74498 -0.06604 360) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 270) (layer F.SilkS) hide
@@ -1492,11 +1492,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879C12)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318AA3A) (tstamp 52879C12)
     (at 178.8414 104.83342 270)
     (path /5137E9D6)
     (attr smd)
-    (fp_text reference D58 (at 0 -1.05 270) (layer F.SilkS)
+    (fp_text reference D58 (at 1.74498 0.0254 360) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 270) (layer F.SilkS) hide
@@ -1552,11 +1552,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879C24)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A931) (tstamp 52879C24)
     (at 153.84272 99.33178 90)
     (path /5137EA0E)
     (attr smd)
-    (fp_text reference D62 (at 0 -1.05 90) (layer F.SilkS)
+    (fp_text reference D62 (at 1.69418 -0.02032 180) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 90) (layer F.SilkS) hide
@@ -1582,11 +1582,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879C2D)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A953) (tstamp 52879C2D)
     (at 157.34284 99.33178 270)
     (path /5137EA14)
     (attr smd)
-    (fp_text reference D63 (at 0 -1.05 270) (layer F.SilkS)
+    (fp_text reference D63 (at 1.76022 -0.03556 360) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 270) (layer F.SilkS) hide
@@ -1612,11 +1612,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5311024F)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A938) (tstamp 5311024F)
     (at 155.59278 99.33178 270)
     (path /5137EA1A)
     (attr smd)
-    (fp_text reference D64 (at 0 -1.05 270) (layer F.SilkS)
+    (fp_text reference D64 (at 1.76022 0.04318 360) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 270) (layer F.SilkS) hide
@@ -1642,11 +1642,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5288D773)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A9D0) (tstamp 5288D773)
     (at 157.34284 96.5835 180)
     (path /5137EA20)
     (attr smd)
-    (fp_text reference D65 (at 0 -1.05 180) (layer F.SilkS)
+    (fp_text reference D65 (at -0.03556 0.9779 360) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 180) (layer F.SilkS) hide
@@ -1672,11 +1672,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879C48)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A91E) (tstamp 52879C48)
     (at 157.34284 104.83342 90)
     (path /5137EA26)
     (attr smd)
-    (fp_text reference D66 (at 0 -1.05 90) (layer F.SilkS)
+    (fp_text reference D66 (at 1.70942 -0.06604 180) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 90) (layer F.SilkS) hide
@@ -1702,11 +1702,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 52879C51)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318AA1C) (tstamp 52879C51)
     (at 155.59278 104.83342 270)
     (path /5137EA2C)
     (attr smd)
-    (fp_text reference D67 (at 0 -1.05 270) (layer F.SilkS)
+    (fp_text reference D67 (at 1.74498 0.04318 360) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 270) (layer F.SilkS) hide
@@ -1732,11 +1732,11 @@
     )
   )
 
-  (module SM0603_Diode   locked (layer Front) (tedit 52AA1288) (tstamp 5288F813)
+  (module SM0603_Diode   locked (layer Front) (tedit 5318A926) (tstamp 5288F813)
     (at 153.84272 104.83342 90)
     (path /5137EA32)
     (attr smd)
-    (fp_text reference D68 (at 0 -1.05 90) (layer F.SilkS)
+    (fp_text reference D68 (at 1.70942 -0.02032 180) (layer F.SilkS)
       (effects (font (size 0.508 0.4572) (thickness 0.1143)))
     )
     (fp_text value LED (at 0 1.1 90) (layer F.SilkS) hide
