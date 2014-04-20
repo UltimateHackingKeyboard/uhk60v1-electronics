@@ -7,3 +7,5 @@
 * Fix the pinout of the bottommost switches.
 * For SPI to work on the left half exchange DISPLAY_ENABLE (PD4) and ROW3 (SS).
 * Can touching either of the 5 pin connectors cause any issues?
+* Shrink the island of the vertical PCB by 0.5 mm on the right main board.
+* Change board contours and soft keepout areas for the RJ11 jacks and update the jacks.
