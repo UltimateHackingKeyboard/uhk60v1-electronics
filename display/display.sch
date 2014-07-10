@@ -31,6 +31,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:opendous
+LIBS:display-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -941,7 +942,7 @@ F 3 "" H 8350 4600 60  0000 C CNN
 	1    8350 4600
 	-1   0    0    -1  
 $EndComp
-Text Notes 5050 4900 2    40   ~ 0
+Text Notes 4850 5000 2    40   ~ 0
 ↑\n|\nColumn 1 features white LEDs _|\nunlike the rest which are red.   
 Text Label 3150 2650 0    40   ~ 0
 ROW1

@@ -1,5 +1,5 @@
-update=Sun 08 Dec 2013 01:11:33 PM CET
-last_client=eeschema
+update=2014. júl. 10., csütörtök, 11.31.42 CEST
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -37,8 +37,13 @@ LibName8=smd_resistors
 LibName9=smd_crystal&oscillator
 [eeschema]
 version=1
-LibDir=../libs
+PageLayoutDescrFile=
+SubpartIdSeparator=0
+SubpartFirstId=65
+LibDir=../../../ugl/kicad-libs;../../../+misc/Opendous_KiCad_Libraries/library
 NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
 RptD_X=0
 RptD_Y=100
 RptLab=1
