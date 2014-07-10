@@ -2,7 +2,6 @@
 * Tent vias.
 * Add staggered 2x3 ISP header to the bottom of both halves.
 * Add vias for inserting resistor-legged PTH LEDs at the both of both halves.
-* Replace ATmega32U2 with the ATmega32U4.
 * Fix the pinout of the PNP transistor.
 * Fix the pinout of the bottommost switches.
 * For SPI to work on the left half exchange DISPLAY_ENABLE (PD4) and ROW3 (SS).
