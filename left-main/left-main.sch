@@ -31,6 +31,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:opendous
+LIBS:left-main-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -947,9 +948,9 @@ Text Label 1750 6850 0    40   ~ 0
 RESET
 Text Notes 600  3450 0    40   ~ 0
 Closely connecting the two keyboard halves
-Text Label 2100 4200 0    40   ~ 0
+Text Label 1950 4200 2    40   ~ 0
 RX
-Text Label 1900 4300 0    40   ~ 0
+Text Label 1800 4300 2    40   ~ 0
 TX
 $Comp
 L GND #PWR03
@@ -1164,12 +1165,12 @@ $EndComp
 $Comp
 L ESD CR4
 U 1 1 513E6C6E
-P 2000 4450
-F 0 "CR4" H 2000 4510 30  0000 C CNN
-F 1 "ESD" H 2000 4400 20  0001 C CNN
-F 2 "" H 2000 4450 60  0000 C CNN
-F 3 "" H 2000 4450 60  0000 C CNN
-	1    2000 4450
+P 1950 4400
+F 0 "CR4" H 1950 4460 30  0000 C CNN
+F 1 "ESD" H 1950 4350 20  0001 C CNN
+F 2 "" H 1950 4400 60  0000 C CNN
+F 3 "" H 1950 4400 60  0000 C CNN
+	1    1950 4400
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1303,12 +1304,12 @@ $EndComp
 $Comp
 L GND #PWR018
 U 1 1 51BE1D29
-P 1650 4500
-F 0 "#PWR018" H 1650 4500 30  0001 C CNN
-F 1 "GND" H 1650 4430 30  0001 C CNN
-F 2 "" H 1650 4500 60  0000 C CNN
-F 3 "" H 1650 4500 60  0000 C CNN
-	1    1650 4500
+P 2100 4550
+F 0 "#PWR018" H 2100 4550 30  0001 C CNN
+F 1 "GND" H 2100 4480 30  0001 C CNN
+F 2 "" H 2100 4550 60  0000 C CNN
+F 3 "" H 2100 4550 60  0000 C CNN
+	1    2100 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1336,12 +1337,12 @@ $EndComp
 $Comp
 L VCC #PWR020
 U 1 1 51BE2553
-P 1550 4050
-F 0 "#PWR020" H 1550 4150 30  0001 C CNN
-F 1 "VCC" H 1550 4150 30  0000 C CNN
-F 2 "" H 1550 4050 60  0000 C CNN
-F 3 "" H 1550 4050 60  0000 C CNN
-	1    1550 4050
+P 2100 4100
+F 0 "#PWR020" H 2100 4200 30  0001 C CNN
+F 1 "VCC" H 2100 4200 30  0000 C CNN
+F 2 "" H 2100 4100 60  0000 C CNN
+F 3 "" H 2100 4100 60  0000 C CNN
+	1    2100 4100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1653,8 +1654,6 @@ Text Label 5750 1250 0    40   ~ 0
 KEYS_ROW3
 Text Label 2250 2350 3    40   ~ 0
 GNDPWR1
-Text Label 2000 4700 3    40   ~ 0
-GNDPWR2
 Text Label 5750 2850 0    40   ~ 0
 DISPLAY_ENABLE
 $Comp
@@ -1786,23 +1785,12 @@ Wire Wire Line
 Wire Wire Line
 	8800 3450 8800 3500
 Wire Wire Line
-	1550 4050 1550 4100
-Wire Wire Line
 	1950 1500 1950 1550
 Connection ~ 2250 2250
 Wire Wire Line
 	1250 2250 1500 2250
 Wire Wire Line
 	1500 2250 2250 2250
-Wire Wire Line
-	1650 4400 1650 4500
-Wire Wire Line
-	1550 4600 1800 4600
-Wire Wire Line
-	1800 4600 2000 4600
-Connection ~ 1800 4600
-Wire Wire Line
-	1800 4600 1800 4500
 Wire Wire Line
 	6900 2050 6900 2100
 Wire Wire Line
@@ -1868,14 +1856,6 @@ Wire Wire Line
 	2250 1650 2350 1650
 Wire Wire Line
 	1350 1750 1350 1650
-Connection ~ 2000 4200
-Wire Wire Line
-	2000 4550 2000 4600
-Wire Wire Line
-	2000 4600 2000 4700
-Wire Wire Line
-	2000 4200 2000 4350
-Connection ~ 1800 4300
 Wire Wire Line
 	6900 2500 6900 2400
 Wire Wire Line
@@ -2290,13 +2270,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 4400 1650 4400
 Wire Wire Line
-	1550 4200 2000 4200
-Wire Wire Line
-	2000 4200 2100 4200
-Wire Wire Line
 	1550 4300 1800 4300
-Wire Wire Line
-	1800 4300 1900 4300
 Wire Wire Line
 	1250 2050 1250 2250
 Wire Wire Line
@@ -2581,9 +2555,6 @@ Wire Wire Line
 	2250 2150 2250 2250
 Wire Wire Line
 	2250 2250 2250 2350
-Wire Wire Line
-	1550 4500 1550 4600
-Connection ~ 2000 4600
 Connection ~ 8050 4350
 Wire Wire Line
 	9400 4450 9950 4450
@@ -2673,9 +2644,40 @@ Wire Wire Line
 	8200 4350 8050 4350
 Connection ~ 8050 4600
 Wire Wire Line
-	8200 4600 8050 4600
+	7450 4600 8050 4600
 Wire Wire Line
-	8050 4600 7450 4600
+	8050 4600 8200 4600
 Wire Wire Line
 	8050 4550 8050 4600
+$Comp
+L ESD CR5
+U 1 1 53D49332
+P 2100 4400
+F 0 "CR5" H 2100 4460 30  0000 C CNN
+F 1 "ESD" H 2100 4350 20  0001 C CNN
+F 2 "" H 2100 4400 60  0000 C CNN
+F 3 "" H 2100 4400 60  0000 C CNN
+	1    2100 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 4500 1800 4500
+Wire Wire Line
+	1800 4500 1950 4500
+Wire Wire Line
+	1950 4500 2100 4500
+Connection ~ 1950 4500
+Wire Wire Line
+	2100 4500 2100 4550
+Wire Wire Line
+	1950 4300 1950 4200
+Wire Wire Line
+	1950 4200 1550 4200
+Wire Wire Line
+	1550 4100 2100 4100
+Wire Wire Line
+	1650 4400 1650 4500
+Connection ~ 1800 4500
+Wire Wire Line
+	2100 4100 2100 4300
 $EndSCHEMATC
