@@ -1650,11 +1650,11 @@ Text Label 5750 1050 0    40   ~ 0
 KEYS_ROW1
 Text Label 5750 1150 0    40   ~ 0
 KEYS_ROW2
-Text Label 5750 1250 0    40   ~ 0
+Text Label 5750 2850 0    40   ~ 0
 KEYS_ROW3
 Text Label 2250 2350 3    40   ~ 0
 GNDPWR1
-Text Label 5750 2850 0    40   ~ 0
+Text Label 5750 1250 0    40   ~ 0
 DISPLAY_ENABLE
 $Comp
 L PNP Q1
