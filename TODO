@@ -3,7 +3,6 @@
 * Add staggered 2x3 ISP header to the bottom of both halves.
 * Add vias for inserting resistor-legged PTH LEDs at the both of both halves.
 * Fix the pinout of the PNP transistor.
-* Fix the pinout of the bottommost switches.
 * For SPI to work on the left half exchange DISPLAY_ENABLE (PD4) and ROW3 (SS).
 * Can touching either of the 5 pin connectors cause any issues?
 * Change board contours and soft keepout areas for the RJ11 jacks and update the jacks.
