@@ -1,5 +1,5 @@
-update=2014. júl.  8., kedd, 08.25.47 CEST
-last_client=eeschema
+update=Wed 16 Jul 2014 12:59:37 PM CEST
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
