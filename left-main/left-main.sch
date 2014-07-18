@@ -979,12 +979,12 @@ $EndComp
 $Comp
 L GND #PWR03
 U 1 1 51348CEB
-P 1850 2150
-F 0 "#PWR03" H 1850 2150 30  0001 C CNN
-F 1 "GND" H 1850 2080 30  0001 C CNN
-F 2 "" H 1850 2150 60  0001 C CNN
-F 3 "" H 1850 2150 60  0001 C CNN
-	1    1850 2150
+P 2400 2150
+F 0 "#PWR03" H 2400 2150 30  0001 C CNN
+F 1 "GND" H 2400 2080 30  0001 C CNN
+F 2 "" H 2400 2150 60  0001 C CNN
+F 3 "" H 2400 2150 60  0001 C CNN
+	1    2400 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2114,11 +2114,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 4700 1600 4700
 Wire Wire Line
-	1250 1950 1350 1950
-Wire Wire Line
 	1250 1750 1350 1750
-Wire Wire Line
-	1850 2050 1850 2150
 Connection ~ 1850 1850
 Wire Wire Line
 	2200 1850 2300 1850
@@ -2517,9 +2513,7 @@ $EndComp
 Wire Wire Line
 	1250 1850 1350 1850
 Wire Wire Line
-	1350 1950 1350 2050
-Wire Wire Line
-	1350 2050 2400 2050
+	1250 2050 2400 2050
 Connection ~ 1650 2050
 Connection ~ 1850 2050
 $Comp
@@ -2538,4 +2532,12 @@ Wire Wire Line
 Connection ~ 1550 1500
 Wire Wire Line
 	1950 1300 1950 1250
+Text Notes 1150 2200 0    40   ~ 0
+shield\n(not connected by the cable)
+Wire Wire Line
+	1250 1950 1250 2050
+Wire Wire Line
+	2400 2050 2400 2150
+Text Notes 1150 1950 0    40   ~ 0
+GND
 $EndSCHEMATC
