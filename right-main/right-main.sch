@@ -39,7 +39,7 @@ encoding utf-8
 Sheet 1 1
 Title "Ultimate Hacking Keyboard - Right Main Board"
 Date "7 may 2013"
-Rev "3"
+Rev "4"
 Comp "Ultimate Gadget Laboratories Kft."
 Comment1 ""
 Comment2 ""
