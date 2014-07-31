@@ -2,7 +2,7 @@
 
   (general
     (links 4)
-    (no_connects 4)
+    (no_connects 3)
     (area 108.35 78.7 182.578568 104.38168)
     (thickness 1.6002)
     (drawings 22)
@@ -109,6 +109,32 @@
     (add_net N-000005)
   )
 
+  (module UGL:UHK_vertical_PCB_pad (layer Back) (tedit 53DA981A) (tstamp 53DA03F2)
+    (at 144.75 99.9)
+    (path /529BB9E6)
+    (fp_text reference P12 (at 0 3.3) (layer B.SilkS) hide
+      (effects (font (thickness 0.3048)) (justify mirror))
+    )
+    (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
+      (effects (font (thickness 0.3048)) (justify mirror))
+    )
+    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
+      (net 2 N-000002))
+  )
+
+  (module UGL:UHK_vertical_PCB_pad (layer Front) (tedit 53DA981A) (tstamp 53DA93D3)
+    (at 143.5 99.2)
+    (path /529BB9CE)
+    (fp_text reference P22 (at 0 -3.3) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Front F.Mask)
+      (net 2 N-000002))
+  )
+
   (module vertical_pcb_pad (layer Back) (tedit 53DA93F6) (tstamp 53DA9AC9)
     (at 151.75 99.2)
     (path /529BBCD8)
@@ -161,19 +187,6 @@
       (net 3 N-000003))
   )
 
-  (module vertical_pcb_pad (layer Back) (tedit 53DA939A) (tstamp 53DA93D3)
-    (at 144.13 99.2)
-    (path /529BB9CE)
-    (fp_text reference P22 (at 0 3.3) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
-    )
-    (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
-    )
-    (pad "" smd rect (at -0.63 0) (size 1.4 1.8) (layers Back B.Mask)
-      (net 2 N-000002))
-  )
-
   (module vertical_pcb_pad (layer Front) (tedit 53DA3305) (tstamp 529BBAE1)
     (at 148.5 98.7)
     (path /529BB9F2)
@@ -198,19 +211,6 @@
     )
     (pad "" smd rect (at 1.4 1.2) (size 1.4 1.8) (layers Front F.Mask)
       (net 3 N-000003))
-  )
-
-  (module vertical_pcb_pad (layer Front) (tedit 53DA32F9) (tstamp 53DA03F2)
-    (at 143.5 98.7)
-    (path /529BB9E6)
-    (fp_text reference P12 (at 0 -3.3) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad "" smd rect (at 1.25 1.2) (size 1.4 1.8) (layers Front F.Mask)
-      (net 2 N-000002))
   )
 
   (module UGL:via_24_14mil (layer Front) (tedit 53DA9EBC) (tstamp 53DA9FBF)
