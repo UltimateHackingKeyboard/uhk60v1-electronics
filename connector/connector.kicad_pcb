@@ -2,7 +2,7 @@
 
   (general
     (links 4)
-    (no_connects 3)
+    (no_connects 4)
     (area 108.35 78.7 182.578568 104.38168)
     (thickness 1.6002)
     (drawings 22)
@@ -56,11 +56,11 @@
     (mod_edge_width 0.381)
     (mod_text_size 1.524 1.524)
     (mod_text_width 0.3048)
-    (pad_size 0.6096 0.6096)
-    (pad_drill 0.3556)
+    (pad_size 1.4 2.1)
+    (pad_drill 0)
     (pad_to_mask_clearance 0.1016)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFEF7F)
+    (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x000f0_80000001)
       (usegerberextensions true)
@@ -109,34 +109,8 @@
     (add_net N-000005)
   )
 
-  (module UGL:UHK_vertical_PCB_pad (layer Back) (tedit 53DA981A) (tstamp 53DA03F2)
-    (at 144.75 99.9)
-    (path /529BB9E6)
-    (fp_text reference P12 (at 0 3.3) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
-    )
-    (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
-    )
-    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
-      (net 2 N-000002))
-  )
-
-  (module UGL:UHK_vertical_PCB_pad (layer Front) (tedit 53DA981A) (tstamp 53DA93D3)
-    (at 143.5 99.2)
-    (path /529BB9CE)
-    (fp_text reference P22 (at 0 -3.3) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Front F.Mask)
-      (net 2 N-000002))
-  )
-
   (module UGL:via_24_14mil (layer Front) (tedit 53DA9EBC) (tstamp 53DA9FBF)
-    (at 151.333334 99.733333)
+    (at 151.333334 99.633333)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -148,7 +122,7 @@
   )
 
   (module UGL:via_24_14mil (layer Front) (tedit 53DA9EB3) (tstamp 53DA9AF5)
-    (at 148.833333 99.733333)
+    (at 148.833333 99.633333)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -160,7 +134,7 @@
   )
 
   (module UGL:via_24_14mil (layer Front) (tedit 53DA9EA9) (tstamp 53D9862B)
-    (at 146.333333 99.733333)
+    (at 146.333333 99.633333)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -172,7 +146,7 @@
   )
 
   (module UGL:via_24_14mil (layer Front) (tedit 53DA9EA1) (tstamp 53DAA3EB)
-    (at 143.833333 99.733333)
+    (at 143.833333 99.633333)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -183,8 +157,8 @@
       (solder_mask_margin -1))
   )
 
-  (module UGL:via_24_14mil (layer Front) (tedit 53DA9E92) (tstamp 53DAA3B8)
-    (at 141.333333 99.733333)
+  (module UGL:via_24_14mil (layer Front) (tedit 53DA9E92) (tstamp 53DAB30E)
+    (at 141.333333 99.633333)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -195,98 +169,8 @@
       (solder_mask_margin -1))
   )
 
-  (module UGL:UHK_vertical_PCB_pad (layer Back) (tedit 53DA981A) (tstamp 53DAA862)
-    (at 142.1 99.9)
-    (path /529BB9E0)
-    (fp_text reference P11 (at 0 3.3) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
-    )
-    (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
-    )
-    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask))
-  )
-
-  (module UGL:UHK_vertical_PCB_pad (layer Front) (tedit 53DA981A) (tstamp 53DAA772)
-    (at 141 99.2)
-    (path /529BB9BF)
-    (fp_text reference P21 (at 0 -3.3) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Front F.Mask)
-      (net 1 N-000001))
-  )
-
-  (module UGL:UHK_vertical_PCB_pad (layer Front) (tedit 53DA981A) (tstamp 529BBAC2)
-    (at 146 99.2)
-    (path /529BB9D4)
-    (fp_text reference P23 (at 0 -3.3) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Front F.Mask)
-      (net 3 N-000003))
-  )
-
-  (module UGL:UHK_vertical_PCB_pad (layer Back) (tedit 53DA981A) (tstamp 529BBAE7)
-    (at 147.4 99.9)
-    (path /529BB9EC)
-    (fp_text reference P13 (at 0 3.3) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
-    )
-    (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
-    )
-    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
-      (net 3 N-000003))
-  )
-
-  (module UGL:UHK_vertical_PCB_pad (layer Front) (tedit 53DA981A) (tstamp 529BBAC7)
-    (at 148.5 99.2)
-    (path /529BB9DA)
-    (fp_text reference P24 (at 0 -3.3) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Front F.Mask)
-      (net 4 N-000004))
-  )
-
-  (module UGL:UHK_vertical_PCB_pad (layer Back) (tedit 53DA981A) (tstamp 53DAAD2E)
-    (at 150.05 99.9)
-    (path /529BB9F2)
-    (fp_text reference P14 (at 0 3.3) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
-    )
-    (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
-    )
-    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
-      (net 4 N-000004))
-  )
-
-  (module UGL:UHK_vertical_PCB_pad (layer Front) (tedit 53DA981A) (tstamp 53DA9AC9)
-    (at 151 99.2)
-    (path /529BBCD8)
-    (fp_text reference P25 (at 0 -3.3) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Front F.Mask)
-      (net 5 N-000005))
-  )
-
-  (module UGL:UHK_vertical_PCB_pad (layer Back) (tedit 53DA981A) (tstamp 529BBD6B)
-    (at 152.7 99.9)
+  (module UGL:UHK_vertical_PCB_pad (layer Back) (tedit 53DAAF01) (tstamp 529BBD6B)
+    (at 152.7 99.75)
     (path /529BBCD2)
     (fp_text reference P15 (at 0 3.3) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -294,8 +178,125 @@
     (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
+    (pad "" smd rect (at 0 0) (size 1.4 2.1) (layers Back B.Mask)
       (net 5 N-000005))
+  )
+
+  (module UGL:UHK_vertical_PCB_pad (layer Front) (tedit 53DAAF01) (tstamp 53DA9AC9)
+    (at 151 98.95)
+    (path /529BBCD8)
+    (fp_text reference P25 (at 0 -3.3) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (pad "" smd rect (at 0 0) (size 1.4 2.1) (layers Front F.Mask)
+      (net 5 N-000005))
+  )
+
+  (module UGL:UHK_vertical_PCB_pad (layer Back) (tedit 53DAAF01) (tstamp 53DAAD2E)
+    (at 150.05 99.75)
+    (path /529BB9F2)
+    (fp_text reference P14 (at 0 3.3) (layer B.SilkS) hide
+      (effects (font (thickness 0.3048)) (justify mirror))
+    )
+    (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
+      (effects (font (thickness 0.3048)) (justify mirror))
+    )
+    (pad "" smd rect (at 0 0) (size 1.4 2.1) (layers Back B.Mask)
+      (net 4 N-000004))
+  )
+
+  (module UGL:UHK_vertical_PCB_pad (layer Front) (tedit 53DAAF01) (tstamp 529BBAC7)
+    (at 148.5 98.95)
+    (path /529BB9DA)
+    (fp_text reference P24 (at 0 -3.3) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (pad "" smd rect (at 0 0) (size 1.4 2.1) (layers Front F.Mask)
+      (net 4 N-000004))
+  )
+
+  (module UGL:UHK_vertical_PCB_pad (layer Back) (tedit 53DAAF01) (tstamp 529BBAE7)
+    (at 147.4 99.75)
+    (path /529BB9EC)
+    (fp_text reference P13 (at 0 3.3) (layer B.SilkS) hide
+      (effects (font (thickness 0.3048)) (justify mirror))
+    )
+    (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
+      (effects (font (thickness 0.3048)) (justify mirror))
+    )
+    (pad "" smd rect (at 0 0) (size 1.4 2.1) (layers Back B.Mask)
+      (net 3 N-000003))
+  )
+
+  (module UGL:UHK_vertical_PCB_pad (layer Front) (tedit 53DAAF01) (tstamp 529BBAC2)
+    (at 146 98.95)
+    (path /529BB9D4)
+    (fp_text reference P23 (at 0 -3.3) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (pad "" smd rect (at 0 0) (size 1.4 2.1) (layers Front F.Mask)
+      (net 3 N-000003))
+  )
+
+  (module UGL:UHK_vertical_PCB_pad (layer Front) (tedit 53DAAF01) (tstamp 53DAA772)
+    (at 141 98.95)
+    (path /529BB9BF)
+    (fp_text reference P21 (at 0 -3.3) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (pad "" smd rect (at 0 0) (size 1.4 2.1) (layers Front F.Mask)
+      (net 1 N-000001))
+  )
+
+  (module UGL:UHK_vertical_PCB_pad (layer Back) (tedit 53DAB389) (tstamp 53DAA862)
+    (at 142.1 99.75)
+    (path /529BB9E0)
+    (fp_text reference P11 (at 0 3.3) (layer B.SilkS) hide
+      (effects (font (thickness 0.3048)) (justify mirror))
+    )
+    (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
+      (effects (font (thickness 0.3048)) (justify mirror))
+    )
+    (pad "" smd rect (at 0 0) (size 1.4 2.1) (layers Back B.Mask)
+      (net 1 N-000001))
+  )
+
+  (module UGL:UHK_vertical_PCB_pad (layer Front) (tedit 53DAAF01) (tstamp 53DA93D3)
+    (at 143.5 98.95)
+    (path /529BB9CE)
+    (fp_text reference P22 (at 0 -3.3) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (pad "" smd rect (at 0 0) (size 1.4 2.1) (layers Front F.Mask)
+      (net 2 N-000002))
+  )
+
+  (module UGL:UHK_vertical_PCB_pad (layer Back) (tedit 53DAAF01) (tstamp 53DA03F2)
+    (at 144.75 99.75)
+    (path /529BB9E6)
+    (fp_text reference P12 (at 0 3.3) (layer B.SilkS) hide
+      (effects (font (thickness 0.3048)) (justify mirror))
+    )
+    (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
+      (effects (font (thickness 0.3048)) (justify mirror))
+    )
+    (pad "" smd rect (at 0 0) (size 1.4 2.1) (layers Back B.Mask)
+      (net 2 N-000002))
   )
 
   (gr_text "< pin contact line" (at 167.9 98.6) (layer Eco1.User)
