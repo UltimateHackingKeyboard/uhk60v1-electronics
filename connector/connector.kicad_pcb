@@ -193,7 +193,7 @@
       (net 2 N-000002) (solder_mask_margin -1) (clearance 0.01))
   )
 
-  (module vertical_pcb_pad (layer Back) (tedit 529BBFA3) (tstamp 529BBD70)
+  (module vertical_pcb_pad (layer Back) (tedit 53DA3308) (tstamp 529BBD70)
     (at 151.75 99.2)
     (path /529BBCD8)
     (fp_text reference P25 (at 0 3.3) (layer B.SilkS) hide
@@ -202,11 +202,11 @@
     (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
+    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
       (net 5 N-000005))
   )
 
-  (module vertical_pcb_pad (layer Front) (tedit 53D86E34) (tstamp 529BBD6B)
+  (module vertical_pcb_pad (layer Front) (tedit 53DA330B) (tstamp 529BBD6B)
     (at 151 98.7)
     (path /529BBCD2)
     (fp_text reference P15 (at 0 -3.3) (layer F.SilkS) hide
@@ -215,11 +215,11 @@
     (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad 1 smd rect (at 1.7 1.2) (size 1.4 1.8) (layers Front F.Mask)
+    (pad "" smd rect (at 1.7 1.2) (size 1.4 1.8) (layers Front F.Mask)
       (net 5 N-000005))
   )
 
-  (module vertical_pcb_pad (layer Back) (tedit 529BBFA3) (tstamp 529BBAC7)
+  (module vertical_pcb_pad (layer Back) (tedit 53DA3303) (tstamp 529BBAC7)
     (at 149.21 99.2)
     (path /529BB9DA)
     (fp_text reference P24 (at 0 3.3) (layer B.SilkS) hide
@@ -228,11 +228,11 @@
     (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
+    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
       (net 4 N-000004))
   )
 
-  (module vertical_pcb_pad (layer Back) (tedit 529BBFA3) (tstamp 529BBAC2)
+  (module vertical_pcb_pad (layer Back) (tedit 53DA32FD) (tstamp 529BBAC2)
     (at 146.67 99.2)
     (path /529BB9D4)
     (fp_text reference P23 (at 0 3.3) (layer B.SilkS) hide
@@ -241,11 +241,11 @@
     (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
+    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
       (net 3 N-000003))
   )
 
-  (module vertical_pcb_pad (layer Back) (tedit 529BBFA3) (tstamp 529BBABD)
+  (module vertical_pcb_pad (layer Back) (tedit 53DA32F7) (tstamp 529BBABD)
     (at 144.13 99.2)
     (path /529BB9CE)
     (fp_text reference P22 (at 0 3.3) (layer B.SilkS) hide
@@ -254,11 +254,11 @@
     (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
+    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
       (net 2 N-000002))
   )
 
-  (module vertical_pcb_pad (layer Back) (tedit 529BBFA3) (tstamp 52AA23D8)
+  (module vertical_pcb_pad (layer Back) (tedit 53DA32EF) (tstamp 52AA23D8)
     (at 141.59 99.2)
     (path /529BB9BF)
     (fp_text reference P21 (at 0 3.3) (layer B.SilkS) hide
@@ -267,11 +267,11 @@
     (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
+    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
       (net 1 N-000001))
   )
 
-  (module vertical_pcb_pad (layer Front) (tedit 53D86E83) (tstamp 529BBAE1)
+  (module vertical_pcb_pad (layer Front) (tedit 53DA3305) (tstamp 529BBAE1)
     (at 148.5 98.7)
     (path /529BB9F2)
     (fp_text reference P14 (at 0 -3.3) (layer F.SilkS) hide
@@ -280,11 +280,11 @@
     (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad 1 smd rect (at 1.55 1.2) (size 1.4 1.8) (layers Front F.Mask)
+    (pad "" smd rect (at 1.55 1.2) (size 1.4 1.8) (layers Front F.Mask)
       (net 4 N-000004))
   )
 
-  (module vertical_pcb_pad (layer Front) (tedit 53D86E9B) (tstamp 529BBAE7)
+  (module vertical_pcb_pad (layer Front) (tedit 53DA32FF) (tstamp 529BBAE7)
     (at 146 98.7)
     (path /529BB9EC)
     (fp_text reference P13 (at 0 -3.3) (layer F.SilkS) hide
@@ -293,11 +293,11 @@
     (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad 1 smd rect (at 1.4 1.2) (size 1.4 1.8) (layers Front F.Mask)
+    (pad "" smd rect (at 1.4 1.2) (size 1.4 1.8) (layers Front F.Mask)
       (net 3 N-000003))
   )
 
-  (module vertical_pcb_pad (layer Front) (tedit 53D86DF5) (tstamp 529BBAF3)
+  (module vertical_pcb_pad (layer Front) (tedit 53DA32F3) (tstamp 529BBAF3)
     (at 141 98.7)
     (path /529BB9E0)
     (fp_text reference P11 (at 0 -3.3) (layer F.SilkS) hide
@@ -306,11 +306,11 @@
     (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad 1 smd rect (at 1.1 1.2) (size 1.4 1.8) (layers Front F.Mask)
+    (pad "" smd rect (at 1.1 1.2) (size 1.4 1.8) (layers Front F.Mask)
       (net 1 N-000001))
   )
 
-  (module vertical_pcb_pad (layer Front) (tedit 53DA03A5) (tstamp 53DA03F2)
+  (module vertical_pcb_pad (layer Front) (tedit 53DA32F9) (tstamp 53DA03F2)
     (at 143.5 98.7)
     (path /529BB9E6)
     (fp_text reference P12 (at 0 -3.3) (layer F.SilkS) hide
@@ -319,7 +319,7 @@
     (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad 1 smd rect (at 1.25 1.2) (size 1.4 1.8) (layers Front F.Mask)
+    (pad "" smd rect (at 1.25 1.2) (size 1.4 1.8) (layers Front F.Mask)
       (net 2 N-000002))
   )
 
