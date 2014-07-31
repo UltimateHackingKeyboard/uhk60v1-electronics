@@ -2,11 +2,11 @@
 
   (general
     (links 15)
-    (no_connects 0)
-    (area 108.257145 78.7 181.149997 104.3542)
+    (no_connects 5)
+    (area 108.35 78.7 182.578568 104.3542)
     (thickness 1.6002)
     (drawings 20)
-    (tracks 22)
+    (tracks 0)
     (zones 0)
     (modules 20)
     (nets 6)
@@ -33,7 +33,7 @@
   )
 
   (setup
-    (last_trace_width 0.733)
+    (last_trace_width 0.889)
     (user_trace_width 0.733)
     (trace_clearance 0.635)
     (zone_clearance 0.508)
@@ -56,11 +56,11 @@
     (mod_edge_width 0.381)
     (mod_text_size 1.524 1.524)
     (mod_text_width 0.3048)
-    (pad_size 1.4 1.8)
-    (pad_drill 0)
+    (pad_size 0.6 0.6)
+    (pad_drill 0.35)
     (pad_to_mask_clearance 0.1016)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements FFFFFD7F)
     (pcbplotparams
       (layerselection 0x000f0_80000001)
       (usegerberextensions true)
@@ -109,7 +109,7 @@
     (add_net N-000005)
   )
 
-  (module UGL:via_24_14mil (layer Front) (tedit 53D989FC) (tstamp 53D9FF7E)
+  (module UGL:via_24_14mil (layer Front) (tedit 53DA9469) (tstamp 53DA9449)
     (at 152.0444 99.73564)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -117,11 +117,11 @@
     (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" thru_hole circle (at 0 -0.002307) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
+    (pad "" thru_hole circle (at -0.711066 -0.002307) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
       (net 5 N-000005) (solder_mask_margin -1) (clearance 0.01))
   )
 
-  (module UGL:via_24_14mil (layer Front) (tedit 53D98A95) (tstamp 53D98637)
+  (module UGL:via_24_14mil (layer Front) (tedit 53DA93FC) (tstamp 53D98637)
     (at 151.37384 99.73564)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -129,11 +129,11 @@
     (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" thru_hole circle (at 0.042827 -0.002307) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
+    (pad "" thru_hole circle (at -0.707173 -0.002307) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
       (net 5 N-000005) (solder_mask_margin -1) (clearance 0.01))
   )
 
-  (module UGL:via_24_14mil (layer Front) (tedit 53D98A72) (tstamp 53D98633)
+  (module UGL:via_24_14mil (layer Front) (tedit 53DA93E7) (tstamp 53D98633)
     (at 148.87956 99.74072)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -141,11 +141,11 @@
     (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" thru_hole circle (at -0.002893 -0.007387) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
+    (pad "" thru_hole circle (at -0.712893 -0.007387) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
       (net 4 N-000004) (solder_mask_margin -1) (clearance 0.01))
   )
 
-  (module UGL:via_24_14mil (layer Front) (tedit 53D98A7B) (tstamp 53D9862F)
+  (module UGL:via_24_14mil (layer Front) (tedit 53DA93EE) (tstamp 53D9862F)
     (at 149.55012 99.74072)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -153,11 +153,11 @@
     (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" thru_hole circle (at -0.006787 -0.007387) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
+    (pad "" thru_hole circle (at -0.716787 -0.007387) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
       (net 4 N-000004) (solder_mask_margin -1) (clearance 0.01))
   )
 
-  (module UGL:via_24_14mil (layer Front) (tedit 53D98A52) (tstamp 53D9862B)
+  (module UGL:via_24_14mil (layer Front) (tedit 53DA93D6) (tstamp 53D9862B)
     (at 146.99996 99.7204)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -165,11 +165,11 @@
     (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" thru_hole circle (at 0.003373 0.012933) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
+    (pad "" thru_hole circle (at -0.666627 0.012933) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
       (net 3 N-000003) (solder_mask_margin -1) (clearance 0.01))
   )
 
-  (module UGL:via_24_14mil (layer Front) (tedit 53D98A49) (tstamp 53D98627)
+  (module UGL:via_24_14mil (layer Front) (tedit 53DA93D0) (tstamp 53D98627)
     (at 146.3294 99.7204)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -177,11 +177,11 @@
     (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" thru_hole circle (at 0.007267 0.012933) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
+    (pad "" thru_hole circle (at -0.662733 0.012933) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
       (net 3 N-000003) (solder_mask_margin -1) (clearance 0.01))
   )
 
-  (module UGL:via_24_14mil (layer Front) (tedit 53D98A24) (tstamp 53D98604)
+  (module UGL:via_24_14mil (layer Front) (tedit 53DA93A1) (tstamp 53DA93C7)
     (at 143.77924 99.73564)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -189,11 +189,11 @@
     (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" thru_hole circle (at 0.017427 -0.002307) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
+    (pad "" thru_hole circle (at -0.612573 -0.002307) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
       (net 2 N-000002) (solder_mask_margin -1) (clearance 0.01))
   )
 
-  (module vertical_pcb_pad (layer Back) (tedit 53DA3308) (tstamp 529BBD70)
+  (module vertical_pcb_pad (layer Back) (tedit 53DA93F6) (tstamp 53DA9340)
     (at 151.75 99.2)
     (path /529BBCD8)
     (fp_text reference P25 (at 0 3.3) (layer B.SilkS) hide
@@ -202,7 +202,7 @@
     (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
+    (pad "" smd rect (at -0.75 0) (size 1.4 1.8) (layers Back B.Mask)
       (net 5 N-000005))
   )
 
@@ -219,7 +219,7 @@
       (net 5 N-000005))
   )
 
-  (module vertical_pcb_pad (layer Back) (tedit 53DA3303) (tstamp 529BBAC7)
+  (module vertical_pcb_pad (layer Back) (tedit 53DA93DE) (tstamp 529BBAC7)
     (at 149.21 99.2)
     (path /529BB9DA)
     (fp_text reference P24 (at 0 3.3) (layer B.SilkS) hide
@@ -228,11 +228,11 @@
     (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
+    (pad "" smd rect (at -0.71 0) (size 1.4 1.8) (layers Back B.Mask)
       (net 4 N-000004))
   )
 
-  (module vertical_pcb_pad (layer Back) (tedit 53DA32FD) (tstamp 529BBAC2)
+  (module vertical_pcb_pad (layer Back) (tedit 53DA93C3) (tstamp 529BBAC2)
     (at 146.67 99.2)
     (path /529BB9D4)
     (fp_text reference P23 (at 0 3.3) (layer B.SilkS) hide
@@ -241,11 +241,11 @@
     (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
+    (pad "" smd rect (at -0.67 0) (size 1.4 1.8) (layers Back B.Mask)
       (net 3 N-000003))
   )
 
-  (module vertical_pcb_pad (layer Back) (tedit 53DA32F7) (tstamp 529BBABD)
+  (module vertical_pcb_pad (layer Back) (tedit 53DA939A) (tstamp 53DA93D3)
     (at 144.13 99.2)
     (path /529BB9CE)
     (fp_text reference P22 (at 0 3.3) (layer B.SilkS) hide
@@ -254,11 +254,11 @@
     (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
+    (pad "" smd rect (at -0.63 0) (size 1.4 1.8) (layers Back B.Mask)
       (net 2 N-000002))
   )
 
-  (module vertical_pcb_pad (layer Back) (tedit 53DA32EF) (tstamp 52AA23D8)
+  (module vertical_pcb_pad (layer Back) (tedit 53DA90ED) (tstamp 52AA23D8)
     (at 141.59 99.2)
     (path /529BB9BF)
     (fp_text reference P21 (at 0 3.3) (layer B.SilkS) hide
@@ -267,7 +267,7 @@
     (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
+    (pad "" smd rect (at -0.59 0) (size 1.4 1.8) (layers Back B.Mask)
       (net 1 N-000001))
   )
 
@@ -323,7 +323,7 @@
       (net 2 N-000002))
   )
 
-  (module UGL:via_24_14mil (layer Front) (tedit 53D989AF) (tstamp 53D9854D)
+  (module UGL:via_24_14mil (layer Front) (tedit 53DA9110) (tstamp 53D9854D)
     (at 141.93012 99.75088)
     (fp_text reference "" (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -331,11 +331,11 @@
     (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" thru_hole circle (at -0.006787 -0.017547) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
+    (pad "" thru_hole circle (at -0.596787 -0.017547) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
       (net 1 N-000001) (solder_mask_margin -1) (clearance 0.01))
   )
 
-  (module UGL:via_24_14mil (layer Front) (tedit 53D98966) (tstamp 53D988C8)
+  (module UGL:via_24_14mil (layer Front) (tedit 53DA90FF) (tstamp 53D988C8)
     (at 141.25956 99.76612)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -343,11 +343,11 @@
     (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" thru_hole circle (at -0.002893 -0.032787) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
+    (pad "" thru_hole circle (at -0.592893 -0.032787) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
       (net 1 N-000001) (solder_mask_margin -1) (clearance 0.01))
   )
 
-  (module UGL:via_24_14mil (layer Front) (tedit 53D98A2F) (tstamp 53D9859F)
+  (module UGL:via_24_14mil (layer Front) (tedit 53DA93B9) (tstamp 53D9859F)
     (at 144.4498 99.73564)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -355,7 +355,7 @@
     (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" thru_hole circle (at 0.013533 -0.002307) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
+    (pad "" thru_hole circle (at -0.616467 -0.002307) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask F.SilkS)
       (net 2 N-000002) (solder_mask_margin -1) (clearance 0.01))
   )
 
@@ -418,28 +418,5 @@
   (gr_line (start 138.4 97.6) (end 138.4 102.4) (angle 90) (layer Edge.Cuts) (width 0.01))
   (gr_line (start 138.4 102.4) (end 140.4 102.4) (angle 90) (layer Edge.Cuts) (width 0.01))
   (gr_line (start 140.4 102.4) (end 140.4 100.8) (angle 90) (layer Edge.Cuts) (width 0.01))
-
-  (segment (start 141.93012 99.74072) (end 141.59 99.2) (width 0.733) (layer Back) (net 1) (tstamp 53DA00F9))
-  (segment (start 141.59 99.2) (end 141.93012 99.54012) (width 0.733) (layer Back) (net 1))
-  (segment (start 141.93012 99.54012) (end 141.93012 99.74072) (width 0.733) (layer Back) (net 1) (tstamp 53DA00EF))
-  (segment (start 141.256667 99.733333) (end 141.933333 99.733333) (width 0.733) (layer Front) (net 1))
-  (segment (start 141.933333 99.733333) (end 142.1 99.9) (width 0.733) (layer Front) (net 1) (tstamp 53DA0251))
-  (segment (start 144.13 99.2) (end 144.13 99.4) (width 0.733) (layer Back) (net 2))
-  (segment (start 144.583333 99.733333) (end 143.796667 99.733333) (width 0.733) (layer Front) (net 2) (tstamp 53DA03AD))
-  (segment (start 144.75 99.9) (end 144.583333 99.733333) (width 0.733) (layer Front) (net 2))
-  (segment (start 144.13 99.4) (end 143.796667 99.733333) (width 0.733) (layer Back) (net 2) (tstamp 53DA02E7))
-  (segment (start 143.796667 99.733333) (end 144.463333 99.733333) (width 0.733) (layer Front) (net 2))
-  (segment (start 146.67 99.2) (end 147.003333 99.533333) (width 0.733) (layer Back) (net 3))
-  (segment (start 147.003333 99.533333) (end 147.003333 99.733333) (width 0.733) (layer Back) (net 3) (tstamp 53DA0211))
-  (segment (start 147.4 99.9) (end 147.233333 99.733333) (width 0.733) (layer Front) (net 3))
-  (segment (start 147.233333 99.733333) (end 146.336667 99.733333) (width 0.733) (layer Front) (net 3) (tstamp 53DA01EF))
-  (segment (start 149.21 99.2) (end 149.543333 99.533333) (width 0.733) (layer Back) (net 4))
-  (segment (start 149.543333 99.533333) (end 149.543333 99.733333) (width 0.733) (layer Back) (net 4) (tstamp 53DA020E))
-  (segment (start 150.05 99.9) (end 149.883333 99.733333) (width 0.733) (layer Front) (net 4))
-  (segment (start 149.883333 99.733333) (end 148.876667 99.733333) (width 0.733) (layer Front) (net 4) (tstamp 53DA01EC))
-  (segment (start 151.75 99.2) (end 152.0444 99.4944) (width 0.733) (layer Back) (net 5))
-  (segment (start 152.0444 99.4944) (end 152.0444 99.733333) (width 0.733) (layer Back) (net 5) (tstamp 53DA0209))
-  (segment (start 152.7 99.9) (end 152.533333 99.733333) (width 0.733) (layer Front) (net 5))
-  (segment (start 152.533333 99.733333) (end 151.416667 99.733333) (width 0.733) (layer Front) (net 5) (tstamp 53DA01E7))
 
 )
