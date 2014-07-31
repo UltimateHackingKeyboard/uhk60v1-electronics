@@ -174,19 +174,6 @@
       (net 4 N-000004))
   )
 
-  (module vertical_pcb_pad (layer Back) (tedit 53DA93C3) (tstamp 529BBAC2)
-    (at 146.67 99.2)
-    (path /529BB9D4)
-    (fp_text reference P23 (at 0 3.3) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
-    )
-    (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
-    )
-    (pad "" smd rect (at -0.67 0) (size 1.4 1.8) (layers Back B.Mask)
-      (net 3 N-000003))
-  )
-
   (module vertical_pcb_pad (layer Front) (tedit 53DA3305) (tstamp 529BBAE1)
     (at 148.5 98.7)
     (path /529BB9F2)
@@ -198,19 +185,6 @@
     )
     (pad "" smd rect (at 1.55 1.2) (size 1.4 1.8) (layers Front F.Mask)
       (net 4 N-000004))
-  )
-
-  (module vertical_pcb_pad (layer Front) (tedit 53DA32FF) (tstamp 529BBAE7)
-    (at 146 98.7)
-    (path /529BB9EC)
-    (fp_text reference P13 (at 0 -3.3) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (pad "" smd rect (at 1.4 1.2) (size 1.4 1.8) (layers Front F.Mask)
-      (net 3 N-000003))
   )
 
   (module UGL:via_24_14mil (layer Front) (tedit 53DA9EBC) (tstamp 53DA9FBF)
@@ -296,6 +270,32 @@
     )
     (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Front F.Mask)
       (net 1 N-000001))
+  )
+
+  (module UGL:UHK_vertical_PCB_pad (layer Front) (tedit 53DA981A) (tstamp 529BBAC2)
+    (at 146 99.2)
+    (path /529BB9D4)
+    (fp_text reference P23 (at 0 -3.3) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Front F.Mask)
+      (net 3 N-000003))
+  )
+
+  (module UGL:UHK_vertical_PCB_pad (layer Back) (tedit 53DA981A) (tstamp 529BBAE7)
+    (at 147.4 99.9)
+    (path /529BB9EC)
+    (fp_text reference P13 (at 0 3.3) (layer B.SilkS) hide
+      (effects (font (thickness 0.3048)) (justify mirror))
+    )
+    (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
+      (effects (font (thickness 0.3048)) (justify mirror))
+    )
+    (pad "" smd rect (at 0 0) (size 1.4 1.8) (layers Back B.Mask)
+      (net 3 N-000003))
   )
 
   (gr_text "< pin contact line" (at 167.9 98.6) (layer Eco1.User)
