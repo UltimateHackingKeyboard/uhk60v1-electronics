@@ -86,10 +86,10 @@ F 3 "" H 5250 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR01
 U 1 1 52A46D9E
 P 4750 4350
-F 0 "#PWR?" H 4750 4350 30  0001 C CNN
+F 0 "#PWR01" H 4750 4350 30  0001 C CNN
 F 1 "GND" H 4750 4280 30  0001 C CNN
 F 2 "" H 4750 4350 60  0000 C CNN
 F 3 "" H 4750 4350 60  0000 C CNN
@@ -176,4 +176,32 @@ Wire Wire Line
 	6400 3950 6150 3950
 Wire Wire Line
 	6400 4050 6150 4050
+Text Label 6150 2750 0    40   ~ 0
+ROW1
+Text Label 6150 2850 0    40   ~ 0
+ROW2
+Text Label 6150 2950 0    40   ~ 0
+ROW3
+Text Label 6150 3050 0    40   ~ 0
+ROW4
+Text Label 6150 3150 0    40   ~ 0
+ROW5
+Text Label 6150 3250 0    40   ~ 0
+ROW6
+Text Label 6150 3350 0    40   ~ 0
+COL1
+Text Label 6150 3950 0    40   ~ 0
+COL7
+Text Label 6150 4050 0    40   ~ 0
+COL8
+Text Label 6150 3450 0    40   ~ 0
+COL2
+Text Label 6150 3550 0    40   ~ 0
+COL3
+Text Label 6150 3650 0    40   ~ 0
+COL4
+Text Label 6150 3750 0    40   ~ 0
+COL5
+Text Label 6150 3850 0    40   ~ 0
+COL6
 $EndSCHEMATC
