@@ -64,7 +64,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0.1016)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFBF7F)
+    (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions true)
@@ -3891,7 +3891,7 @@
   )
 
   (module UGL:UHK_vertical_PCB (layer F.Cu) (tedit 53DAED40) (tstamp 518A95F5)
-    (at 115.899997 132.7)
+    (at 116.399997 132.7)
     (path /512EB389)
     (fp_text reference P2 (at 2.54 15.875 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
