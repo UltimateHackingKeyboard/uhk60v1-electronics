@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name UGL)(type KiCad)(uri /home/laci/projects/ugl/kicad-libs/ugl.pretty)(options "")(descr "Ultimate Hacking Keyboard library"))
+)
