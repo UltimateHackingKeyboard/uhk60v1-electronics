@@ -2502,8 +2502,6 @@ F 3 "" H 1450 1850 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	1250 1850 1350 1850
-Wire Wire Line
-	1250 2050 2400 2050
 Connection ~ 1650 2050
 Connection ~ 1850 2050
 $Comp
@@ -2524,8 +2522,6 @@ Wire Wire Line
 	2150 1300 2150 1250
 Text Notes 1150 2200 0    40   ~ 0
 shield\n(not connected by the cable)
-Wire Wire Line
-	1250 1950 1250 2050
 Wire Wire Line
 	2400 2050 2400 2150
 Text Notes 1150 1950 0    40   ~ 0
@@ -2561,4 +2557,11 @@ F 3 "" H 2200 2050 60  0000 C CNN
 $EndComp
 Connection ~ 2200 2050
 Connection ~ 1950 1300
+Wire Wire Line
+	1250 1950 1350 1950
+Wire Wire Line
+	1350 1950 1350 2050
+Wire Wire Line
+	1350 2050 2400 2050
+NoConn ~ 1250 2050
 $EndSCHEMATC
