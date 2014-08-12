@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Tue 12 Aug 2014 02:25:14 AM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Tue 12 Aug 2014 01:09:32 PM CEST
 
 BeginCmp
 TimeStamp = /513150A5;
@@ -389,7 +389,7 @@ BeginCmp
 TimeStamp = /52A0BDE3;
 Reference = Q1;
 ValeurCmp = PNP;
-IdModule  = SOT23;
+IdModule  = SMD_Packages:SOT-23;
 EndCmp
 
 BeginCmp
@@ -414,43 +414,36 @@ IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /51348BBE;
+TimeStamp = /53CF0531;
 Reference = R4;
+ValeurCmp = 47;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CF6DE8;
+Reference = R5;
+ValeurCmp = 47;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /51348BBE;
+Reference = R6;
 ValeurCmp = 110;
 IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /51346274;
-Reference = R5;
-ValeurCmp = 10K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52A0BEE6;
-Reference = R6;
-ValeurCmp = 1K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52A0C023;
-Reference = R7;
-ValeurCmp = 47K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /53C91BB5;
-Reference = R8;
+Reference = R7;
 ValeurCmp = 47;
 IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C8F67D;
-Reference = R9;
+Reference = R8;
 ValeurCmp = 47;
 IdModule  = UGL:SM0805;
 EndCmp
@@ -547,16 +540,23 @@ IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /53CF0531;
-Reference = R31;
-ValeurCmp = 47;
+TimeStamp = /51346274;
+Reference = R30;
+ValeurCmp = 10K;
 IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /53CF6DE8;
+TimeStamp = /52A0BEE6;
+Reference = R31;
+ValeurCmp = 1K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52A0C023;
 Reference = R32;
-ValeurCmp = 47;
+ValeurCmp = 47K;
 IdModule  = UGL:SM0805;
 EndCmp
 
