@@ -2283,7 +2283,7 @@
       (net 52 VCC))
   )
 
-  (module isp6pin_staggered (layer F.Cu) (tedit 52B33563) (tstamp 53DE4E9A)
+  (module isp6pin_staggered locked (layer F.Cu) (tedit 52B33563) (tstamp 53DE4E9A)
     (at 143.32001 154.820217)
     (descr "2x3 AVR ISP pin header")
     (tags CONN)
@@ -2318,7 +2318,7 @@
     )
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 526414BA)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 526414BA)
     (at 139.07001 141.320217 180)
     (path /512EC393)
     (fp_text reference SW51 (at 0 4.9 180) (layer F.SilkS)
@@ -2342,7 +2342,7 @@
       (net 15 /KEYS_ROW5))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 526414C5)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 526414C5)
     (at 162.470004 141.320217 180)
     (path /512EC399)
     (fp_text reference SW52 (at 0 4.9 180) (layer F.SilkS)
@@ -2366,7 +2366,7 @@
       (net 15 /KEYS_ROW5))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 526414D0)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 526414D0)
     (at 185.870005 141.320217 180)
     (path /512EC39F)
     (fp_text reference SW53 (at 0 4.9 180) (layer F.SilkS)
@@ -2390,7 +2390,7 @@
       (net 15 /KEYS_ROW5))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 526414E6)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 526414E6)
     (at 209.269999 141.320217 180)
     (path /512EC3A5)
     (fp_text reference SW54 (at 0 4.9 180) (layer F.SilkS)
@@ -2414,7 +2414,7 @@
       (net 15 /KEYS_ROW5))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 526414F1)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 526414F1)
     (at 238.120003 141.320218 180)
     (path /512EC3B1)
     (fp_text reference SW56 (at 0 4.9 180) (layer F.SilkS)
@@ -2438,7 +2438,7 @@
       (net 15 /KEYS_ROW5))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 52644172)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 52644172)
     (at 255.32 122.320222 180)
     (path /512EB921)
     (fp_text reference SW46 (at 0 4.9 180) (layer F.SilkS)
@@ -2462,7 +2462,7 @@
       (net 14 /KEYS_ROW4))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 52643D77)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 52643D77)
     (at 236.120005 122.320221 180)
     (path /512EB91B)
     (fp_text reference SW45 (at 0 4.9 180) (layer F.SilkS)
@@ -2486,7 +2486,7 @@
       (net 14 /KEYS_ROW4))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 52641499)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 52641499)
     (at 216.920008 122.320221 180)
     (path /512EB915)
     (fp_text reference SW44 (at 0 4.9 180) (layer F.SilkS)
@@ -2510,7 +2510,7 @@
       (net 14 /KEYS_ROW4))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 5264148E)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 5264148E)
     (at 197.720011 122.320221 180)
     (path /512EB90F)
     (fp_text reference SW43 (at 0 4.9 180) (layer F.SilkS)
@@ -2534,7 +2534,7 @@
       (net 14 /KEYS_ROW4))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 52641483)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 52641483)
     (at 178.519999 122.320221 180)
     (path /512EB909)
     (fp_text reference SW42 (at 0 4.9 180) (layer F.SilkS)
@@ -2558,7 +2558,7 @@
       (net 14 /KEYS_ROW4))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 5269E455)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 5269E455)
     (at 148.07001 122.320221 180)
     (path /512EB903)
     (fp_text reference SW41 (at 0 4.9 180) (layer F.SilkS)
@@ -2582,7 +2582,7 @@
       (net 14 /KEYS_ROW4))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 5264146D)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 5264146D)
     (at 245.769999 103.320221 180)
     (path /512EAE7A)
     (fp_text reference SW36 (at 0 4.9 180) (layer F.SilkS)
@@ -2606,7 +2606,7 @@
       (net 13 /KEYS_ROW3))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 52641462)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 52641462)
     (at 226.680003 103.320221 180)
     (path /512EAE74)
     (fp_text reference SW35 (at 0 4.9 180) (layer F.SilkS)
@@ -2630,7 +2630,7 @@
       (net 13 /KEYS_ROW3))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 52641457)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 52641457)
     (at 207.590006 103.320221 180)
     (path /512EAE6E)
     (fp_text reference SW34 (at 0 4.9 180) (layer F.SilkS)
@@ -2654,7 +2654,7 @@
       (net 13 /KEYS_ROW3))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 52A3C4A9)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 52A3C4A9)
     (at 188.50001 103.320221 180)
     (path /512EAE68)
     (fp_text reference SW33 (at 0 4.9 180) (layer F.SilkS)
@@ -2678,7 +2678,7 @@
       (net 13 /KEYS_ROW3))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 52641441)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 52641441)
     (at 169.410006 103.320221 180)
     (path /512EAE62)
     (fp_text reference SW32 (at 0 4.9 180) (layer F.SilkS)
@@ -2702,7 +2702,7 @@
       (net 13 /KEYS_ROW3))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 52641436)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 52641436)
     (at 143.57001 103.320221 180)
     (path /512EADA8)
     (fp_text reference SW31 (at 0 4.9 180) (layer F.SilkS)
@@ -2726,7 +2726,7 @@
       (net 13 /KEYS_ROW3))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 5269E65E)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 5269E65E)
     (at 240.820002 84.320221 180)
     (path /512EA973)
     (fp_text reference SW26 (at 0 4.9 180) (layer F.SilkS)
@@ -2750,7 +2750,7 @@
       (net 12 /KEYS_ROW2))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 52641420)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 52641420)
     (at 221.820002 84.320221 180)
     (path /512EA7E0)
     (fp_text reference SW25 (at 0 4.9 180) (layer F.SilkS)
@@ -2774,7 +2774,7 @@
       (net 12 /KEYS_ROW2))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 52641415)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 52641415)
     (at 202.820002 84.320221 180)
     (path /512EA29C)
     (fp_text reference SW24 (at 0 4.9 180) (layer F.SilkS)
@@ -2798,7 +2798,7 @@
       (net 12 /KEYS_ROW2))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 5264140A)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 5264140A)
     (at 183.820002 84.320221 180)
     (path /512EA0FD)
     (fp_text reference SW23 (at 0 4.9 180) (layer F.SilkS)
@@ -2822,7 +2822,7 @@
       (net 12 /KEYS_ROW2))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 526413FF)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 526413FF)
     (at 164.82001 84.320221 180)
     (path /512EA010)
     (fp_text reference SW22 (at 0 4.9 180) (layer F.SilkS)
@@ -2846,7 +2846,7 @@
       (net 12 /KEYS_ROW2))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 5269E680)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 5269E680)
     (at 141.32001 84.320221 180)
     (path /512E90C4)
     (fp_text reference SW21 (at 0 4.9 180) (layer F.SilkS)
@@ -2870,7 +2870,7 @@
       (net 12 /KEYS_ROW2))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 5269E652)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 5269E652)
     (at 250.820002 65.320214 180)
     (path /512EA103)
     (fp_text reference SW17 (at 0 4.9 180) (layer F.SilkS)
@@ -2894,7 +2894,7 @@
       (net 11 /KEYS_ROW1))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 5269E646)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 5269E646)
     (at 231.820002 65.320214 180)
     (path /512E9D6F)
     (fp_text reference SW16 (at 0 4.9 180) (layer F.SilkS)
@@ -2918,7 +2918,7 @@
       (net 11 /KEYS_ROW1))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 5269E63A)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 5269E63A)
     (at 212.820002 65.320214 180)
     (path /512E9AE1)
     (fp_text reference SW15 (at 0 4.9 180) (layer F.SilkS)
@@ -2942,7 +2942,7 @@
       (net 11 /KEYS_ROW1))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 52A25201)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 52A25201)
     (at 193.820002 65.320214 180)
     (path /512E9870)
     (fp_text reference SW14 (at 0 4.9 180) (layer F.SilkS)
@@ -2966,7 +2966,7 @@
       (net 11 /KEYS_ROW1))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 5269E622)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 5269E622)
     (at 174.82001 65.320214 180)
     (path /512E96BC)
     (fp_text reference SW13 (at 0 4.9 180) (layer F.SilkS)
@@ -2990,7 +2990,7 @@
       (net 11 /KEYS_ROW1))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 5269E616)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 5269E616)
     (at 155.82001 65.320214 180)
     (path /512E928F)
     (fp_text reference SW12 (at 0 4.9 180) (layer F.SilkS)
@@ -3014,7 +3014,7 @@
       (net 11 /KEYS_ROW1))
   )
 
-  (module Cherry_MX (layer F.Cu) (tedit 52B98E8C) (tstamp 52A3B412)
+  (module Cherry_MX locked (layer F.Cu) (tedit 52B98E8C) (tstamp 52A3B412)
     (at 136.82001 65.320214 180)
     (path /512E8C90)
     (fp_text reference SW11 (at 0 4.9 180) (layer F.SilkS)
@@ -3038,7 +3038,7 @@
       (net 11 /KEYS_ROW1))
   )
 
-  (module hole_4.8mm (layer F.Cu) (tedit 52B99261) (tstamp 528A985A)
+  (module hole_4.8mm locked (layer F.Cu) (tedit 52B99261) (tstamp 528A985A)
     (at 226.519999 113.320221)
     (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3049,7 +3049,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 4.8 4.8) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module hole_4.8mm (layer F.Cu) (tedit 52B99261) (tstamp 528A984E)
+  (module hole_4.8mm locked (layer F.Cu) (tedit 52B99261) (tstamp 528A984E)
     (at 188.120005 113.320221)
     (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3060,7 +3060,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 4.8 4.8) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module hole_4.8mm (layer F.Cu) (tedit 52B99261) (tstamp 528A9842)
+  (module hole_4.8mm locked (layer F.Cu) (tedit 52B99261) (tstamp 528A9842)
     (at 130.82001 103.320221)
     (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3071,7 +3071,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 4.8 4.8) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module hole_4.8mm (layer F.Cu) (tedit 52B99261) (tstamp 528A9473)
+  (module hole_4.8mm locked (layer F.Cu) (tedit 52B99261) (tstamp 528A9473)
     (at 174.32001 75.320221)
     (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3082,7 +3082,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 4.8 4.8) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module hole_4.8mm (layer F.Cu) (tedit 52B99261) (tstamp 528A9EF8)
+  (module hole_4.8mm locked (layer F.Cu) (tedit 52B99261) (tstamp 528A9EF8)
     (at 212.320002 75.320221)
     (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3093,7 +3093,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 4.8 4.8) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module hole_5.7mm (layer F.Cu) (tedit 52B99283) (tstamp 528AA3F4)
+  (module hole_5.7mm locked (layer F.Cu) (tedit 52B99283) (tstamp 528AA3F4)
     (at 201.720011 46.520226)
     (fp_text reference "hole 5.7mm" (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3104,7 +3104,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 5.7 5.7) (drill 5.7) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module hole_5.7mm (layer F.Cu) (tedit 52B99283) (tstamp 528AA3B1)
+  (module hole_5.7mm locked (layer F.Cu) (tedit 52B99283) (tstamp 528AA3B1)
     (at 181.470011 48.270226)
     (fp_text reference "hole 5.7mm" (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3115,7 +3115,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 5.7 5.7) (drill 5.7) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module hole_2.4mm (layer F.Cu) (tedit 52B99230) (tstamp 5295D75B)
+  (module hole_2.4mm locked (layer F.Cu) (tedit 52B99230) (tstamp 5295D75B)
     (at 199.220011 40.120226)
     (fp_text reference hole_2.4mm (at 0 -2.4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3746,7 +3746,7 @@
       (net 84 "Net-(D56-Pad2)"))
   )
 
-  (module 009155005541006_uhk (layer F.Cu) (tedit 52BEE008) (tstamp 528E4BE1)
+  (module 009155005541006_uhk locked (layer F.Cu) (tedit 52BEE008) (tstamp 528E4BE1)
     (at 259.019999 141.970221 90)
     (path /5130F32D)
     (fp_text reference P2 (at 0 -7 90) (layer F.SilkS)
@@ -3773,7 +3773,7 @@
     (pad "" smd rect (at -6.85 -1.8 90) (size 1.2 2.95) (layers F.Cu F.Mask))
   )
 
-  (module UGL:SS-5GLD (layer F.Cu) (tedit 53C4A28F) (tstamp 5265A570)
+  (module UGL:SS-5GLD locked (layer F.Cu) (tedit 53C4A28F) (tstamp 5265A570)
     (at 243.170008 155.42022 180)
     (path /512EC3AB)
     (fp_text reference SW55 (at 0 2.1 180) (layer F.SilkS)
@@ -3797,7 +3797,7 @@
     (pad "" thru_hole circle (at 7.8 0 180) (size 2.35 2.35) (drill 1.35) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module UGL:0955012641 (layer F.Cu) (tedit 53DE4835) (tstamp 53DF7586)
+  (module UGL:0955012641 locked (layer F.Cu) (tedit 53DE4835) (tstamp 53DF7586)
     (at 223.55691 41.672514 100)
     (descr "RJ11 jack")
     (path /5130F31E)
