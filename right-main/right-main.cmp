@@ -1,773 +1,815 @@
-Cmp-Mod V01 Created by PcbNew date = Thu 19 Dec 2013 08:35:37 PM CET
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Thu 14 Aug 2014 02:31:31 AM CEST
 
 BeginCmp
 TimeStamp = /50DA313C;
 Reference = C1;
 ValeurCmp = 15pF;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50DA3122;
 Reference = C2;
 ValeurCmp = 15pF;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50DA2FAA;
 Reference = C3;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50DA30E9;
 Reference = C4;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50DA3108;
 Reference = C5;
 ValeurCmp = 1uF;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /50DDEAB6;
+TimeStamp = /53D59F59;
 Reference = C6;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51ACF9D4;
-Reference = C7;
-ValeurCmp = 0.1uF;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50E0344F;
 Reference = C8;
 ValeurCmp = 10uF;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /512D510D;
 Reference = C9;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /512D5123;
 Reference = C10;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /512D48DF;
 Reference = C11;
 ValeurCmp = 0.1nF;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E78ED7;
+Reference = C12;
+ValeurCmp = 4700pF;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E6221D;
+Reference = C13;
+ValeurCmp = 4700pF;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50E608F4;
 Reference = CR1;
 ValeurCmp = ESD;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50CCF102;
-Reference = CR2;
-ValeurCmp = ESD;
-IdModule  = SM0603;
+IdModule  = UGL:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CCF29F;
+Reference = CR2;
+ValeurCmp = ESD;
+IdModule  = UGL:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /50CCF102;
 Reference = CR3;
 ValeurCmp = ESD;
-IdModule  = SM0603;
+IdModule  = UGL:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D88F4D;
+Reference = CR4;
+ValeurCmp = ESD;
+IdModule  = UGL:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /513F9E1F;
-Reference = CR4;
+Reference = CR5;
 ValeurCmp = ESD;
-IdModule  = SM0603;
+IdModule  = UGL:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /513FA0B4;
-Reference = CR5;
+Reference = CR6;
 ValeurCmp = ESD;
-IdModule  = SM0603;
+IdModule  = UGL:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /513FA55A;
-Reference = CR6;
+Reference = CR7;
 ValeurCmp = ESD;
-IdModule  = SM0603;
+IdModule  = UGL:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /513FAA06;
-Reference = CR7;
+Reference = CR8;
 ValeurCmp = ESD;
-IdModule  = SM0603;
+IdModule  = UGL:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D34AC0;
+Reference = CR9;
+ValeurCmp = ESD;
+IdModule  = UGL:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9299C;
 Reference = D11;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6AA3;
 Reference = D12;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6AA9;
 Reference = D13;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6AAF;
 Reference = D14;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6AB5;
 Reference = D15;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6ABB;
 Reference = D16;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6AC1;
 Reference = D17;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B75;
 Reference = D21;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B5D;
 Reference = D22;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B45;
 Reference = D23;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B2D;
 Reference = D24;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B15;
 Reference = D25;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6AFD;
 Reference = D26;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6AE5;
 Reference = D27;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B7B;
 Reference = D31;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B63;
 Reference = D32;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B4B;
 Reference = D33;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B33;
 Reference = D34;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B1B;
 Reference = D35;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B03;
 Reference = D36;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6AEB;
 Reference = D37;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B81;
 Reference = D41;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B69;
 Reference = D42;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B51;
 Reference = D43;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B39;
 Reference = D44;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B21;
 Reference = D45;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B09;
 Reference = D46;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6AF1;
 Reference = D47;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B6F;
 Reference = D52;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B57;
 Reference = D53;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B3F;
 Reference = D54;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B27;
 Reference = D55;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6B0F;
 Reference = D56;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CA6AF7;
 Reference = D57;
 ValeurCmp = DIODE;
-IdModule  = SOD-123_Diode;
+IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CD16C3;
 Reference = F1;
 ValeurCmp = FUSE;
-IdModule  = SM1206;
+IdModule  = UGL:SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /50D9B038;
 Reference = J1;
 ValeurCmp = USBCONN;
-IdModule  = UX60-MB-5S8;
-EndCmp
-
-BeginCmp
-TimeStamp = /50DA06D3;
-Reference = L1;
-ValeurCmp = INDUCTOR;
-IdModule  = SM0805;
+IdModule  = UGL:UX60-MB-5S8;
 EndCmp
 
 BeginCmp
 TimeStamp = /512D54AD;
-Reference = L2;
+Reference = L1;
 ValeurCmp = INDUCTOR;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EACF5;
 Reference = P1;
 ValeurCmp = CONN_5;
-IdModule  = 5555154-2;
+IdModule  = UGL:5555154-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /512EB389;
 Reference = P2;
 ValeurCmp = CONN_5;
-IdModule  = vertical_pcb_staggered;
+IdModule  = UGL:UHK_vertical_PCB;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CD1B69;
 Reference = P3;
 ValeurCmp = CONN_6;
-IdModule  = isp6pin_staggered;
+IdModule  = UGL:isp6pin_staggered;
 EndCmp
 
 BeginCmp
 TimeStamp = /50E0B57C;
 Reference = R1;
 ValeurCmp = 47K;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50E0B9D3;
 Reference = R2;
 ValeurCmp = 47K;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /50E08E88;
+TimeStamp = /53E61793;
 Reference = R3;
-ValeurCmp = 10K;
-IdModule  = SM0805;
+ValeurCmp = 1M;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /51ACEA08;
+TimeStamp = /53E72C9E;
 Reference = R4;
-ValeurCmp = 10K;
-IdModule  = SM0805;
+ValeurCmp = 1M;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CB9AE1;
 Reference = R5;
 ValeurCmp = 22;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CB9AEE;
 Reference = R6;
 ValeurCmp = 22;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /512D48CD;
 Reference = R7;
 ValeurCmp = 110;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CB144D;
+Reference = R8;
+ValeurCmp = 47;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CAE4FF;
+Reference = R9;
+ValeurCmp = 47;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9B2CB;
 Reference = R11;
 ValeurCmp = 10K;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9B553;
 Reference = R12;
 ValeurCmp = 10K;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9B559;
 Reference = R13;
 ValeurCmp = 10K;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9B55F;
 Reference = R14;
 ValeurCmp = 10K;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9B565;
 Reference = R15;
 ValeurCmp = 10K;
-IdModule  = SM0805;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /512D3EA5;
-Reference = SW1;
-ValeurCmp = SPST;
-IdModule  = MCFTE-3C-V_UHK;
+TimeStamp = /53CDB093;
+Reference = R21;
+ValeurCmp = 47;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CD56CD;
+Reference = R22;
+ValeurCmp = 47;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D7DCD0;
+Reference = R23;
+ValeurCmp = 4.7K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D81200;
+Reference = R24;
+ValeurCmp = 4.7K;
+IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C92502;
 Reference = SW11;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C92521;
 Reference = SW12;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C926B3;
 Reference = SW13;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9A908;
 Reference = SW14;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9A90E;
 Reference = SW15;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9A917;
 Reference = SW16;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9A94B;
 Reference = SW17;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9AC5E;
 Reference = SW21;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9AC64;
 Reference = SW22;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9AC6A;
 Reference = SW23;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9AC82;
 Reference = SW24;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9AC88;
 Reference = SW25;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9AC8E;
 Reference = SW26;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9ACA6;
 Reference = SW27;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9ACC6;
 Reference = SW31;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9ACCC;
 Reference = SW32;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9ACD2;
 Reference = SW33;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9ACEA;
 Reference = SW34;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9ACF0;
 Reference = SW35;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9ACF6;
 Reference = SW36;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9AD0E;
 Reference = SW37;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9AD2E;
 Reference = SW41;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9AD34;
 Reference = SW42;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9AD3A;
 Reference = SW43;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9AD52;
 Reference = SW44;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9AD58;
 Reference = SW45;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9AD5E;
 Reference = SW46;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9AD76;
 Reference = SW47;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9AD9C;
 Reference = SW52;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9ADA2;
 Reference = SW53;
 ValeurCmp = SPST;
-IdModule  = SS-5GLD;
+IdModule  = UGL:SS-5GLD;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9ADBA;
 Reference = SW54;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9ADC0;
 Reference = SW55;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9ADC6;
 Reference = SW56;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
 TimeStamp = /50C9ADDE;
 Reference = SW57;
 ValeurCmp = SPST;
-IdModule  = Cherry_MX;
+IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
-TimeStamp = /50A1AF3F;
+TimeStamp = /53C33E4D;
 Reference = U1;
-ValeurCmp = ATMEGA32U2;
-IdModule  = ATMEGA_TQFP32;
+ValeurCmp = ATMEGA32U4-A;
+IdModule  = SMD_Packages:TQFP-44;
 EndCmp
 
 BeginCmp
-TimeStamp = /50D902F7;
+TimeStamp = /53D39A76;
 Reference = U2;
-ValeurCmp = EEPROM_HN58X25256;
-IdModule  = HN58X25-SOP8;
-EndCmp
-
-BeginCmp
-TimeStamp = /51ACD3B8;
-Reference = U3;
-ValeurCmp = SN74CBTLV3257;
-IdModule  = SN74CBT3257-SOIC;
+ValeurCmp = EEPROM;
+IdModule  = UGL:HN58X25-SOP8;
 EndCmp
 
 BeginCmp
 TimeStamp = /50CB7FC4;
 Reference = X1;
 ValeurCmp = 16Mhz;
-IdModule  = 2-SMD;
+IdModule  = UGL:2-SMD;
 EndCmp
 
 EndListe
