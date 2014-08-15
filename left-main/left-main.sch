@@ -2751,11 +2751,11 @@ NoConn ~ 1250 2050
 Text Label 1650 1850 0    40   ~ 0
 TX_INT
 Text Label 1250 1850 0    40   ~ 0
-TX_SRC
+TX_SRC1
 Text Label 1350 1650 0    40   ~ 0
-RX_SRC
+RX_SRC1
 Text Label 1500 4600 0    40   ~ 0
-TX_SRC
+TX_SRC2
 Text Label 1600 4350 0    40   ~ 0
-RX_SRC
+RX_SRC2
 $EndSCHEMATC
