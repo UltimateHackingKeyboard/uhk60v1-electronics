@@ -2315,4 +2315,16 @@ F 3 "" H 1850 1750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 1850 1750
+Text Label 1550 3700 0    40   ~ 0
+TX_SRC1
+Text Label 2100 3700 0    40   ~ 0
+TX_INT
+Text Label 1550 3800 0    40   ~ 0
+RX_SRC1
+Text Label 1650 3300 0    40   ~ 0
+VCC_INT
+Text Label 1950 5750 0    40   ~ 0
+TX_SRC2
+Text Label 1850 6000 0    40   ~ 0
+RX_SRC2
 $EndSCHEMATC
