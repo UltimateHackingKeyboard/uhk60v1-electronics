@@ -1605,29 +1605,29 @@ XTAL1
 Text Label 5650 1750 0    40   ~ 0
 XTAL2
 Text Label 5650 3150 0    40   ~ 0
-KEYS_COL3
+KEYS_ROW5
 Text Label 5650 3250 0    40   ~ 0
-KEYS_COL6
+KEYS_COL3
 Text Label 5650 3350 0    40   ~ 0
-KEYS_COL5
+KEYS_COL4
 Text Label 5650 2950 0    40   ~ 0
 KEYS_COL2
 Text Label 5650 3050 0    40   ~ 0
-KEYS_COL1
+KEYS_ROW4
 Text Label 5650 2200 0    40   ~ 0
 RCK
 Text Label 5650 1900 0    40   ~ 0
-KEYS_COL4
+KEYS_COL1
 Text Label 5650 2000 0    40   ~ 0
-KEYS_ROW4
-Text Label 5650 2100 0    40   ~ 0
-KEYS_ROW5
-Text Label 5650 1050 0    40   ~ 0
 KEYS_ROW1
-Text Label 5650 1150 0    40   ~ 0
-KEYS_ROW2
-Text Label 5650 2850 0    40   ~ 0
+Text Label 5650 2100 0    40   ~ 0
 KEYS_ROW3
+Text Label 5650 1050 0    40   ~ 0
+KEYS_COL5
+Text Label 5650 1150 0    40   ~ 0
+KEYS_COL6
+Text Label 5650 2850 0    40   ~ 0
+KEYS_ROW2
 Text Label 5650 1250 0    40   ~ 0
 DISPLAY_ENABLE
 $Comp
