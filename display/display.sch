@@ -47,33 +47,33 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Label 4800 2650 0    40   ~ 0
-ROW1
-Text Label 4800 2750 0    40   ~ 0
-ROW2
-Text Label 4800 2850 0    40   ~ 0
-ROW3
-Text Label 4800 2950 0    40   ~ 0
 ROW6
-Text Label 4800 3050 0    40   ~ 0
-ROW4
-Text Label 4800 3150 0    40   ~ 0
+Text Label 4800 2750 0    40   ~ 0
 ROW5
+Text Label 4800 2850 0    40   ~ 0
+ROW4
+Text Label 4800 2950 0    40   ~ 0
+ROW3
+Text Label 4800 3050 0    40   ~ 0
+ROW2
+Text Label 4800 3150 0    40   ~ 0
+ROW1
 Text Label 4800 3450 0    40   ~ 0
 COL8
 Text Label 4800 3550 0    40   ~ 0
-COL1
-Text Label 4800 3650 0    40   ~ 0
 COL7
-Text Label 4800 3750 0    40   ~ 0
+Text Label 4800 3650 0    40   ~ 0
 COL6
+Text Label 4800 3750 0    40   ~ 0
+COL5
 Text Label 4800 3850 0    40   ~ 0
-COL2
+COL4
 Text Label 4800 3950 0    40   ~ 0
 COL3
 Text Label 4800 4050 0    40   ~ 0
-COL4
+COL2
 Text Label 4800 4150 0    40   ~ 0
-COL5
+COL1
 $Comp
 L CONN_18 P1
 U 1 1 52A46D8F
@@ -204,4 +204,16 @@ Text Label 6150 3750 0    40   ~ 0
 COL5
 Text Label 6150 3850 0    40   ~ 0
 COL6
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 53F9174D
+P 4750 4150
+F 0 "#FLG02" H 4750 4245 30  0001 C CNN
+F 1 "PWR_FLAG" H 4750 4330 30  0000 C CNN
+F 2 "" H 4750 4150 60  0000 C CNN
+F 3 "" H 4750 4150 60  0000 C CNN
+	1    4750 4150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4750 4150
 $EndSCHEMATC
