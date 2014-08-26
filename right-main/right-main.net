@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/right-main/right-main.sch)
-    (date "Fri 15 Aug 2014 02:04:40 AM CEST")
+    (date "Tue 26 Aug 2014 08:45:51 PM CEST")
     (tool "Eeschema (2014-08-05 BZR 5054)-product"))
   (components
     (comp (ref SW11)
