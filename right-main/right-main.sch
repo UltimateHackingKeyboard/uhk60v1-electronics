@@ -1397,9 +1397,9 @@ Text Label 7250 1000 0    40   ~ 0
 COL7
 Text Label 7250 1600 0    40   ~ 0
 COL6
-Text Label 8000 1000 0    40   ~ 0
+Text Label 7250 1500 0    40   ~ 0
 COL5
-Text Label 7700 1500 0    40   ~ 0
+Text Label 7250 1400 0    40   ~ 0
 COL4
 Text Label 7250 3600 0    40   ~ 0
 COL3
@@ -2313,9 +2313,9 @@ Wire Wire Line
 Wire Wire Line
 	7150 2800 7250 2800
 Wire Wire Line
-	7600 1500 7700 1500
+	7150 1400 7250 1400
 Wire Wire Line
-	7900 1000 8000 1000
+	7150 1500 7250 1500
 Wire Wire Line
 	7150 1600 7250 1600
 Wire Wire Line
@@ -2476,8 +2476,6 @@ F 3 "" H 2350 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2350 3300
-NoConn ~ 7150 1400
-NoConn ~ 7150 1500
 NoConn ~ 7150 1700
 NoConn ~ 7150 2000
 NoConn ~ 7150 2700
