@@ -1395,23 +1395,23 @@ Text Label 7250 3100 0    40   ~ 0
 HWB
 Text Label 7250 1000 0    40   ~ 0
 COL7
-Text Label 8000 1100 0    40   ~ 0
+Text Label 7250 1600 0    40   ~ 0
 COL6
 Text Label 8000 1000 0    40   ~ 0
 COL5
 Text Label 7700 1500 0    40   ~ 0
 COL4
-Text Label 8000 1500 0    40   ~ 0
+Text Label 7250 3600 0    40   ~ 0
 COL3
-Text Label 7700 1400 0    40   ~ 0
+Text Label 7250 2800 0    40   ~ 0
 ROW4
 Text Label 7250 2600 0    40   ~ 0
 ROW5
-Text Label 8000 1400 0    40   ~ 0
+Text Label 7250 3700 0    40   ~ 0
 ROW2
-Text Label 8000 1300 0    40   ~ 0
+Text Label 7250 1900 0    40   ~ 0
 ROW3
-Text Label 8000 1200 0    40   ~ 0
+Text Label 7250 3800 0    40   ~ 0
 ROW1
 Text Notes 3850 700  0    60   ~ 12
 MCU\n
@@ -1427,9 +1427,9 @@ Text Notes 600  2800 0    60   ~ 12
 RJ11 jack\n
 Text Notes 5650 7050 2    40   ~ 0
 ↑\n|\n|\n|\n|\n|\n|\n|\nThe bottommost switch -+\n\nUnlike all the other keys this one is backed by an     \nOmron SS-{01|5|}-F[-2|-3]D microswitch     \ninstead of a Cherry MX switch.     
-Text Label 7700 1200 0    40   ~ 0
+Text Label 7250 3500 0    40   ~ 0
 COL2
-Text Label 7700 1100 0    40   ~ 0
+Text Label 7250 3400 0    40   ~ 0
 COL1
 $Comp
 L ATMEGA32U4-A U1
@@ -2295,29 +2295,29 @@ Wire Wire Line
 Wire Wire Line
 	4050 6050 4050 6300
 Wire Wire Line
-	7900 1200 8000 1200
+	7150 3800 7250 3800
 Wire Wire Line
-	7900 1300 8000 1300
+	7150 1900 7250 1900
 Wire Wire Line
-	7900 1400 8000 1400
+	7150 3700 7250 3700
 Wire Wire Line
-	7900 1500 8000 1500
+	7150 3600 7250 3600
 Wire Wire Line
 	7150 1000 7250 1000
 Wire Wire Line
-	7600 1100 7700 1100
+	7150 3400 7250 3400
 Wire Wire Line
-	7600 1200 7700 1200
+	7150 3500 7250 3500
 Wire Wire Line
 	7150 2600 7250 2600
 Wire Wire Line
-	7600 1400 7700 1400
+	7150 2800 7250 2800
 Wire Wire Line
 	7600 1500 7700 1500
 Wire Wire Line
 	7900 1000 8000 1000
 Wire Wire Line
-	7900 1100 8000 1100
+	7150 1600 7250 1600
 Wire Wire Line
 	1550 3300 1550 3600
 Wire Wire Line
@@ -2478,19 +2478,11 @@ $EndComp
 Connection ~ 2350 3300
 NoConn ~ 7150 1400
 NoConn ~ 7150 1500
-NoConn ~ 7150 1600
 NoConn ~ 7150 1700
-NoConn ~ 7150 1900
 NoConn ~ 7150 2000
 NoConn ~ 7150 2700
-NoConn ~ 7150 2800
 NoConn ~ 7150 2900
 NoConn ~ 7150 3200
-NoConn ~ 7150 3400
-NoConn ~ 7150 3500
-NoConn ~ 7150 3600
-NoConn ~ 7150 3700
-NoConn ~ 7150 3800
 NoConn ~ 7150 3900
 Connection ~ 2300 1350
 NoConn ~ 4900 3400
