@@ -4148,7 +4148,7 @@
     (arrow2a (pts (xy 99.2 156.9) (xy 99.786421 155.773496)))
     (arrow2b (pts (xy 99.2 156.9) (xy 98.613579 155.773496)))
   )
-  (gr_text "Part name: Ultimate Hacking Keyboard right main board | Part number: uhkusb1_rightmain4 | UltimateHackingKeyboard.com by UltimateGadgetLabs.com\n" (at 258.6736 148.5392) (layer B.SilkS) (tstamp 52B84C4D)
+  (gr_text "Part name: Ultimate Hacking Keyboard right main board | Part number: uhksu1_rightmain4 | UltimateHackingKeyboard.com by UltimateGadgetLabs.com\n" (at 258.6736 148.5392) (layer B.SilkS) (tstamp 52B84C4D)
     (effects (font (size 1.185 1.185) (thickness 0.237)) (justify left mirror))
   )
   (gr_text "F2: BOTTOM MOD" (at 130.7 151.7) (layer B.SilkS) (tstamp 52AADFA6)
