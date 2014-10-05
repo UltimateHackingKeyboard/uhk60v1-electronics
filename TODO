@@ -1,3 +1,10 @@
-* Precisely position reference designators and avoid them getting clipped by silkscreen clipping.
-* Tent vias.
-* Add vias for inserting resistor-legged PTH LEDs at the bottom of both halves.
+* Precisely position reference designators and avoid them getting clipped by silkscreen clipping
+* Add vias for inserting resistor-legged PTH LEDs at the bottom of both halves
+* Display the name of all ICs
+* Exchange the label of R31 and R32 on the left main pcb
+* ISP header: too small annular rings - should be at least as large as the RJ11 annular rings
+* Diode pads could be larger (farther away from the center)
+* 10k keyboard matrix resistors are asymmetric on the right vs left PCBs
+* Enlarge silk screen labels (at least by 1.5x) because reference designators and component values are not fully readable
+* Draw outlines farther from components because the silk screen got clipped
+* Update the RJ11 jack footprint on the right board
