@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Tue 12 Aug 2014 01:09:32 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Fri 03 Apr 2015 11:31:35 AM CEST
 
 BeginCmp
 TimeStamp = /513150A5;
@@ -309,6 +309,13 @@ IdModule  = UGL:SOD-123_Diode;
 EndCmp
 
 BeginCmp
+TimeStamp = /552D6592;
+Reference = D47;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
 TimeStamp = /5011B8CB;
 Reference = D51;
 ValeurCmp = DIODE;
@@ -393,6 +400,13 @@ IdModule  = SMD_Packages:SOT-23;
 EndCmp
 
 BeginCmp
+TimeStamp = /55286E94;
+Reference = Q2;
+ValeurCmp = PNP;
+IdModule  = SMD_Packages:SOT-23;
+EndCmp
+
+BeginCmp
 TimeStamp = /51315D6C;
 Reference = R1;
 ValeurCmp = 47K;
@@ -437,14 +451,28 @@ EndCmp
 BeginCmp
 TimeStamp = /53C91BB5;
 Reference = R7;
-ValeurCmp = 47;
+ValeurCmp = 10K;
 IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C8F67D;
 Reference = R8;
-ValeurCmp = 47;
+ValeurCmp = 10K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /552AE560;
+Reference = R9;
+ValeurCmp = 100K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /552AF5B4;
+Reference = R10;
+ValeurCmp = 10K;
 IdModule  = UGL:SM0805;
 EndCmp
 
@@ -556,6 +584,20 @@ EndCmp
 BeginCmp
 TimeStamp = /52A0C023;
 Reference = R32;
+ValeurCmp = 47K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55283349;
+Reference = R33;
+ValeurCmp = 1K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5528CE5A;
+Reference = R34;
 ValeurCmp = 47K;
 IdModule  = UGL:SM0805;
 EndCmp
@@ -694,13 +736,6 @@ IdModule  = UGL:Cherry_MX;
 EndCmp
 
 BeginCmp
-TimeStamp = /512EB903;
-Reference = SW41;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
 TimeStamp = /512EB909;
 Reference = SW42;
 ValeurCmp = SPST;
@@ -731,6 +766,13 @@ EndCmp
 BeginCmp
 TimeStamp = /512EB921;
 Reference = SW46;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry_MX;
+EndCmp
+
+BeginCmp
+TimeStamp = /552D64DE;
+Reference = SW47;
 ValeurCmp = SPST;
 IdModule  = UGL:Cherry_MX;
 EndCmp
@@ -773,6 +815,20 @@ EndCmp
 BeginCmp
 TimeStamp = /512EC3B1;
 Reference = SW56;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry_MX;
+EndCmp
+
+BeginCmp
+TimeStamp = /552D126D;
+Reference = SW411;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry_MX;
+EndCmp
+
+BeginCmp
+TimeStamp = /512EB903;
+Reference = SW412;
 ValeurCmp = SPST;
 IdModule  = UGL:Cherry_MX;
 EndCmp
