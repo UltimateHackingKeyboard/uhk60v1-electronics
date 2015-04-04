@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Wed 27 Aug 2014 07:21:36 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Sat 04 Apr 2015 04:16:08 PM CEST
 
 BeginCmp
 TimeStamp = /50DA313C;
@@ -424,7 +424,7 @@ BeginCmp
 TimeStamp = /512EACF5;
 Reference = P1;
 ValeurCmp = CONN_5;
-IdModule  = UGL:5555154-2;
+IdModule  = UGL:0955012641;
 EndCmp
 
 BeginCmp
@@ -493,15 +493,22 @@ EndCmp
 BeginCmp
 TimeStamp = /53CB144D;
 Reference = R8;
-ValeurCmp = 47;
+ValeurCmp = 10K;
 IdModule  = UGL:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53CAE4FF;
 Reference = R9;
-ValeurCmp = 47;
+ValeurCmp = 10K;
 IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551FDEE5;
+Reference = R10;
+ValeurCmp = 100K;
+IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -537,6 +544,13 @@ TimeStamp = /50C9B565;
 Reference = R15;
 ValeurCmp = 10K;
 IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55200BAC;
+Reference = R16;
+ValeurCmp = 10K;
+IdModule  = ;
 EndCmp
 
 BeginCmp
