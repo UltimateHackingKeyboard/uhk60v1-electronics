@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Fri 03 Apr 2015 11:31:35 AM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Sat 04 Apr 2015 01:41:41 PM CEST
 
 BeginCmp
 TimeStamp = /513150A5;
@@ -219,7 +219,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = /5011B82C;
-Reference = D26;
+Reference = D27;
 ValeurCmp = DIODE;
 IdModule  = UGL:SOD-123_Diode;
 EndCmp
@@ -261,7 +261,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = /5011B86C;
-Reference = D36;
+Reference = D37;
 ValeurCmp = DIODE;
 IdModule  = UGL:SOD-123_Diode;
 EndCmp
@@ -688,7 +688,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = /512EA973;
-Reference = SW26;
+Reference = SW27;
 ValeurCmp = SPST;
 IdModule  = UGL:Cherry_MX;
 EndCmp
@@ -730,7 +730,7 @@ EndCmp
 
 BeginCmp
 TimeStamp = /512EAE7A;
-Reference = SW36;
+Reference = SW37;
 ValeurCmp = SPST;
 IdModule  = UGL:Cherry_MX;
 EndCmp

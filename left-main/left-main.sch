@@ -157,14 +157,14 @@ F 3 "" H 5950 5050 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D26
+L DIODE D27
 U 1 1 5011B82C
-P 6450 5050
-F 0 "D26" H 6450 5150 40  0000 C CNN
-F 1 "DIODE" H 6450 4950 40  0001 C CNN
-F 2 "" H 6450 5050 60  0001 C CNN
-F 3 "" H 6450 5050 60  0001 C CNN
-	1    6450 5050
+P 6950 5050
+F 0 "D27" H 6950 5150 40  0000 C CNN
+F 1 "DIODE" H 6950 4950 40  0001 C CNN
+F 2 "" H 6950 5050 60  0001 C CNN
+F 3 "" H 6950 5050 60  0001 C CNN
+	1    6950 5050
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -223,14 +223,14 @@ F 3 "" H 5950 5350 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DIODE D36
+L DIODE D37
 U 1 1 5011B86C
-P 6450 5350
-F 0 "D36" H 6450 5450 40  0000 C CNN
-F 1 "DIODE" H 6450 5250 40  0001 C CNN
-F 2 "" H 6450 5350 60  0001 C CNN
-F 3 "" H 6450 5350 60  0001 C CNN
-	1    6450 5350
+P 6950 5350
+F 0 "D37" H 6950 5450 40  0000 C CNN
+F 1 "DIODE" H 6950 5250 40  0001 C CNN
+F 2 "" H 6950 5350 60  0001 C CNN
+F 3 "" H 6950 5350 60  0001 C CNN
+	1    6950 5350
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -531,14 +531,14 @@ F 3 "" H 5700 5050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPST SW26
+L SPST SW27
 U 1 1 512EA973
-P 6200 5050
-F 0 "SW26" H 6200 5150 40  0000 C CNN
-F 1 "SPST" H 6200 4950 40  0001 C CNN
-F 2 "" H 6200 5050 60  0000 C CNN
-F 3 "" H 6200 5050 60  0000 C CNN
-	1    6200 5050
+P 6700 5050
+F 0 "SW27" H 6700 5150 40  0000 C CNN
+F 1 "SPST" H 6700 4950 40  0001 C CNN
+F 2 "" H 6700 5050 60  0000 C CNN
+F 3 "" H 6700 5050 60  0000 C CNN
+	1    6700 5050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -597,14 +597,14 @@ F 3 "" H 5700 5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPST SW36
+L SPST SW37
 U 1 1 512EAE7A
-P 6200 5350
-F 0 "SW36" H 6200 5450 40  0000 C CNN
-F 1 "SPST" H 6200 5250 40  0001 C CNN
-F 2 "" H 6200 5350 60  0000 C CNN
-F 3 "" H 6200 5350 60  0000 C CNN
-	1    6200 5350
+P 6700 5350
+F 0 "SW37" H 6700 5450 40  0000 C CNN
+F 1 "SPST" H 6700 5250 40  0001 C CNN
+F 2 "" H 6700 5350 60  0000 C CNN
+F 3 "" H 6700 5350 60  0000 C CNN
+	1    6700 5350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1943,7 +1943,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 2450 8300 2500
 Wire Wire Line
-	7050 6050 7050 4750
+	7050 4750 7050 6050
 Wire Wire Line
 	8800 3450 8800 3500
 Wire Wire Line
@@ -2086,7 +2086,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 4900 4100 5050
 Wire Wire Line
-	3150 4900 6100 4900
+	3150 4900 5600 4900
 Wire Wire Line
 	4300 5050 4350 5050
 Wire Wire Line
@@ -2104,12 +2104,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 4900 5600 5050
 Connection ~ 5100 4900
-Wire Wire Line
-	6300 5050 6350 5050
-Wire Wire Line
-	6100 4900 6100 5050
 Connection ~ 5600 4900
-Connection ~ 6100 4900
 Wire Wire Line
 	3600 5350 3600 5200
 Wire Wire Line
@@ -2117,7 +2112,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 5200 4100 5350
 Wire Wire Line
-	3150 5200 6100 5200
+	3150 5200 5600 5200
 Wire Wire Line
 	4600 5200 4600 5350
 Connection ~ 4100 5200
@@ -2133,12 +2128,7 @@ Wire Wire Line
 Connection ~ 5100 5200
 Wire Wire Line
 	5800 5350 5850 5350
-Wire Wire Line
-	6100 5200 6100 5350
 Connection ~ 5600 5200
-Wire Wire Line
-	6300 5350 6350 5350
-Connection ~ 6100 5200
 Wire Wire Line
 	3600 5650 3600 5500
 Wire Wire Line
@@ -2232,8 +2222,6 @@ Connection ~ 6050 5050
 Connection ~ 6050 5350
 Connection ~ 6050 5650
 Connection ~ 6050 5950
-Connection ~ 6550 5050
-Connection ~ 6550 5350
 Connection ~ 6550 5650
 Connection ~ 6550 5950
 Connection ~ 3600 4900
@@ -2723,6 +2711,12 @@ Wire Wire Line
 	6850 5650 6800 5650
 Connection ~ 6600 4750
 Connection ~ 7050 5650
-Text Notes 6750 6550 2    40   ~ 0
-↑\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\nThe switch of the ISO key -+
+Connection ~ 6600 5050
+Connection ~ 6600 5350
+Connection ~ 7050 5050
+Connection ~ 7050 5350
+Wire Wire Line
+	6800 5050 6850 5050
+Wire Wire Line
+	6800 5350 6850 5350
 $EndSCHEMATC
