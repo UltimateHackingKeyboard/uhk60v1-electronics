@@ -6,3 +6,4 @@
 * 10k keyboard matrix resistors are asymmetric on the right vs left PCBs
 * Enlarge silk screen labels (at least by 1.5x) because reference designators and component values are not fully readable
 * Draw outlines farther from components because the silk screen got clipped
+* Switch control and super labels.
