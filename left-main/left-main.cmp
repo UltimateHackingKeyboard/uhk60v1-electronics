@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Sat 04 Apr 2015 01:41:41 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Sun 05 Apr 2015 12:11:20 PM CEST
 
 BeginCmp
 TimeStamp = /513150A5;
@@ -382,7 +382,7 @@ BeginCmp
 TimeStamp = /5130F33C;
 Reference = P3;
 ValeurCmp = CONN_6;
-IdModule  = UGL:isp6pin_staggered;
+IdModule  = UGL:isp6pin;
 EndCmp
 
 BeginCmp
