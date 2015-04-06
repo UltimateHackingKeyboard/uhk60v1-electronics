@@ -4,6 +4,4 @@
 * Diode pads could be larger (farther away from the center)
 * Enlarge the smallest reference designator and component values to 0.75 x 0.75 x 0.15 to be readable.
 * Draw outlines farther from components because the silk screen got clipped
-* Switch control and super labels.
-* Adjust the key labels of keys that were respositioned.
 * Label every line segment.
