@@ -6,3 +6,4 @@
 * Draw outlines farther from components because the silk screen got clipped
 * Switch control and super labels.
 * Adjust the key labels of keys that were respositioned.
+* Label every line segment.
