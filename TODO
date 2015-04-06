@@ -2,7 +2,6 @@
 * Add vias for inserting resistor-legged PTH LEDs at the bottom of both halves
 * Display the name of all ICs
 * Diode pads could be larger (farther away from the center)
-* 10k keyboard matrix resistors are asymmetric on the right vs left PCBs
 * Enlarge the smallest reference designator and component values to 0.75 x 0.75 x 0.15 to be readable.
 * Draw outlines farther from components because the silk screen got clipped
 * Switch control and super labels.
