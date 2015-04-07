@@ -1,4 +1,4 @@
-update=Thu 14 Aug 2014 02:31:56 AM CEST
+update=Mon 06 Apr 2015 06:49:54 PM CEST
 last_client=pcbnew
 [cvpcb]
 version=1
@@ -55,7 +55,7 @@ LibName32=opendous
 version=1
 PageLayoutDescrFile=
 LastNetListRead=right-main.net
-UseCmpFile=1
+UseCmpFile=0
 PadDrill=0.8999999999999999
 PadDrillOvalY=0.8999999999999999
 PadSizeH=1.7
@@ -66,7 +66,7 @@ PcbTextThickness=0.3
 ModuleTextSizeV=1
 ModuleTextSizeH=1
 ModuleTextSizeThickness=0.15
-SolderMaskClearance=0.1016
+SolderMaskClearance=0
 SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.01
