@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Sun 05 Apr 2015 12:10:28 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Wed 08 Apr 2015 11:56:45 PM CEST
 
 BeginCmp
 TimeStamp = /50DA313C;
@@ -150,6 +150,13 @@ EndCmp
 BeginCmp
 TimeStamp = /53D34AC0;
 Reference = CR9;
+ValeurCmp = ESD;
+IdModule  = UGL:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55260429;
+Reference = CR10;
 ValeurCmp = ESD;
 IdModule  = UGL:SM0603;
 EndCmp
