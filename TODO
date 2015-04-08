@@ -5,3 +5,4 @@
 * Enlarge the smallest reference designator and component values to 0.75 x 0.75 x 0.15 to be readable.
 * Draw outlines farther from components because the silk screen got clipped
 * Label every line segment.
+* Add tags for all the past revisions.
