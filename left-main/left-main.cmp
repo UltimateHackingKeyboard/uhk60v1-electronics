@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Wed 08 Apr 2015 11:56:11 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Thu 09 Apr 2015 12:35:02 AM CEST
 
 BeginCmp
 TimeStamp = /513150A5;
@@ -858,7 +858,7 @@ BeginCmp
 TimeStamp = /51BA6D4E;
 Reference = U3;
 ValeurCmp = TPIC6C595;
-IdModule  = UGL:TPIC6C595_TSSOP;
+IdModule  = UGL:TPIC6C595_SO16;
 EndCmp
 
 BeginCmp
