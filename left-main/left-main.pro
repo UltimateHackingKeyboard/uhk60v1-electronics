@@ -1,4 +1,4 @@
-update=Thu 09 Apr 2015 12:58:56 AM CEST
+update=Fri 10 Apr 2015 01:01:37 AM CEST
 last_client=pcbnew
 [cvpcb]
 version=1
@@ -55,7 +55,7 @@ LibName32=opendous
 version=1
 PageLayoutDescrFile=
 LastNetListRead=left-main.net
-UseCmpFile=0
+UseCmpFile=1
 PadDrill=0.6
 PadDrillOvalY=0.6
 PadSizeH=1

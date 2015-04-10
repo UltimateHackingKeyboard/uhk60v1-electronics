@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Thu 09 Apr 2015 12:35:02 AM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Fri 10 Apr 2015 02:04:24 AM CEST
 
 BeginCmp
 TimeStamp = /513150A5;
@@ -403,14 +403,14 @@ BeginCmp
 TimeStamp = /52A0BDE3;
 Reference = Q1;
 ValeurCmp = PNP;
-IdModule  = SMD_Packages:SOT-23;
+IdModule  = UGL:SOT-23;
 EndCmp
 
 BeginCmp
 TimeStamp = /55286E94;
 Reference = Q2;
 ValeurCmp = PNP;
-IdModule  = SMD_Packages:SOT-23;
+IdModule  = UGL:SOT-23;
 EndCmp
 
 BeginCmp
