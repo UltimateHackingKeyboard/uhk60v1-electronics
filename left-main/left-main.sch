@@ -834,17 +834,6 @@ $EndComp
 Text Notes 7450 700  0    60   ~ 12
 LED matrix source
 $Comp
-L CONN_5 P1
-U 1 1 5130F31E
-P 850 1850
-F 0 "P1" V 800 1850 50  0000 C CNN
-F 1 "CONN_5" V 900 1850 50  0000 C CNN
-F 2 "" H 850 1850 60  0000 C CNN
-F 3 "" H 850 1850 60  0000 C CNN
-	1    850  1850
-	-1   0    0    -1  
-$EndComp
-$Comp
 L CONN_5 P2
 U 1 1 5130F32D
 P 750 4400
@@ -1810,10 +1799,6 @@ F 3 "" H 1350 1400 60  0000 C CNN
 	1    1350 1400
 	0    -1   -1   0   
 $EndComp
-Text Notes 1150 2200 0    40   ~ 0
-shield\n(not connected by the cable)
-Text Notes 1150 1950 0    40   ~ 0
-GND
 NoConn ~ 9400 4600
 NoConn ~ 3650 2400
 NoConn ~ 3650 2500
@@ -1840,7 +1825,6 @@ F 3 "" H 2200 2050 60  0000 C CNN
 	1    2200 2050
 	-1   0    0    1   
 $EndComp
-NoConn ~ 1250 2050
 Text Label 1650 1850 0    40   ~ 0
 TX_INT
 Text Label 1250 1850 0    40   ~ 0
@@ -2736,4 +2720,15 @@ Wire Wire Line
 	6600 5200 6600 5350
 Wire Wire Line
 	6600 5500 6600 5650
+$Comp
+L CONN_4 P1
+U 1 1 55280193
+P 900 1800
+F 0 "P1" V 850 1800 50  0000 C CNN
+F 1 "CONN_4" V 950 1800 50  0000 C CNN
+F 2 "" H 900 1800 60  0000 C CNN
+F 3 "" H 900 1800 60  0000 C CNN
+	1    900  1800
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
