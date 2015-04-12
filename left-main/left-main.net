@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/left-main/left-main.sch)
-    (date "Sat 11 Apr 2015 05:07:28 PM CEST")
+    (date "Sun 12 Apr 2015 07:46:43 PM CEST")
     (tool "Eeschema (2014-08-05 BZR 5054)-product"))
   (components
     (comp (ref D13)
@@ -999,7 +999,7 @@
       (node (ref R10) (pin 2)))
     (net (code 34) (name "Net-(D41-Pad2)")
       (node (ref SW412) (pin 2))
-      (node (ref SW411) (pin 1))
+      (node (ref SW411) (pin 2))
       (node (ref D41) (pin 2)))
     (net (code 35) (name "Net-(D11-Pad2)")
       (node (ref SW11) (pin 2))
@@ -1192,7 +1192,7 @@
       (node (ref R14) (pin 1))
       (node (ref SW44) (pin 1))
       (node (ref SW47) (pin 1))
-      (node (ref SW411) (pin 2))
+      (node (ref SW411) (pin 1))
       (node (ref SW43) (pin 1))
       (node (ref SW45) (pin 1))
       (node (ref SW46) (pin 1)))
