@@ -4,3 +4,4 @@
 * Draw outlines farther from components because the silk screen got clipped
 * Add tags for all the past revisions.
 * Add reset switch.
+* Lock every MX switch.
