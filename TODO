@@ -3,3 +3,4 @@
 * Enlarge the smallest reference designator and component values to 0.75 x 0.75 x 0.15 to be readable.
 * Draw outlines farther from components because the silk screen got clipped
 * Add tags for all the past revisions.
+* Use the same GND vias everywhere and rethink their size according to the other track vias.
