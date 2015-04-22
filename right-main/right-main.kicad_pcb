@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 109.795002 32.293387 260.205001 156.105002)
     (thickness 1.6)
-    (drawings 346)
+    (drawings 347)
     (tracks 828)
     (zones 0)
     (modules 206)
@@ -4210,6 +4210,9 @@
       (net 27 GND) (solder_mask_margin -1))
   )
 
+  (gr_text "<- production board edge" (at 117.353 124.85 90) (layer Eco1.User)
+    (effects (font (size 0.75 0.75) (thickness 0.15)))
+  )
   (gr_text "This edge has been reduced by\n0.6mm for prototyping purposes.\nShould be restored for production." (at 114.153 142.05 90) (layer Eco1.User)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
