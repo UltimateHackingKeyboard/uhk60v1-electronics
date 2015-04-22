@@ -6,7 +6,7 @@
     (area 108.35 78.7 182.578568 104.5232)
     (thickness 1.6)
     (drawings 17)
-    (tracks 20)
+    (tracks 10)
     (zones 0)
     (modules 15)
     (nets 6)
@@ -44,8 +44,8 @@
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.254)
-    (segment_width 0.2)
-    (edge_width 0.1)
+    (segment_width 0.381)
+    (edge_width 0.01016)
     (via_size 0.889)
     (via_drill 0.635)
     (via_min_size 0.889)
@@ -56,14 +56,14 @@
     (uvias_allowed no)
     (uvia_min_size 0.508)
     (uvia_min_drill 0.127)
-    (pcb_text_width 0.3)
-    (pcb_text_size 1.5 1.5)
-    (mod_edge_width 0.15)
-    (mod_text_size 1 1)
-    (mod_text_width 0.15)
-    (pad_size 1.5 1.5)
-    (pad_drill 0.6)
-    (pad_to_mask_clearance 0)
+    (pcb_text_width 0.3048)
+    (pcb_text_size 1.524 2.032)
+    (mod_edge_width 0.381)
+    (mod_text_size 1.524 1.524)
+    (mod_text_width 0.3048)
+    (pad_size 1.4 2.1)
+    (pad_drill 0)
+    (pad_to_mask_clearance 0.254)
     (aux_axis_origin 0 0)
     (visible_elements FFFFF77F)
     (pcbplotparams
@@ -187,7 +187,7 @@
       (net 5 N-000005))
   )
 
-  (module UGL:UHK_vertical_PCB_pad (layer F.Cu) (tedit 53DAAF01) (tstamp 53DA9AC9)
+  (module UGL:UHK_vertical_PCB_pad (layer F.Cu) (tedit 55380EC9) (tstamp 55381067)
     (at 151 98.95)
     (path /529BBCD8)
     (fp_text reference P25 (at 0 -3.3) (layer F.SilkS) hide
@@ -196,7 +196,7 @@
     (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" smd rect (at 0 0) (size 1.4 2.1) (layers F.Cu F.Mask)
+    (pad "" smd rect (at 0.4 0) (size 1.4 2.1) (layers F.Cu F.Mask)
       (net 5 N-000005))
   )
 
@@ -213,7 +213,7 @@
       (net 4 N-000004))
   )
 
-  (module UGL:UHK_vertical_PCB_pad (layer F.Cu) (tedit 53DAAF01) (tstamp 529BBAC7)
+  (module UGL:UHK_vertical_PCB_pad (layer F.Cu) (tedit 55380ECF) (tstamp 5538106D)
     (at 148.5 98.95)
     (path /529BB9DA)
     (fp_text reference P24 (at 0 -3.3) (layer F.SilkS) hide
@@ -222,7 +222,7 @@
     (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" smd rect (at 0 0) (size 1.4 2.1) (layers F.Cu F.Mask)
+    (pad "" smd rect (at 0.4 0) (size 1.4 2.1) (layers F.Cu F.Mask)
       (net 4 N-000004))
   )
 
@@ -239,7 +239,7 @@
       (net 3 N-000003))
   )
 
-  (module UGL:UHK_vertical_PCB_pad (layer F.Cu) (tedit 53DAAF01) (tstamp 529BBAC2)
+  (module UGL:UHK_vertical_PCB_pad (layer F.Cu) (tedit 55380ED9) (tstamp 55381073)
     (at 146 98.95)
     (path /529BB9D4)
     (fp_text reference P23 (at 0 -3.3) (layer F.SilkS) hide
@@ -248,11 +248,11 @@
     (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" smd rect (at 0 0) (size 1.4 2.1) (layers F.Cu F.Mask)
+    (pad "" smd rect (at 0.4 0) (size 1.4 2.1) (layers F.Cu F.Mask)
       (net 3 N-000003))
   )
 
-  (module UGL:UHK_vertical_PCB_pad (layer F.Cu) (tedit 53DAAF01) (tstamp 53DAA772)
+  (module UGL:UHK_vertical_PCB_pad (layer F.Cu) (tedit 55380EE6) (tstamp 5538107F)
     (at 141 98.95)
     (path /529BB9BF)
     (fp_text reference P21 (at 0 -3.3) (layer F.SilkS) hide
@@ -261,7 +261,7 @@
     (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" smd rect (at 0 0) (size 1.4 2.1) (layers F.Cu F.Mask)
+    (pad "" smd rect (at 0.4 0) (size 1.4 2.1) (layers F.Cu F.Mask)
       (net 1 N-000001))
   )
 
@@ -278,7 +278,7 @@
       (net 1 N-000001))
   )
 
-  (module UGL:UHK_vertical_PCB_pad (layer F.Cu) (tedit 53DAAF01) (tstamp 53DA93D3)
+  (module UGL:UHK_vertical_PCB_pad (layer F.Cu) (tedit 55380EE0) (tstamp 55381079)
     (at 143.5 98.95)
     (path /529BB9CE)
     (fp_text reference P22 (at 0 -3.3) (layer F.SilkS) hide
@@ -287,7 +287,7 @@
     (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" smd rect (at 0 0) (size 1.4 2.1) (layers F.Cu F.Mask)
+    (pad "" smd rect (at 0.4 0) (size 1.4 2.1) (layers F.Cu F.Mask)
       (net 2 N-000002))
   )
 
@@ -365,23 +365,13 @@
 
   (segment (start 142.1 99.75) (end 141.983333 99.633333) (width 0.733) (layer B.Cu) (net 1))
   (segment (start 141.983333 99.633333) (end 141.333333 99.633333) (width 0.733) (layer B.Cu) (net 1) (tstamp 53DAB5BC))
-  (segment (start 141 98.95) (end 141 99.3) (width 0.733) (layer F.Cu) (net 1))
-  (segment (start 141 99.3) (end 141.333333 99.633333) (width 0.733) (layer F.Cu) (net 1) (tstamp 53DAB5B5))
   (segment (start 144.75 99.75) (end 144.633333 99.633333) (width 0.733) (layer B.Cu) (net 2))
   (segment (start 144.633333 99.633333) (end 143.833333 99.633333) (width 0.733) (layer B.Cu) (net 2) (tstamp 53DAB5C9))
-  (segment (start 143.5 98.95) (end 143.5 99.3) (width 0.733) (layer F.Cu) (net 2))
-  (segment (start 143.5 99.3) (end 143.833333 99.633333) (width 0.733) (layer F.Cu) (net 2) (tstamp 53DAB5C6))
   (segment (start 147.4 99.75) (end 147.283333 99.633333) (width 0.733) (layer B.Cu) (net 3))
   (segment (start 147.283333 99.633333) (end 146.333333 99.633333) (width 0.733) (layer B.Cu) (net 3) (tstamp 53DAB5D3))
-  (segment (start 146 98.95) (end 146 99.3) (width 0.733) (layer F.Cu) (net 3))
-  (segment (start 146 99.3) (end 146.333333 99.633333) (width 0.733) (layer F.Cu) (net 3) (tstamp 53DAB5CE))
   (segment (start 150.05 99.75) (end 149.933333 99.633333) (width 0.733) (layer B.Cu) (net 4))
   (segment (start 149.933333 99.633333) (end 148.833333 99.633333) (width 0.733) (layer B.Cu) (net 4) (tstamp 53DAB5DB))
-  (segment (start 148.5 98.95) (end 148.5 99.3) (width 0.733) (layer F.Cu) (net 4))
-  (segment (start 148.5 99.3) (end 148.833333 99.633333) (width 0.733) (layer F.Cu) (net 4) (tstamp 53DAB5D7))
   (segment (start 152.7 99.75) (end 152.583333 99.633333) (width 0.733) (layer B.Cu) (net 5))
   (segment (start 152.583333 99.633333) (end 151.333334 99.633333) (width 0.733) (layer B.Cu) (net 5) (tstamp 53DAB5E1))
-  (segment (start 151 98.95) (end 151 99.299999) (width 0.733) (layer F.Cu) (net 5))
-  (segment (start 151 99.299999) (end 151.333334 99.633333) (width 0.733) (layer F.Cu) (net 5) (tstamp 53DAB5DE))
 
 )
