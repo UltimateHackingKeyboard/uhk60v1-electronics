@@ -38,7 +38,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.733)
     (user_trace_width 0.733)
     (trace_clearance 0.254)
     (zone_clearance 0.508)
@@ -61,8 +61,8 @@
     (mod_edge_width 0.381)
     (mod_text_size 1.524 1.524)
     (mod_text_width 0.3048)
-    (pad_size 1.4 2.1)
-    (pad_drill 0)
+    (pad_size 0.6096 0.6096)
+    (pad_drill 0.3556)
     (pad_to_mask_clearance 0.254)
     (aux_axis_origin 0 0)
     (visible_elements FFFFF77F)
@@ -114,8 +114,8 @@
     (add_net N-000005)
   )
 
-  (module UGL:via_24_14mil (layer F.Cu) (tedit 53DAB445) (tstamp 53DA9FBF)
-    (at 151.333334 99.633333)
+  (module UGL:via_24_14mil (layer F.Cu) (tedit 53DAB445) (tstamp 553810B5)
+    (at 151.4 99.633333)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -126,8 +126,8 @@
       (net 5 N-000005) (solder_mask_margin -1))
   )
 
-  (module UGL:via_24_14mil (layer F.Cu) (tedit 53DAB43C) (tstamp 53DA9AF5)
-    (at 148.833333 99.633333)
+  (module UGL:via_24_14mil (layer F.Cu) (tedit 53DAB43C) (tstamp 55381118)
+    (at 148.9 99.633333)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -138,8 +138,8 @@
       (net 4 N-000004) (solder_mask_margin -1))
   )
 
-  (module UGL:via_24_14mil (layer F.Cu) (tedit 53DAB433) (tstamp 53D9862B)
-    (at 146.333333 99.633333)
+  (module UGL:via_24_14mil (layer F.Cu) (tedit 53DAB433) (tstamp 55381106)
+    (at 146.4 99.633333)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -150,8 +150,8 @@
       (net 3 N-000003) (solder_mask_margin -1))
   )
 
-  (module UGL:via_24_14mil (layer F.Cu) (tedit 53DAB42C) (tstamp 53DAA3EB)
-    (at 143.833333 99.633333)
+  (module UGL:via_24_14mil (layer F.Cu) (tedit 53DAB42C) (tstamp 55381100)
+    (at 143.9 99.633333)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -162,8 +162,8 @@
       (net 2 N-000002) (solder_mask_margin -1))
   )
 
-  (module UGL:via_24_14mil (layer F.Cu) (tedit 53DAB424) (tstamp 53DAB30E)
-    (at 141.333333 99.633333)
+  (module UGL:via_24_14mil (layer F.Cu) (tedit 53DAB424) (tstamp 553810FA)
+    (at 141.4 99.633333)
     (fp_text reference via_24_14mil (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -364,14 +364,14 @@
   (gr_line (start 156.4 101.007116) (end 156.4 102.4) (angle 90) (layer Edge.Cuts) (width 0.01))
 
   (segment (start 142.1 99.75) (end 141.983333 99.633333) (width 0.733) (layer B.Cu) (net 1))
-  (segment (start 141.983333 99.633333) (end 141.333333 99.633333) (width 0.733) (layer B.Cu) (net 1) (tstamp 53DAB5BC))
-  (segment (start 144.75 99.75) (end 144.633333 99.633333) (width 0.733) (layer B.Cu) (net 2))
-  (segment (start 144.633333 99.633333) (end 143.833333 99.633333) (width 0.733) (layer B.Cu) (net 2) (tstamp 53DAB5C9))
-  (segment (start 147.4 99.75) (end 147.283333 99.633333) (width 0.733) (layer B.Cu) (net 3))
-  (segment (start 147.283333 99.633333) (end 146.333333 99.633333) (width 0.733) (layer B.Cu) (net 3) (tstamp 53DAB5D3))
-  (segment (start 150.05 99.75) (end 149.933333 99.633333) (width 0.733) (layer B.Cu) (net 4))
-  (segment (start 149.933333 99.633333) (end 148.833333 99.633333) (width 0.733) (layer B.Cu) (net 4) (tstamp 53DAB5DB))
-  (segment (start 152.7 99.75) (end 152.583333 99.633333) (width 0.733) (layer B.Cu) (net 5))
-  (segment (start 152.583333 99.633333) (end 151.333334 99.633333) (width 0.733) (layer B.Cu) (net 5) (tstamp 53DAB5E1))
+  (segment (start 141.983333 99.633333) (end 141.4 99.633333) (width 0.733) (layer B.Cu) (net 1) (tstamp 5538113A))
+  (segment (start 144.75 99.75) (end 144.633333 99.633333) (width 0.733) (layer B.Cu) (net 2) (status C00000))
+  (segment (start 144.633333 99.633333) (end 143.9 99.633333) (width 0.733) (layer B.Cu) (net 2) (tstamp 5538114F) (status C00000))
+  (segment (start 147.4 99.75) (end 147.283333 99.633333) (width 0.733) (layer B.Cu) (net 3) (status C00000))
+  (segment (start 147.283333 99.633333) (end 146.4 99.633333) (width 0.733) (layer B.Cu) (net 3) (tstamp 55381152) (status C00000))
+  (segment (start 150.05 99.75) (end 149.933333 99.633333) (width 0.733) (layer B.Cu) (net 4) (status C00000))
+  (segment (start 149.933333 99.633333) (end 148.9 99.633333) (width 0.733) (layer B.Cu) (net 4) (tstamp 55381155) (status C00000))
+  (segment (start 152.7 99.75) (end 152.583333 99.633333) (width 0.733) (layer B.Cu) (net 5) (status C00000))
+  (segment (start 152.583333 99.633333) (end 151.4 99.633333) (width 0.733) (layer B.Cu) (net 5) (tstamp 55381158) (status C00000))
 
 )
