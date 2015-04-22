@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/right-main/right-main.sch)
-    (date "Wed 15 Apr 2015 01:55:28 PM CEST")
+    (date "Wed 22 Apr 2015 11:46:12 PM CEST")
     (tool "Eeschema (2014-08-05 BZR 5054)-product"))
   (components
     (comp (ref SW11)
@@ -606,7 +606,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 552FFC67))
     (comp (ref R4)
-      (value 4.7K)
+      (value 47K)
       (libsource (lib ugl) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 55305089)))
@@ -800,12 +800,12 @@
         (pin (num 4) (name GND) (type power_in))
         (pin (num 5) (name SHIELD) (type power_in)))))
   (libraries
-    (library (logical ugl)
-      (uri ../../../ugl/kicad-libs/ugl.lib))
     (library (logical conn)
       (uri /usr/local/share/kicad/library/conn.lib))
     (library (logical atmel)
       (uri /usr/local/share/kicad/library/atmel.lib))
+    (library (logical ugl)
+      (uri ../../../ugl/kicad-libs/ugl.lib))
     (library (logical opendous)
       (uri ../../../+misc/Opendous_KiCad_Libraries/library/opendous.lib)))
   (nets
