@@ -5,3 +5,4 @@
 * Add tags for all the past revisions.
 * Use the same GND vias everywhere and rethink their size according to the other track vias.
 * Update dimensioning lines.
+* Check the symmetry of the components, especially diodes.
