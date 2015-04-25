@@ -65,8 +65,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 6.7 6.7)
-    (pad_drill 6.7)
+    (pad_size 3 3)
+    (pad_drill 3)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (grid_origin 125.857 158.496)
@@ -1274,17 +1274,6 @@
       (scale (xyz 0.5 0.5 0.5))
       (rotate (xyz 0 0 0))
     )
-  )
-
-  (module UGL:hole_2.4mm (layer F.Cu) (tedit 55316EF3) (tstamp 5295D75B)
-    (at 199.220011 40.120226)
-    (fp_text reference hole_2.4mm (at 0 -2.4) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 2.4) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 2.4) (layers *.Cu *.Mask F.SilkS))
   )
 
   (module UGL:SS-5GLD (layer F.Cu) (tedit 552EFE42) (tstamp 5265A570)
@@ -4323,6 +4312,17 @@
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 6.7 6.7) (drill 6.7) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module UGL:hole_3mm (layer F.Cu) (tedit 553C17C2) (tstamp 5295D75B)
+    (at 199.220011 40.120226)
+    (fp_text reference hole_2.4mm (at 0 -2.4) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 2.4) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask F.SilkS))
   )
 
   (gr_text "The Dwgs.User layer contains component height limits\nspecified in millimeters per soft keepout area.\nBy default component height is limited to 2.4 mm.\n" (at 29.857 59.496) (layer Dwgs.User)
