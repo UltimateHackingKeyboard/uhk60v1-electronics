@@ -63,7 +63,7 @@
     (mod_text_width 0.3048)
     (pad_size 0.6096 0.6096)
     (pad_drill 0.3556)
-    (pad_to_mask_clearance 0.254)
+    (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (visible_elements FFFFF77F)
     (pcbplotparams
