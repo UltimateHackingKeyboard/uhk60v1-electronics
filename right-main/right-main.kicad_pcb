@@ -65,8 +65,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 5.7 5.7)
-    (pad_drill 5.7)
+    (pad_size 6 6)
+    (pad_drill 6)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (grid_origin 125.857 158.496)
@@ -267,6 +267,17 @@
     (add_net "Net-(U1-Pad36)")
     (add_net "Net-(U1-Pad42)")
     (add_net VCC)
+  )
+
+  (module UGL:hole_6mm (layer F.Cu) (tedit 553C0B9B) (tstamp 529465C7)
+    (at 144.7 73.7)
+    (fp_text reference "hole 4.8mm" (at 0 -4.2) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 4.3) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 6) (layers *.Cu *.Mask F.SilkS))
   )
 
   (module UGL:hole_5.7mm (layer F.Cu) (tedit 553C0B07) (tstamp 55351274)
@@ -1003,61 +1014,6 @@
       (scale (xyz 0.5 0.5 0.5))
       (rotate (xyz 0 0 0))
     )
-  )
-
-  (module hole_4.8mm locked (layer F.Cu) (tedit 55315ED6) (tstamp 529465A3)
-    (at 159.500003 111.7)
-    (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 3.8) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at -0.400004 0) (size 6 6) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module hole_4.8mm locked (layer F.Cu) (tedit 55315ED2) (tstamp 529465AC)
-    (at 197.900001 111.7)
-    (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 3.8) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at -1 0) (size 6 6) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module hole_4.8mm locked (layer F.Cu) (tedit 55315ECC) (tstamp 529465B5)
-    (at 255.2 101.7)
-    (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 3.8) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module hole_4.8mm locked (layer F.Cu) (tedit 55315EC5) (tstamp 529465BE)
-    (at 211.7 72.7)
-    (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 3.8) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module hole_4.8mm locked (layer F.Cu) (tedit 55315EBB) (tstamp 529465C7)
-    (at 144.7 73.7)
-    (fp_text reference "hole 4.8mm" (at 0 -3.7) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 3.8) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 4.8) (layers *.Cu *.Mask F.SilkS))
   )
 
   (module hole_2.4mm locked (layer F.Cu) (tedit 55315F0B) (tstamp 5295DFCC)
@@ -4208,6 +4164,50 @@
       (net 1 /COL1))
     (pad 2 smd rect (at 1.7633 0 180) (size 1.1644 1.2192) (layers B.Cu B.Paste B.Mask)
       (net 30 "Net-(D11-Pad2)"))
+  )
+
+  (module UGL:hole_6mm (layer F.Cu) (tedit 553C0B9B) (tstamp 529465BE)
+    (at 211.7 72.7)
+    (fp_text reference "hole 4.8mm" (at 0 -4.2) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 4.3) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 6) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module UGL:hole_6mm (layer F.Cu) (tedit 553C0B9B) (tstamp 529465B5)
+    (at 255.2 101.7)
+    (fp_text reference "hole 4.8mm" (at 0 -4.2) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 4.3) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 6) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module UGL:hole_6mm (layer F.Cu) (tedit 553C0B9B) (tstamp 529465A3)
+    (at 159.1 111.7)
+    (fp_text reference "hole 4.8mm" (at 0 -4.2) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 4.3) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 6) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module UGL:hole_6mm (layer F.Cu) (tedit 553C0B9B) (tstamp 529465AC)
+    (at 196.9 111.7)
+    (fp_text reference "hole 4.8mm" (at 0 -4.2) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 4.3) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 6) (layers *.Cu *.Mask F.SilkS))
   )
 
   (gr_text "D12\nRIGHT SHIFT" (at 239.303 116) (layer B.SilkS)
