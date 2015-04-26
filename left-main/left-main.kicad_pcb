@@ -365,7 +365,7 @@
     )
   )
 
-  (module UGL:hole_6mm (layer F.Cu) (tedit 553C0B9B) (tstamp 528A985A)
+  (module UGL:hole_6mm locked (layer F.Cu) (tedit 553C0B9B) (tstamp 528A985A)
     (at 226.920019 113.320221)
     (fp_text reference "hole 4.8mm" (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
@@ -376,7 +376,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 6) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module UGL:hole_6mm (layer F.Cu) (tedit 553C0B9B) (tstamp 55316EB7)
+  (module UGL:hole_6mm locked (layer F.Cu) (tedit 553C0B9B) (tstamp 55316EB7)
     (at 189.120018 113.320221)
     (fp_text reference "hole 4.8mm" (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
@@ -387,7 +387,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 6) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module UGL:SS-5GLD (layer F.Cu) (tedit 552EFE42) (tstamp 5265A570)
+  (module UGL:SS-5GLD locked (layer F.Cu) (tedit 552EFE42) (tstamp 5265A570)
     (at 243.170008 155.42022 180)
     (path /512EC3AB)
     (fp_text reference SW55 (at -3.85 0 180) (layer F.SilkS)
@@ -411,7 +411,7 @@
     (pad "" thru_hole circle (at 7.8 0 180) (size 2.35 2.35) (drill 1.35) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module UGL:0955012641 (layer F.Cu) (tedit 552EF80F) (tstamp 53F7B5DE)
+  (module UGL:0955012641 locked (layer F.Cu) (tedit 552EF80F) (tstamp 53F7B5DE)
     (at 223.55691 41.672514 100)
     (descr "RJ11 jack")
     (path /55280193)
@@ -482,7 +482,7 @@
       (net 46 /XTAL1))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 551E640E)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 551E640E)
     (at 160.72 122.320221 180)
     (path /512EB909)
     (fp_text reference SW42 (at 0 4.9 180) (layer F.SilkS)
@@ -506,7 +506,7 @@
       (net 12 /KEYS_ROW4))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 551E8B33)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 551E8B33)
     (at 148.77 122.320221 180)
     (path /512EB903)
     (fp_text reference SW412 (at 0 4.9 180) (layer F.SilkS)
@@ -530,7 +530,7 @@
       (net 12 /KEYS_ROW4))
   )
 
-  (module UGL:isp6pin (layer F.Cu) (tedit 552F00E4) (tstamp 552115A3)
+  (module UGL:isp6pin locked (layer F.Cu) (tedit 552F00E4) (tstamp 552115A3)
     (at 143.32001 154.820217)
     (descr "2x3 AVR ISP pin header")
     (tags CONN)
@@ -619,7 +619,7 @@
     (pad "" smd rect (at 6 3.05 10.1) (size 2.65 2.3) (layers B.Cu B.Paste B.Mask))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 552115CD)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 552115CD)
     (at 136.82001 65.320214 180)
     (path /512E8C90)
     (fp_text reference SW11 (at 0 4.9 180) (layer F.SilkS)
@@ -643,7 +643,7 @@
       (net 9 /KEYS_ROW1))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 5532D19B)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 5532D19B)
     (at 155.82001 65.320214 180)
     (path /512E928F)
     (fp_text reference SW12 (at 0 4.9 180) (layer F.SilkS)
@@ -667,7 +667,7 @@
       (net 9 /KEYS_ROW1))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 552115E9)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 552115E9)
     (at 174.82001 65.320214 180)
     (path /512E96BC)
     (fp_text reference SW13 (at 0 4.9 180) (layer F.SilkS)
@@ -691,7 +691,7 @@
       (net 9 /KEYS_ROW1))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 552115F7)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 552115F7)
     (at 193.820002 65.320214 180)
     (path /512E9870)
     (fp_text reference SW14 (at 0 4.9 180) (layer F.SilkS)
@@ -715,7 +715,7 @@
       (net 9 /KEYS_ROW1))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 55211605)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 55211605)
     (at 212.820002 65.320214 180)
     (path /512E9AE1)
     (fp_text reference SW15 (at 0 4.9 180) (layer F.SilkS)
@@ -739,7 +739,7 @@
       (net 9 /KEYS_ROW1))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 55211613)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 55211613)
     (at 231.820002 65.320214 180)
     (path /512E9D6F)
     (fp_text reference SW16 (at 0 4.9 180) (layer F.SilkS)
@@ -763,7 +763,7 @@
       (net 9 /KEYS_ROW1))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 55211621)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 55211621)
     (at 250.820002 65.320214 180)
     (path /512EA103)
     (fp_text reference SW17 (at 0 4.9 180) (layer F.SilkS)
@@ -787,7 +787,7 @@
       (net 9 /KEYS_ROW1))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 5521162F)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 5521162F)
     (at 141.32001 84.320221 180)
     (path /512E90C4)
     (fp_text reference SW21 (at 0 4.9 180) (layer F.SilkS)
@@ -811,7 +811,7 @@
       (net 10 /KEYS_ROW2))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 5521163D)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 5521163D)
     (at 164.82001 84.320221 180)
     (path /512EA010)
     (fp_text reference SW22 (at 0 4.9 180) (layer F.SilkS)
@@ -835,7 +835,7 @@
       (net 10 /KEYS_ROW2))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 5521164B)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 5521164B)
     (at 183.820002 84.320221 180)
     (path /512EA0FD)
     (fp_text reference SW23 (at 0 4.9 180) (layer F.SilkS)
@@ -859,7 +859,7 @@
       (net 10 /KEYS_ROW2))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 55211659)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 55211659)
     (at 202.820002 84.320221 180)
     (path /512EA29C)
     (fp_text reference SW24 (at 0 4.9 180) (layer F.SilkS)
@@ -883,7 +883,7 @@
       (net 10 /KEYS_ROW2))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 55211667)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 55211667)
     (at 221.820002 84.320221 180)
     (path /512EA7E0)
     (fp_text reference SW25 (at 0 4.9 180) (layer F.SilkS)
@@ -907,7 +907,7 @@
       (net 10 /KEYS_ROW2))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 55211675)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 55211675)
     (at 240.820002 84.320221 180)
     (path /512EA973)
     (fp_text reference SW27 (at 0 4.9 180) (layer F.SilkS)
@@ -931,7 +931,7 @@
       (net 10 /KEYS_ROW2))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 55211683)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 55211683)
     (at 143.57001 103.320221 180)
     (path /512EADA8)
     (fp_text reference SW31 (at 0 4.9 180) (layer F.SilkS)
@@ -955,7 +955,7 @@
       (net 11 /KEYS_ROW3))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 55211691)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 55211691)
     (at 169.410006 103.320221 180)
     (path /512EAE62)
     (fp_text reference SW32 (at 0 4.9 180) (layer F.SilkS)
@@ -979,7 +979,7 @@
       (net 11 /KEYS_ROW3))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 5521169F)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 5521169F)
     (at 188.50001 103.320221 180)
     (path /512EAE68)
     (fp_text reference SW33 (at 0 4.9 180) (layer F.SilkS)
@@ -1003,7 +1003,7 @@
       (net 11 /KEYS_ROW3))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 552116AD)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 552116AD)
     (at 207.590006 103.320221 180)
     (path /512EAE6E)
     (fp_text reference SW34 (at 0 4.9 180) (layer F.SilkS)
@@ -1027,7 +1027,7 @@
       (net 11 /KEYS_ROW3))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 552116BB)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 552116BB)
     (at 226.680003 103.320221 180)
     (path /512EAE74)
     (fp_text reference SW35 (at 0 4.9 180) (layer F.SilkS)
@@ -1051,7 +1051,7 @@
       (net 11 /KEYS_ROW3))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 552116C9)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 552116C9)
     (at 245.769999 103.320221 180)
     (path /512EAE7A)
     (fp_text reference SW37 (at 0 4.9 180) (layer F.SilkS)
@@ -1075,7 +1075,7 @@
       (net 11 /KEYS_ROW3))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 552116D7)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 552116D7)
     (at 179.64 122.320221 180)
     (path /512EB90F)
     (fp_text reference SW43 (at 0 4.9 180) (layer F.SilkS)
@@ -1099,7 +1099,7 @@
       (net 12 /KEYS_ROW4))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 552116E5)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 552116E5)
     (at 198.56 122.320221 180)
     (path /512EB915)
     (fp_text reference SW44 (at 0 4.9 180) (layer F.SilkS)
@@ -1123,7 +1123,7 @@
       (net 12 /KEYS_ROW4))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 552116F3)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 552116F3)
     (at 217.48 122.320221 180)
     (path /512EB91B)
     (fp_text reference SW45 (at 0 4.9 180) (layer F.SilkS)
@@ -1147,7 +1147,7 @@
       (net 12 /KEYS_ROW4))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 55211701)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 55211701)
     (at 236.4 122.320221 180)
     (path /512EB921)
     (fp_text reference SW46 (at 0 4.9 180) (layer F.SilkS)
@@ -1171,7 +1171,7 @@
       (net 12 /KEYS_ROW4))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 5521170F)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 5521170F)
     (at 255.32 122.320222 180)
     (path /552D64DE)
     (fp_text reference SW47 (at 0 4.9 180) (layer F.SilkS)
@@ -1195,7 +1195,7 @@
       (net 12 /KEYS_ROW4))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 5521171D)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 5521171D)
     (at 139.07001 141.320217 180)
     (path /512EC393)
     (fp_text reference SW51 (at 0 4.9 180) (layer F.SilkS)
@@ -1219,7 +1219,7 @@
       (net 13 /KEYS_ROW5))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 5521172B)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 5521172B)
     (at 162.470004 141.320217 180)
     (path /512EC399)
     (fp_text reference SW52 (at 0 4.9 180) (layer F.SilkS)
@@ -1243,7 +1243,7 @@
       (net 13 /KEYS_ROW5))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 55211739)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 55211739)
     (at 185.870005 141.320217 180)
     (path /512EC39F)
     (fp_text reference SW53 (at 0 4.9 180) (layer F.SilkS)
@@ -1267,7 +1267,7 @@
       (net 13 /KEYS_ROW5))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 55211747)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 55211747)
     (at 209.269999 141.320217 180)
     (path /512EC3A5)
     (fp_text reference SW54 (at 0 4.9 180) (layer F.SilkS)
@@ -1291,7 +1291,7 @@
       (net 13 /KEYS_ROW5))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 55211755)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 55211755)
     (at 238.120003 141.320218 180)
     (path /512EC3B1)
     (fp_text reference SW56 (at 0 4.9 180) (layer F.SilkS)
@@ -1315,7 +1315,7 @@
       (net 13 /KEYS_ROW5))
   )
 
-  (module UGL:Cherry_MX (layer F.Cu) (tedit 552EFB0B) (tstamp 55211763)
+  (module UGL:Cherry_MX locked (layer F.Cu) (tedit 552EFB0B) (tstamp 55211763)
     (at 139.27 122.320221 180)
     (path /552D126D)
     (fp_text reference SW411 (at 0 4.9 180) (layer F.SilkS)
@@ -1536,7 +1536,7 @@
       (net 48 GND))
   )
 
-  (module UGL:009155005541006_uhk (layer F.Cu) (tedit 55380A32) (tstamp 55211595)
+  (module UGL:009155005541006_uhk locked (layer F.Cu) (tedit 55380A32) (tstamp 55211595)
     (at 259.019999 142.370221 90)
     (path /5130F32D)
     (fp_text reference P2 (at 0 -7 90) (layer F.SilkS)
@@ -3067,7 +3067,7 @@
       (net 68 "Net-(D42-Pad2)"))
   )
 
-  (module UGL:hole_6mm (layer F.Cu) (tedit 553C0B9B) (tstamp 528A9473)
+  (module UGL:hole_6mm locked (layer F.Cu) (tedit 553C0B9B) (tstamp 528A9473)
     (at 174.32001 75.320221)
     (fp_text reference "hole 4.8mm" (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
@@ -3078,7 +3078,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 6) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module UGL:hole_6mm (layer F.Cu) (tedit 553C0B9B) (tstamp 528A9EF8)
+  (module UGL:hole_6mm locked (layer F.Cu) (tedit 553C0B9B) (tstamp 528A9EF8)
     (at 212.320002 75.320221)
     (fp_text reference "hole 4.8mm" (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
@@ -3089,7 +3089,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 6) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module UGL:hole_6mm (layer F.Cu) (tedit 553C0B9B) (tstamp 528A9842)
+  (module UGL:hole_6mm locked (layer F.Cu) (tedit 553C0B9B) (tstamp 528A9842)
     (at 130.82001 103.320221)
     (fp_text reference "hole 4.8mm" (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
@@ -3100,7 +3100,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 6 6) (drill 6) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module UGL:hole_6.7mm (layer F.Cu) (tedit 553C161E) (tstamp 528AA3B1)
+  (module UGL:hole_6.7mm locked (layer F.Cu) (tedit 553C161E) (tstamp 528AA3B1)
     (at 181.470011 48.270226)
     (fp_text reference "hole 5.7mm" (at 0 -4.445) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
@@ -3111,7 +3111,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 6.7 6.7) (drill 6.7) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module UGL:hole_6.7mm (layer F.Cu) (tedit 553C161E) (tstamp 528AA3F4)
+  (module UGL:hole_6.7mm locked (layer F.Cu) (tedit 553C161E) (tstamp 528AA3F4)
     (at 201.720011 46.520226)
     (fp_text reference "hole 5.7mm" (at 0 -4.445) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
