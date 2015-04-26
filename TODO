@@ -1,4 +1,3 @@
 * Precisely position reference designators and avoid them getting clipped by silkscreen clipping
 * Enlarge the smallest reference designator and component values to 0.75 x 0.75 x 0.15 to be readable.
 * Add tags for all the past revisions.
-* Check the symmetry of the components, especially diodes.
