@@ -310,8 +310,8 @@
       (net 9 /ROW1))
   )
 
-  (gr_text "G ROW_6-1 GG COL_8-1 G" (at 136.4 106.1 9.8) (layer F.SilkS)
-    (effects (font (size 0.75 0.75) (thickness 0.15)) (justify left mirror))
+  (gr_text "G COL_1-8 GG ROW_1-6 G" (at 120.9 108.7 9.8) (layer F.SilkS)
+    (effects (font (size 0.75 0.75) (thickness 0.15)) (justify left))
   )
   (gr_text "Part name   : Ultimate Hacking Keyboard LED display\nPart number : uhk1_display3\nUltimateHackingKeyboard.com by UltimateGadgetLabs.com\n" (at 155.448 104.14) (layer B.SilkS) (tstamp 528901BF)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify left mirror))
