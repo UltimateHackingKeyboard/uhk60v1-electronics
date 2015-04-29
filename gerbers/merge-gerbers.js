@@ -39,13 +39,30 @@ var gerbers = {
 
 var outputDirectory = 'merged';
 
+function sanitizeGerberFileIfNeeded(gerberFilename) {
+    var gerberContent = fs.readFileSync(gerberFilename, {encoding:'utf8'});
+    var gerberLines = gerberContent.split('\n').filter(function(gerberLine) {
+        return gerberLine.length > 0;
+    });
+
+    if (!(gerberLines.indexOf('%LPC*%') !== -1 && gerberLines.indexOf('%LPD*%') === -1)) {
+        return;
+    }
+
+    gerberLines.splice(-1, 0, '%LPD*%');
+    gerberContent = gerberLines.join('\n') + '\n';
+    fs.writeFileSync(gerberFilename, gerberContent);
+    console.log('Sanitized', gerberFilename);
+}
+
 layerFilenameSuffixes.forEach(function(layerFilenameSuffix) {
-    gerbvCommand = util.format('gerbv --export=rs274x --output=%s/%s%s', outputDirectory, outputDirectory, layerFilenameSuffix);
+    var gerbvCommand = util.format('gerbv --export=rs274x --output=%s/%s%s', outputDirectory, outputDirectory, layerFilenameSuffix);
     for (gerber in gerbers) {
         gerberCoordinates = gerbers[gerber];
         gerberCoordinates.forEach(function(coordinate) {
             var filename = util.format('%s/%s%s', gerber, gerber, layerFilenameSuffix);
             if (fs.existsSync(filename)) {
+                sanitizeGerberFileIfNeeded(filename);
                 gerbvCommand += util.format(' -T%d,%d %s', coordinate[0], coordinate[1], filename);
             }
         });
