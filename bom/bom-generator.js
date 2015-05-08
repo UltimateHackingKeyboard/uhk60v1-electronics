@@ -22,15 +22,11 @@ var bomFiles = [
     }
 ];
 
-function generateBomFromFiles(componentFilename, netlistFilename) {
-    var kicadComponents = fs.readFileSync(componentFilename, {encoding:'utf8'});
-    var kicadNetlist = fs.readFileSync(netlistFilename, {encoding:'utf8'});
-    return kicadBomGenerator(kicadComponents, kicadNetlist);
-}
-
 var components = [];
 bomFiles.forEach(function(bomFile) {
-    var newComponents = generateBomFromFiles(bomFile.components, bomFile.netlist);
+    var kicadComponents = fs.readFileSync(bomFile.components, {encoding:'utf8'});
+    var kicadNetlist = fs.readFileSync(bomFile.netlist, {encoding:'utf8'});
+    var newComponents = kicadBomGenerator(kicadComponents, kicadNetlist);
     newComponents.forEach(function(newComponent) {
         newComponent.file = bomFile.name;
     });
