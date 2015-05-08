@@ -1,0 +1,11 @@
+{
+  "name": "bom-generator",
+  "version": "1.0.0",
+  "description": "KiCad netlist to BOM converter",
+  "main": "bom-generator.js",
+  "author": "Laszlo Monda",
+  "license": "GPLv3",
+  "dependencies": {
+    "kicad-bom-generator": "0.0.1"
+  }
+}
