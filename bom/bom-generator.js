@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 var fs = require('fs');
+var R = require('ramda');
 var kicadBomGenerator = require('kicad-bom-generator');
 
 var bomFiles = [
@@ -34,6 +35,15 @@ bomFiles.forEach(function(bomFile) {
         newComponent.file = bomFile.name;
     });
     components = components.concat(newComponents);
+});
+
+components = components.map(function(component) {
+    var name = R.uniq([component.libsource.part, component.value, component.component.module]).join(' ');
+    return {
+        name: name,
+        reference: component.ref,
+        file: component.file
+    };
 });
 
 console.log(JSON.stringify(components, null, 4));
