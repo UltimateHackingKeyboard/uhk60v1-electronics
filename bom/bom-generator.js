@@ -44,7 +44,7 @@ components = components.map(function(component) {
 
 var componentTypes = R.uniq(components.map(R.prop('type'))).sort();
 
-var componentStatistics = componentTypes.map(function(componentType) {
+var componentsStatistics = componentTypes.map(function(componentType) {
     return [
         componentType,
         components.filter(R.propEq('type', componentType)).length,
@@ -54,4 +54,8 @@ var componentStatistics = componentTypes.map(function(componentType) {
     ];
 });
 
-console.log(JSON.stringify(componentStatistics, null, 4));
+var componentStatisticsCsv = componentsStatistics.map(function(componentStatistic) {
+    return componentStatistic.join(',');
+}).join('\n');
+
+console.log(componentStatisticsCsv);
