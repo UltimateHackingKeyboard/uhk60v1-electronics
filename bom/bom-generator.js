@@ -11,7 +11,7 @@ var bomFiles = [
         components: __dirname + '/../left-main/left-main.cmp'
     },
     {
-        name: 'left-main',
+        name: 'right-main',
         netlist: __dirname + '/../right-main/right-main.net',
         components: __dirname + '/../right-main/right-main.cmp'
     },
@@ -44,5 +44,14 @@ components = components.map(function(component) {
 
 var componentTypes = R.uniq(components.map(R.prop('type'))).sort();
 
-//console.log(JSON.stringify(components, null, 4));
-console.log(JSON.stringify(componentTypes, null, 4));
+var componentStatistics = componentTypes.map(function(componentType) {
+    return [
+        componentType,
+        components.filter(R.propEq('type', componentType)).length,
+        components.filter(R.where({type:componentType, file:'left-main'})).length,
+        components.filter(R.where({type:componentType, file:'right-main'})).length,
+        components.filter(R.where({type:componentType, file:'display'})).length
+    ];
+});
+
+console.log(JSON.stringify(componentStatistics, null, 4));
