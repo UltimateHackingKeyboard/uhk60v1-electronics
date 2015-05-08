@@ -38,12 +38,15 @@ bomFiles.forEach(function(bomFile) {
 });
 
 components = components.map(function(component) {
-    var name = R.uniq([component.libsource.part, component.value, component.component.module]).join(' ');
+    var type = R.uniq([component.libsource.part, component.value, component.component.module]).join(' ');
     return {
-        name: name,
+        type: type,
         reference: component.ref,
         file: component.file
     };
 });
 
-console.log(JSON.stringify(components, null, 4));
+var componentTypes = R.uniq(components.map(R.prop('type'))).sort();
+
+//console.log(JSON.stringify(components, null, 4));
+console.log(JSON.stringify(componentTypes, null, 4));
