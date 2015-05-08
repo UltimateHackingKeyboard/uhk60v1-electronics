@@ -58,4 +58,4 @@ var componentStatisticsCsv = componentsStatistics.map(function(componentStatisti
     return componentStatistic.join(',');
 }).join('\n');
 
-console.log(componentStatisticsCsv);
+fs.writeFileSync(__dirname + '/bom.csv', componentStatisticsCsv);
