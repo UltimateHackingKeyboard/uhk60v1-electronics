@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew "(2014-08-05 BZR 5054)-product")
+(kicad_pcb (version 4) (host pcbnew "(2015-05-12 BZR 5652)-product")
 
   (general
     (links 10)
@@ -347,7 +347,7 @@
     (arrow2a (pts (xy 138.4 95.6) (xy 139.526504 96.186421)))
     (arrow2b (pts (xy 138.4 95.6) (xy 139.526504 95.013579)))
   )
-  (gr_text r3 (at 155.5496 99.1616) (layer B.Cu)
+  (gr_text r3 (at 155 99.7) (layer B.Cu)
     (effects (font (size 2.032 1.524) (thickness 0.3048)) (justify mirror))
   )
   (gr_text "* design is 30mil-10mil-14mil trace-clearance-minimum_drill\n* 1mm board thickness\n* black soldermask\n* ENIG finish\n* no silkscreen\n" (at 108.5 85) (layer Cmts.User) (tstamp 53DA31C9)
@@ -363,16 +363,16 @@
   (gr_line (start 156.4 102.4) (end 138.4 102.4) (angle 90) (layer Edge.Cuts) (width 0.01))
   (gr_line (start 156.4 101.007116) (end 156.4 102.4) (angle 90) (layer Edge.Cuts) (width 0.01))
 
-  (segment (start 142.1 99.75) (end 141.983333 99.633333) (width 0.762) (layer B.Cu) (net 1))
-  (segment (start 141.983333 99.633333) (end 141.4 99.633333) (width 0.762) (layer B.Cu) (net 1) (tstamp 553B90BB))
   (segment (start 141.4 99.633333) (end 142.1 99.75) (width 0.762) (layer B.Cu) (net 1) (tstamp 553B90BD))
-  (segment (start 144.75 99.75) (end 144.633333 99.633333) (width 0.762) (layer B.Cu) (net 2))
+  (segment (start 141.983333 99.633333) (end 141.4 99.633333) (width 0.762) (layer B.Cu) (net 1) (tstamp 553B90BB))
+  (segment (start 142.1 99.75) (end 141.983333 99.633333) (width 0.762) (layer B.Cu) (net 1))
   (segment (start 144.633333 99.633333) (end 143.9 99.633333) (width 0.762) (layer B.Cu) (net 2) (tstamp 553B90C9))
-  (segment (start 147.4 99.75) (end 147.283333 99.633333) (width 0.762) (layer B.Cu) (net 3))
+  (segment (start 144.75 99.75) (end 144.633333 99.633333) (width 0.762) (layer B.Cu) (net 2))
   (segment (start 147.283333 99.633333) (end 146.4 99.633333) (width 0.762) (layer B.Cu) (net 3) (tstamp 553B90CC))
-  (segment (start 150.05 99.75) (end 149.933333 99.633333) (width 0.762) (layer B.Cu) (net 4))
+  (segment (start 147.4 99.75) (end 147.283333 99.633333) (width 0.762) (layer B.Cu) (net 3))
   (segment (start 149.933333 99.633333) (end 148.9 99.633333) (width 0.762) (layer B.Cu) (net 4) (tstamp 553B90CF))
-  (segment (start 152.7 99.75) (end 152.583333 99.633333) (width 0.762) (layer B.Cu) (net 5))
+  (segment (start 150.05 99.75) (end 149.933333 99.633333) (width 0.762) (layer B.Cu) (net 4))
   (segment (start 152.583333 99.633333) (end 151.4 99.633333) (width 0.762) (layer B.Cu) (net 5) (tstamp 553B90D2))
+  (segment (start 152.7 99.75) (end 152.583333 99.633333) (width 0.762) (layer B.Cu) (net 5))
 
 )
