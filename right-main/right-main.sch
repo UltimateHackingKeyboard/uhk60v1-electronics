@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:right-main-rescue
 LIBS:ugl
 LIBS:power
 LIBS:transistors
@@ -32,7 +31,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:device
 LIBS:opendous
-LIBS:right-main-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -895,7 +893,7 @@ F 3 "" H 2900 1350 60  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND-RESCUE-right-main #PWR01
+L GND #PWR01
 U 1 1 50CCF7B6
 P 4100 1550
 F 0 "#PWR01" H 4100 1550 30  0001 C CNN
@@ -906,7 +904,7 @@ F 3 "" H 4100 1550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-right-main #PWR02
+L GND #PWR02
 U 1 1 50CCF9B3
 P 4350 3950
 F 0 "#PWR02" H 4350 3950 30  0001 C CNN
@@ -917,7 +915,7 @@ F 3 "" H 4350 3950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-right-main #PWR03
+L GND #PWR03
 U 1 1 50CCFC52
 P 4750 2900
 F 0 "#PWR03" H 4750 2900 30  0001 C CNN
@@ -928,7 +926,7 @@ F 3 "" H 4750 2900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-right-main #PWR04
+L GND #PWR04
 U 1 1 50CD00F9
 P 3150 1650
 F 0 "#PWR04" H 3150 1650 30  0001 C CNN
@@ -984,7 +982,7 @@ F 3 "" H 1700 7200 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-right-main #PWR06
+L GND #PWR06
 U 1 1 50D65244
 P 3050 6350
 F 0 "#PWR06" H 3050 6350 30  0001 C CNN
@@ -1022,7 +1020,7 @@ $EndComp
 Text Label 2150 7150 0    40   ~ 0
 SCK
 $Comp
-L GND-RESCUE-right-main #PWR08
+L GND #PWR08
 U 1 1 50D660B6
 P 2350 7550
 F 0 "#PWR08" H 2350 7550 30  0001 C CNN
@@ -1060,7 +1058,7 @@ SCK
 Text Label 4900 1000 2    40   ~ 0
 RESET
 $Comp
-L GND-RESCUE-right-main #PWR010
+L GND #PWR010
 U 1 1 50CD09B4
 P 4050 6300
 F 0 "#PWR010" H 4050 6300 30  0001 C CNN
@@ -1433,7 +1431,7 @@ F 3 "" H 5950 700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-right-main #PWR015
+L GND #PWR015
 U 1 1 53CEDDD6
 P 5900 4250
 F 0 "#PWR015" H 5900 4250 30  0001 C CNN
@@ -1580,7 +1578,7 @@ F 3 "" H 9700 1250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-right-main #PWR019
+L GND #PWR019
 U 1 1 53D42453
 P 9250 1500
 F 0 "#PWR019" H 9250 1500 30  0001 C CNN
@@ -1606,7 +1604,7 @@ SCL
 Text Label 10150 1400 0    40   ~ 0
 SDA
 $Comp
-L GND-RESCUE-right-main #PWR021
+L GND #PWR021
 U 1 1 53D4DAD2
 P 10350 1450
 F 0 "#PWR021" H 10350 1450 30  0001 C CNN
@@ -1665,7 +1663,7 @@ F 3 "" H 7850 2100 60  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND-RESCUE-right-main #PWR023
+L GND #PWR023
 U 1 1 53E8E6C4
 P 2750 4550
 F 0 "#PWR023" H 2750 4550 30  0001 C CNN
@@ -1750,7 +1748,7 @@ $EndComp
 Text Label 7250 2600 0    40   ~ 0
 RX2
 $Comp
-L GND-RESCUE-right-main #PWR027
+L GND #PWR027
 U 1 1 551F936E
 P 2000 5900
 F 0 "#PWR027" H 2000 5900 30  0001 C CNN
@@ -2376,7 +2374,7 @@ F 3 "" H 7850 1700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND-RESCUE-right-main #PWR?
+L GND #PWR?
 U 1 1 55303DBE
 P 7950 1750
 F 0 "#PWR?" H 7950 1750 30  0001 C CNN
