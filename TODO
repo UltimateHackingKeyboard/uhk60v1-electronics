@@ -5,7 +5,7 @@
 * Reduce resistor values on the TX and RX lines of the board-to-board connectors because they didn't work on the 5.1 generation prototypes.
 * Increase minimum space between tracks to at least 12 mil wherever possible.
 * Move via farther from the pad of CR6 on the left main PCB.
-* Redesign the pads of the vertical PCB to not interfere with the keycap stabilizer.
+* Redesign the pads of the vertical PCB to not interfere with the keycap stabilizer. Mechanical solder pads should only be added at the edges and the middle pads should be reduced.
 * Re-wrap and reposition the "Unscrew the 5 large below the keycaps and the 1 screw on the PCB" text to be more readable.
 * Move the parts farther from the pins of the MX switches which are too close.
 * Look into the possiblity of using larger pitch components so that we could could make our manufacturing tolerances less strict resulting in lower prices and increased yield.
