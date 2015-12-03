@@ -10,4 +10,6 @@
 * Move the parts farther from the pins of the MX switches which are too close.
 * Look into the possiblity of using larger pitch components so that we could could make our manufacturing tolerances less strict resulting in lower prices and increased yield.
 * Add fixating pins to the Cherry MX module so that PCB mounted switches can be used, too.
+* Add pins for Matias switches if possible.
 * Possibly add backlighting option for modders.
+* Look into the possibility of using a USB type C connector.
