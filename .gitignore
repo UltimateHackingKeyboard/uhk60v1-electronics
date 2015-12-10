@@ -8,3 +8,7 @@ gerbers
 *.drl
 *-bak
 _autosave-*
+*.swp
+
+# MacOSX
+.DS_Store
