@@ -9,6 +9,5 @@ gerbers
 *-bak
 _autosave-*
 *.swp
-
-# MacOSX
+node_modules
 .DS_Store
