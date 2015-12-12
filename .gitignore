@@ -10,4 +10,5 @@ gerbers
 _autosave-*
 *.swp
 node_modules
+bom.csv
 .DS_Store
