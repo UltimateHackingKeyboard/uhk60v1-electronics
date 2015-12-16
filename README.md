@@ -1,7 +1,9 @@
 Ultimate Hacking Keyboard electronics
 =====================================
 
-Contained are the schematics and board layout [KiCad](http://kicad-pcb.org/) files for the Ultimate Hacking Keyboard.
+[![Changelog #186](https://img.shields.io/badge/changelog-%23186-lightgrey.svg)](https://changelog.com/186)
+
+Contained are the schematics and board layout KiCad files for the Ultimate Hacking Keyboard.
 
 ## Installation
 
@@ -21,7 +23,7 @@ Then install the following two libraries
 Either download the zip, or clone the git repository
 
     git clone https://github.com/UltimateHackingKeyboard/ugl-kicad-libs
-    
+
 Then inside kicad go to "component Libraries"
 
 ![](http://cl.ly/3d1y0u2d1X2V/Screen%20Shot%202015-12-12%20at%209.17.23%20PM.png)
@@ -39,7 +41,7 @@ The opendous download has two folders
 - library
 - modules
 
-Copy the contents of the library folder to the kicad library directory. 
+Copy the contents of the library folder to the kicad library directory.
 
 e.g. on OSX the library path is `/Library/Application\ Support/kicad/library/`
 
@@ -50,6 +52,6 @@ e.g. on OSX the module path is `/Library/Application\ Support/kicad/modules/open
 
 # Known issues
 
-OSX Users may get a warning that the 'special' library is missing. This is most likely a harmless error. 
+OSX Users may get a warning that the 'special' library is missing. This is most likely a harmless error.
 
 ![](http://cl.ly/122o2a1H1Y2a/Screen%20Shot%202015-12-12%20at%207.48.11%20PM.png)
