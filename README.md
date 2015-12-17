@@ -5,6 +5,9 @@ Ultimate Hacking Keyboard electronics
 
 Contained are the schematics and board layout KiCad files for the Ultimate Hacking Keyboard.
 
+![](https://www.crowdsupply.com/img/e94f/addon-modules-2-white-1_png_project-body.jpg)
+
+
 ## Installation
 
 
@@ -26,12 +29,12 @@ Either download the zip, or clone the git repository
 
 Then inside kicad go to "component Libraries"
 
-![](http://cl.ly/3d1y0u2d1X2V/Screen%20Shot%202015-12-12%20at%209.17.23%20PM.png)
+![](http://cl.ly/0N3o1H0f0004/Screen%20Shot%202015-12-12%20at%209.17.23%20PM%20(1).png)
 
 And add a relative or absolute path to the library directory
 
 
-![](http://cl.ly/122b3a3E1F0W/Screen%20Shot%202015-12-12%20at%209.15.56%20PM.png)
+![](http://cl.ly/370E262O052g/kicad.png)
 
 
 ## Opendous installation
@@ -54,4 +57,4 @@ e.g. on OSX the module path is `/Library/Application\ Support/kicad/modules/open
 
 OSX Users may get a warning that the 'special' library is missing. This is most likely a harmless error.
 
-![](http://cl.ly/122o2a1H1Y2a/Screen%20Shot%202015-12-12%20at%207.48.11%20PM.png)
+![](http://cl.ly/2S0J3y2D3x3A/Screen%20Shot%202015-12-12%20at%207.48.11%20PM.png)
