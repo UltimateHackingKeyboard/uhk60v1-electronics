@@ -1,0 +1,15 @@
+---
+dist: trusty
+sudo: true
+language: python
+python:
+  - "2.7"
+before_install:
+  - ./scripts/1-add-repos.sh
+install:
+  - ./scripts/2-install-dependencies.sh
+before_script:
+  - export PYTHONPATH=$PYTHONPATH:"/usr/lib/python2.7/dist-packages"
+  - ./test/travis-ci/pre-flight-test.sh
+script:
+  - ./scripts/generate-png-diff.sh $(git rev-parse --short HEAD^1)
