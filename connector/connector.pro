@@ -44,6 +44,7 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=ugl
 [general]
 version=1
 [pcbnew]
