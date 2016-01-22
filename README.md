@@ -26,7 +26,7 @@ Errors will be displayed below
 ## Visualizing Changes
 
 Before opening the merge request, please run the `generate-png-diff.sh` script located in the `scripts` directory.
-generate-png-diff.sh will automatically a directory named `plots` and generate about a dozen plots of the pcb 'before' and 'after' the change.
+`generate-png-diff.sh` will automatically a directory named `plots` and generate about a dozen plots of the pcb 'before' and 'after' the change.
 
 **Please include some of the diffs inside the comment section of github**
 
