@@ -15,7 +15,7 @@ Considerations:
 
 ## Validation
 
-Ensure that the design rules checks pass. The button looks like this: 
+Ensure that the design rules checks pass. The button looks like this:
 
 ![](https://www.dropbox.com/s/hjh96bu8io5f3u8/Screenshot%202015-12-23%2013.12.04.png?dl=1)
 
@@ -25,8 +25,8 @@ Errors will be displayed below
 
 ## Visualizing Changes
 
-Before opening the merge request, please run the `generate-png-diff.sh` script located in the `scripts` directory. 
-generate-png-diff.sh will automatically a directory named `plots` and generate about a dozen plots of the pcb 'before' and 'after' the change. 
+Before opening the merge request, please run the `generate-png-diff.sh` script located in the `scripts` directory.
+generate-png-diff.sh will automatically a directory named `plots` and generate about a dozen plots of the pcb 'before' and 'after' the change.
 
 **Please include some of the diffs inside the comment section of github**
 
@@ -37,7 +37,7 @@ generate-png-diff.sh will automatically a directory named `plots` and generate a
 
 The script takes zero, one or two git references to compare against. Arguments can be short/long git refs, branches, or tags. Providing no argument is the same as running `generate-png-diff.sh $(git rev-parse --short HEAD)`
 
-e.g  
+e.g
 `./scripts/generate-png-diff.sh`
 
 `./scripts/generate-png-diff.sh 123456` # Compare current changes against git commit 123456
