@@ -24,6 +24,8 @@ Errors will be displayed below
 
 ![](https://www.dropbox.com/s/atjm122jz3q8hv6/Screenshot%202015-12-23%2015.29.48.png?dl=1)
 
+Please also make sure that components are not in the 1mm vicinity of the soft keepout areas (the Eco1.User and Eco2.User layers on the left and right main boards). The DRC cannot check for this but it's very important because the components can mechanically interfere with the case. 
+
 ## Visualizing Changes
 
 Before opening the merge request, please run the `generate-png-diff.sh` script located in the `scripts` directory.
