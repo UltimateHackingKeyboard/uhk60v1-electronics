@@ -11,7 +11,8 @@ Thanks for being willing to contribute to the Ultimate Hacking Keyboard!
 
 Considerations:
 
-- Please make changes on a new feature branch inside your fork (not master)
+- Unlike plaintext files *KiCad files cannot be merged*, which means that if multiple people work on the same board at the same time only a single one of them will be able to commit his/her changes and the rest of the changes will be trashed. Because of this, please always open an issue to discuss things before doing any change, so that your efforts won't be wasted.
+- Please make changes on a new feature branch inside your fork, not on master.
 
 ## Validation
 
