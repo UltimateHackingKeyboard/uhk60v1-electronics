@@ -5,6 +5,14 @@ Ultimate Hacking Keyboard electronics
 
 Contained are the schematics and board layout KiCad files for the [Ultimate Hacking Keyboard](https://ultimatehackingkeyboard.com/).
 
+# Download
+
+Please make sure to clone this repo with:
+
+`git clone --recursive git@github.com:UltimateHackingKeyboard/electronics.git`
+
+This way the dependent submodules will be cloned, too.
+
 # Contributing
 
 Thanks for being willing to contribute to the Ultimate Hacking Keyboard!
