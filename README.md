@@ -5,10 +5,13 @@ Ultimate Hacking Keyboard electronics
 
 Contained are the schematics and board layout KiCad files for the [Ultimate Hacking Keyboard](https://ultimatehackingkeyboard.com/).
 
-# Download
-
 Please make sure to clone this repo with:
 
 `git clone --recursive git@github.com:UltimateHackingKeyboard/electronics.git`
 
-This way the dependent submodules will be cloned, too.
+Now, you should be able to open any of the 4 KiCad projects of the repo:
+
+* [left-main](left-main) contains main PCB of left keyboard half.
+* [right-main](right-main) contains the main PCB of the right keyboard half.
+* [display](display) contains the PCB that interfaces our custom manufactured LED segment display with the left main PCB.
+* [connector](connector) is a very small PCB that is soldered vertically to the right main circuit board to act as the female board to board that interconnects the keyboard halves without needing a bridge cable.
