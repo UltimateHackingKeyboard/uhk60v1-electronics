@@ -9,7 +9,7 @@ Please make sure to clone this repo with:
 
 `git clone --recursive git@github.com:UltimateHackingKeyboard/electronics.git`
 
-Now, you should be able to open any of the 4 KiCad projects of the repo:
+Now, you should be able to open any of the 4 [KiCad](http://kicad-pcb.org/) projects of the repo:
 
 * [left-main](left-main) contains main PCB of left keyboard half.
 * [right-main](right-main) contains the main PCB of the right keyboard half.
