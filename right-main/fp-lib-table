@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name UGL)(type KiCad)(uri ${KIPRJMOD}/../libs/ugl/modules)(options "")(descr "Ultimate Gadget Laboratories library"))
+  (lib (name kiibohd)(type KiCad)(uri "${KIPRJMOD}/../libs/kiibohd/ICED - Right/prettylib")(options "")(descr kiibohd))
 )
