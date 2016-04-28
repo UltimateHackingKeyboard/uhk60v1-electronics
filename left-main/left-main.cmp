@@ -1,871 +1,1643 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-05 BZR 5054)-product   date = Fri 10 Apr 2015 02:04:24 AM CEST
+Cmp-Mod V01 Created by PcbNew   date = Thu 28 Apr 2016 08:24:04 PM CEST
 
 BeginCmp
-TimeStamp = /513150A5;
-Reference = C1;
-ValeurCmp = 15pF;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /513150C6;
-Reference = C2;
-ValeurCmp = 15pF;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5134D4E5;
-Reference = C3;
-ValeurCmp = 0.1uF;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5134D4EB;
-Reference = C4;
-ValeurCmp = 0.1uF;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51348E24;
-Reference = C5;
-ValeurCmp = 0.1uF;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /513490C2;
-Reference = C6;
-ValeurCmp = 0.1uF;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /513486A1;
-Reference = C7;
-ValeurCmp = 0.1nF;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51366E03;
-Reference = C8;
-ValeurCmp = 0.1uF;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51C91DE4;
-Reference = C10;
-ValeurCmp = 0.01uF;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51C91DDE;
-Reference = C11;
-ValeurCmp = 0.1uF;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51366B28;
-Reference = C12;
-ValeurCmp = 1uF;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51C91DD2;
-Reference = C13;
-ValeurCmp = 10uF;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51D56BFD;
-Reference = C14;
-ValeurCmp = 100uF;
-IdModule  = UGL:SM1206_Tantalum;
-EndCmp
-
-BeginCmp
-TimeStamp = /53DCA671;
-Reference = CR1;
-ValeurCmp = ESD;
-IdModule  = UGL:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /513E6C50;
-Reference = CR2;
-ValeurCmp = ESD;
-IdModule  = UGL:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /513E6C62;
-Reference = CR3;
-ValeurCmp = ESD;
-IdModule  = UGL:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /513E6C68;
-Reference = CR4;
-ValeurCmp = ESD;
-IdModule  = UGL:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /513E6C6E;
-Reference = CR5;
-ValeurCmp = ESD;
-IdModule  = UGL:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /53D49332;
-Reference = CR6;
-ValeurCmp = ESD;
-IdModule  = UGL:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /55266CD7;
-Reference = CR7;
-ValeurCmp = ESD;
-IdModule  = UGL:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /50103655;
-Reference = D11;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B49B;
-Reference = D12;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B526;
-Reference = D13;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B539;
-Reference = D14;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B53F;
-Reference = D15;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B545;
-Reference = D16;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B54B;
-Reference = D17;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B80B;
-Reference = D21;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B812;
-Reference = D22;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B81A;
-Reference = D23;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B820;
-Reference = D24;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B826;
-Reference = D25;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B82C;
-Reference = D27;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B84B;
-Reference = D31;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B852;
-Reference = D32;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B85A;
-Reference = D33;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B860;
-Reference = D34;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B866;
-Reference = D35;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B86C;
-Reference = D37;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B88B;
-Reference = D41;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B892;
-Reference = D42;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B89A;
-Reference = D43;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B8A0;
-Reference = D44;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B8A6;
-Reference = D45;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B8AC;
-Reference = D46;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /552D6592;
-Reference = D47;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B8CB;
-Reference = D51;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B8D2;
-Reference = D52;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B8DA;
-Reference = D53;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B8E0;
-Reference = D54;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B8E6;
-Reference = D55;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /5011B8EC;
-Reference = D56;
-ValeurCmp = DIODE;
-IdModule  = UGL:SOD-123_Diode;
-EndCmp
-
-BeginCmp
-TimeStamp = /51348F74;
-Reference = L1;
-ValeurCmp = INDUCTOR;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5130F31E;
-Reference = P1;
-ValeurCmp = CONN_5;
-IdModule  = UGL:0955012641;
-EndCmp
-
-BeginCmp
-TimeStamp = /5130F32D;
-Reference = P2;
-ValeurCmp = CONN_5;
-IdModule  = UGL:009155005541006_uhk;
-EndCmp
-
-BeginCmp
-TimeStamp = /5130F33C;
-Reference = P3;
-ValeurCmp = CONN_6;
-IdModule  = UGL:isp6pin;
-EndCmp
-
-BeginCmp
-TimeStamp = /52A33478;
-Reference = P4;
-ValeurCmp = CONN_18;
-IdModule  = UGL:SFV18R-2STE1HLF;
-EndCmp
-
-BeginCmp
-TimeStamp = /52A0BDE3;
-Reference = Q1;
-ValeurCmp = PNP;
-IdModule  = UGL:SOT-23;
-EndCmp
-
-BeginCmp
-TimeStamp = /55286E94;
-Reference = Q2;
-ValeurCmp = PNP;
-IdModule  = UGL:SOT-23;
-EndCmp
-
-BeginCmp
-TimeStamp = /51315D6C;
-Reference = R1;
-ValeurCmp = 47K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51C990B9;
-Reference = R2;
-ValeurCmp = 4.7K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51C9904E;
-Reference = R3;
-ValeurCmp = 4.7K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /53CF0531;
-Reference = R4;
-ValeurCmp = 47;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /53CF6DE8;
-Reference = R5;
-ValeurCmp = 47;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51348BBE;
-Reference = R6;
-ValeurCmp = 110;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C91BB5;
-Reference = R7;
-ValeurCmp = 10K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C8F67D;
-Reference = R8;
-ValeurCmp = 10K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /552AE560;
-Reference = R9;
-ValeurCmp = 100K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /552AF5B4;
-Reference = R10;
-ValeurCmp = 10K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /512E8FC6;
-Reference = R11;
-ValeurCmp = 10K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /512ECCDF;
-Reference = R12;
-ValeurCmp = 10K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /512ECCE5;
-Reference = R13;
-ValeurCmp = 10K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /512ECCEB;
-Reference = R14;
-ValeurCmp = 10K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /512ECCF1;
-Reference = R15;
-ValeurCmp = 10K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51C3B1C4;
-Reference = R21;
-ValeurCmp = 110;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51C3B1DE;
-Reference = R22;
-ValeurCmp = 150;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51C3B202;
-Reference = R23;
-ValeurCmp = 150;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51C3B226;
-Reference = R24;
-ValeurCmp = 150;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51C3BBA1;
-Reference = R25;
-ValeurCmp = 150;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51C3BCD9;
-Reference = R26;
-ValeurCmp = 150;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51C3BCDF;
-Reference = R27;
-ValeurCmp = 150;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51C3BCE5;
-Reference = R28;
-ValeurCmp = 150;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /51346274;
-Reference = R30;
-ValeurCmp = 10K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52A0BEE6;
-Reference = R31;
-ValeurCmp = 1K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52A0C023;
-Reference = R32;
-ValeurCmp = 47K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /55283349;
-Reference = R33;
-ValeurCmp = 1K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5528CE5A;
-Reference = R34;
-ValeurCmp = 47K;
-IdModule  = UGL:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /512E8C90;
-Reference = SW11;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512E928F;
-Reference = SW12;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512E96BC;
-Reference = SW13;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512E9870;
-Reference = SW14;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512E9AE1;
-Reference = SW15;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512E9D6F;
-Reference = SW16;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EA103;
-Reference = SW17;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512E90C4;
-Reference = SW21;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EA010;
-Reference = SW22;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EA0FD;
-Reference = SW23;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EA29C;
-Reference = SW24;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EA7E0;
+TimeStamp = 55211667
+Path = /512EA7E0
 Reference = SW25;
 ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
 EndCmp
 
 BeginCmp
-TimeStamp = /512EA973;
-Reference = SW27;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
+TimeStamp = 528A985A
+Path = 
+Reference = hole 6mm;
+ValeurCmp = VAL**;
+IdModule  = UGL:hole_6mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /512EADA8;
-Reference = SW31;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
+TimeStamp = 55316EB7
+Path = 
+Reference = hole 6mm;
+ValeurCmp = VAL**;
+IdModule  = UGL:hole_6mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /512EAE62;
-Reference = SW32;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EAE68;
-Reference = SW33;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EAE6E;
-Reference = SW34;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EAE74;
-Reference = SW35;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EAE7A;
-Reference = SW37;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EB909;
-Reference = SW42;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EB90F;
-Reference = SW43;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EB915;
-Reference = SW44;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EB91B;
-Reference = SW45;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EB921;
-Reference = SW46;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /552D64DE;
-Reference = SW47;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EC393;
-Reference = SW51;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EC399;
-Reference = SW52;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EC39F;
-Reference = SW53;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EC3A5;
-Reference = SW54;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
-EndCmp
-
-BeginCmp
-TimeStamp = /512EC3AB;
+TimeStamp = 5265A570
+Path = /512EC3AB
 Reference = SW55;
 ValeurCmp = SPST;
 IdModule  = UGL:SS-5GLD;
 EndCmp
 
 BeginCmp
-TimeStamp = /512EC3B1;
-Reference = SW56;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
+TimeStamp = 53F7B5DE
+Path = /55280193
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = UGL:0955012641;
 EndCmp
 
 BeginCmp
-TimeStamp = /552D126D;
-Reference = SW411;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
+TimeStamp = 53F52C45
+Path = /5131506E
+Reference = X1;
+ValeurCmp = 16Mhz;
+IdModule  = UGL:2-SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /512EB903;
-Reference = SW412;
-ValeurCmp = SPST;
-IdModule  = UGL:Cherry_MX;
+TimeStamp = 552115A3
+Path = /5130F33C
+Reference = P3;
+ValeurCmp = CONN_6;
+IdModule  = UGL:isp6pin;
 EndCmp
 
 BeginCmp
-TimeStamp = /5130EF01;
+TimeStamp = 552115B1
+Path = /52A33478
+Reference = P4;
+ValeurCmp = CONN_18;
+IdModule  = UGL:SFV18R-2STE1HLF;
+EndCmp
+
+BeginCmp
+TimeStamp = 55294F82
+Path = /5130EF01
 Reference = U1;
-ValeurCmp = ATMEGA88-A;
+ValeurCmp = ATMEGA88;
 IdModule  = UGL:ATMEGA_TQFP32;
 EndCmp
 
 BeginCmp
-TimeStamp = /51BA4E0E;
+TimeStamp = 52A371EC
+Path = /51BA4E0E
 Reference = U2;
 ValeurCmp = PCA9634;
 IdModule  = UGL:PCA9634_TSSOP;
 EndCmp
 
 BeginCmp
-TimeStamp = /51BA6D4E;
+TimeStamp = 5525B88F
+Path = /51BA6D4E
 Reference = U3;
 ValeurCmp = TPIC6C595;
 IdModule  = UGL:TPIC6C595_SO16;
 EndCmp
 
 BeginCmp
-TimeStamp = /5131506E;
-Reference = X1;
-ValeurCmp = 16Mhz;
-IdModule  = UGL:2-SMD;
+TimeStamp = 552FA4F0
+Path = 
+Reference = via 35/25mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 53F791FC
+Path = 
+Reference = via 35/25mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A6B443
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 553564B5
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A6B4D8
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A55ACE
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 53F7BC66
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A5A65B
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A548A5
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A548E5
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52C6B4C9
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 53F6442B
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 53F7BC6C
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 53F7B5E4
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A6B29F
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A6B435
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A6B500
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 53F6459F
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A6B55C
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A6B56A
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 53F63CD2
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A828C4
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 53F78C01
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A828D6
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A828DF
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A828E8
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A828F1
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A8290C
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A82915
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A8291E
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A82927
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A82930
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A82939
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A82942
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A8294B
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A82954
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A8295D
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A82966
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 553EDD44
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A8297D
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 53F79222
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A8298F
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A82998
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A829AA
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A82B01
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A829BC
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A829C5
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A829CE
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A829D7
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A829E0
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A829E9
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 53F78C37
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 553EDD3C
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A82AB0
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A82AB9
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A82AD4
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A82AE7
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A82B14
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A82B3C
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A82B50
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 553D4099
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 53F783D0
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 5410FA83
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 5410FAA6
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 552B9349
+Path = 
+Reference = via 35/25mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 552AE330
+Path = 
+Reference = via 35/25mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 552AE322
+Path = 
+Reference = via 35/25mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 552AE314
+Path = 
+Reference = via 35/25mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 552AE306
+Path = 
+Reference = via 35/25mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 552AE2F8
+Path = 
+Reference = via 35/25mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 552AE2E9
+Path = 
+Reference = via 35/25mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 552AE2DB
+Path = 
+Reference = via 35/25mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 5521158B
+Path = /5011B8EC
+Reference = D56;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211581
+Path = /5011B8E6
+Reference = D55;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211577
+Path = /5011B8E0
+Reference = D54;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5521156D
+Path = /5011B8DA
+Reference = D53;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211563
+Path = /5011B8D2
+Reference = D52;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 553D4533
+Path = /5011B8CB
+Reference = D51;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 553D47F5
+Path = /552D6592
+Reference = D47;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211545
+Path = /5011B8AC
+Reference = D46;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5525B971
+Path = /5011B8A6
+Reference = D45;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211531
+Path = /5011B8A0
+Reference = D44;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211527
+Path = /5011B89A
+Reference = D43;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5521151D
+Path = /5011B88B
+Reference = D41;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211513
+Path = /5011B86C
+Reference = D37;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 553D81E3
+Path = /5011B866
+Reference = D35;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 552114FF
+Path = /5011B860
+Reference = D34;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 553D4093
+Path = /5011B85A
+Reference = D33;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 553D48D1
+Path = /5011B852
+Reference = D32;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 552114E1
+Path = /5011B84B
+Reference = D31;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 553D7CA7
+Path = /5011B82C
+Reference = D27;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 553D7D3E
+Path = /5011B826
+Reference = D25;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 552114C3
+Path = /5011B820
+Reference = D24;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 552114B9
+Path = /5011B81A
+Reference = D23;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 552114AF
+Path = /5011B812
+Reference = D22;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 552114A5
+Path = /5011B80B
+Reference = D21;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5521149B
+Path = /5011B54B
+Reference = D17;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211491
+Path = /5011B545
+Reference = D16;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211487
+Path = /5011B53F
+Reference = D15;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 553D58C9
+Path = /5011B539
+Reference = D14;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 553D5B48
+Path = /5011B526
+Reference = D13;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211469
+Path = /5011B49B
+Reference = D12;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 5521145F
+Path = /50103655
+Reference = D11;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 551FD351
+Path = /5011B892
+Reference = D42;
+ValeurCmp = DIODE;
+IdModule  = UGL:SOD-123_Diode;
+EndCmp
+
+BeginCmp
+TimeStamp = 528A9473
+Path = 
+Reference = hole 6mm;
+ValeurCmp = VAL**;
+IdModule  = UGL:hole_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 528A9EF8
+Path = 
+Reference = hole 6mm;
+ValeurCmp = VAL**;
+IdModule  = UGL:hole_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 528A9842
+Path = 
+Reference = hole 6mm;
+ValeurCmp = VAL**;
+IdModule  = UGL:hole_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 528AA3B1
+Path = 
+Reference = hole 5.7mm;
+ValeurCmp = VAL**;
+IdModule  = UGL:hole_6.7mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 528AA3F4
+Path = 
+Reference = hole 6.7mm;
+ValeurCmp = VAL**;
+IdModule  = UGL:hole_6.7mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5295D75B
+Path = 
+Reference = hole 3mm;
+ValeurCmp = VAL**;
+IdModule  = UGL:hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 551E907F
+Path = /51C9904E
+Reference = R3;
+ValeurCmp = 4.7K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A6B4C6
+Path = /52A0C023
+Reference = R32;
+ValeurCmp = 47K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A25FDB
+Path = /52A0BEE6
+Reference = R31;
+ValeurCmp = 1K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 55229F6E
+Path = /513150A5
+Reference = C1;
+ValeurCmp = 15pF;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 55229F4D
+Path = /513150C6
+Reference = C2;
+ValeurCmp = 15pF;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A6B40C
+Path = /5134D4E5
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 552B88F1
+Path = /5134D4EB
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 52685503
+Path = /51C91DE4
+Reference = C10;
+ValeurCmp = 0.01uF;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 52685510
+Path = /51C91DDE
+Reference = C11;
+ValeurCmp = 0.1uF;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 52685919
+Path = /51366B28
+Reference = C12;
+ValeurCmp = 1uF;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 553EDAA8
+Path = /51C91DD2
+Reference = C13;
+ValeurCmp = 10uF;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A25FD0
+Path = /51366E03
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 553F7814
+Path = /51348F74
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 53F6830D
+Path = /51315D6C
+Reference = R1;
+ValeurCmp = 47K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 53F74FDA
+Path = /51C990B9
+Reference = R2;
+ValeurCmp = 4.7K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 528EAFA6
+Path = /51346274
+Reference = R30;
+ValeurCmp = 10K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 553F7257
+Path = /51348BBE
+Reference = R6;
+ValeurCmp = 110;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5269E2E0
+Path = /512E8FC6
+Reference = R11;
+ValeurCmp = 10K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5269E5FE
+Path = /512ECCDF
+Reference = R12;
+ValeurCmp = 10K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5269E41D
+Path = /512ECCE5
+Reference = R13;
+ValeurCmp = 10K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 526857BD
+Path = /512ECCEB
+Reference = R14;
+ValeurCmp = 10K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5521D470
+Path = /512ECCF1
+Reference = R15;
+ValeurCmp = 10K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A3620E
+Path = /51C3B1C4
+Reference = R21;
+ValeurCmp = 110;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 553FAF7C
+Path = /51C3B1DE
+Reference = R22;
+ValeurCmp = 150;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A36219
+Path = /51C3B202
+Reference = R23;
+ValeurCmp = 150;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5532D171
+Path = /51C3B226
+Reference = R24;
+ValeurCmp = 150;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 52A36224
+Path = /51C3BBA1
+Reference = R25;
+ValeurCmp = 150;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5532D1CD
+Path = /51C3BCD9
+Reference = R26;
+ValeurCmp = 150;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5532D1D8
+Path = /51C3BCDF
+Reference = R27;
+ValeurCmp = 150;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5532D166
+Path = /51C3BCE5
+Reference = R28;
+ValeurCmp = 150;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 552713AC
+Path = /51348E24
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 53F5D8D2
+Path = /513490C2
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 53F5D7EA
+Path = /513486A1
+Reference = C7;
+ValeurCmp = 0.1nF;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 53E960E8
+Path = /53C91BB5
+Reference = R7;
+ValeurCmp = 10K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 53E960F2
+Path = /53C8F67D
+Reference = R8;
+ValeurCmp = 10K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 53F5D7BE
+Path = /53CF0531
+Reference = R4;
+ValeurCmp = 47;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 553F77CA
+Path = /53CF6DE8
+Reference = R5;
+ValeurCmp = 47;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 551E63E1
+Path = /552AE560
+Reference = R9;
+ValeurCmp = 100K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 551E8F91
+Path = /552AF5B4
+Reference = R10;
+ValeurCmp = 10K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 551E63F5
+Path = /55283349
+Reference = R33;
+ValeurCmp = 1K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 553F77DF
+Path = /5528CE5A
+Reference = R34;
+ValeurCmp = 47K;
+IdModule  = UGL:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5527A119
+Path = /55266CD7
+Reference = CR7;
+ValeurCmp = ESD;
+IdModule  = UGL:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5527A0E4
+Path = /513E6C6E
+Reference = CR5;
+ValeurCmp = ESD;
+IdModule  = UGL:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5527A0D9
+Path = /513E6C68
+Reference = CR4;
+ValeurCmp = ESD;
+IdModule  = UGL:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 553F7215
+Path = /513E6C62
+Reference = CR3;
+ValeurCmp = ESD;
+IdModule  = UGL:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5521143B
+Path = /513E6C50
+Reference = CR2;
+ValeurCmp = ESD;
+IdModule  = UGL:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5527A124
+Path = /53D49332
+Reference = CR6;
+ValeurCmp = ESD;
+IdModule  = UGL:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 53F5D8B1
+Path = /53DCA671
+Reference = CR1;
+ValeurCmp = ESD;
+IdModule  = UGL:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 553D4511
+Path = 
+Reference = via 38/22mil;
+ValeurCmp = VAL**;
+IdModule  = UGL:via_38_22mil;
+EndCmp
+
+BeginCmp
+TimeStamp = 52685536
+Path = /51D56BFD
+Reference = C14;
+ValeurCmp = 100uF;
+IdModule  = UGL:SM1206_Tantalum;
+EndCmp
+
+BeginCmp
+TimeStamp = 553F7836
+Path = /52A0BDE3
+Reference = Q1;
+ValeurCmp = PNP;
+IdModule  = UGL:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 553F7825
+Path = /55286E94
+Reference = Q2;
+ValeurCmp = PNP;
+IdModule  = UGL:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211595
+Path = /5130F32D
+Reference = P2;
+ValeurCmp = CONN_5;
+IdModule  = UGL:009155005541006_uhk;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211763
+Path = /552D126D
+Reference = SW411;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211755
+Path = /512EC3B1
+Reference = SW56;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211747
+Path = /512EC3A5
+Reference = SW54;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211739
+Path = /512EC39F
+Reference = SW53;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 5521172B
+Path = /512EC399
+Reference = SW52;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 5521171D
+Path = /512EC393
+Reference = SW51;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 5521170F
+Path = /552D64DE
+Reference = SW47;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211701
+Path = /512EB921
+Reference = SW46;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 552116F3
+Path = /512EB91B
+Reference = SW45;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 552116E5
+Path = /512EB915
+Reference = SW44;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 552116D7
+Path = /512EB90F
+Reference = SW43;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 552116C9
+Path = /512EAE7A
+Reference = SW37;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 552116BB
+Path = /512EAE74
+Reference = SW35;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 552116AD
+Path = /512EAE6E
+Reference = SW34;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 5521169F
+Path = /512EAE68
+Reference = SW33;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211691
+Path = /512EAE62
+Reference = SW32;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211683
+Path = /512EADA8
+Reference = SW31;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211675
+Path = /512EA973
+Reference = SW27;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211659
+Path = /512EA29C
+Reference = SW24;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 5521164B
+Path = /512EA0FD
+Reference = SW23;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 5521163D
+Path = /512EA010
+Reference = SW22;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 5521162F
+Path = /512E90C4
+Reference = SW21;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211621
+Path = /512EA103
+Reference = SW17;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211613
+Path = /512E9D6F
+Reference = SW16;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 55211605
+Path = /512E9AE1
+Reference = SW15;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 552115F7
+Path = /512E9870
+Reference = SW14;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 552115E9
+Path = /512E96BC
+Reference = SW13;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 5532D19B
+Path = /512E928F
+Reference = SW12;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 552115CD
+Path = /512E8C90
+Reference = SW11;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 551E8B33
+Path = /512EB903
+Reference = SW412;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 551E640E
+Path = /512EB909
+Reference = SW42;
+ValeurCmp = SPST;
+IdModule  = UGL:Cherry-MX-Matias-Hybrid;
 EndCmp
 
 EndListe
