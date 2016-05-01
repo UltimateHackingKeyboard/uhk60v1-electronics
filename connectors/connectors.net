@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/laci/projects/uhk/uhk-electronics/connector/connector.sch)
+    (source /home/laci/projects/uhk/uhk-electronics/connectors/connectors.sch)
     (date "Sun 01 Dec 2013 11:49:09 PM CET")
     (tool "eeschema (2013-mar-13)-testing"))
   (components

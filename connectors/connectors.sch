@@ -29,13 +29,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ugl
-LIBS:connector-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Ultimate Hacking Keyboard - Connector Board"
+Title "Ultimate Hacking Keyboard - Connector Boards"
 Date "2016-01-23"
 Rev "1"
 Comp "Ultimate Gadget Laboratories Kft."

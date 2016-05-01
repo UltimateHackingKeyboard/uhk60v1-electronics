@@ -14,8 +14,8 @@
 
   (page A3)
   (title_block
-    (title "Ultimate Hacking Keyboard - Vertical Connector Board")
-    (rev 3)
+    (title "Ultimate Hacking Keyboard - Connector Boards")
+    (rev 4)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
@@ -89,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ../gerbers/connector))
+      (outputdirectory ../gerbers/connectors))
   )
 
   (net 0 "")
