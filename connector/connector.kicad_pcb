@@ -1,14 +1,14 @@
-(kicad_pcb (version 4) (host pcbnew "(2015-05-12 BZR 5652)-product")
+(kicad_pcb (version 4) (host pcbnew 0.201604222031+6709~44~ubuntu14.04.1-product)
 
   (general
     (links 10)
-    (no_connects 0)
-    (area 108.35 78.7 182.578568 104.5232)
+    (no_connects 5)
+    (area 108.5 78.745 182.728571 112.5112)
     (thickness 1.6)
-    (drawings 17)
+    (drawings 36)
     (tracks 11)
     (zones 0)
-    (modules 15)
+    (modules 30)
     (nets 6)
   )
 
@@ -20,7 +20,7 @@
   )
 
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -61,11 +61,11 @@
     (mod_edge_width 0.381)
     (mod_text_size 1.524 1.524)
     (mod_text_width 0.3048)
-    (pad_size 1.4 2.15)
+    (pad_size 2.2 2.2)
     (pad_drill 0)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFF77F)
+    (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions true)
@@ -78,7 +78,6 @@
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15)
-      (hpglpenoverlay 2)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -112,6 +111,17 @@
     (add_net N-000003)
     (add_net N-000004)
     (add_net N-000005)
+  )
+
+  (module UGL:UHK_Connector_Right_Inner_Pad locked (layer B.Cu) (tedit 572651B2) (tstamp 572649CF)
+    (at 156.143 108.987)
+    (fp_text reference P25 (at 0 2.2) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value VAL** (at 0 -2.2) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (pad "" smd rect (at 0 0) (size 1.62 2.6) (layers B.Cu B.Paste B.Mask))
   )
 
   (module UGL:UHK_vertical_PCB_pad (layer B.Cu) (tedit 53DAAF01) (tstamp 529BBD6B)
@@ -166,8 +176,8 @@
       (net 4 N-000004))
   )
 
-  (module UGL:UHK_vertical_PCB_pad (layer B.Cu) (tedit 53DAAF01) (tstamp 529BBAE7)
-    (at 147.4 99.75)
+  (module UGL:UHK_vertical_PCB_pad (layer B.Cu) (tedit 5725CE1F) (tstamp 529BBAE7)
+    (at 139.2555 99.9109)
     (path /529BB9EC)
     (fp_text reference P13 (at 0 3.3) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -175,7 +185,7 @@
     (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad "" smd rect (at 0 0) (size 1.4 2.1) (layers B.Cu B.Mask)
+    (pad "" smd rect (at 0 0) (size 1.62 2.6) (layers B.Cu B.Mask)
       (net 3 N-000003))
   )
 
@@ -192,8 +202,8 @@
       (net 3 N-000003))
   )
 
-  (module UGL:UHK_vertical_PCB_pad (layer F.Cu) (tedit 55380EE6) (tstamp 5538107F)
-    (at 141 98.95)
+  (module UGL:UHK_vertical_PCB_pad (layer F.Cu) (tedit 5725CC73) (tstamp 5538107F)
+    (at 141.73 101.21)
     (path /529BB9BF)
     (fp_text reference P21 (at 0 -3.3) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -201,12 +211,12 @@
     (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" smd rect (at 0.4 0) (size 1.4 2.1) (layers F.Cu F.Mask)
+    (pad "" smd circle (at 0.4 0) (size 2 2) (layers F.Cu F.Paste F.Mask)
       (net 1 N-000001))
   )
 
-  (module UGL:UHK_vertical_PCB_pad (layer B.Cu) (tedit 53DAB389) (tstamp 53DAA862)
-    (at 142.1 99.75)
+  (module UGL:UHK_vertical_PCB_pad (layer B.Cu) (tedit 57254B36) (tstamp 53DAA862)
+    (at 135.0645 103.0986)
     (path /529BB9E0)
     (fp_text reference P11 (at 0 3.3) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -214,12 +224,12 @@
     (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad "" smd rect (at 0 0) (size 1.4 2.1) (layers B.Cu B.Mask)
+    (pad "" thru_hole rect (at 0 0) (size 2.6 2.6) (drill 1.6 (offset 0 -0.4)) (layers *.Cu *.Mask B.SilkS)
       (net 1 N-000001))
   )
 
-  (module UGL:UHK_vertical_PCB_pad (layer F.Cu) (tedit 55380EE0) (tstamp 55381079)
-    (at 143.5 98.95)
+  (module UGL:UHK_vertical_PCB_pad (layer F.Cu) (tedit 5725CC88) (tstamp 55381079)
+    (at 144.86 101.8)
     (path /529BB9CE)
     (fp_text reference P22 (at 0 -3.3) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
@@ -227,12 +237,12 @@
     (fp_text value CONN_1 (at 0 2.9) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
-    (pad "" smd rect (at 0.4 0) (size 1.4 2.1) (layers F.Cu F.Mask)
+    (pad "" smd circle (at 0.4 0) (size 2 2) (layers F.Cu F.Mask)
       (net 2 N-000002))
   )
 
-  (module UGL:UHK_vertical_PCB_pad (layer B.Cu) (tedit 53DAAF01) (tstamp 53DA03F2)
-    (at 144.75 99.75)
+  (module UGL:UHK_vertical_PCB_pad (layer B.Cu) (tedit 57254B12) (tstamp 53DA03F2)
+    (at 138.8872 102.3493)
     (path /529BB9E6)
     (fp_text reference P12 (at 0 3.3) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -240,7 +250,7 @@
     (fp_text value CONN_1 (at 0 -2.9) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad "" smd rect (at 0 0) (size 1.4 2.1) (layers B.Cu B.Mask)
+    (pad "" thru_hole rect (at 0 0) (size 2.6 2.6) (drill 1.6 (offset 0 -0.4)) (layers *.Cu *.Mask B.SilkS)
       (net 2 N-000002))
   )
 
@@ -304,6 +314,170 @@
       (net 5 N-000005) (solder_mask_margin -1))
   )
 
+  (module UGL:UHK_Connector_Right_Outer_Pad locked (layer F.Cu) (tedit 57265146) (tstamp 57264500)
+    (at 141.9352 109.2708)
+    (fp_text reference P11 (at 0 -2.2) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 2.2) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (pad "" smd circle (at 0.0178 0.0162) (size 2 2) (layers F.Cu F.Mask))
+  )
+
+  (module UGL:UHK_Connector_Right_Outer_Pad locked (layer F.Cu) (tedit 57265155) (tstamp 57264511)
+    (at 145.4023 109.3343)
+    (fp_text reference P12 (at 0 -2.2) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 2.2) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (pad "" smd circle (at -0.0493 -0.0473) (size 2 2) (layers F.Cu F.Mask))
+  )
+
+  (module UGL:UHK_Connector_Right_Outer_Pad locked (layer F.Cu) (tedit 57265166) (tstamp 5726451A)
+    (at 148.6789 109.2708)
+    (fp_text reference P13 (at 0 -2.2) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 2.2) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (pad "" smd circle (at 0.0741 0.0162) (size 2 2) (layers F.Cu F.Mask))
+  )
+
+  (module UGL:UHK_Connector_Right_Outer_Pad locked (layer F.Cu) (tedit 57265170) (tstamp 57264523)
+    (at 152.2476 109.3597)
+    (fp_text reference P14 (at 0 -2.2) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 2.2) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (pad "" smd circle (at -0.0946 -0.0727) (size 2 2) (layers F.Cu F.Mask))
+  )
+
+  (module UGL:UHK_Connector_Right_Outer_Pad locked (layer F.Cu) (tedit 5726517C) (tstamp 5726452C)
+    (at 155.5496 109.22)
+    (fp_text reference P15 (at 0 -2.2) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at 0 2.2) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (pad "" smd circle (at 0.0034 0.067) (size 2 2) (layers F.Cu F.Mask))
+  )
+
+  (module UGL:UHK_Connector_Right_Inner_Pad locked (layer B.Cu) (tedit 57265195) (tstamp 572648BF)
+    (at 148.883 108.987)
+    (fp_text reference P22 (at 0 2.2) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value VAL** (at 0 -2.2) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (pad "" smd rect (at 0 0) (size 1.62 2.6) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module UGL:UHK_Connector_Left_Inner_Pad locked (layer B.Cu) (tedit 57264180) (tstamp 57264DED)
+    (at 132.437 109.237 180)
+    (fp_text reference REF** (at 0 2.2 180) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value VAL** (at 0 -2.2 180) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (pad "" thru_hole rect (at 0 0 180) (size 2.6 2.6) (drill 1.6 (offset 0 0.4)) (layers *.Cu *.Mask B.SilkS))
+  )
+
+  (module UGL:UHK_Connector_Right_Inner_Pad locked (layer B.Cu) (tedit 572651A9) (tstamp 57264E42)
+    (at 153.723 108.987)
+    (fp_text reference P24 (at 0 2.2) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value VAL** (at 0 -2.2) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (pad "" smd rect (at 0 0) (size 1.62 2.6) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module UGL:UHK_Connector_Right_Inner_Pad locked (layer B.Cu) (tedit 572651A0) (tstamp 57264E4B)
+    (at 151.303 108.987)
+    (fp_text reference P23 (at 0 2.2) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value VAL** (at 0 -2.2) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (pad "" smd rect (at 0 0) (size 1.62 2.6) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module UGL:UHK_Connector_Right_Inner_Pad locked (layer B.Cu) (tedit 5726518B) (tstamp 57264E54)
+    (at 146.463 108.987)
+    (fp_text reference P21 (at 0 2.2) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value VAL** (at 0 -2.2) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (pad "" smd rect (at 0 0) (size 1.62 2.6) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module UGL:UHK_Connector_Left_Inner_Pad locked (layer B.Cu) (tedit 57264180) (tstamp 57265375)
+    (at 129.037 109.237 180)
+    (fp_text reference REF** (at 0 2.2 180) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value VAL** (at 0 -2.2 180) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (pad "" thru_hole rect (at 0 0 180) (size 2.6 2.6) (drill 1.6 (offset 0 0.4)) (layers *.Cu *.Mask B.SilkS))
+  )
+
+  (module UGL:UHK_Connector_Left_Inner_Pad locked (layer B.Cu) (tedit 57264180) (tstamp 5726542C)
+    (at 125.637 109.237 180)
+    (fp_text reference REF** (at 0 2.2 180) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value VAL** (at 0 -2.2 180) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (pad "" thru_hole rect (at 0 0 180) (size 2.6 2.6) (drill 1.6 (offset 0 0.4)) (layers *.Cu *.Mask B.SilkS))
+  )
+
+  (module UGL:UHK_Connector_Left_Inner_Pad locked (layer B.Cu) (tedit 57264180) (tstamp 57265456)
+    (at 122.237 109.237 180)
+    (fp_text reference REF** (at 0 2.2 180) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value VAL** (at 0 -2.2 180) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (pad "" thru_hole rect (at 0 0 180) (size 2.6 2.6) (drill 1.6 (offset 0 0.4)) (layers *.Cu *.Mask B.SilkS))
+  )
+
+  (module UGL:UHK_Connector_Left_Inner_Pad locked (layer B.Cu) (tedit 57264180) (tstamp 57265471)
+    (at 118.837 109.237 180)
+    (fp_text reference REF** (at 0 2.2 180) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value VAL** (at 0 -2.2 180) (layer B.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    )
+    (pad "" thru_hole rect (at 0 0 180) (size 2.6 2.6) (drill 1.6 (offset 0 0.4)) (layers *.Cu *.Mask B.SilkS))
+  )
+
+  (gr_line (start 145.253 107.087) (end 145.253 111.887) (angle 90) (layer Dwgs.User) (width 0.01))
+  (gr_line (start 116.337 109.329893) (end 116.337 108.237) (angle 90) (layer Edge.Cuts) (width 0.01) (tstamp 572512B2))
+  (gr_arc (start 117.537 108.237) (end 117.537 107.037) (angle -89.99995347) (layer Edge.Cuts) (width 0.01) (tstamp 572512B1))
+  (gr_line (start 117.537 107.037) (end 135.037 107.037) (angle 90) (layer Edge.Cuts) (width 0.01) (tstamp 572512B0))
+  (gr_line (start 135.037 107.037) (end 135.037 111.837) (angle 90) (layer Edge.Cuts) (width 0.01) (tstamp 572512AF))
+  (gr_line (start 135.037 111.837) (end 117.037 111.837) (angle 90) (layer Edge.Cuts) (width 0.01) (tstamp 572512AE))
+  (gr_line (start 117.037 111.837) (end 117.037 110.444107) (angle 90) (layer Edge.Cuts) (width 0.01) (tstamp 572512AD))
+  (gr_line (start 116.890553 110.090553) (end 116.483447 109.683447) (angle 90) (layer Edge.Cuts) (width 0.01) (tstamp 572512AC))
+  (gr_arc (start 116.537 110.444107) (end 117.037 110.444107) (angle -45.00015451) (layer Edge.Cuts) (width 0.01) (tstamp 572512AB))
+  (gr_arc (start 116.837 109.329893) (end 116.337 109.329893) (angle -44.99944414) (layer Edge.Cuts) (width 0.01) (tstamp 572512AA))
   (gr_text "< pin contact line" (at 167.9 98.6) (layer Eco1.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
@@ -347,7 +521,7 @@
     (arrow2a (pts (xy 138.4 95.6) (xy 139.526504 96.186421)))
     (arrow2b (pts (xy 138.4 95.6) (xy 139.526504 95.013579)))
   )
-  (gr_text r3 (at 155 99.7) (layer B.Cu)
+  (gr_text r4 (at 140.9446 108.9406) (layer B.Cu)
     (effects (font (size 2.032 1.524) (thickness 0.3048)) (justify mirror))
   )
   (gr_text "* design is 30mil-10mil-14mil trace-clearance-minimum_drill\n* 1mm board thickness\n* black soldermask\n* ENIG finish\n* no silkscreen\n" (at 108.5 85) (layer Cmts.User) (tstamp 53DA31C9)
@@ -362,6 +536,15 @@
   (gr_line (start 138.4 102.4) (end 138.4 97.599996) (angle 90) (layer Edge.Cuts) (width 0.01))
   (gr_line (start 156.4 102.4) (end 138.4 102.4) (angle 90) (layer Edge.Cuts) (width 0.01))
   (gr_line (start 156.4 101.007116) (end 156.4 102.4) (angle 90) (layer Edge.Cuts) (width 0.01))
+  (gr_arc (start 157.553 109.379893) (end 158.053 109.379893) (angle 44.99944414) (layer Edge.Cuts) (width 0.01))
+  (gr_arc (start 157.853 110.494107) (end 157.353 110.494107) (angle 45.00015451) (layer Edge.Cuts) (width 0.01))
+  (gr_line (start 157.499447 110.140553) (end 157.906553 109.733447) (angle 90) (layer Edge.Cuts) (width 0.01))
+  (gr_line (start 157.353 111.887) (end 157.353 110.494107) (angle 90) (layer Edge.Cuts) (width 0.01))
+  (gr_line (start 139.353 111.887) (end 157.353 111.887) (angle 90) (layer Edge.Cuts) (width 0.01))
+  (gr_line (start 139.353 107.087) (end 139.353 111.887) (angle 90) (layer Edge.Cuts) (width 0.01))
+  (gr_line (start 156.853 107.087) (end 139.353 107.087) (angle 90) (layer Edge.Cuts) (width 0.01))
+  (gr_arc (start 156.853 108.287) (end 156.853 107.087) (angle 89.99995347) (layer Edge.Cuts) (width 0.01))
+  (gr_line (start 158.053 109.379893) (end 158.053 108.287) (angle 90) (layer Edge.Cuts) (width 0.01))
 
   (segment (start 141.4 99.633333) (end 142.1 99.75) (width 0.762) (layer B.Cu) (net 1) (tstamp 553B90BD))
   (segment (start 141.983333 99.633333) (end 141.4 99.633333) (width 0.762) (layer B.Cu) (net 1) (tstamp 553B90BB))
