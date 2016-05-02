@@ -379,8 +379,8 @@
     (pad "" thru_hole circle (at 7.8 0 180) (size 2.35 2.35) (drill 1.35) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module UGL:SFV18R-2STE1HLF (layer B.Cu) (tedit 554034EA) (tstamp 552115B1)
-    (at 170.99101 55.062533 10.1)
+  (module UGL:SFV18R-2STE1HLF locked (layer B.Cu) (tedit 554034EA) (tstamp 552115B1)
+    (at 172.22001 53.747217 10.1)
     (path /52A33478)
     (fp_text reference P4 (at 8.374765 1.830489 100.1) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
