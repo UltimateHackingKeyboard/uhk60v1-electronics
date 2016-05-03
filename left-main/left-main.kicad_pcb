@@ -4234,8 +4234,8 @@
     (pad 4 smd rect (at -3.8 12.8) (size 2.6 2.6) (layers F.Cu F.Paste F.Mask))
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 572804AD)
-    (at 136.82001 65.405 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282FAE)
+    (at 238.50001 141.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4243,10 +4243,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4254,8 +4254,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282EBD)
-    (at 155.70745 65.2653 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282FA6)
+    (at 209.930011 141.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4263,10 +4263,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4274,8 +4274,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282EC5)
-    (at 174.59489 65.34912 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F9E)
+    (at 186.370009 141.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4283,10 +4283,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4294,8 +4294,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282ECD)
-    (at 193.62203 65.2653 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F96)
+    (at 162.810012 141.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4303,10 +4303,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4314,8 +4314,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282ED5)
-    (at 212.62123 65.32118 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F8E)
+    (at 139.25001 141.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4323,10 +4323,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4334,8 +4334,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282EDD)
-    (at 231.48073 65.1256 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F86)
+    (at 255.470004 122.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4343,10 +4343,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4354,8 +4354,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282EE5)
-    (at 250.42405 65.32118 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F7E)
+    (at 236.520007 122.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4363,10 +4363,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4374,8 +4374,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282EED)
-    (at 141.56981 84.34832 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F76)
+    (at 217.57001 122.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4383,10 +4383,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4394,8 +4394,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282EF5)
-    (at 165.43057 84.34832 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F6E)
+    (at 198.620013 122.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4403,10 +4403,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4414,8 +4414,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282EFD)
-    (at 184.37389 84.34832 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F66)
+    (at 179.670008 122.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4423,10 +4423,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4434,8 +4434,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F05)
-    (at 203.20545 84.51596 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F5E)
+    (at 160.720012 122.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4443,10 +4443,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4454,8 +4454,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F0D)
-    (at 222.09289 84.29244 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F56)
+    (at 148.770011 122.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4463,10 +4463,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4474,8 +4474,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F15)
-    (at 241.20385 84.29244 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F4E)
+    (at 139.25001 122.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4483,10 +4483,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4494,8 +4494,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F1D)
-    (at 144.19617 103.29164 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F46)
+    (at 245.950007 103.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4503,10 +4503,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4514,8 +4514,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F25)
-    (at 170.57153 103.4034 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F3E)
+    (at 227.100009 103.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4523,10 +4523,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4534,8 +4534,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F2E)
-    (at 189.40309 103.4034 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F36)
+    (at 208.25001 103.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4543,10 +4543,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4554,8 +4554,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F36)
-    (at 208.29053 103.4034 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F2E)
+    (at 189.400012 103.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4563,10 +4563,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4574,8 +4574,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F3E)
-    (at 227.01033 103.29164 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F25)
+    (at 170.55001 103.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4583,10 +4583,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4594,8 +4594,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F46)
-    (at 245.95365 103.34752 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F1D)
+    (at 144.260011 103.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4603,10 +4603,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4614,8 +4614,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F4E)
-    (at 139.33461 122.29084 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F15)
+    (at 241.200007 84.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4623,10 +4623,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4634,8 +4634,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F56)
-    (at 148.81135 122.33148 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F0D)
+    (at 222.25001 84.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4643,10 +4643,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4654,8 +4654,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F5E)
-    (at 160.71379 122.35942 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F05)
+    (at 203.300013 84.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4663,10 +4663,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4674,8 +4674,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F66)
-    (at 179.68505 122.35942 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282EFD)
+    (at 184.350009 84.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4683,10 +4683,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4694,8 +4694,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F6E)
-    (at 198.68425 122.30354 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282EF5)
+    (at 165.400012 84.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4703,10 +4703,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4714,8 +4714,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F76)
-    (at 217.57169 122.30354 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282EED)
+    (at 141.63501 84.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4723,10 +4723,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4734,8 +4734,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F7E)
-    (at 236.54295 122.19178 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282EE5)
+    (at 250.520007 65.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4743,10 +4743,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4754,8 +4754,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F86)
-    (at 255.45833 122.35942 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282EDD)
+    (at 231.57001 65.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4763,10 +4763,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4774,8 +4774,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F8E)
-    (at 139.27873 141.37386 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282ED5)
+    (at 212.620013 65.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4783,10 +4783,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4794,8 +4794,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F96)
-    (at 162.91597 141.34592 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282ECD)
+    (at 193.670008 65.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4803,10 +4803,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4814,8 +4814,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282F9E)
-    (at 186.35763 141.34592 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282EC5)
+    (at 174.720012 65.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4823,10 +4823,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4834,8 +4834,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282FA6)
-    (at 209.91105 141.2621 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282EBD)
+    (at 155.770011 65.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4843,10 +4843,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4854,8 +4854,8 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED (layer B.Cu) (tedit 5727E919) (tstamp 57282FAE)
-    (at 238.52161 141.29004 180)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 572804AD)
+    (at 136.82001 65.320217 180)
     (tags switch)
     (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
@@ -4863,10 +4863,10 @@
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1.5) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
