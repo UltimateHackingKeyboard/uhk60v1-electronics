@@ -5,14 +5,14 @@ var fs = require('fs');
 var util = require('util');
 
 var layerFilenameSuffixes = [
-    '-B_Cu.gbl',
-    '-B_Mask.gbs',
-    '-B_SilkS.gbo',
+    '-B.Cu.gbl',
+    '-B.Mask.gbs',
+    '-B.SilkS.gbo',
     '.drl',
-    '-Edge_Cuts.gbr',
-    '-F_Cu.gtl',
-    '-F_Mask.gts',
-    '-F_SilkS.gto',
+    '-Edge.Cuts.gm1',
+    '-F.Cu.gtl',
+    '-F.Mask.gts',
+    '-F.SilkS.gto',
     '-NPTH.drl'
 ];
 
@@ -61,6 +61,7 @@ layerFilenameSuffixes.forEach(function(layerFilenameSuffix) {
         gerberCoordinates = gerbers[gerber];
         gerberCoordinates.forEach(function(coordinate) {
             var filename = util.format('%s/%s%s', gerber, gerber, layerFilenameSuffix);
+            console.log(filename)
             if (fs.existsSync(filename)) {
                 sanitizeGerberFileIfNeeded(filename);
                 gerbvCommand += util.format(' -T%d,%d %s', coordinate[0], coordinate[1], filename);
