@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var execSync = require('exec-sync');
+var execSync = require('child_process').execSync;
 var fs = require('fs');
 var util = require('util');
 
