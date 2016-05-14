@@ -1,7 +1,7 @@
 (kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201605071002+6776~44~ubuntu14.04.1-product)
 
   (general
-    (links 0)
+    (links 232)
     (no_connects 135)
     (area 29.5 17.6962 270.000001 165.000001)
     (thickness 1.6)
@@ -4798,8 +4798,8 @@
     )
   )
 
-  (module UGL:1x4_pin_unshrouded_header (layer F.Cu) (tedit 5733C693) (tstamp 573401E9)
-    (at 189.90046 42.31872 10)
+  (module UGL:1x4_pin_unshrouded_header locked (layer F.Cu) (tedit 5733C693) (tstamp 573401E9)
+    (at 190.16601 42.068217 10)
     (descr "1x4 pin unshrouded header")
     (tags CONN)
     (fp_text reference REF** (at 0 -2.54 10) (layer F.SilkS)
