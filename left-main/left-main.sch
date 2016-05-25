@@ -2181,17 +2181,6 @@ F 3 "" H 2750 4150 60  0000 C CNN
 $EndComp
 $Comp
 L LED D?
-U 1 1 57484971
-P 2750 4400
-F 0 "D?" H 2750 4500 40  0000 C CNN
-F 1 "LED" H 2750 4300 40  0001 C CNN
-F 2 "" H 2750 4400 60  0000 C CNN
-F 3 "" H 2750 4400 60  0000 C CNN
-	1    2750 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L LED D?
 U 1 1 57486374
 P 3000 3400
 F 0 "D?" H 3000 3500 40  0000 C CNN
@@ -3191,8 +3180,6 @@ Wire Wire Line
 Wire Wire Line
 	2350 4500 2500 4500
 Wire Wire Line
-	2850 4500 2750 4500
-Wire Wire Line
 	3100 4500 3000 4500
 Connection ~ 1750 3300
 Connection ~ 2000 3300
@@ -3216,7 +3203,6 @@ Connection ~ 2250 4050
 Connection ~ 2500 4050
 Connection ~ 2750 4050
 Connection ~ 3000 4050
-Connection ~ 2750 4300
 Connection ~ 2500 4300
 Connection ~ 2250 4300
 Connection ~ 2000 4300
@@ -3225,7 +3211,6 @@ Connection ~ 1850 3550
 Connection ~ 2100 3800
 Connection ~ 2350 4050
 Connection ~ 2600 4300
-Connection ~ 2850 4500
 Wire Wire Line
 	2600 3500 2600 4300
 Text Label 2850 4600 3    40   ~ 0
@@ -3251,7 +3236,5 @@ Text Label 3100 4600 3    40   ~ 0
 CA7
 Text Label 3350 4600 3    40   ~ 0
 CA8
-Text Notes 2750 5400 2    40   ~ 0
-↑\n|\n|\n|\n|\n|\n|\n|\nThe bottommost switch -+\n\nUnlike all the other keys this one is backed by an     \nOmron SS-{01|5|}-F[-2|-3]D microswitch     \ninstead of a Cherry MX switch.     
 Connection ~ 1500 4050
 $EndSCHEMATC
