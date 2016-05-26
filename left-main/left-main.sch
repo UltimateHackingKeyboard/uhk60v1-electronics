@@ -3168,4 +3168,44 @@ Wire Wire Line
 Connection ~ 1900 6850
 Text Notes 1450 4050 0    40   ~ 0
 Charliplexing done according to the IS31FL3731 datasheet
+$Comp
+L IS31FL3731 U?
+U 1 1 5764F0BA
+P 5350 4150
+F 0 "U?" H 5350 5086 59  0000 C CNN
+F 1 "IS31FL3731" H 5350 4981 59  0000 C CNN
+F 2 "" H 5350 4150 60  0000 C CNN
+F 3 "" H 5350 4150 60  0000 C CNN
+F 4 "Dual-row" H 5120 3420 5   0001 L BNN "Field4"
+	1    5350 4150
+	1    0    0    -1  
+$EndComp
+Text Label 5800 3500 0    40   ~ 0
+CA1
+Text Label 5800 3600 0    40   ~ 0
+CA2
+Text Label 5800 3700 0    40   ~ 0
+CA3
+Text Label 5800 3800 0    40   ~ 0
+CA4
+Text Label 5800 3900 0    40   ~ 0
+CA5
+Text Label 5800 4000 0    40   ~ 0
+CA6
+Text Label 5800 4100 0    40   ~ 0
+CA7
+Text Label 5800 4200 0    40   ~ 0
+CA8
+NoConn ~ 5800 4300
+NoConn ~ 5800 4400
+NoConn ~ 5800 4500
+NoConn ~ 5800 4600
+NoConn ~ 5800 4700
+NoConn ~ 5800 4800
+NoConn ~ 5800 4900
+NoConn ~ 5800 5000
+NoConn ~ 5800 5100
+NoConn ~ 5800 5200
+Text Notes 5150 3050 0    60   ~ 12
+LED driver
 $EndSCHEMATC
