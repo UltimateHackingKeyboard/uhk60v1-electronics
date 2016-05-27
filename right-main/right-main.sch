@@ -1237,7 +1237,7 @@ Board-to-board connector
 Text Notes 600  6800 0    60   ~ 12
 ARM SWD header\n
 Text Notes 600  2800 0    60   ~ 12
-RJ11 jack\n
+4P4C jack
 Text Notes 5850 6350 2    40   ~ 0
 ↑       \ncase button
 $Comp
