@@ -775,14 +775,14 @@ F 3 "" H 950 3850 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_6 P3
+L CONN_10 P3
 U 1 1 5130F33C
-P 950 5250
-F 0 "P3" V 900 5250 60  0000 C CNN
-F 1 "CONN_6" V 1000 5250 60  0000 C CNN
-F 2 "" H 950 5250 60  0000 C CNN
-F 3 "" H 950 5250 60  0000 C CNN
-	1    950  5250
+P 950 5350
+F 0 "P3" V 900 5350 60  0000 C CNN
+F 1 "CONN_10" V 1000 5350 60  0000 C CNN
+F 2 "" H 950 5350 60  0000 C CNN
+F 3 "" H 950 5350 60  0000 C CNN
+	1    950  5350
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -851,14 +851,8 @@ F 3 "" H 9550 5100 60  0000 C CNN
 	1    9550 5100
 	0    -1   -1   0   
 $EndComp
-Text Label 1400 5000 0    40   ~ 0
-MISO
-Text Label 1400 5200 0    40   ~ 0
-SCK
-Text Label 1400 5300 0    40   ~ 0
-MOSI
-Text Label 1400 5400 0    40   ~ 0
-RESET
+Text Label 1300 5000 0    40   ~ 0
+SWDIO
 Text Notes 800  3350 0    40   ~ 0
 Closely connecting the two keyboard halves
 Text Label 2400 3900 2    40   ~ 0
@@ -1079,12 +1073,12 @@ $EndComp
 $Comp
 L GND #PWR014
 U 1 1 51BE1055
-P 1600 5600
-F 0 "#PWR014" H 1600 5600 30  0001 C CNN
-F 1 "GND" H 1600 5530 30  0001 C CNN
-F 2 "" H 1600 5600 60  0000 C CNN
-F 3 "" H 1600 5600 60  0000 C CNN
-	1    1600 5600
+P 1600 5750
+F 0 "#PWR014" H 1600 5750 30  0001 C CNN
+F 1 "GND" H 1600 5680 30  0001 C CNN
+F 2 "" H 1600 5750 60  0000 C CNN
+F 3 "" H 1600 5750 60  0000 C CNN
+	1    1600 5750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1220,8 +1214,6 @@ Text Notes 750  900  0    60   ~ 12
 RJ11 jack
 Text Notes 800  3250 0    60   ~ 12
 Board-to-board connector
-Text Notes 850  4750 0    60   ~ 12
-ISP header
 $Comp
 L ESD CR6
 U 1 1 53D49332
@@ -2162,22 +2154,6 @@ Connection ~ 6800 -3150
 Wire Wire Line
 	6000 -2350 7250 -2350
 Wire Wire Line
-	1300 5000 1400 5000
-Wire Wire Line
-	1600 5100 1300 5100
-Wire Wire Line
-	1300 5200 1400 5200
-Wire Wire Line
-	1300 5300 1400 5300
-Wire Wire Line
-	1300 5400 1400 5400
-Wire Wire Line
-	1300 5500 1600 5500
-Wire Wire Line
-	1600 4900 1600 5100
-Wire Wire Line
-	1600 5500 1600 5600
-Wire Wire Line
 	1250 1800 1350 1800
 Connection ~ 1850 1900
 Wire Wire Line
@@ -2536,4 +2512,57 @@ Text Label 10600 5750 0    40   ~ 0
 CB8
 Text Label 10600 5850 0    40   ~ 0
 CB9
+Text Notes 850  4600 0    60   ~ 12
+ARM SWD header
+Text Label 1300 5200 0    40   ~ 0
+SWDCLK
+Text Label 1300 5800 0    40   ~ 0
+RESET
+NoConn ~ 1300 5600
+Wire Wire Line
+	1300 5100 1600 5100
+Wire Wire Line
+	1600 5100 1600 5750
+NoConn ~ 1300 5500
+Wire Wire Line
+	1300 5300 1600 5300
+Connection ~ 1600 5300
+Wire Wire Line
+	1300 5700 1600 5700
+Connection ~ 1600 5700
+NoConn ~ 1300 5400
+Wire Wire Line
+	1300 4900 1600 4900
+Text Label 4900 2400 1    40   ~ 0
+SWDCLK
+Text Label 4700 2400 1    40   ~ 0
+SWDIO
+Text Label 4800 2400 1    40   ~ 0
+RESET
+$Comp
+L VCC #PWR?
+U 1 1 575B7B4F
+P 4050 3150
+F 0 "#PWR?" H 4050 3250 30  0001 C CNN
+F 1 "VCC" H 4050 3300 30  0000 C CNN
+F 2 "" H 4050 3150 60  0000 C CNN
+F 3 "" H 4050 3150 60  0000 C CNN
+	1    4050 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 575BA32C
+P 4050 3250
+F 0 "#PWR?" H 4050 3250 30  0001 C CNN
+F 1 "GND" H 4050 3180 30  0001 C CNN
+F 2 "" H 4050 3250 60  0000 C CNN
+F 3 "" H 4050 3250 60  0000 C CNN
+	1    4050 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3250 4150 3250
+Wire Wire Line
+	4050 3150 4150 3150
 $EndSCHEMATC
