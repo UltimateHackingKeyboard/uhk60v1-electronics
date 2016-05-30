@@ -796,17 +796,6 @@ TX
 Text Label 2700 1850 0    40   ~ 0
 RX
 $Comp
-L C C7
-U 1 1 513486A1
-P 2050 2150
-F 0 "C7" H 2050 2250 40  0000 C CNN
-F 1 "0.1nF" H 2050 2040 40  0000 C CNN
-F 2 "" H 2050 2150 60  0000 C CNN
-F 3 "" H 2050 2150 60  0000 C CNN
-	1    2050 2150
-	0    -1   -1   0   
-$EndComp
-$Comp
 L R R6
 U 1 1 51348BBE
 P 2300 2050
@@ -1977,7 +1966,6 @@ Wire Wire Line
 	8650 1400 8700 1400
 Wire Wire Line
 	1450 1950 1550 1950
-Connection ~ 2050 2050
 Wire Wire Line
 	2400 2050 2450 2050
 Wire Wire Line
@@ -2006,7 +1994,6 @@ Wire Wire Line
 Wire Wire Line
 	1450 2050 1550 2050
 Connection ~ 1850 2250
-Connection ~ 2050 2250
 Wire Wire Line
 	1550 1700 2350 1700
 Connection ~ 1750 1700
