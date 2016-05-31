@@ -39,7 +39,7 @@ encoding utf-8
 Sheet 1 1
 Title "Ultimate Hacking Keyboard - Left Main Board"
 Date "12 mar 2013"
-Rev "5"
+Rev "6"
 Comp "Ultimate Gadget Laboratories Kft."
 Comment1 ""
 Comment2 ""
@@ -897,12 +897,12 @@ $EndComp
 $Comp
 L CONN_10 P3
 U 1 1 50CD1B69
-P 1200 7100
-F 0 "P3" V 1150 7100 60  0000 C CNN
-F 1 "CONN_10" V 1250 7100 60  0000 C CNN
-F 2 "" H 1200 7100 60  0001 C CNN
-F 3 "" H 1200 7100 60  0001 C CNN
-	1    1200 7100
+P 900 7200
+F 0 "P3" V 850 7200 60  0000 C CNN
+F 1 "CONN_10" V 950 7200 60  0000 C CNN
+F 2 "" H 900 7200 60  0001 C CNN
+F 3 "" H 900 7200 60  0001 C CNN
+	1    900  7200
 	-1   0    0    -1  
 $EndComp
 Text Label 3050 1100 2    40   ~ 0
@@ -912,12 +912,12 @@ USB_DM
 $Comp
 L VCC #PWR04
 U 1 1 50D65E01
-P 1850 6600
-F 0 "#PWR04" H 1850 6700 30  0001 C CNN
-F 1 "VCC" H 1850 6750 30  0000 C CNN
-F 2 "" H 1850 6600 60  0001 C CNN
-F 3 "" H 1850 6600 60  0001 C CNN
-	1    1850 6600
+P 1550 6700
+F 0 "#PWR04" H 1550 6800 30  0001 C CNN
+F 1 "VCC" H 1550 6850 30  0000 C CNN
+F 2 "" H 1550 6700 60  0001 C CNN
+F 3 "" H 1550 6700 60  0001 C CNN
+	1    1550 6700
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1130,8 +1130,8 @@ Text Notes 600  700  0    60   ~ 12
 USB connector\n
 Text Notes 600  4650 0    60   ~ 12
 Pogo pin connector
-Text Notes 600  6450 0    60   ~ 12
-ARM SWD header\n
+Text Notes 600  6500 0    60   ~ 12
+ARM SWD headers
 Text Notes 600  2550 0    60   ~ 12
 4P4C jack
 Text Notes 4750 6700 2    40   ~ 0
@@ -2063,28 +2063,28 @@ NoConn ~ 10300 3850
 NoConn ~ 10300 3950
 Text Label 9400 3850 2    40   ~ 0
 SCL
-Text Label 1550 6750 0    40   ~ 0
+Text Label 1250 6850 0    40   ~ 0
 SWDIO
-Text Label 1550 6950 0    40   ~ 0
+Text Label 1250 7050 0    40   ~ 0
 SWDCLK
 $Comp
 L GND #PWR030
 U 1 1 50D660B6
-P 1850 7500
-F 0 "#PWR030" H 1850 7500 30  0001 C CNN
-F 1 "GND" H 1850 7430 30  0001 C CNN
-F 2 "" H 1850 7500 60  0001 C CNN
-F 3 "" H 1850 7500 60  0001 C CNN
-	1    1850 7500
+P 1550 7600
+F 0 "#PWR030" H 1550 7600 30  0001 C CNN
+F 1 "GND" H 1550 7530 30  0001 C CNN
+F 2 "" H 1550 7600 60  0001 C CNN
+F 3 "" H 1550 7600 60  0001 C CNN
+	1    1550 7600
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1550 7350
-Text Label 1550 7550 0    40   ~ 0
+NoConn ~ 1250 7450
+Text Label 1250 7650 0    40   ~ 0
 RESET
 Text Label 7300 3250 0    40   ~ 0
 RESET
-NoConn ~ 1550 7250
-NoConn ~ 1550 7150
+NoConn ~ 1250 7350
+NoConn ~ 1250 7250
 Text Notes 8450 4600 0    40   ~ 0
 The LEDs under each keycap
 Text Notes 7350 3400 0    40   ~ 0
@@ -2154,7 +2154,6 @@ Text Label 6450 1100 1    40   ~ 0
 KEYS_COL7
 NoConn ~ 4300 1850
 NoConn ~ 4300 1950
-NoConn ~ 5050 1100
 NoConn ~ 5150 1100
 NoConn ~ 5250 1100
 NoConn ~ 5350 1100
@@ -2419,19 +2418,19 @@ Wire Notes Line
 Wire Notes Line
 	8300 1700 11250 1700
 Wire Wire Line
-	1850 6650 1850 6600
+	1550 6750 1550 6700
 Wire Wire Line
-	1550 6650 1850 6650
-Connection ~ 1850 7450
+	1250 6750 1550 6750
+Connection ~ 1550 7550
 Wire Wire Line
-	1850 7450 1550 7450
-Connection ~ 1850 7050
+	1550 7550 1250 7550
+Connection ~ 1550 7150
 Wire Wire Line
-	1850 7050 1550 7050
+	1550 7150 1250 7150
 Wire Wire Line
-	1850 6850 1850 7500
+	1550 6950 1550 7600
 Wire Wire Line
-	1550 6850 1850 6850
+	1250 6950 1550 6950
 Connection ~ 9150 3950
 Wire Wire Line
 	9150 3950 9400 3950
@@ -3015,4 +3014,74 @@ Wire Wire Line
 	2000 3800 2100 3800
 Wire Notes Line
 	3700 2300 450  2300
+$Comp
+L SPST SW2
+U 1 1 575D8EC4
+P 4950 1050
+F 0 "SW2" H 4950 1150 40  0000 C CNN
+F 1 "SPST" H 4950 950 40  0001 C CNN
+F 2 "" H 4950 1050 60  0001 C CNN
+F 3 "" H 4950 1050 60  0001 C CNN
+	1    4950 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 575DABA0
+P 4850 1100
+F 0 "#PWR?" H 4850 1100 30  0001 C CNN
+F 1 "GND" H 4850 1030 30  0001 C CNN
+F 2 "" H 4850 1100 60  0001 C CNN
+F 3 "" H 4850 1100 60  0001 C CNN
+	1    4850 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1050 4850 1100
+Wire Wire Line
+	5050 1050 5050 1100
+$Comp
+L CONN_6 P4
+U 1 1 575E6BFC
+P 2050 7150
+F 0 "P4" V 2000 7100 60  0000 L CNN
+F 1 "CONN_6" V 2100 7000 60  0000 L CNN
+F 2 "" H 2050 7150 60  0000 C CNN
+F 3 "" H 2050 7150 60  0000 C CNN
+	1    2050 7150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 575EE3EF
+P 2500 6900
+F 0 "#PWR?" H 2500 7000 30  0001 C CNN
+F 1 "VCC" H 2500 7050 30  0000 C CNN
+F 2 "" H 2500 6900 60  0001 C CNN
+F 3 "" H 2500 6900 60  0001 C CNN
+	1    2500 6900
+	-1   0    0    -1  
+$EndComp
+Text Label 2400 7000 0    40   ~ 0
+SWDIO
+Text Label 2400 7100 0    40   ~ 0
+RESET
+Text Label 2400 7200 0    40   ~ 0
+SWDCLK
+NoConn ~ 2400 7400
+$Comp
+L GND #PWR?
+U 1 1 575EEE21
+P 2500 7300
+F 0 "#PWR?" H 2500 7300 30  0001 C CNN
+F 1 "GND" H 2500 7230 30  0001 C CNN
+F 2 "" H 2500 7300 60  0001 C CNN
+F 3 "" H 2500 7300 60  0001 C CNN
+	1    2500 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 7300 2400 7300
+Wire Wire Line
+	2400 6900 2500 6900
 $EndSCHEMATC
