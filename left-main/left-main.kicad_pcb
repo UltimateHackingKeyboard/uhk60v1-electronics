@@ -5,7 +5,7 @@
     (no_connects 133)
     (area 29.5 17.6962 270.000001 165.000001)
     (thickness 1.6)
-    (drawings 478)
+    (drawings 479)
     (tracks 0)
     (zones 0)
     (modules 226)
@@ -262,14 +262,14 @@
     (add_net VCC)
   )
 
-  (module UGL:QFN-24-1EP_4x4mm_Pitch0.5mm (layer B.Cu) (tedit 57477220) (tstamp 574770A6)
+  (module UGL:QFN-24-1EP_4x4mm_Pitch0.5mm (layer B.Cu) (tedit 574F6254) (tstamp 574770A6)
     (at 199.52208 142.47876)
     (descr "24-Lead Plastic Quad Flat, No Lead Package (MJ) - 4x4x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFN 0.5")
     (solder_mask_margin 0.025)
     (clearance 0.1)
     (attr smd)
-    (fp_text reference REF** (at 0 3.375) (layer B.SilkS)
+    (fp_text reference U1 (at 0 3.375) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value QFN-24-1EP_4x4mm_Pitch0.5mm (at 0 -3.375) (layer B.Fab)
@@ -325,10 +325,10 @@
     )
   )
 
-  (module UGL:FFC_Connector_SFV10R-4STE1HLF locked (layer B.Cu) (tedit 573907AD) (tstamp 552115B1)
+  (module UGL:FFC_Connector_SFV10R-4STE1HLF locked (layer B.Cu) (tedit 574F629B) (tstamp 552115B1)
     (at 172.22001 53.747217 10.1)
     (path /52A33478)
-    (fp_text reference P4 (at 0 6.2 10.1) (layer B.SilkS)
+    (fp_text reference P5 (at 0 6.2 10.1) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (fp_text value CONN_18 (at 0 -1.2 10.1) (layer B.SilkS) hide
@@ -3141,29 +3141,10 @@
       (net 30 /VCC_PIN))
   )
 
-  (module UGL:UHK_Connector_Left_PCB locked (layer F.Cu) (tedit 57278534) (tstamp 57278D50)
-    (at 255.10001 134.320217)
-    (fp_text reference REF** (at -0.976 19.812 180) (layer F.SilkS)
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at -0.976 -1.016 180) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_line (start 0 0) (end 0 18.7) (layer F.SilkS) (width 0.15))
-    (fp_line (start 0 18.7) (end -2.5 18.7) (layer F.SilkS) (width 0.15))
-    (fp_line (start -2.5 18.7) (end -2.5 0) (layer F.SilkS) (width 0.15))
-    (fp_line (start -2.5 0) (end 0 0) (layer F.SilkS) (width 0.15))
-    (pad 5 smd rect (at -3.8 16.2) (size 2.6 2.6) (layers F.Cu F.Paste F.Mask))
-    (pad 1 smd rect (at -3.8 2.6) (size 2.6 2.6) (layers F.Cu F.Paste F.Mask))
-    (pad 2 smd rect (at -3.8 6) (size 2.6 2.6) (layers F.Cu F.Paste F.Mask))
-    (pad 3 smd rect (at -3.8 9.4) (size 2.6 2.6) (layers F.Cu F.Paste F.Mask))
-    (pad 4 smd rect (at -3.8 12.8) (size 2.6 2.6) (layers F.Cu F.Paste F.Mask))
-  )
-
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282FAE)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F582A) (tstamp 57282FAE)
     (at 238.50001 141.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D156 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3180,10 +3161,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282FA6)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F5820) (tstamp 57282FA6)
     (at 209.930011 141.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D154 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3200,10 +3181,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F9E)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F581A) (tstamp 57282F9E)
     (at 186.370009 141.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D153 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3220,10 +3201,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F96)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F5813) (tstamp 57282F96)
     (at 162.810012 141.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D152 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3240,10 +3221,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F8E)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F5809) (tstamp 57282F8E)
     (at 139.25001 141.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D151 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3260,10 +3241,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F86)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F57FF) (tstamp 57282F86)
     (at 255.470004 122.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D147 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3280,10 +3261,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F7E)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F57F6) (tstamp 57282F7E)
     (at 236.520007 122.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D146 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3300,10 +3281,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F76)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F57F1) (tstamp 57282F76)
     (at 217.57001 122.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D145 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3320,10 +3301,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F6E)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F57EB) (tstamp 57282F6E)
     (at 198.620013 122.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D144 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3340,10 +3321,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F66)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F57E6) (tstamp 57282F66)
     (at 179.670008 122.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D143 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3360,10 +3341,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F5E)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F57D1) (tstamp 57282F5E)
     (at 160.720012 122.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D142 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3380,10 +3361,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F46)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F578F) (tstamp 57282F46)
     (at 245.950007 103.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D137 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3400,10 +3381,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F3E)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F5787) (tstamp 57282F3E)
     (at 227.100009 103.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D135 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3420,10 +3401,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F36)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F5781) (tstamp 57282F36)
     (at 208.25001 103.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D134 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3440,10 +3421,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F2E)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F577C) (tstamp 57282F2E)
     (at 189.400012 103.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D133 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3460,10 +3441,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F25)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F5777) (tstamp 57282F25)
     (at 170.55001 103.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D132 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3480,10 +3461,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F1D)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F576B) (tstamp 57282F1D)
     (at 144.260011 103.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D131 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3500,10 +3481,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F15)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F575F) (tstamp 57282F15)
     (at 241.200007 84.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D127 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3520,10 +3501,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F0D)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F5755) (tstamp 57282F0D)
     (at 222.25001 84.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D125 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3540,10 +3521,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282F05)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F574D) (tstamp 57282F05)
     (at 203.300013 84.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D124 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3560,10 +3541,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282EFD)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F5747) (tstamp 57282EFD)
     (at 184.350009 84.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D123 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3580,10 +3561,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282EF5)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F573A) (tstamp 57282EF5)
     (at 165.400012 84.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D122 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3600,10 +3581,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282EED)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F572B) (tstamp 57282EED)
     (at 141.63501 84.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D121 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3620,10 +3601,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282EE5)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F5720) (tstamp 57282EE5)
     (at 250.520007 65.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D117 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3640,10 +3621,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282EDD)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F5717) (tstamp 57282EDD)
     (at 231.57001 65.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D116 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3660,10 +3641,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282ED5)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F5710) (tstamp 57282ED5)
     (at 212.620013 65.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D115 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3680,10 +3661,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282ECD)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F5701) (tstamp 57282ECD)
     (at 193.670008 65.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D114 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3700,10 +3681,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282EC5)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F56FC) (tstamp 57282EC5)
     (at 174.720012 65.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D113 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3720,10 +3701,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 57282EBD)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F56F7) (tstamp 57282EBD)
     (at 155.770011 65.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D112 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -3740,10 +3721,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 572871F2) (tstamp 572804AD)
+  (module UGL:Cherry_MX_LED locked (layer B.Cu) (tedit 574F56D7) (tstamp 572804AD)
     (at 136.82001 65.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D111 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -4720,30 +4701,10 @@
     )
   )
 
-  (module UGL:Cherry_MX_LED_ANSI_Shift locked (layer B.Cu) (tedit 572B122F) (tstamp 57282F56)
-    (at 148.770011 122.320217 180)
-    (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
-      (effects (font (thickness 0.3048)) (justify mirror))
-    )
-    (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
-    )
-    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
-    (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
-    (pad 2 smd rect (at 2.8 0 180) (size 1.1 1) (layers B.Cu B.Paste B.Mask))
-    (model cherry_mx1.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
-  (module UGL:Cherry_MX_LED_ISO_Shift locked (layer B.Cu) (tedit 572B1269) (tstamp 57282F4E)
+  (module UGL:Cherry_MX_LED_ISO_Shift locked (layer B.Cu) (tedit 574F57B5) (tstamp 57282F4E)
     (at 139.25001 122.320217 180)
     (tags switch)
-    (fp_text reference REF** (at 0 -3.2 180) (layer B.SilkS)
+    (fp_text reference D1411 (at 0 -3.2 180) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
@@ -4760,12 +4721,12 @@
     )
   )
 
-  (module Input_Club:SSOP-28 (layer B.Cu) (tedit 5531CC93) (tstamp 5733C86B)
+  (module Input_Club:SSOP-28 (layer B.Cu) (tedit 574F6246) (tstamp 5733C86B)
     (at 174.40046 140.61872)
     (descr "Small Outline w/ Pins")
     (tags "SOIC SSOP TSSOP")
     (attr smd)
-    (fp_text reference REF** (at 0 5.92) (layer B.SilkS)
+    (fp_text reference U2 (at 0 5.92) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value VAL** (at 0 -5.72) (layer B.SilkS) hide
@@ -4814,11 +4775,11 @@
     )
   )
 
-  (module UGL:1x4_pin_unshrouded_header locked (layer F.Cu) (tedit 5733C693) (tstamp 573401E9)
+  (module UGL:1x4_pin_unshrouded_header locked (layer F.Cu) (tedit 574F6397) (tstamp 573401E9)
     (at 190.16601 42.068217 10)
     (descr "1x4 pin unshrouded header")
     (tags CONN)
-    (fp_text reference REF** (at 0 -2.54 10) (layer F.SilkS)
+    (fp_text reference P6 (at 6.26224 0.0073 100) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value VAL** (at 0 2.54 10) (layer F.SilkS) hide
@@ -4839,12 +4800,12 @@
     )
   )
 
-  (module UGL:Tag_Connect_2x3_Header_No_Legs locked (layer F.Cu) (tedit 4FBCCECC) (tstamp 5722E662)
+  (module UGL:Tag_Connect_2x3_Header_No_Legs locked (layer F.Cu) (tedit 574F627B) (tstamp 5722E662)
     (at 168.820009 154.868217)
     (descr "Tag-Connect TC2030-NL footprint by carloscuev@gmail.com")
     (tags "Tag-Connect TC2030-NL")
     (attr virtual)
-    (fp_text reference NAME** (at 0 -2.54) (layer F.SilkS)
+    (fp_text reference P4 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 0.75692 0.75692) (thickness 0.127)))
     )
     (fp_text value VALUE** (at 0 2.667) (layer F.SilkS) hide
@@ -4869,13 +4830,58 @@
     (pad "" np_thru_hole circle (at 2.54 1.016) (size 0.98552 0.98552) (drill 0.98552) (layers *.Cu *.Mask F.SilkS))
   )
 
+  (module UGL:Cherry_MX_LED_ANSI_Shift locked (layer B.Cu) (tedit 572B122F) (tstamp 57282F56)
+    (at 148.770011 122.320217 180)
+    (tags switch)
+    (fp_text reference D1412 (at 0 -3.2 180) (layer B.SilkS)
+      (effects (font (thickness 0.3048)) (justify mirror))
+    )
+    (fp_text value "" (at 0 8.5 180) (layer B.SilkS) hide
+      (effects (font (thickness 0.3048)) (justify mirror))
+    )
+    (pad 1 smd rect (at -3.1 0 180) (size 1.8 1) (layers B.Cu B.Paste B.Mask))
+    (pad 1 thru_hole circle (at -1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
+    (pad 2 thru_hole rect (at 1.27 -5.08 180) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask B.SilkS))
+    (pad 2 smd rect (at 2.8 0 180) (size 1.1 1) (layers B.Cu B.Paste B.Mask))
+    (model cherry_mx1.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module UGL:UHK_Connector_Left_PCB locked (layer F.Cu) (tedit 574F64CE) (tstamp 57278D50)
+    (at 255.10001 134.320217)
+    (fp_text reference REF** (at -0.976 19.812) (layer Cmts.User)
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (fp_text value VAL** (at -0.976 -1.016 180) (layer F.SilkS) hide
+      (effects (font (size 0.75 0.75) (thickness 0.15)))
+    )
+    (fp_line (start 0 0) (end 0 18.7) (layer Cmts.User) (width 0.15))
+    (fp_line (start 0 18.7) (end -2.5 18.7) (layer Cmts.User) (width 0.15))
+    (fp_line (start -2.5 18.7) (end -2.5 0) (layer Cmts.User) (width 0.15))
+    (fp_line (start -2.5 0) (end 0 0) (layer Cmts.User) (width 0.15))
+    (pad 5 smd rect (at -3.8 16.2) (size 2.6 2.6) (layers F.Cu F.Paste F.Mask))
+    (pad 1 smd rect (at -3.8 2.6) (size 2.6 2.6) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at -3.8 6) (size 2.6 2.6) (layers F.Cu F.Paste F.Mask))
+    (pad 3 smd rect (at -3.8 9.4) (size 2.6 2.6) (layers F.Cu F.Paste F.Mask))
+    (pad 4 smd rect (at -3.8 12.8) (size 2.6 2.6) (layers F.Cu F.Paste F.Mask))
+  )
+
+  (gr_text "and the 1 screw" (at 182.92318 52.2478 10) (layer F.SilkS) (tstamp 553F8D8F)
+    (effects (font (size 1 1) (thickness 0.2)) (justify left))
+  )
+  (gr_text "VCC SDA SCL GND" (at 190.5508 44.45254 10) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
   (gr_text 2 (at 135.60046 153.51872 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_text 1 (at 135.70046 156.01872 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (gr_text "the keycaps" (at 186.00046 49.31872 10) (layer F.SilkS)
+  (gr_text "the keycaps" (at 186.27344 50.04816 10) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)) (justify left))
   )
   (gr_text 0 (at 197.44944 38.8239 10) (layer Dwgs.User)
@@ -4960,9 +4966,6 @@
     (effects (font (size 1.2 1.2) (thickness 0.24)) (justify mirror))
   )
   (gr_text "on the PCB" (at 186.10046 53.21872 10) (layer F.SilkS) (tstamp 53DE4EE7)
-    (effects (font (size 1 1) (thickness 0.2)) (justify left))
-  )
-  (gr_text "and the 1 screw" (at 182.50046 51.81872 10) (layer F.SilkS) (tstamp 553F8D8F)
     (effects (font (size 1 1) (thickness 0.2)) (justify left))
   )
   (gr_line (start 248.957 148.796) (end 248.957 148.096) (angle 90) (layer B.SilkS) (width 0.2))
@@ -5057,10 +5060,10 @@
   (gr_text 1 (at 138.17854 156.2608) (layer F.SilkS) (tstamp 52AA4FEB)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text "screws below" (at 185.00046 47.61872 10) (layer F.SilkS) (tstamp 553F8E17)
+  (gr_text "screws below" (at 185.23712 48.6664 10) (layer F.SilkS) (tstamp 553F8E17)
     (effects (font (size 1 1) (thickness 0.2)) (justify left))
   )
-  (gr_text "Unscrew the 5" (at 190.00046 45.01872 10) (layer F.SilkS)
+  (gr_text "Unscrew the 5" (at 190.72352 46.20768 10) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_text "The Eco2.User layer contains soft keepout areas\nfor the top layer." (at 29.857 48.496) (layer Eco2.User)
