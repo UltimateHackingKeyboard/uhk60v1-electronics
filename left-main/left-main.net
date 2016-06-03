@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/left-main/left-main.sch)
-    (date "Thu 02 Jun 2016 01:16:39 CEST")
+    (date "Sat 04 Jun 2016 01:12:10 CEST")
     (tool "Eeschema 4.1.0-alpha+201605071002+6776~44~ubuntu14.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -685,7 +685,7 @@
       (tstamp 5768A626))
     (comp (ref P2)
       (value CONN_5)
-      (footprint UGL:UHK_Connector_Right_PCB)
+      (footprint UGL:UHK_Connector_Left_PCB)
       (libsource (lib ugl) (part CONN_5))
       (sheetpath (names /) (tstamps /))
       (tstamp 5768A627))
@@ -969,10 +969,10 @@
         (pin (num 1) (name ~) (type input))
         (pin (num 2) (name ~) (type input)))))
   (libraries
-    (library (logical ugl)
-      (uri /home/laci/projects/uhk/electronics/libs/ugl/library/ugl.lib))
     (library (logical opendous)
-      (uri /home/laci/projects/uhk/electronics/libs/opendous/library/opendous.lib)))
+      (uri /home/laci/projects/uhk/electronics/libs/opendous/library/opendous.lib))
+    (library (logical ugl)
+      (uri /home/laci/projects/uhk/electronics/libs/ugl/library/ugl.lib)))
   (nets
     (net (code 1) (name "Net-(D54-Pad2)")
       (node (ref SW54) (pin 2))
