@@ -1509,7 +1509,6 @@ INTB
 NoConn ~ 4100 1900
 NoConn ~ 4100 2000
 NoConn ~ 4950 1350
-NoConn ~ 5050 1350
 $Comp
 L R R4
 U 1 1 5768A623
@@ -2429,4 +2428,10 @@ Wire Wire Line
 	4750 800  4700 800 
 Connection ~ 4750 1000
 Connection ~ 4500 1000
+Text Label 4200 6350 2    40   ~ 0
+R_EXT
+Text Label 4200 5800 2    40   ~ 0
+SDB
+Text Label 5050 1350 1    40   ~ 0
+SDB
 $EndSCHEMATC
