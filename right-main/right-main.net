@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/right-main/right-main.sch)
-    (date "Sat 04 Jun 2016 14:04:38 CEST")
+    (date "Sat 04 Jun 2016 14:07:20 CEST")
     (tool "Eeschema 4.1.0-alpha+201605071002+6776~44~ubuntu14.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -191,7 +191,7 @@
       (tstamp 50C9AD9C))
     (comp (ref SW53)
       (value SPST)
-      (footprint UGL:Cherry_MX_Matias_Hybrid)
+      (footprint UGL:SS-5GLD)
       (libsource (lib ugl) (part SPST))
       (sheetpath (names /) (tstamps /))
       (tstamp 50C9ADA2))
