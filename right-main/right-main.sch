@@ -3050,7 +3050,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 3850 2300 3850
 Wire Notes Line
-	3700 2450 450  2450
+	3700 2550 450  2550
 Wire Wire Line
 	4850 1050 4850 1100
 Wire Wire Line
