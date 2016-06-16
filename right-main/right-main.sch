@@ -1191,12 +1191,12 @@ $EndComp
 $Comp
 L PWR_FLAG #FLG08
 U 1 1 53EE842F
-P 2050 1450
-F 0 "#FLG08" H 2050 1545 30  0001 C CNN
-F 1 "PWR_FLAG" H 2050 1630 30  0000 C CNN
-F 2 "" H 2050 1450 60  0000 C CNN
-F 3 "" H 2050 1450 60  0000 C CNN
-	1    2050 1450
+P 2100 1450
+F 0 "#FLG08" H 2100 1545 30  0001 C CNN
+F 1 "PWR_FLAG" H 2100 1630 30  0000 C CNN
+F 2 "" H 2100 1450 60  0000 C CNN
+F 3 "" H 2100 1450 60  0000 C CNN
+	1    2100 1450
 	-1   0    0    1   
 $EndComp
 Text Label 1350 3500 0    40   ~ 0
@@ -2123,7 +2123,9 @@ Wire Wire Line
 Wire Wire Line
 	1400 5050 1500 5050
 Wire Wire Line
-	1500 5050 1800 5050
+	1500 5050 1550 5050
+Wire Wire Line
+	1550 5050 1800 5050
 Wire Wire Line
 	1800 5050 1850 5050
 Connection ~ 2400 5550
@@ -2147,7 +2149,7 @@ Wire Wire Line
 	1800 5250 2100 5250
 Wire Wire Line
 	2100 5250 2400 5250
-Connection ~ 1500 5050
+Connection ~ 1550 5050
 Wire Wire Line
 	1400 5350 1850 5350
 Wire Wire Line
@@ -2298,9 +2300,9 @@ Connection ~ 1950 1450
 Wire Wire Line
 	1750 1450 1950 1450
 Wire Wire Line
-	1950 1450 2050 1450
+	1950 1450 2100 1450
 Wire Wire Line
-	2050 1450 2350 1450
+	2100 1450 2350 1450
 Wire Wire Line
 	2350 1450 2350 1500
 Connection ~ 3250 1250
@@ -2742,7 +2744,7 @@ Wire Wire Line
 	1750 1150 1950 1150
 Connection ~ 2200 3200
 Connection ~ 2350 1050
-Connection ~ 2050 1450
+Connection ~ 2100 1450
 Connection ~ 2200 4050
 Connection ~ 7000 4300
 Wire Wire Line
@@ -3222,7 +3224,6 @@ Wire Wire Line
 Connection ~ 2750 1050
 Connection ~ 2100 1050
 Connection ~ 2750 1250
-Connection ~ 7250 4350
 $Comp
 L PWR_FLAG #FLG023
 U 1 1 57738569
@@ -3552,4 +3553,11 @@ F 3 "" H 2600 2000 60  0000 C CNN
 $EndComp
 Connection ~ 2600 2000
 Connection ~ 1750 2000
+Connection ~ 7750 1750
+Connection ~ 7750 1950
+Connection ~ 3950 1950
+Connection ~ 3950 2150
+Connection ~ 4300 2550
+Connection ~ 6250 4350
+Connection ~ 6450 4350
 $EndSCHEMATC
