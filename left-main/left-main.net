@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/left-main/left-main.sch)
-    (date "Tue 21 Jun 2016 23:26:47 CEST")
+    (date "Wed 22 Jun 2016 00:19:58 CEST")
     (tool "Eeschema 4.1.0-alpha+201606081201+6904~45~ubuntu14.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -781,6 +781,7 @@
       (tstamp 576A1319))
     (comp (ref VR1)
       (value AZ1117E)
+      (footprint Input_Club:SOT-223)
       (libsource (lib ugl) (part AZ1117E))
       (sheetpath (names /) (tstamps /))
       (tstamp 57733360))
