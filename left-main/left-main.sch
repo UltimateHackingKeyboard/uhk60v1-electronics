@@ -1558,7 +1558,7 @@ $EndComp
 Text Label 1400 1700 0    40   ~ 0
 SDA_SRC1
 Text Label 1550 1300 0    40   ~ 0
-VCC_INT
+VCC_TOP
 $Comp
 L CONN_4 P1
 U 1 1 5768A62E
@@ -1643,7 +1643,7 @@ $EndComp
 Text Label 1500 3750 0    40   ~ 0
 SCL_SRC2
 Text Label 1600 3350 0    40   ~ 0
-VCC_INT
+VCC_BOTTOM
 $Comp
 L R R7
 U 1 1 5768A63A
