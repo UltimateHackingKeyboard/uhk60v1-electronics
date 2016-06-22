@@ -783,12 +783,12 @@ Remotely connecting the two keyboard halves
 $Comp
 L C C4
 U 1 1 5134D4EB
-P 3750 2150
-F 0 "C4" H 3750 2250 40  0000 C CNN
-F 1 "0.1uF" H 3750 2040 40  0000 C CNN
-F 2 "UGL:SM0805" H 3750 2150 60  0001 C CNN
-F 3 "" H 3750 2150 60  0000 C CNN
-	1    3750 2150
+P 3500 2100
+F 0 "C4" H 3500 2200 40  0000 C CNN
+F 1 "0.1uF" H 3500 1990 40  0000 C CNN
+F 2 "UGL:SM0805" H 3500 2100 60  0001 C CNN
+F 3 "" H 3500 2100 60  0000 C CNN
+	1    3500 2100
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1394,12 +1394,12 @@ RESET
 $Comp
 L GND #PWR05
 U 1 1 575BA32C
-P 3750 2300
-F 0 "#PWR05" H 3750 2300 30  0001 C CNN
-F 1 "GND" H 3750 2230 30  0001 C CNN
-F 2 "" H 3750 2300 60  0000 C CNN
-F 3 "" H 3750 2300 60  0000 C CNN
-	1    3750 2300
+P 3500 2200
+F 0 "#PWR05" H 3500 2200 30  0001 C CNN
+F 1 "GND" H 3500 2130 30  0001 C CNN
+F 2 "" H 3500 2200 60  0000 C CNN
+F 3 "" H 3500 2200 60  0000 C CNN
+	1    3500 2200
 	1    0    0    -1  
 $EndComp
 Text Notes 6200 4600 0    40   ~ 0
@@ -1428,40 +1428,38 @@ F 3 "" H 4400 1300 60  0000 C CNN
 	1    4400 1300
 	1    0    0    -1  
 $EndComp
-Text Label 4100 2300 2    40   ~ 0
-SCL
-Text Label 4100 2400 2    40   ~ 0
-SDA
-Text Label 4650 2950 3    40   ~ 0
-KEYS_ROW1
-Text Label 4750 2950 3    40   ~ 0
-KEYS_ROW2
-Text Label 4850 2950 3    40   ~ 0
-KEYS_ROW3
-Text Label 4950 2950 3    40   ~ 0
-KEYS_ROW4
-Text Label 5050 2950 3    40   ~ 0
-KEYS_ROW5
-Text Label 5150 2950 3    40   ~ 0
-KEYS_COL1
-Text Label 5700 2400 0    40   ~ 0
-KEYS_COL2
-Text Label 5700 2300 0    40   ~ 0
-KEYS_COL3
-Text Label 5700 2200 0    40   ~ 0
-KEYS_COL4
-Text Label 5700 2100 0    40   ~ 0
-KEYS_COL5
 Text Label 5700 2000 0    40   ~ 0
-KEYS_COL6
+SCL
 Text Label 5700 1900 0    40   ~ 0
+SDA
+Text Label 4100 2000 2    40   ~ 0
+KEYS_ROW1
+Text Label 4850 2950 3    40   ~ 0
+KEYS_ROW2
+Text Label 4650 2950 3    40   ~ 0
+KEYS_ROW3
+Text Label 5050 2950 3    40   ~ 0
+KEYS_ROW4
+Text Label 4100 2400 2    40   ~ 0
+KEYS_ROW5
+Text Label 4950 2950 3    40   ~ 0
+KEYS_COL1
+Text Label 4750 2950 3    40   ~ 0
+KEYS_COL2
+Text Label 5700 2200 0    40   ~ 0
+KEYS_COL3
+Text Label 5150 2950 3    40   ~ 0
+KEYS_COL4
+Text Label 4100 1900 2    40   ~ 0
+KEYS_COL5
+Text Label 4100 2300 2    40   ~ 0
+KEYS_COL6
+Text Label 5150 1350 1    40   ~ 0
 KEYS_COL7
 Text Label 4250 6000 2    40   ~ 0
 INTB
-Text Label 5150 1350 1    40   ~ 0
+Text Label 5700 2300 0    40   ~ 0
 INTB
-NoConn ~ 4100 1900
-NoConn ~ 4100 2000
 NoConn ~ 4950 1350
 $Comp
 L R R4
@@ -1753,7 +1751,7 @@ Text Label 4250 6650 2    40   ~ 0
 R_EXT
 Text Label 4250 6100 2    40   ~ 0
 SDB
-Text Label 5050 1350 1    40   ~ 0
+Text Label 5700 2400 0    40   ~ 0
 SDB
 $Comp
 L C C1
@@ -1879,12 +1877,12 @@ $EndComp
 $Comp
 L +3.3V #PWR015
 U 1 1 57637551
-P 3750 2000
-F 0 "#PWR015" H 3750 1850 50  0001 C CNN
-F 1 "+3.3V" H 3750 2150 30  0000 C CNN
-F 2 "" H 3750 2000 50  0000 C CNN
-F 3 "" H 3750 2000 50  0000 C CNN
-	1    3750 2000
+P 3500 2000
+F 0 "#PWR015" H 3500 1850 50  0001 C CNN
+F 1 "+3.3V" H 3500 2150 30  0000 C CNN
+F 2 "" H 3500 2000 50  0000 C CNN
+F 3 "" H 3500 2000 50  0000 C CNN
+	1    3500 2000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2478,22 +2476,6 @@ Wire Notes Line
 	3150 2650 450  2650
 Wire Notes Line
 	3150 4250 11250 4250
-Wire Wire Line
-	4100 2100 3950 2100
-Wire Wire Line
-	3950 2100 3950 2050
-Wire Wire Line
-	3950 2050 3750 2050
-Wire Wire Line
-	3750 2050 3750 2000
-Wire Wire Line
-	3750 2250 3750 2300
-Wire Wire Line
-	4100 2200 3950 2200
-Wire Wire Line
-	3950 2200 3950 2250
-Wire Wire Line
-	3950 2250 3750 2250
 Wire Notes Line
 	3150 4650 450  4650
 Wire Wire Line
@@ -2636,4 +2618,16 @@ F 3 "" H 4400 1000 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	4750 1100 4750 1350
+Wire Wire Line
+	3500 2200 4100 2200
+Wire Wire Line
+	3500 2000 3700 2000
+Wire Wire Line
+	3700 2000 3700 2100
+Wire Wire Line
+	3700 2100 4100 2100
+Connection ~ 3500 2000
+Connection ~ 3500 2200
+NoConn ~ 5050 1350
+NoConn ~ 5700 2100
 $EndSCHEMATC
