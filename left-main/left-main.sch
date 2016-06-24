@@ -2072,43 +2072,23 @@ F 3 "" H 4400 1000 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 5700 2100
-$Comp
-L SPST SW2
-U 1 1 578B4F94
-P 5050 800
-F 0 "SW2" H 5050 916 40  0000 C CNN
-F 1 "SPST" H 5050 916 40  0001 C CNN
-F 2 "UGL:Reed_Switch_CT05-3050-G1" H 5050 800 60  0001 C CNN
-F 3 "" H 5050 800 60  0000 C CNN
-	1    5050 800 
-	1    0    0    -1  
-$EndComp
 Text Label 5050 1350 1    40   ~ 0
 TEST_LED
 Text Label 4950 1350 1    40   ~ 0
 ISO_DETECT
 $Comp
-L GND #PWR029
-U 1 1 578B7442
-P 5250 900
-F 0 "#PWR029" H 5250 900 30  0001 C CNN
-F 1 "GND" H 5250 830 30  0001 C CNN
-F 2 "" H 5250 900 60  0000 C CNN
-F 3 "" H 5250 900 60  0000 C CNN
-	1    5250 900 
-	1    0    0    -1  
-$EndComp
-$Comp
 L VIA V1
 U 1 1 578BBAEE
 P 5050 950
-F 0 "V1" V 5000 950 40  0000 C CNN
+F 0 "V1" V 5050 1075 40  0000 C CNN
 F 1 "VIA" H 5050 1150 60  0001 C CNN
 F 2 "UGL:via_38_22mil" H 5050 950 60  0001 C CNN
 F 3 "" H 5050 950 60  0001 C CNN
 	1    5050 950 
 	0    1    1    0   
 $EndComp
+Text Label 8200 2400 2    40   ~ 0
+ISO_PIN
 Connection ~ 4400 1100
 Wire Wire Line
 	4250 1100 4750 1100
@@ -2458,7 +2438,7 @@ Connection ~ 7450 5400
 Connection ~ 7700 5650
 Connection ~ 7950 5900
 Wire Wire Line
-	7950 5900 7950 5100
+	7950 5100 7950 5900
 Wire Wire Line
 	6700 4900 8600 4900
 Wire Wire Line
@@ -2564,7 +2544,7 @@ Connection ~ 1850 3350
 Wire Wire Line
 	1650 3850 1500 3850
 Wire Wire Line
-	1650 3850 1650 4200
+	1650 4200 1650 3850
 Wire Wire Line
 	2300 4000 2450 4000
 Wire Wire Line
@@ -2666,11 +2646,21 @@ Wire Wire Line
 Connection ~ 3500 2000
 Connection ~ 3500 2200
 Wire Wire Line
-	4950 1350 4950 800 
-Wire Wire Line
-	5150 800  5250 800 
-Wire Wire Line
-	5250 800  5250 900 
-Wire Wire Line
 	5050 950  5050 1350
+Wire Wire Line
+	8200 2300 8200 2400
+Connection ~ 8200 2300
+$Comp
+L VIA V2
+U 1 1 576DF620
+P 4950 950
+F 0 "V2" V 4950 1075 40  0000 C CNN
+F 1 "VIA" H 4950 1150 60  0001 C CNN
+F 2 "UGL:ISO_Ring" H 4950 950 60  0001 C CNN
+F 3 "" H 4950 950 60  0001 C CNN
+	1    4950 950 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4950 1350 4950 950 
 $EndSCHEMATC
