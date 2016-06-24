@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/left-main/left-main.sch)
-    (date "Thu 23 Jun 2016 20:24:04 CEST")
+    (date "Fri 24 Jun 2016 14:21:21 CEST")
     (tool "Eeschema 4.1.0-alpha+201606081201+6904~45~ubuntu14.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

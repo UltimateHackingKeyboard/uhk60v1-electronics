@@ -1,12 +1,12 @@
 (kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201606081201+6904~45~ubuntu14.04.1-product)
 
   (general
-    (links 417)
+    (links 418)
     (no_connects 0)
-    (area 29.5 17.6962 270.000001 171.095518)
+    (area 125.815009 33.896628 261.725011 157.725218)
     (thickness 1.6)
     (drawings 470)
-    (tracks 1489)
+    (tracks 1491)
     (zones 0)
     (modules 234)
     (nets 89)
@@ -65,7 +65,7 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 0.9652 0.9652)
+    (pad_size 1.2 1.2)
     (pad_drill 0.5588)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
@@ -284,16 +284,17 @@
     (add_net "Net-(U2-Pad17)")
   )
 
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576C2917) (tstamp 52A8298F)
+  (module UGL:via_38_22mil (layer F.Cu) (tedit 576D293C) (tstamp 52A8298F)
     (at 202.40046 65.31872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
+    (path /578BBAEE)
+    (fp_text reference V1 (at 0 -1.8) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
+    (fp_text value VIA (at 0 1.9) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
-    (pad V1 thru_hole circle (at 0 0) (size 1.2 1.2) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (solder_mask_margin -1))
+    (pad 1 thru_hole circle (at 0 0) (size 1.2 1.2) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 88 /TEST_LED) (solder_mask_margin -1))
   )
 
   (module UGL:SM0805 (layer B.Cu) (tedit 553F81F4) (tstamp 52A25FD0)
@@ -7200,6 +7201,8 @@
   (segment (start 135.10046 88.61872) (end 137.70046 91.21872) (width 0.3048) (layer F.Cu) (net 87) (tstamp 576C2E78))
   (segment (start 135.10046 81.91872) (end 135.10046 88.61872) (width 0.3048) (layer F.Cu) (net 87) (tstamp 576C2E75))
   (segment (start 136.20046 80.81872) (end 135.10046 81.91872) (width 0.3048) (layer F.Cu) (net 87) (tstamp 576C2E69))
+  (segment (start 202.35046 66.85872) (end 202.35046 65.36872) (width 0.2032) (layer B.Cu) (net 88))
+  (segment (start 202.35046 65.36872) (end 202.40046 65.31872) (width 0.2032) (layer B.Cu) (net 88) (tstamp 576D2CC1))
 
   (zone (net 16) (net_name GND) (layer B.Cu) (tstamp 52A54929) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
