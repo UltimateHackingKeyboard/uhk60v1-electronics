@@ -3217,4 +3217,8 @@ Wire Wire Line
 Wire Wire Line
 	5000 1200 5200 1200
 Connection ~ 5100 1200
+Text Label 9400 3000 2    40   ~ 0
+INTB
+Text Label 9400 3100 2    40   ~ 0
+SDB
 $EndSCHEMATC
