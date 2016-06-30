@@ -3223,4 +3223,6 @@ Text Label 9400 3100 2    40   ~ 0
 SDB
 Text Label 1800 5800 2    40   ~ 0
 PROX_SENSE_IN
+Text Label 9400 3650 2    40   ~ 0
+R_EXT
 $EndSCHEMATC
