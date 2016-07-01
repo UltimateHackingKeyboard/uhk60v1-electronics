@@ -1249,8 +1249,6 @@ F 3 "" H 5400 3100 60  0000 C CNN
 	1    5400 3100
 	1    0    0    -1  
 $EndComp
-Text Notes 6700 4900 0    30   ~ 0
-Are C1 and C2 really needed?
 Text Label 3900 2750 2    40   ~ 0
 USB_DP
 Text Label 3900 2850 2    40   ~ 0
@@ -1889,8 +1887,6 @@ NoConn ~ 3900 2450
 NoConn ~ 4750 1600
 NoConn ~ 4850 1600
 NoConn ~ 4950 1600
-NoConn ~ 6900 3550
-NoConn ~ 6900 3650
 NoConn ~ 5250 1600
 NoConn ~ 5350 1600
 NoConn ~ 5650 1600
@@ -3225,4 +3221,12 @@ Text Label 1800 5800 2    40   ~ 0
 PROX_SENSE_IN
 Text Label 9400 3650 2    40   ~ 0
 R_EXT
+Text Label 6900 3550 0    40   ~ 0
+INTB
+Text Label 6900 3650 0    40   ~ 0
+SDB
+Text Label 6350 4600 0    40   ~ 0
+XTAL1
+Text Label 6700 4600 0    40   ~ 0
+XTAL2
 $EndSCHEMATC
