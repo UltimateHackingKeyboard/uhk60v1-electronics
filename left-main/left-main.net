@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/left-main/left-main.sch)
-    (date "Fri 24 Jun 2016 16:01:13 CEST")
+    (date "Sat 02 Jul 2016 22:54:40 CEST")
     (tool "Eeschema 4.1.0-alpha+201606081201+6904~45~ubuntu14.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -389,7 +389,7 @@
       (tstamp 512EC3B1))
     (comp (ref P3)
       (value CONN_10)
-      (footprint UGL:2x5_pin_shrouded_header)
+      (footprint UGL:2x5_0.05_pitch_pin_shrouded_header)
       (libsource (lib ugl) (part CONN_10))
       (sheetpath (names /) (tstamps /))
       (tstamp 5130F33C))
