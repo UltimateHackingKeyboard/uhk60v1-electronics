@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201606081201+6904~45~ubuntu14.04.1-product)
+(kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201607031448+6962~45~ubuntu14.04.1-product)
 
   (general
     (links 14)
@@ -301,7 +301,7 @@
   (gr_text "UltimateHackingKeyboard.com\nPart name: uhk1_display5" (at 152.9 103.45) (layer Back) (tstamp 528901BF)
     (effects (font (size 0.65 0.65) (thickness 0.1)) (justify left mirror))
   )
-  (gr_text "* design is 12mil-8mil-31mil trace-clearance-minimum_drill\n* 1.55mm board thickness\n* black soldermask\n* white silkscreen\n" (at 113.755 63.41222) (layer Cmts.User)
+  (gr_text "* design is 12mil-8mil-31mil trace-clearance-minimum_drill\n* 1.55mm board thickness" (at 113.755 63.41222) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_arc (start 153.858261 108.576419) (end 153.858258 109.076433) (angle -90.01245862) (layer Edge.Cuts) (width 0.01))
