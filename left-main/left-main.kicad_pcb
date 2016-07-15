@@ -20,8 +20,8 @@
   )
 
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -478,10 +478,10 @@
     (at 244.40046 125.01872 90)
     (path /552D6592)
     (attr smd)
-    (fp_text reference D47 (at -3.556 0 360) (layer B.SilkS)
+    (fp_text reference D47 (at -3.556 0) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value DIODE (at 3.7 0 360) (layer B.SilkS) hide
+    (fp_text value DIODE (at 3.7 0) (layer B.SilkS) hide
       (effects (font (size 0.375 0.375) (thickness 0.075)) (justify mirror))
     )
     (fp_line (start 3.15 0.95) (end 3.15 -0.95) (layer B.SilkS) (width 0.15))
@@ -541,10 +541,10 @@
     (at 198.40046 112.71872 180)
     (path /5011B8A0)
     (attr smd)
-    (fp_text reference D44 (at -3.556 0 450) (layer B.SilkS)
+    (fp_text reference D44 (at -3.556 0 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value DIODE (at 3.7 0 450) (layer B.SilkS) hide
+    (fp_text value DIODE (at 3.7 0 90) (layer B.SilkS) hide
       (effects (font (size 0.375 0.375) (thickness 0.075)) (justify mirror))
     )
     (fp_line (start 3.15 0.95) (end 3.15 -0.95) (layer B.SilkS) (width 0.15))
@@ -604,10 +604,10 @@
     (at 235.70046 106.01872 90)
     (path /5011B86C)
     (attr smd)
-    (fp_text reference D37 (at -3.556 0 360) (layer B.SilkS)
+    (fp_text reference D37 (at -3.556 0) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value DIODE (at 3.7 0 360) (layer B.SilkS) hide
+    (fp_text value DIODE (at 3.7 0) (layer B.SilkS) hide
       (effects (font (size 0.375 0.375) (thickness 0.075)) (justify mirror))
     )
     (fp_line (start 3.15 0.95) (end 3.15 -0.95) (layer B.SilkS) (width 0.15))
@@ -730,10 +730,10 @@
     (at 232.80046 81.91872 90)
     (path /5011B82C)
     (attr smd)
-    (fp_text reference D27 (at -3.556 0 360) (layer B.SilkS)
+    (fp_text reference D27 (at -3.556 0) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value DIODE (at 3.7 0 360) (layer B.SilkS) hide
+    (fp_text value DIODE (at 3.7 0) (layer B.SilkS) hide
       (effects (font (size 0.375 0.375) (thickness 0.075)) (justify mirror))
     )
     (fp_line (start 3.15 0.95) (end 3.15 -0.95) (layer B.SilkS) (width 0.15))
@@ -793,10 +793,10 @@
     (at 183.10046 74.81872 180)
     (path /5011B81A)
     (attr smd)
-    (fp_text reference D23 (at -3.556 0 450) (layer B.SilkS)
+    (fp_text reference D23 (at -3.556 0 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value DIODE (at 3.7 0 450) (layer B.SilkS) hide
+    (fp_text value DIODE (at 3.7 0 90) (layer B.SilkS) hide
       (effects (font (size 0.375 0.375) (thickness 0.075)) (justify mirror))
     )
     (fp_line (start 3.15 0.95) (end 3.15 -0.95) (layer B.SilkS) (width 0.15))
@@ -856,10 +856,10 @@
     (at 242.20046 65.31872 270)
     (path /5011B54B)
     (attr smd)
-    (fp_text reference D17 (at -3.556 0 540) (layer B.SilkS)
+    (fp_text reference D17 (at -3.556 0 180) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value DIODE (at 3.7 0 540) (layer B.SilkS) hide
+    (fp_text value DIODE (at 3.7 0 180) (layer B.SilkS) hide
       (effects (font (size 0.375 0.375) (thickness 0.075)) (justify mirror))
     )
     (fp_line (start 3.15 0.95) (end 3.15 -0.95) (layer B.SilkS) (width 0.15))
@@ -877,10 +877,10 @@
     (at 239.90046 65.31872 270)
     (path /5011B545)
     (attr smd)
-    (fp_text reference D16 (at -3.556 0 540) (layer B.SilkS)
+    (fp_text reference D16 (at -3.556 0 180) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value DIODE (at 3.7 0 540) (layer B.SilkS) hide
+    (fp_text value DIODE (at 3.7 0 180) (layer B.SilkS) hide
       (effects (font (size 0.375 0.375) (thickness 0.075)) (justify mirror))
     )
     (fp_line (start 3.15 0.95) (end 3.15 -0.95) (layer B.SilkS) (width 0.15))
@@ -940,10 +940,10 @@
     (at 185.70046 56.81872 180)
     (path /5011B526)
     (attr smd)
-    (fp_text reference D13 (at -3.556 0 450) (layer B.SilkS)
+    (fp_text reference D13 (at -3.556 0 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value DIODE (at 3.7 0 450) (layer B.SilkS) hide
+    (fp_text value DIODE (at 3.7 0 90) (layer B.SilkS) hide
       (effects (font (size 0.375 0.375) (thickness 0.075)) (justify mirror))
     )
     (fp_line (start 3.15 0.95) (end 3.15 -0.95) (layer B.SilkS) (width 0.15))
@@ -961,10 +961,10 @@
     (at 150.10046 83.31872 90)
     (path /5011B49B)
     (attr smd)
-    (fp_text reference D12 (at -3.556 0 360) (layer B.SilkS)
+    (fp_text reference D12 (at -3.556 0) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value DIODE (at 3.7 0 360) (layer B.SilkS) hide
+    (fp_text value DIODE (at 3.7 0) (layer B.SilkS) hide
       (effects (font (size 0.375 0.375) (thickness 0.075)) (justify mirror))
     )
     (fp_line (start 3.15 0.95) (end 3.15 -0.95) (layer B.SilkS) (width 0.15))
@@ -982,10 +982,10 @@
     (at 145.90046 73.11872 90)
     (path /50103655)
     (attr smd)
-    (fp_text reference D11 (at -3.556 0 360) (layer B.SilkS)
+    (fp_text reference D11 (at -3.556 0) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value DIODE (at 3.7 0 360) (layer B.SilkS) hide
+    (fp_text value DIODE (at 3.7 0) (layer B.SilkS) hide
       (effects (font (size 0.375 0.375) (thickness 0.075)) (justify mirror))
     )
     (fp_line (start 3.15 0.95) (end 3.15 -0.95) (layer B.SilkS) (width 0.15))
@@ -1003,10 +1003,10 @@
     (at 160.10046 112.81872 180)
     (path /5011B892)
     (attr smd)
-    (fp_text reference D42 (at -3.556 0 450) (layer B.SilkS)
+    (fp_text reference D42 (at -3.556 0 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value DIODE (at 3.7 0 450) (layer B.SilkS) hide
+    (fp_text value DIODE (at 3.7 0 90) (layer B.SilkS) hide
       (effects (font (size 0.375 0.375) (thickness 0.075)) (justify mirror))
     )
     (fp_line (start 3.15 0.95) (end 3.15 -0.95) (layer B.SilkS) (width 0.15))
@@ -2056,870 +2056,6 @@
     )
   )
 
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576AE85D) (tstamp 576AF90E)
-    (at 137.90046 88.91872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 552FA4F0)
-    (at 157.1752 131.6736)
-    (fp_text reference "via 35/25mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 53F791FC)
-    (at 143.00046 132.81872)
-    (fp_text reference "via 35/25mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A6B443)
-    (at 157.80046 84.01872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 553564B5)
-    (at 218.50046 144.21872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A6B4D8)
-    (at 226.757 74.796)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A55ACE)
-    (at 147.40046 65.91872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 53F7BC66)
-    (at 238.10046 103.31872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A5A65B)
-    (at 202.70046 94.31872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A548A5)
-    (at 200.40046 52.21872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A548E5)
-    (at 224.90046 121.71872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52C6B4C9)
-    (at 210.50046 89.71872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 53F6442B)
-    (at 159.80046 68.11872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 53F7BC6C)
-    (at 183.20046 43.41872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 53F7B5E4)
-    (at 198.10046 62.01872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A6B29F)
-    (at 193.70046 59.11872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A6B435)
-    (at 206.90046 51.21872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A6B500)
-    (at 187.70046 48.71872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 53F6459F)
-    (at 166.80046 70.71872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A6B55C)
-    (at 173.60046 87.21872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A6B56A)
-    (at 248.30046 138.21872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 53F63CD2)
-    (at 202.70046 39.91872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A828C4)
-    (at 170.20046 156.71872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 53F78C01)
-    (at 128.80046 84.41872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A828D6)
-    (at 128.50046 97.41872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A828DF)
-    (at 138.40046 116.11872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A828E8)
-    (at 232.60046 110.41872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A828F1)
-    (at 218.30046 104.91872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A8290C)
-    (at 194.70046 97.61872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A82915)
-    (at 233.40046 153.61872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A8291E)
-    (at 146.30046 59.91872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A82927)
-    (at 152.80046 83.61872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A82930)
-    (at 156.257 96.496)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A82939)
-    (at 211.10046 84.31872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A82942)
-    (at 189.10046 89.81872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A8294B)
-    (at 181.991 97.028)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A82954)
-    (at 187.60046 126.11872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A8295D)
-    (at 188.90046 130.71872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A82966)
-    (at 203.40046 125.51872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 553EDD44)
-    (at 188.60046 82.71872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A8297D)
-    (at 246.70046 116.91872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 53F79222)
-    (at 226.70046 140.51872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A82998)
-    (at 178.56454 58.29808)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A829AA)
-    (at 153.80046 79.11872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A82B01)
-    (at 243.90046 137.91872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A829BC)
-    (at 227.80046 91.41872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A829C5)
-    (at 217.80046 94.11872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A829CE)
-    (at 244.983 58.928)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A829D7)
-    (at 160.147 62.992)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A829E0)
-    (at 181.10046 64.01872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A829E9)
-    (at 192.40046 50.01872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 53F78C37)
-    (at 208.50046 124.31872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 553EDD3C)
-    (at 169.60046 124.61872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A82AB0)
-    (at 217.10046 68.41872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A82AB9)
-    (at 241.30046 143.61872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A82AD4)
-    (at 130.20046 137.11872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A82AE7)
-    (at 216.30046 89.91872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A82B14)
-    (at 212.60046 95.51872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A82B3C)
-    (at 157.90046 105.91872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 52A82B50)
-    (at 211.70046 48.01872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 553D4099)
-    (at 205.90046 115.01872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 53F783D0)
-    (at 177.50046 140.01872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 5410FA83)
-    (at 227.20046 68.41872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 5410FAA6)
-    (at 151.10046 145.41872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 552B9349)
-    (at 140.00046 105.71872)
-    (fp_text reference "via 35/25mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 552AE330)
-    (at 238.00046 148.41872)
-    (fp_text reference "via 35/25mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 552AE322)
-    (at 174.10046 114.41872)
-    (fp_text reference "via 35/25mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 552AE314)
-    (at 165.4175 106.3879)
-    (fp_text reference "via 35/25mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 552AE306)
-    (at 127.60046 124.81872)
-    (fp_text reference "via 35/25mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 552AE2F8)
-    (at 181.00046 105.21872)
-    (fp_text reference "via 35/25mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 552AE2E9)
-    (at 197.00046 83.01872)
-    (fp_text reference "via 35/25mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553B7099) (tstamp 552AE2DB)
-    (at 180.60046 89.51872)
-    (fp_text reference "via 35/25mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
   (module UGL:SM0805 (layer B.Cu) (tedit 577C363E) (tstamp 552B88F1)
     (at 207.60046 69.11872 90)
     (path /5134D4EB)
@@ -3193,18 +2329,6 @@
       (scale (xyz 0.5 0.5 0.5))
       (rotate (xyz 0 0 0))
     )
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 553D425F) (tstamp 553D4511)
-    (at 231.80046 106.51872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
   )
 
   (module UGL:0955012441 locked (layer F.Cu) (tedit 572265B4) (tstamp 53F7B5DE)
@@ -3568,282 +2692,6 @@
       (scale (xyz 0.5 0.5 0.5))
       (rotate (xyz 0 0 0))
     )
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576AE6EF) (tstamp 576AF8B7)
-    (at 197.20046 133.71872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576AE70A) (tstamp 576AF8D9)
-    (at 213.00046 125.51872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576AE744) (tstamp 576AF8E7)
-    (at 192.40046 90.11872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576AE766) (tstamp 576AF8F6)
-    (at 188.40046 85.81872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576AE87C) (tstamp 576AF935)
-    (at 141.40046 68.91872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576AE896) (tstamp 576AF944)
-    (at 203.80046 111.31872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576AE8A8) (tstamp 576AF952)
-    (at 213.30046 111.81872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576AE8CA) (tstamp 576AF960)
-    (at 236.60046 131.61872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576AE8ED) (tstamp 576AF96E)
-    (at 151.80046 69.31872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576B0AF7) (tstamp 576B0AF4)
-    (at 188.20046 54.01872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576B1D14) (tstamp 576B1D08)
-    (at 209.50046 70.31872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576B1E81) (tstamp 576B1E81)
-    (at 214.70046 108.91872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576B1EAB) (tstamp 576B1EAB)
-    (at 235.60046 102.11872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576B1EBE) (tstamp 576B1EBE)
-    (at 235.80046 98.91872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576B1EDE) (tstamp 576B1ED8)
-    (at 234.80046 149.21872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576C5DEA) (tstamp 576C5DE8)
-    (at 246.30046 149.41872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576C5E48) (tstamp 576C5E47)
-    (at 148.70046 73.61872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576C5E89) (tstamp 576C5E83)
-    (at 208.10046 80.41872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576C5F05) (tstamp 576C5F03)
-    (at 195.70046 54.31872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576C64A7) (tstamp 576C64A6)
-    (at 208.70046 74.91872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576C6524) (tstamp 576C6521)
-    (at 222.50046 64.61872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576C6538) (tstamp 576C6535)
-    (at 217.70046 60.41872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 576D4A55) (tstamp 576D4A53)
-    (at 139.80046 112.01872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
   )
 
   (module UGL:SM0805_Diode (layer B.Cu) (tedit 577C2D8C) (tstamp 577BF88D)
@@ -4224,18 +3072,6 @@
     (pad "" np_thru_hole circle (at -2.54 0) (size 0.98806 0.98806) (drill 0.98806) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 2.54 1.016) (size 0.98552 0.98552) (drill 0.98552) (layers *.Cu *.Mask B.SilkS))
     (pad "" np_thru_hole circle (at 2.54 -1.016) (size 0.98552 0.98552) (drill 0.98552) (layers *.Cu *.Mask B.SilkS))
-  )
-
-  (module UGL:via_38_22mil (layer F.Cu) (tedit 577E4457) (tstamp 577E6F81)
-    (at 177.80046 148.01872)
-    (fp_text reference "via 38/22mil" (at 0 -1.8) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (fp_text value VAL** (at 0 1.9) (layer F.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)))
-    )
-    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
-      (net 16 GND) (solder_mask_margin -1))
   )
 
   (module UGL:QFN-24-1EP_4x4mm_Pitch0.5mm (layer B.Cu) (tedit 577E8BBF) (tstamp 57531BF2)
@@ -5185,6 +4021,1267 @@
       (effects (font (size 0.375 0.375) (thickness 0.075)))
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F8D9) (tstamp 576AF90E)
+    (at 137.90046 88.91872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F769) (tstamp 552FA4F0)
+    (at 157.1752 131.6736)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F778) (tstamp 53F791FC)
+    (at 143.00046 132.81872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F2A9) (tstamp 52A6B443)
+    (at 157.80046 84.01872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F700) (tstamp 553564B5)
+    (at 218.50046 144.21872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F3DB) (tstamp 52A6B4D8)
+    (at 226.757 74.796)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F19C) (tstamp 52A55ACE)
+    (at 147.40046 65.91872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F613) (tstamp 53F7BC66)
+    (at 238.10046 103.31872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F56D) (tstamp 52A5A65B)
+    (at 202.70046 94.31872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788FAFA) (tstamp 52A548A5)
+    (at 200.40046 52.21872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F652) (tstamp 52A548E5)
+    (at 224.90046 121.71872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F33F) (tstamp 52C6B4C9)
+    (at 210.50046 89.71872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F234) (tstamp 53F6442B)
+    (at 159.80046 68.11872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F49A) (tstamp 53F7BC6C)
+    (at 183.20046 43.41872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F3AE) (tstamp 53F7B5E4)
+    (at 198.10046 62.01872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F931) (tstamp 52A6B29F)
+    (at 193.70046 59.11872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F433) (tstamp 52A6B435)
+    (at 206.90046 51.21872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F489) (tstamp 52A6B500)
+    (at 187.70046 48.71872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F26A) (tstamp 53F6459F)
+    (at 166.80046 70.71872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F2B9) (tstamp 52A6B55C)
+    (at 173.60046 87.21872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F68C) (tstamp 52A6B56A)
+    (at 248.30046 138.21872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F4B0) (tstamp 53F63CD2)
+    (at 202.70046 39.91872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F7D7) (tstamp 52A828C4)
+    (at 170.20046 156.71872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F4EF) (tstamp 53F78C01)
+    (at 128.80046 84.41872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F4FA) (tstamp 52A828D6)
+    (at 128.50046 97.41872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F843) (tstamp 52A828DF)
+    (at 138.40046 116.11872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F622) (tstamp 52A828E8)
+    (at 232.60046 110.41872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F5A1) (tstamp 52A828F1)
+    (at 218.30046 104.91872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F88F) (tstamp 52A8290C)
+    (at 194.70046 97.61872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F6C4) (tstamp 52A82915)
+    (at 233.40046 153.61872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F18D) (tstamp 52A8291E)
+    (at 146.30046 59.91872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F29A) (tstamp 52A82927)
+    (at 152.80046 83.61872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F93E) (tstamp 52A82930)
+    (at 156.257 96.496)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F331) (tstamp 52A82939)
+    (at 211.10046 84.31872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F2E6) (tstamp 52A82942)
+    (at 189.10046 89.81872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F544) (tstamp 52A8294B)
+    (at 181.991 97.028)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F739) (tstamp 52A82954)
+    (at 187.60046 126.11872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F726) (tstamp 52A8295D)
+    (at 188.90046 130.71872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F86D) (tstamp 52A82966)
+    (at 203.40046 125.51872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F8A4) (tstamp 553EDD44)
+    (at 188.60046 82.71872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F63B) (tstamp 52A8297D)
+    (at 246.70046 116.91872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F6E8) (tstamp 53F79222)
+    (at 226.70046 140.51872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F4CA) (tstamp 52A82998)
+    (at 178.56454 58.29808)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F289) (tstamp 52A829AA)
+    (at 153.80046 79.11872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F67D) (tstamp 52A82B01)
+    (at 243.90046 137.91872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F361) (tstamp 52A829BC)
+    (at 227.80046 91.41872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F581) (tstamp 52A829C5)
+    (at 217.80046 94.11872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F3EF) (tstamp 52A829CE)
+    (at 244.983 58.928)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F251) (tstamp 52A829D7)
+    (at 160.147 62.992)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F4D7) (tstamp 52A829E0)
+    (at 181.10046 64.01872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F45F) (tstamp 52A829E9)
+    (at 192.40046 50.01872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F667) (tstamp 53F78C37)
+    (at 208.50046 124.31872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F75A) (tstamp 553EDD3C)
+    (at 169.60046 124.61872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F39B) (tstamp 52A82AB0)
+    (at 217.10046 68.41872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F7F7) (tstamp 52A82AB9)
+    (at 241.30046 143.61872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F797) (tstamp 52A82AD4)
+    (at 130.20046 137.11872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F351) (tstamp 52A82AE7)
+    (at 216.30046 89.91872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F585) (tstamp 52A82B14)
+    (at 212.60046 95.51872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F51E) (tstamp 52A82B3C)
+    (at 157.90046 105.91872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F41E) (tstamp 52A82B50)
+    (at 211.70046 48.01872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F5C9) (tstamp 553D4099)
+    (at 205.90046 115.01872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F74B) (tstamp 53F783D0)
+    (at 177.50046 140.01872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F3D0) (tstamp 5410FA83)
+    (at 227.20046 68.41872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F7B0) (tstamp 5410FAA6)
+    (at 151.10046 145.41872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F82D) (tstamp 552B9349)
+    (at 140.00046 105.71872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F6A7) (tstamp 552AE330)
+    (at 238.00046 148.41872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F561) (tstamp 552AE322)
+    (at 174.10046 114.41872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F52C) (tstamp 552AE314)
+    (at 165.4175 106.3879)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F788) (tstamp 552AE306)
+    (at 127.60046 124.81872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F552) (tstamp 552AE2F8)
+    (at 181.00046 105.21872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F30E) (tstamp 552AE2E9)
+    (at 197.00046 83.01872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F2D1) (tstamp 552AE2DB)
+    (at 180.60046 89.51872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F5E7) (tstamp 553D4511)
+    (at 231.80046 106.51872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F717) (tstamp 576AF8B7)
+    (at 197.20046 133.71872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F66C) (tstamp 576AF8D9)
+    (at 213.00046 125.51872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F2F9) (tstamp 576AF8E7)
+    (at 192.40046 90.11872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F8B3) (tstamp 576AF8F6)
+    (at 188.40046 85.81872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F1B6) (tstamp 576AF935)
+    (at 141.40046 68.91872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F5CE) (tstamp 576AF944)
+    (at 203.80046 111.31872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F5AE) (tstamp 576AF952)
+    (at 213.30046 111.81872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F646) (tstamp 576AF960)
+    (at 236.60046 131.61872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F21B) (tstamp 576AF96E)
+    (at 151.80046 69.31872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F914) (tstamp 576B0AF4)
+    (at 188.20046 54.01872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788FB04) (tstamp 576B1D08)
+    (at 209.50046 70.31872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F595) (tstamp 576B1E81)
+    (at 214.70046 108.91872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F604) (tstamp 576B1EAB)
+    (at 235.60046 102.11872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F5F4) (tstamp 576B1EBE)
+    (at 235.80046 98.91872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F6B2) (tstamp 576B1ED8)
+    (at 234.80046 149.21872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F69B) (tstamp 576C5DE8)
+    (at 246.30046 149.41872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F207) (tstamp 576C5E47)
+    (at 148.70046 73.61872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F327) (tstamp 576C5E83)
+    (at 208.10046 80.41872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F44A) (tstamp 576C5F03)
+    (at 195.70046 54.31872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F37B) (tstamp 576C64A6)
+    (at 208.70046 74.91872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F3BB) (tstamp 576C6521)
+    (at 222.50046 64.61872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F410) (tstamp 576C6535)
+    (at 217.70046 60.41872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F823) (tstamp 576D4A53)
+    (at 139.80046 112.01872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
+  )
+
+  (module UGL:via_22_38mil (layer F.Cu) (tedit 5788F7BE) (tstamp 577E6F81)
+    (at 177.80046 148.01872)
+    (attr virtual)
+    (fp_text reference via (at 0 -0.9) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (fp_text value 22/38mil (at 0 0.95) (layer F.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)))
+    )
+    (pad "" thru_hole circle (at 0 0) (size 0.9652 0.9652) (drill 0.5588) (layers *.Cu *.Mask F.SilkS)
+      (net 16 GND) (solder_mask_margin -1))
   )
 
   (gr_line (start 240.30046 144.11872) (end 241.90046 144.41872) (angle 90) (layer B.SilkS) (width 0.15))
@@ -6431,11 +6528,22 @@
   (segment (start 193.20046 127.31872) (end 190.80046 124.91872) (width 0.4064) (layer B.Cu) (net 15) (tstamp 576AAE3F))
   (segment (start 190.00046 81.01872) (end 190.00046 76.51872) (width 0.4064) (layer B.Cu) (net 15))
   (segment (start 189.40046 72.61872) (end 184.70046 67.91872) (width 0.4064) (layer B.Cu) (net 15))
+  (segment (start 200.40046 52.21872) (end 202.10046 52.21872) (width 0.4064) (layer B.Cu) (net 16))
   (segment (start 170.20046 156.71872) (end 170.50046 157.01872) (width 0.4064) (layer B.Cu) (net 16))
   (segment (start 170.50046 157.01872) (end 171.80046 157.01872) (width 0.4064) (layer B.Cu) (net 16) (tstamp 577E6F84))
   (segment (start 173.10046 152.71872) (end 177.80046 148.01872) (width 0.4064) (layer B.Cu) (net 16) (tstamp 577E6F87))
   (segment (start 173.10046 155.71872) (end 173.10046 152.71872) (width 0.4064) (layer B.Cu) (net 16) (tstamp 577E6F86))
   (segment (start 171.80046 157.01872) (end 173.10046 155.71872) (width 0.4064) (layer B.Cu) (net 16) (tstamp 577E6F85))
+  (segment (start 241.30046 143.61872) (end 243.10046 143.61872) (width 0.4064) (layer B.Cu) (net 16))
+  (segment (start 188.50046 54.31872) (end 188.20046 54.01872) (width 0.4064) (layer F.Cu) (net 16) (tstamp 576C5F0E))
+  (segment (start 195.70046 54.31872) (end 188.50046 54.31872) (width 0.4064) (layer F.Cu) (net 16) (status 10))
+  (segment (start 209.50046 70.31872) (end 209.50046 69.51872) (width 0.4064) (layer F.Cu) (net 16))
+  (segment (start 210.60046 68.41872) (end 217.10046 68.41872) (width 0.4064) (layer F.Cu) (net 16) (tstamp 576B1D3D))
+  (segment (start 209.50046 69.51872) (end 210.60046 68.41872) (width 0.4064) (layer F.Cu) (net 16) (tstamp 576B1D3B))
+  (segment (start 192.40046 50.01872) (end 192.70046 50.31872) (width 0.4064) (layer B.Cu) (net 16))
+  (segment (start 192.70046 50.31872) (end 192.70046 52.36872) (width 0.4064) (layer B.Cu) (net 16) (tstamp 576AFAA4))
+  (segment (start 188.60046 82.71872) (end 196.70046 82.71872) (width 0.6096) (layer F.Cu) (net 16))
+  (segment (start 196.70046 82.71872) (end 197.00046 83.01872) (width 0.6096) (layer F.Cu) (net 16) (tstamp 576AF97F))
   (segment (start 177.50046 140.01872) (end 177.50046 140.31872) (width 0.3048) (layer B.Cu) (net 16))
   (segment (start 177.50046 140.31872) (end 175.97046 141.84872) (width 0.3048) (layer B.Cu) (net 16) (tstamp 577E6F7D))
   (segment (start 175.97046 141.84872) (end 175.97046 142.18372) (width 0.3048) (layer B.Cu) (net 16) (tstamp 577E6F7E))
@@ -6445,9 +6553,7 @@
   (via (at 203.75046 69.46872) (size 0.9652) (drill 0.635) (layers F.Cu B.Cu) (net 16))
   (segment (start 204.15046 69.06872) (end 203.75046 69.46872) (width 0.2032) (layer B.Cu) (net 16) (tstamp 577DE4C8))
   (segment (start 205.06046 69.06872) (end 204.15046 69.06872) (width 0.2032) (layer B.Cu) (net 16))
-  (segment (start 200.40046 52.21872) (end 202.10046 52.21872) (width 0.4064) (layer B.Cu) (net 16))
   (segment (start 202.10046 52.21872) (end 202.30046 52.41872) (width 0.4064) (layer B.Cu) (net 16) (tstamp 577D7D27))
-  (segment (start 241.30046 143.61872) (end 243.10046 143.61872) (width 0.4064) (layer B.Cu) (net 16))
   (segment (start 143.32001 155.455217) (end 143.32001 156.63827) (width 0.4064) (layer B.Cu) (net 16))
   (segment (start 145.86001 156.65917) (end 145.86001 155.455217) (width 0.4064) (layer B.Cu) (net 16) (tstamp 57782AE6))
   (segment (start 145.50046 157.01872) (end 145.86001 156.65917) (width 0.4064) (layer B.Cu) (net 16) (tstamp 57782AE5))
@@ -6456,22 +6562,13 @@
   (segment (start 142.05001 155.455217) (end 143.32001 155.455217) (width 0.4064) (layer B.Cu) (net 16))
   (segment (start 205.06046 69.06872) (end 206.55046 69.06872) (width 0.2032) (layer B.Cu) (net 16))
   (segment (start 206.55046 69.06872) (end 207.60046 70.11872) (width 0.2032) (layer B.Cu) (net 16) (tstamp 576C64BD))
-  (segment (start 188.50046 54.31872) (end 188.20046 54.01872) (width 0.4064) (layer F.Cu) (net 16) (tstamp 576C5F0E))
-  (segment (start 195.70046 54.31872) (end 188.50046 54.31872) (width 0.4064) (layer F.Cu) (net 16) (status 10))
   (segment (start 246.30046 149.41872) (end 245.10046 148.21872) (width 0.4064) (layer B.Cu) (net 16))
   (segment (start 246.30046 149.41872) (end 246.20046 149.41872) (width 0.4064) (layer B.Cu) (net 16))
   (segment (start 246.20046 149.41872) (end 245.10046 150.51872) (width 0.4064) (layer B.Cu) (net 16) (tstamp 576C5DFA))
   (segment (start 187.70046 48.71872) (end 187.70046 49.51872) (width 0.4064) (layer B.Cu) (net 16))
   (segment (start 187.70046 49.51872) (end 188.20046 50.01872) (width 0.4064) (layer B.Cu) (net 16) (tstamp 576B1F3D))
-  (segment (start 209.50046 70.31872) (end 209.50046 69.51872) (width 0.4064) (layer F.Cu) (net 16))
-  (segment (start 210.60046 68.41872) (end 217.10046 68.41872) (width 0.4064) (layer F.Cu) (net 16) (tstamp 576B1D3D))
-  (segment (start 209.50046 69.51872) (end 210.60046 68.41872) (width 0.4064) (layer F.Cu) (net 16) (tstamp 576B1D3B))
   (segment (start 209.50046 70.31872) (end 207.80046 70.31872) (width 0.4064) (layer B.Cu) (net 16))
   (segment (start 207.80046 70.31872) (end 207.60046 70.11872) (width 0.4064) (layer B.Cu) (net 16) (tstamp 576B1D22))
-  (segment (start 192.40046 50.01872) (end 192.70046 50.31872) (width 0.4064) (layer B.Cu) (net 16))
-  (segment (start 192.70046 50.31872) (end 192.70046 52.36872) (width 0.4064) (layer B.Cu) (net 16) (tstamp 576AFAA4))
-  (segment (start 188.60046 82.71872) (end 196.70046 82.71872) (width 0.6096) (layer F.Cu) (net 16))
-  (segment (start 196.70046 82.71872) (end 197.00046 83.01872) (width 0.6096) (layer F.Cu) (net 16) (tstamp 576AF97F))
   (segment (start 153.80046 79.11872) (end 154.80046 80.11872) (width 0.4064) (layer B.Cu) (net 16))
   (segment (start 154.80046 80.11872) (end 155.70046 80.11872) (width 0.4064) (layer B.Cu) (net 16) (tstamp 576AB281))
   (segment (start 170.20046 156.71872) (end 170.090009 156.608269) (width 0.4064) (layer F.Cu) (net 16))
@@ -7541,62 +7638,11 @@
     )
     (filled_polygon
       (pts
-        (xy 156.720012 123.467657) (xy 156.781812 123.467657) (xy 156.781812 125.570217) (xy 156.845616 125.890983) (xy 157.027315 126.162914)
-        (xy 157.902572 127.038171) (xy 157.902572 128.300217) (xy 157.951855 128.547982) (xy 158.092203 128.758026) (xy 158.302247 128.898374)
-        (xy 158.550012 128.947657) (xy 160.350012 128.947657) (xy 160.597777 128.898374) (xy 160.807821 128.758026) (xy 160.948169 128.547982)
-        (xy 160.951273 128.532378) (xy 161.119369 128.700768) (xy 161.151812 128.71424) (xy 161.151812 135.965166) (xy 160.753761 135.626996)
-        (xy 160.053675 135.401549) (xy 159.320605 135.461174) (xy 158.666154 135.796794) (xy 158.189957 136.357314) (xy 157.325946 137.909635)
-        (xy 157.100498 138.609721) (xy 157.160124 139.34279) (xy 157.416782 139.843268) (xy 156.890135 140.060875) (xy 156.472138 140.478143)
-        (xy 156.24564 141.02361) (xy 156.245124 141.614233) (xy 156.47067 142.160094) (xy 156.887938 142.578091) (xy 157.433405 142.804589)
-        (xy 158.024028 142.805105) (xy 158.569889 142.579559) (xy 158.703258 142.446423) (xy 158.810012 142.467657) (xy 158.871812 142.467657)
-        (xy 158.871812 144.570217) (xy 158.935616 144.890983) (xy 159.117315 145.162914) (xy 159.992572 146.038171) (xy 159.992572 147.300217)
-        (xy 160.041855 147.547982) (xy 160.182203 147.758026) (xy 160.392247 147.898374) (xy 160.640012 147.947657) (xy 162.440012 147.947657)
-        (xy 162.687777 147.898374) (xy 162.897821 147.758026) (xy 163.038169 147.547982) (xy 163.041273 147.532378) (xy 163.209369 147.700768)
-        (xy 163.773342 147.93495) (xy 164.384003 147.935482) (xy 164.66226 147.820509) (xy 164.66226 152.676311) (xy 164.553557 152.784824)
-        (xy 164.46001 153.01011) (xy 164.46001 152.820217) (xy 164.447713 152.758395) (xy 164.447713 152.695361) (xy 164.409654 152.504022)
-        (xy 164.314093 152.273315) (xy 164.314092 152.273314) (xy 164.205709 152.111105) (xy 164.029135 151.934528) (xy 164.029134 151.934527)
-        (xy 163.866922 151.82614) (xy 163.866921 151.826139) (xy 163.700121 151.757047) (xy 163.636216 151.730576) (xy 163.636215 151.730576)
-        (xy 163.444874 151.692515) (xy 163.381835 151.692515) (xy 163.32001 151.680217) (xy 152.820006 151.680217) (xy 152.758179 151.692515)
-        (xy 152.695142 151.692516) (xy 152.503806 151.730577) (xy 152.503804 151.730577) (xy 152.503802 151.730578) (xy 152.503801 151.730578)
-        (xy 152.447818 151.753768) (xy 152.273098 151.82614) (xy 152.110887 151.934527) (xy 152.110886 151.934528) (xy 152.110884 151.934529)
-        (xy 152.080767 151.964647) (xy 151.934312 152.111103) (xy 151.934312 152.111104) (xy 151.93431 152.111106) (xy 151.825925 152.273319)
-        (xy 151.730365 152.504027) (xy 151.730365 152.50403) (xy 151.692307 152.695367) (xy 151.692307 152.758395) (xy 151.68001 152.820217)
-        (xy 151.68001 156.780217) (xy 146.650346 156.780217) (xy 146.897863 156.446957) (xy 147.007042 156.012356) (xy 146.843109 155.832217)
-        (xy 145.98701 155.832217) (xy 145.98701 155.852217) (xy 145.73301 155.852217) (xy 145.73301 155.832217) (xy 145.72501 155.832217)
-        (xy 145.72501 155.578217) (xy 145.73301 155.578217) (xy 145.73301 155.558217) (xy 145.98701 155.558217) (xy 145.98701 155.578217)
-        (xy 146.843109 155.578217) (xy 147.007042 155.398078) (xy 146.897863 154.963477) (xy 146.792098 154.821074) (xy 146.908613 154.646697)
-        (xy 146.989234 154.241387) (xy 148.093157 153.137464) (xy 148.274856 152.865532) (xy 148.33866 152.544767) (xy 148.33866 150.31872)
-        (xy 148.29073 150.077759) (xy 148.274856 149.997954) (xy 148.093157 149.726023) (xy 146.093157 147.726023) (xy 145.821226 147.544324)
-        (xy 145.50046 147.48052) (xy 141.610534 147.48052) (xy 141.820561 147.27086) (xy 142.054743 146.706887) (xy 142.055187 146.196175)
-        (xy 150.50261 146.196175) (xy 150.537599 146.409496) (xy 150.959598 146.549475) (xy 151.403042 146.517307) (xy 151.663321 146.409496)
-        (xy 151.69831 146.196175) (xy 151.10046 145.598325) (xy 150.50261 146.196175) (xy 142.055187 146.196175) (xy 142.055275 146.096226)
-        (xy 142.041861 146.06376) (xy 142.827763 145.277858) (xy 149.969705 145.277858) (xy 150.001873 145.721302) (xy 150.109684 145.981581)
-        (xy 150.323005 146.01657) (xy 150.920855 145.41872) (xy 151.280065 145.41872) (xy 151.877915 146.01657) (xy 152.091236 145.981581)
-        (xy 152.231215 145.559582) (xy 152.199047 145.116138) (xy 152.091236 144.855859) (xy 151.877915 144.82087) (xy 151.280065 145.41872)
-        (xy 150.920855 145.41872) (xy 150.323005 144.82087) (xy 150.109684 144.855859) (xy 149.969705 145.277858) (xy 142.827763 145.277858)
-        (xy 142.942707 145.162914) (xy 143.124406 144.890982) (xy 143.174077 144.641265) (xy 150.50261 144.641265) (xy 151.10046 145.239115)
-        (xy 151.69831 144.641265) (xy 151.663321 144.427944) (xy 151.241322 144.287965) (xy 150.797878 144.320133) (xy 150.537599 144.427944)
-        (xy 150.50261 144.641265) (xy 143.174077 144.641265) (xy 143.18821 144.570217) (xy 143.18821 142.467657) (xy 143.25001 142.467657)
-        (xy 143.356541 142.446467) (xy 143.487936 142.578091) (xy 144.033403 142.804589) (xy 144.624026 142.805105) (xy 145.169887 142.579559)
-        (xy 145.587884 142.162291) (xy 145.814382 141.616824) (xy 145.814898 141.026201) (xy 145.589352 140.48034) (xy 145.172084 140.062343)
-        (xy 144.626617 139.835845) (xy 144.035994 139.835329) (xy 143.490133 140.060875) (xy 143.356764 140.194011) (xy 143.25001 140.172777)
-        (xy 143.129433 140.172777) (xy 143.124406 140.147504) (xy 142.942707 139.875573) (xy 141.788045 138.720911) (xy 142.348623 138.648602)
-        (xy 142.986538 138.282526) (xy 143.435803 137.700197) (xy 143.525635 137.368417) (xy 150.552263 137.368417) (xy 150.873029 137.304613)
-        (xy 151.14496 137.122914) (xy 152.992114 135.27576) (xy 153.64596 135.27576) (xy 153.893725 135.226477) (xy 154.103769 135.086129)
-        (xy 154.244117 134.876085) (xy 154.2934 134.62832) (xy 154.2934 133.40912) (xy 154.244117 133.161355) (xy 154.103769 132.951311)
-        (xy 153.893725 132.810963) (xy 153.64596 132.76168) (xy 152.48156 132.76168) (xy 152.233795 132.810963) (xy 152.023751 132.951311)
-        (xy 151.93866 133.078658) (xy 151.93866 132.451055) (xy 156.57735 132.451055) (xy 156.612339 132.664376) (xy 157.034338 132.804355)
-        (xy 157.477782 132.772187) (xy 157.738061 132.664376) (xy 157.77305 132.451055) (xy 157.1752 131.853205) (xy 156.57735 132.451055)
-        (xy 151.93866 132.451055) (xy 151.93866 131.532738) (xy 156.044445 131.532738) (xy 156.076613 131.976182) (xy 156.184424 132.236461)
-        (xy 156.397745 132.27145) (xy 156.995595 131.6736) (xy 157.354805 131.6736) (xy 157.952655 132.27145) (xy 158.165976 132.236461)
-        (xy 158.305955 131.814462) (xy 158.273787 131.371018) (xy 158.165976 131.110739) (xy 157.952655 131.07575) (xy 157.354805 131.6736)
-        (xy 156.995595 131.6736) (xy 156.397745 131.07575) (xy 156.184424 131.110739) (xy 156.044445 131.532738) (xy 151.93866 131.532738)
-        (xy 151.93866 130.896145) (xy 156.57735 130.896145) (xy 157.1752 131.493995) (xy 157.77305 130.896145) (xy 157.738061 130.682824)
-        (xy 157.316062 130.542845) (xy 156.872618 130.575013) (xy 156.612339 130.682824) (xy 156.57735 130.896145) (xy 151.93866 130.896145)
-        (xy 151.93866 128.460666) (xy 151.937915 128.45692) (xy 151.874856 128.1399) (xy 151.693157 127.867969) (xy 151.562225 127.737037)
-        (xy 151.574744 127.706887) (xy 151.575276 127.096226) (xy 151.561862 127.06376) (xy 152.462708 126.162914) (xy 152.644407 125.890982)
-        (xy 152.708211 125.570217) (xy 152.708211 123.467657) (xy 152.770011 123.467657) (xy 152.86998 123.447772) (xy 153.235248 123.691836)
-        (xy 153.803391 123.804847) (xy 155.686631 123.804847) (xy 156.254774 123.691836) (xy 156.620042 123.447772)
+        (xy 170.403383 154.490207) (xy 170.72035 154.807728) (xy 170.86587 154.868153) (xy 170.722019 154.927591) (xy 170.404498 155.244558)
+        (xy 170.259437 155.593905) (xy 169.897878 155.620133) (xy 169.637599 155.727944) (xy 169.60261 155.941265) (xy 170.20046 156.539115)
+        (xy 170.214603 156.524973) (xy 170.394208 156.704578) (xy 170.380065 156.71872) (xy 170.394208 156.732863) (xy 170.346853 156.780217)
+        (xy 170.054067 156.780217) (xy 170.006713 156.732863) (xy 170.020855 156.71872) (xy 169.423005 156.12087) (xy 169.209684 156.155859)
+        (xy 169.169059 156.278332) (xy 169.048468 155.986478) (xy 168.93866 155.876478) (xy 168.93866 155.865914) (xy 170.377356 154.427218)
       )
     )
     (filled_polygon
@@ -7671,11 +7717,62 @@
     )
     (filled_polygon
       (pts
-        (xy 170.403383 154.490207) (xy 170.72035 154.807728) (xy 170.86587 154.868153) (xy 170.722019 154.927591) (xy 170.404498 155.244558)
-        (xy 170.259437 155.593905) (xy 169.897878 155.620133) (xy 169.637599 155.727944) (xy 169.60261 155.941265) (xy 170.20046 156.539115)
-        (xy 170.214603 156.524973) (xy 170.394208 156.704578) (xy 170.380065 156.71872) (xy 170.394208 156.732863) (xy 170.346853 156.780217)
-        (xy 170.054067 156.780217) (xy 170.006713 156.732863) (xy 170.020855 156.71872) (xy 169.423005 156.12087) (xy 169.209684 156.155859)
-        (xy 169.169059 156.278332) (xy 169.048468 155.986478) (xy 168.93866 155.876478) (xy 168.93866 155.865914) (xy 170.377356 154.427218)
+        (xy 156.720012 123.467657) (xy 156.781812 123.467657) (xy 156.781812 125.570217) (xy 156.845616 125.890983) (xy 157.027315 126.162914)
+        (xy 157.902572 127.038171) (xy 157.902572 128.300217) (xy 157.951855 128.547982) (xy 158.092203 128.758026) (xy 158.302247 128.898374)
+        (xy 158.550012 128.947657) (xy 160.350012 128.947657) (xy 160.597777 128.898374) (xy 160.807821 128.758026) (xy 160.948169 128.547982)
+        (xy 160.951273 128.532378) (xy 161.119369 128.700768) (xy 161.151812 128.71424) (xy 161.151812 135.965166) (xy 160.753761 135.626996)
+        (xy 160.053675 135.401549) (xy 159.320605 135.461174) (xy 158.666154 135.796794) (xy 158.189957 136.357314) (xy 157.325946 137.909635)
+        (xy 157.100498 138.609721) (xy 157.160124 139.34279) (xy 157.416782 139.843268) (xy 156.890135 140.060875) (xy 156.472138 140.478143)
+        (xy 156.24564 141.02361) (xy 156.245124 141.614233) (xy 156.47067 142.160094) (xy 156.887938 142.578091) (xy 157.433405 142.804589)
+        (xy 158.024028 142.805105) (xy 158.569889 142.579559) (xy 158.703258 142.446423) (xy 158.810012 142.467657) (xy 158.871812 142.467657)
+        (xy 158.871812 144.570217) (xy 158.935616 144.890983) (xy 159.117315 145.162914) (xy 159.992572 146.038171) (xy 159.992572 147.300217)
+        (xy 160.041855 147.547982) (xy 160.182203 147.758026) (xy 160.392247 147.898374) (xy 160.640012 147.947657) (xy 162.440012 147.947657)
+        (xy 162.687777 147.898374) (xy 162.897821 147.758026) (xy 163.038169 147.547982) (xy 163.041273 147.532378) (xy 163.209369 147.700768)
+        (xy 163.773342 147.93495) (xy 164.384003 147.935482) (xy 164.66226 147.820509) (xy 164.66226 152.676311) (xy 164.553557 152.784824)
+        (xy 164.46001 153.01011) (xy 164.46001 152.820217) (xy 164.447713 152.758395) (xy 164.447713 152.695361) (xy 164.409654 152.504022)
+        (xy 164.314093 152.273315) (xy 164.314092 152.273314) (xy 164.205709 152.111105) (xy 164.029135 151.934528) (xy 164.029134 151.934527)
+        (xy 163.866922 151.82614) (xy 163.866921 151.826139) (xy 163.700121 151.757047) (xy 163.636216 151.730576) (xy 163.636215 151.730576)
+        (xy 163.444874 151.692515) (xy 163.381835 151.692515) (xy 163.32001 151.680217) (xy 152.820006 151.680217) (xy 152.758179 151.692515)
+        (xy 152.695142 151.692516) (xy 152.503806 151.730577) (xy 152.503804 151.730577) (xy 152.503802 151.730578) (xy 152.503801 151.730578)
+        (xy 152.447818 151.753768) (xy 152.273098 151.82614) (xy 152.110887 151.934527) (xy 152.110886 151.934528) (xy 152.110884 151.934529)
+        (xy 152.080767 151.964647) (xy 151.934312 152.111103) (xy 151.934312 152.111104) (xy 151.93431 152.111106) (xy 151.825925 152.273319)
+        (xy 151.730365 152.504027) (xy 151.730365 152.50403) (xy 151.692307 152.695367) (xy 151.692307 152.758395) (xy 151.68001 152.820217)
+        (xy 151.68001 156.780217) (xy 146.650346 156.780217) (xy 146.897863 156.446957) (xy 147.007042 156.012356) (xy 146.843109 155.832217)
+        (xy 145.98701 155.832217) (xy 145.98701 155.852217) (xy 145.73301 155.852217) (xy 145.73301 155.832217) (xy 145.72501 155.832217)
+        (xy 145.72501 155.578217) (xy 145.73301 155.578217) (xy 145.73301 155.558217) (xy 145.98701 155.558217) (xy 145.98701 155.578217)
+        (xy 146.843109 155.578217) (xy 147.007042 155.398078) (xy 146.897863 154.963477) (xy 146.792098 154.821074) (xy 146.908613 154.646697)
+        (xy 146.989234 154.241387) (xy 148.093157 153.137464) (xy 148.274856 152.865532) (xy 148.33866 152.544767) (xy 148.33866 150.31872)
+        (xy 148.29073 150.077759) (xy 148.274856 149.997954) (xy 148.093157 149.726023) (xy 146.093157 147.726023) (xy 145.821226 147.544324)
+        (xy 145.50046 147.48052) (xy 141.610534 147.48052) (xy 141.820561 147.27086) (xy 142.054743 146.706887) (xy 142.055187 146.196175)
+        (xy 150.50261 146.196175) (xy 150.537599 146.409496) (xy 150.959598 146.549475) (xy 151.403042 146.517307) (xy 151.663321 146.409496)
+        (xy 151.69831 146.196175) (xy 151.10046 145.598325) (xy 150.50261 146.196175) (xy 142.055187 146.196175) (xy 142.055275 146.096226)
+        (xy 142.041861 146.06376) (xy 142.827763 145.277858) (xy 149.969705 145.277858) (xy 150.001873 145.721302) (xy 150.109684 145.981581)
+        (xy 150.323005 146.01657) (xy 150.920855 145.41872) (xy 151.280065 145.41872) (xy 151.877915 146.01657) (xy 152.091236 145.981581)
+        (xy 152.231215 145.559582) (xy 152.199047 145.116138) (xy 152.091236 144.855859) (xy 151.877915 144.82087) (xy 151.280065 145.41872)
+        (xy 150.920855 145.41872) (xy 150.323005 144.82087) (xy 150.109684 144.855859) (xy 149.969705 145.277858) (xy 142.827763 145.277858)
+        (xy 142.942707 145.162914) (xy 143.124406 144.890982) (xy 143.174077 144.641265) (xy 150.50261 144.641265) (xy 151.10046 145.239115)
+        (xy 151.69831 144.641265) (xy 151.663321 144.427944) (xy 151.241322 144.287965) (xy 150.797878 144.320133) (xy 150.537599 144.427944)
+        (xy 150.50261 144.641265) (xy 143.174077 144.641265) (xy 143.18821 144.570217) (xy 143.18821 142.467657) (xy 143.25001 142.467657)
+        (xy 143.356541 142.446467) (xy 143.487936 142.578091) (xy 144.033403 142.804589) (xy 144.624026 142.805105) (xy 145.169887 142.579559)
+        (xy 145.587884 142.162291) (xy 145.814382 141.616824) (xy 145.814898 141.026201) (xy 145.589352 140.48034) (xy 145.172084 140.062343)
+        (xy 144.626617 139.835845) (xy 144.035994 139.835329) (xy 143.490133 140.060875) (xy 143.356764 140.194011) (xy 143.25001 140.172777)
+        (xy 143.129433 140.172777) (xy 143.124406 140.147504) (xy 142.942707 139.875573) (xy 141.788045 138.720911) (xy 142.348623 138.648602)
+        (xy 142.986538 138.282526) (xy 143.435803 137.700197) (xy 143.525635 137.368417) (xy 150.552263 137.368417) (xy 150.873029 137.304613)
+        (xy 151.14496 137.122914) (xy 152.992114 135.27576) (xy 153.64596 135.27576) (xy 153.893725 135.226477) (xy 154.103769 135.086129)
+        (xy 154.244117 134.876085) (xy 154.2934 134.62832) (xy 154.2934 133.40912) (xy 154.244117 133.161355) (xy 154.103769 132.951311)
+        (xy 153.893725 132.810963) (xy 153.64596 132.76168) (xy 152.48156 132.76168) (xy 152.233795 132.810963) (xy 152.023751 132.951311)
+        (xy 151.93866 133.078658) (xy 151.93866 132.451055) (xy 156.57735 132.451055) (xy 156.612339 132.664376) (xy 157.034338 132.804355)
+        (xy 157.477782 132.772187) (xy 157.738061 132.664376) (xy 157.77305 132.451055) (xy 157.1752 131.853205) (xy 156.57735 132.451055)
+        (xy 151.93866 132.451055) (xy 151.93866 131.532738) (xy 156.044445 131.532738) (xy 156.076613 131.976182) (xy 156.184424 132.236461)
+        (xy 156.397745 132.27145) (xy 156.995595 131.6736) (xy 157.354805 131.6736) (xy 157.952655 132.27145) (xy 158.165976 132.236461)
+        (xy 158.305955 131.814462) (xy 158.273787 131.371018) (xy 158.165976 131.110739) (xy 157.952655 131.07575) (xy 157.354805 131.6736)
+        (xy 156.995595 131.6736) (xy 156.397745 131.07575) (xy 156.184424 131.110739) (xy 156.044445 131.532738) (xy 151.93866 131.532738)
+        (xy 151.93866 130.896145) (xy 156.57735 130.896145) (xy 157.1752 131.493995) (xy 157.77305 130.896145) (xy 157.738061 130.682824)
+        (xy 157.316062 130.542845) (xy 156.872618 130.575013) (xy 156.612339 130.682824) (xy 156.57735 130.896145) (xy 151.93866 130.896145)
+        (xy 151.93866 128.460666) (xy 151.937915 128.45692) (xy 151.874856 128.1399) (xy 151.693157 127.867969) (xy 151.562225 127.737037)
+        (xy 151.574744 127.706887) (xy 151.575276 127.096226) (xy 151.561862 127.06376) (xy 152.462708 126.162914) (xy 152.644407 125.890982)
+        (xy 152.708211 125.570217) (xy 152.708211 123.467657) (xy 152.770011 123.467657) (xy 152.86998 123.447772) (xy 153.235248 123.691836)
+        (xy 153.803391 123.804847) (xy 155.686631 123.804847) (xy 156.254774 123.691836) (xy 156.620042 123.447772)
       )
     )
     (filled_polygon
@@ -7811,11 +7908,11 @@
         (xy 140.899047 111.716138) (xy 140.791236 111.455859) (xy 140.577915 111.42087) (xy 139.980065 112.01872) (xy 139.620855 112.01872)
         (xy 139.023005 111.42087) (xy 138.809684 111.455859) (xy 138.669705 111.877858) (xy 126.46001 111.877858) (xy 126.46001 111.241265)
         (xy 139.20261 111.241265) (xy 139.80046 111.839115) (xy 140.39831 111.241265) (xy 140.363321 111.027944) (xy 139.941322 110.887965)
-        (xy 139.497878 110.920133) (xy 139.237599 111.027944) (xy 139.20261 111.241265) (xy 126.46001 111.241265) (xy 126.46001 104.040093)
-        (xy 127.184379 104.040093) (xy 127.736609 105.376591) (xy 128.758258 106.400025) (xy 130.093791 106.954587) (xy 131.539883 106.955849)
-        (xy 132.876381 106.403619) (xy 133.899815 105.38197) (xy 134.454377 104.046437) (xy 134.455639 102.600345) (xy 133.903409 101.263847)
-        (xy 132.88176 100.240413) (xy 131.546227 99.685851) (xy 130.100135 99.684589) (xy 128.763637 100.236819) (xy 127.740203 101.258468)
-        (xy 127.185641 102.594001) (xy 127.184379 104.040093) (xy 126.46001 104.040093) (xy 126.46001 98.196175) (xy 127.90261 98.196175)
+        (xy 139.497878 110.920133) (xy 139.237599 111.027944) (xy 139.20261 111.241265) (xy 126.46001 111.241265) (xy 126.46001 104.040095)
+        (xy 127.18438 104.040095) (xy 127.73661 105.376593) (xy 128.758259 106.400027) (xy 130.093792 106.954589) (xy 131.539884 106.955851)
+        (xy 132.876382 106.403621) (xy 133.899816 105.381972) (xy 134.454378 104.046439) (xy 134.45564 102.600347) (xy 133.90341 101.263849)
+        (xy 132.881761 100.240415) (xy 131.546228 99.685853) (xy 130.100136 99.684591) (xy 128.763638 100.236821) (xy 127.740204 101.25847)
+        (xy 127.185642 102.594003) (xy 127.18438 104.040095) (xy 126.46001 104.040095) (xy 126.46001 98.196175) (xy 127.90261 98.196175)
         (xy 127.937599 98.409496) (xy 128.359598 98.549475) (xy 128.803042 98.517307) (xy 129.063321 98.409496) (xy 129.09831 98.196175)
         (xy 128.50046 97.598325) (xy 127.90261 98.196175) (xy 126.46001 98.196175) (xy 126.46001 97.277858) (xy 127.369705 97.277858)
         (xy 127.401873 97.721302) (xy 127.509684 97.981581) (xy 127.723005 98.01657) (xy 128.320855 97.41872) (xy 128.680065 97.41872)
@@ -8074,7 +8171,7 @@
     )
     (filled_polygon
       (pts
-        (xy 186.036618 115.376591) (xy 187.058267 116.400025) (xy 188.3938 116.954587) (xy 189.839892 116.955849) (xy 190.58638 116.647406)
+        (xy 186.036618 115.376593) (xy 187.058267 116.400027) (xy 188.3938 116.954589) (xy 189.839892 116.955851) (xy 190.586376 116.64741)
         (xy 189.583208 117.650578) (xy 189.22374 117.501314) (xy 188.779131 117.500927) (xy 188.368218 117.670712) (xy 188.053557 117.984824)
         (xy 187.883054 118.39544) (xy 187.882667 118.840049) (xy 188.052452 119.250962) (xy 188.16226 119.360962) (xy 188.16226 119.876311)
         (xy 188.053557 119.984824) (xy 187.883054 120.39544) (xy 187.882667 120.840049) (xy 188.052452 121.250962) (xy 188.366564 121.565623)
@@ -8098,7 +8195,7 @@
         (xy 183.670008 123.467657) (xy 183.776539 123.446467) (xy 183.907934 123.578091) (xy 184.453401 123.804589) (xy 185.044024 123.805105)
         (xy 185.589885 123.579559) (xy 186.007882 123.162291) (xy 186.23438 122.616824) (xy 186.234896 122.026201) (xy 186.00935 121.48034)
         (xy 185.592082 121.062343) (xy 185.046615 120.835845) (xy 184.469233 120.835341) (xy 185.293157 120.011417) (xy 185.474856 119.739485)
-        (xy 185.53866 119.41872) (xy 185.53866 114.171441)
+        (xy 185.53866 119.41872) (xy 185.53866 114.171443)
       )
     )
     (filled_polygon
@@ -9746,10 +9843,10 @@
         (xy 127.420855 124.81872) (xy 126.823005 124.22087) (xy 126.609684 124.255859) (xy 126.469705 124.677858) (xy 126.46001 124.677858)
         (xy 126.46001 124.041265) (xy 127.00261 124.041265) (xy 127.60046 124.639115) (xy 128.19831 124.041265) (xy 128.163321 123.827944)
         (xy 127.741322 123.687965) (xy 127.297878 123.720133) (xy 127.037599 123.827944) (xy 127.00261 124.041265) (xy 126.46001 124.041265)
-        (xy 126.46001 104.040093) (xy 127.184379 104.040093) (xy 127.736609 105.376591) (xy 128.758258 106.400025) (xy 130.093791 106.954587)
-        (xy 131.539883 106.955849) (xy 132.876381 106.403619) (xy 133.899815 105.38197) (xy 134.454377 104.046437) (xy 134.455639 102.600345)
-        (xy 133.903409 101.263847) (xy 132.88176 100.240413) (xy 131.546227 99.685851) (xy 130.100135 99.684589) (xy 128.763637 100.236819)
-        (xy 127.740203 101.258468) (xy 127.185641 102.594001) (xy 127.184379 104.040093) (xy 126.46001 104.040093) (xy 126.46001 98.196175)
+        (xy 126.46001 104.040095) (xy 127.18438 104.040095) (xy 127.73661 105.376593) (xy 128.758259 106.400027) (xy 130.093792 106.954589)
+        (xy 131.539884 106.955851) (xy 132.876382 106.403621) (xy 133.899816 105.381972) (xy 134.454378 104.046439) (xy 134.45564 102.600347)
+        (xy 133.90341 101.263849) (xy 132.881761 100.240415) (xy 131.546228 99.685853) (xy 130.100136 99.684591) (xy 128.763638 100.236821)
+        (xy 127.740204 101.25847) (xy 127.185642 102.594003) (xy 127.18438 104.040095) (xy 126.46001 104.040095) (xy 126.46001 98.196175)
         (xy 127.90261 98.196175) (xy 127.937599 98.409496) (xy 128.359598 98.549475) (xy 128.803042 98.517307) (xy 129.063321 98.409496)
         (xy 129.09831 98.196175) (xy 128.50046 97.598325) (xy 127.90261 98.196175) (xy 126.46001 98.196175) (xy 126.46001 97.277858)
         (xy 127.369705 97.277858) (xy 127.401873 97.721302) (xy 127.509684 97.981581) (xy 127.723005 98.01657) (xy 128.320855 97.41872)
@@ -9774,8 +9871,8 @@
       (pts
         (xy 144.215817 110.811417) (xy 144.487749 110.993116) (xy 144.808514 111.05692) (xy 167.461507 111.05692) (xy 167.782273 110.993116)
         (xy 168.054204 110.811417) (xy 168.917964 109.947657) (xy 169.642056 109.947657) (xy 170.505816 110.811417) (xy 170.777748 110.993116)
-        (xy 171.098513 111.05692) (xy 186.242112 111.05692) (xy 186.040212 111.258468) (xy 185.48565 112.594001) (xy 185.484388 114.040093)
-        (xy 186.036618 115.376591) (xy 187.058267 116.400025) (xy 188.3938 116.954587) (xy 189.642 116.955676) (xy 189.01132 117.501129)
+        (xy 171.098513 111.05692) (xy 186.242114 111.05692) (xy 186.040212 111.25847) (xy 185.48565 112.594003) (xy 185.484388 114.040095)
+        (xy 186.036618 115.376593) (xy 187.058267 116.400027) (xy 188.3938 116.954589) (xy 189.641998 116.955678) (xy 189.01132 117.501129)
         (xy 188.779131 117.500927) (xy 188.368218 117.670712) (xy 188.053557 117.984824) (xy 187.883054 118.39544) (xy 187.882719 118.78052)
         (xy 183.793832 118.78052) (xy 183.855801 118.700197) (xy 184.04802 117.990269) (xy 184.093266 117.326586) (xy 183.999175 116.597139)
         (xy 183.633099 115.959225) (xy 183.05077 115.50996) (xy 182.340842 115.317741) (xy 181.611395 115.411831) (xy 180.97348 115.777908)
