@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name UGL)(type KiCad)(uri ${KIPRJMOD}/../libs/ugl/modules)(options "")(descr "Ultimate Hacking Keyboard library"))
+  (lib (name Input_Club)(type KiCad)(uri "${KIPRJMOD}/../libs/kiibohd/ICED - Right/prettylib")(options "")(descr "Input Club"))
 )
