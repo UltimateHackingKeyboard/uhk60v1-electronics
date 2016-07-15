@@ -3648,15 +3648,15 @@
     )
   )
 
-  (module UGL:SM0805 (layer B.Cu) (tedit 577CF354) (tstamp 53FCEA6A)
+  (module UGL:SM0805 (layer B.Cu) (tedit 57895457) (tstamp 53FCEA6A)
     (at 173.2 61.8)
     (path /512D54AD)
     (attr smd)
     (fp_text reference L1 (at -3.1 0 270) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value INDUCTOR (at 2.6924 0 -270) (layer B.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    (fp_text value INDUCTOR (at 2.1 0.4 -90) (layer B.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)) (justify mirror))
     )
     (fp_line (start -1.95 1.05) (end 1.95 1.05) (layer B.SilkS) (width 0.127))
     (fp_line (start 1.95 1.05) (end 1.95 -1.05) (layer B.SilkS) (width 0.127))
@@ -4150,15 +4150,15 @@
     )
   )
 
-  (module UGL:SM0805 (layer B.Cu) (tedit 577E8D5A) (tstamp 57524261)
+  (module UGL:SM0805 (layer B.Cu) (tedit 57895477) (tstamp 57524261)
     (at 118.3 142.8)
     (path /575609BE)
     (attr smd)
     (fp_text reference L2 (at 2.4 3) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value INDUCTOR (at 2.6924 0 90) (layer B.SilkS) hide
-      (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+    (fp_text value INDUCTOR (at 0 1 180) (layer B.SilkS) hide
+      (effects (font (size 0.375 0.375) (thickness 0.075)) (justify mirror))
     )
     (fp_line (start -1.95 1.05) (end 1.95 1.05) (layer B.SilkS) (width 0.127))
     (fp_line (start 1.95 1.05) (end 1.95 -1.05) (layer B.SilkS) (width 0.127))
