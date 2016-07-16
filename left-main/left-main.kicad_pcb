@@ -5674,7 +5674,7 @@
   (gr_text 0.4 (at 155.51912 87.67572) (layer Dwgs.User)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text "* design is 7mil-7mil-22mil trace-clearance-minimum_drill\n* 1.55mm board thickness" (at 29.5 26) (layer Cmts.User) (tstamp 526EC8A2)
+  (gr_text "design is 7mil-7mil-22mil trace-clearance-minimum_drill\n1.55mm board thickness\ngreen solder mask\nwhite silk screen" (at 29.5 26) (layer Cmts.User) (tstamp 526EC8A2)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_line (start 250.68501 96.320217) (end 247.68501 96.320217) (angle 90) (layer Edge.Cuts) (width 0.01))
