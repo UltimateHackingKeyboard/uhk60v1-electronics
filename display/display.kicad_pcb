@@ -124,6 +124,7 @@
   (module UGL:FFC_Connector_SFV10R-4STE1HLF locked (layer Front) (tedit 574AF38B) (tstamp 53D6B996)
     (at 128.887609 101.630587 189.8)
     (path /5758FEC2)
+    (attr smd)
     (fp_text reference P1 (at 0 -6.2 189.8) (layer F.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
@@ -224,7 +225,7 @@
       (net 1 GND) (solder_mask_margin -1))
   )
 
-  (module Input_Club:FID (layer Front) (tedit 57896071) (tstamp 57897031)
+  (module Input_Club:FID (layer Front) (tedit 578A98AA) (tstamp 57897031)
     (at 151.875 98.475)
     (descr FID)
     (tags FIDUCIAL)
@@ -232,14 +233,14 @@
     (fp_text reference FID2 (at 0 2.2) (layer F.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
-    (fp_text value >VALUE (at 0 -2.1) (layer F.Fab) hide
+    (fp_text value FIDUCIAL (at 0 -2.1) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (pad "" smd circle (at 0 0) (size 1 1) (layers Front F.Mask)
       (solder_mask_margin 1) (clearance 1.2))
   )
 
-  (module Input_Club:FID (layer Front) (tedit 5789613C) (tstamp 5789703A)
+  (module Input_Club:FID (layer Front) (tedit 578A98A2) (tstamp 5789703A)
     (at 122.975 107.975)
     (descr FID)
     (tags FIDUCIAL)
@@ -247,7 +248,7 @@
     (fp_text reference FID1 (at 2.1 0) (layer F.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
-    (fp_text value >VALUE (at 0 -2.1) (layer F.Fab) hide
+    (fp_text value FIDUCIAL (at 0 -2.1) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (pad "" smd circle (at 0 0) (size 1 1) (layers Front F.Mask)

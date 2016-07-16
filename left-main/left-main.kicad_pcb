@@ -3,7 +3,7 @@
   (general
     (links 440)
     (no_connects 0)
-    (area 29.5 17.6962 270.000001 165.000001)
+    (area 42.4 18.21872 278.000461 158.918721)
     (thickness 1.6)
     (drawings 481)
     (tracks 1607)
@@ -2778,7 +2778,6 @@
   (module UGL:SM0805_Diode (layer B.Cu) (tedit 577C2D8C) (tstamp 577BF88D)
     (at 230.60046 35.61872 90)
     (path /577F2A5A)
-    (attr smd)
     (fp_text reference D2 (at 1.3 1.9 90) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
@@ -2799,7 +2798,6 @@
   (module UGL:SM0805 (layer B.Cu) (tedit 577EE62D) (tstamp 577BF893)
     (at 227.20046 39.61872 180)
     (path /577F1EDC)
-    (attr smd)
     (fp_text reference R2 (at -1.7 -1.7 180) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
@@ -2814,6 +2812,11 @@
       (net 89 "Net-(D2-Pad1)"))
     (pad 2 smd rect (at 1 0 180) (size 1.2 1.4) (layers B.Cu B.Paste B.Mask)
       (net 87 /TEST_LED))
+    (model smd\resistors\R0603.wrl
+      (at (xyz 0 0 0.001))
+      (scale (xyz 0.5 0.5 0.5))
+      (rotate (xyz 0 0 0))
+    )
     (model smd\resistors\R0603.wrl
       (at (xyz 0 0 0.001))
       (scale (xyz 0.5 0.5 0.5))
@@ -5284,7 +5287,7 @@
       (net 16 GND) (solder_mask_margin -1))
   )
 
-  (module Input_Club:FID (layer B.Cu) (tedit 57895B95) (tstamp 57896706)
+  (module Input_Club:FID (layer B.Cu) (tedit 578A976B) (tstamp 57896706)
     (at 143.20046 146.31872)
     (descr FID)
     (tags FIDUCIAL)
@@ -5292,14 +5295,14 @@
     (fp_text reference FID1 (at -3 1.2) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value >VALUE (at 0 2.1) (layer B.Fab) hide
+    (fp_text value FIDUCIAL (at 0 2.1) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 1 1) (layers B.Cu B.Mask)
       (solder_mask_margin 1) (clearance 1.2))
   )
 
-  (module Input_Club:FID (layer B.Cu) (tedit 57895BA8) (tstamp 57896767)
+  (module Input_Club:FID (layer B.Cu) (tedit 578A977B) (tstamp 57896767)
     (at 139.90046 53.81872)
     (descr FID)
     (tags FIDUCIAL)
@@ -5307,14 +5310,14 @@
     (fp_text reference FID2 (at 2.8 -1.6) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value >VALUE (at 0 2.1) (layer B.Fab) hide
+    (fp_text value FIDUCIAL (at 0 2.1) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 1 1) (layers B.Cu B.Mask)
       (solder_mask_margin 1) (clearance 1.2))
   )
 
-  (module Input_Club:FID (layer B.Cu) (tedit 57895C03) (tstamp 5789679F)
+  (module Input_Club:FID (layer B.Cu) (tedit 578A9790) (tstamp 5789679F)
     (at 252.30046 53.91872)
     (descr FID)
     (tags FIDUCIAL)
@@ -5322,7 +5325,7 @@
     (fp_text reference FID3 (at 2.7 -1.6) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value >VALUE (at 0 2.1) (layer B.Fab) hide
+    (fp_text value FIDUCIAL (at 0 2.1) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (pad "" smd circle (at 0 0) (size 1 1) (layers B.Cu B.Mask)
