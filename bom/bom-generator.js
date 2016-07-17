@@ -2,28 +2,69 @@
 
 var fs = require('fs');
 var R = require('ramda');
-var kicadBomGenerator = require('kicad-bom-generator');
 
-var bomFiles = [
+reportStringToParts = function(reportString) {
+    return reportString
+        .split('$EndMODULE')
+        .map(function(componentString) {
+            var component = {};
+            componentString.split('\n')
+                .map(function(componentLine) {
+                    return componentLine.match(/^(\w+) (.*)$/);
+                })
+                .filter(function(matchedComponentPatterns) {
+                    return matchedComponentPatterns && matchedComponentPatterns.length === 3;
+                })
+                .map(function(matchedComponentPatterns) {
+                    var componentAttributeName = matchedComponentPatterns[1];
+                    var componentAttributeValue = matchedComponentPatterns[2];
+
+                    // Update the name of the property
+                    matchedComponentPatterns[1] = {
+                        reference: 'reference',
+                        value: 'value',
+                        footprint: 'footprint',
+                        attribut: 'attribute'
+                    }[componentAttributeName];
+
+                    // Update the value of the property
+                    var componentAttributeValuePatterns = componentAttributeValue.match(/^"(.*)"$/);
+                    if (componentAttributeValuePatterns && componentAttributeValuePatterns.length === 2) {
+                        matchedComponentPatterns[2] = componentAttributeValuePatterns[1]
+                    }
+                    return matchedComponentPatterns;
+                })
+                .forEach(function(matchedFilteredComponentPatterns) {
+                    component[matchedFilteredComponentPatterns[1]] = matchedFilteredComponentPatterns[2];
+                });
+                delete component.undefined;
+                return component;
+        })
+};
+
+var reportFiles = [
     {
         name: 'left-main',
-        netlist: __dirname + '/../left-main/left-main.net',
-        components: __dirname + '/../left-main/left-main.cmp'
+        file: __dirname + '/../left-main/left-main.rpt',
     },
     {
         name: 'right-main',
-        netlist: __dirname + '/../right-main/right-main.net',
-        components: __dirname + '/../right-main/right-main.cmp'
+        file: __dirname + '/../right-main/right-main.rpt',
     },
     {
         name: 'display',
-        netlist: __dirname + '/../display/display.net',
-        components: __dirname + '/../display/display.cmp'
+        file: __dirname + '/../display/display.rpt',
     }
 ];
 
+var reportString = fs.readFileSync(reportFiles[0].file, {encoding:'utf8'});
+var parts = reportStringToParts(reportString);
+parts = R.reject(R.propEq('attribute', 'virtual'), parts);
+console.log(parts)
+return;
+
 var components = [];
-bomFiles.forEach(function(bomFile) {
+reportFiles.forEach(function(bomFile) {
     var kicadComponents = fs.readFileSync(bomFile.components, {encoding:'utf8'});
     var kicadNetlist = fs.readFileSync(bomFile.netlist, {encoding:'utf8'});
     var newComponents = kicadBomGenerator(kicadComponents, kicadNetlist);
