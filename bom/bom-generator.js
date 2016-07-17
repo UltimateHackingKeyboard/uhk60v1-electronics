@@ -15,27 +15,22 @@ reportStringToParts = function(reportString) {
                 .filter(function(matchedComponentPatterns) {
                     return matchedComponentPatterns && matchedComponentPatterns.length === 3;
                 })
-                .map(function(matchedComponentPatterns) {
+                .forEach(function(matchedComponentPatterns) {
                     var componentAttributeName = matchedComponentPatterns[1];
-                    var componentAttributeValue = matchedComponentPatterns[2];
-
-                    // Update the name of the property
-                    matchedComponentPatterns[1] = {
+                    componentAttributeName = {
                         reference: 'reference',
                         value: 'value',
                         footprint: 'footprint',
                         attribut: 'attribute'
                     }[componentAttributeName];
 
-                    // Update the value of the property
+                    var componentAttributeValue = matchedComponentPatterns[2];
                     var componentAttributeValuePatterns = componentAttributeValue.match(/^"(.*)"$/);
                     if (componentAttributeValuePatterns && componentAttributeValuePatterns.length === 2) {
-                        matchedComponentPatterns[2] = componentAttributeValuePatterns[1]
+                        componentAttributeValue = componentAttributeValuePatterns[1]
                     }
-                    return matchedComponentPatterns;
-                })
-                .forEach(function(matchedFilteredComponentPatterns) {
-                    component[matchedFilteredComponentPatterns[1]] = matchedFilteredComponentPatterns[2];
+
+                    component[componentAttributeName] = componentAttributeValue;
                 });
                 delete component.undefined;
                 return component;
