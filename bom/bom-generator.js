@@ -1,10 +1,13 @@
 #!/usr/bin/env node
 
 var fs = require('fs');
+var path = require('path');
 var R = require('ramda');
 
 reportFileToParts = function(reportFilename) {
     var reportString = fs.readFileSync(reportFilename, {encoding:'utf8'})
+    var boardName = path.basename(reportFilename).replace(/\.[^/.]+$/, '');
+
     return reportString
         .split('$EndMODULE')
         .map(function(componentString) {
@@ -33,6 +36,8 @@ reportFileToParts = function(reportFilename) {
 
                     component[componentAttributeName] = componentAttributeValue;
                 });
+
+                component.board = boardName;
                 delete component.undefined;
                 return component;
         })
