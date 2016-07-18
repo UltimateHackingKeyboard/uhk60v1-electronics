@@ -44,21 +44,12 @@ reportFileToParts = function(reportFilename) {
 };
 
 var reportFiles = [
-    {
-        name: 'left-main',
-        file: __dirname + '/../left-main/left-main.rpt',
-    },
-    {
-        name: 'right-main',
-        file: __dirname + '/../right-main/right-main.rpt',
-    },
-    {
-        name: 'display',
-        file: __dirname + '/../display/display.rpt',
-    }
+    __dirname + '/../left-main/left-main.rpt',
+    __dirname + '/../right-main/right-main.rpt',
+    __dirname + '/../display/display.rpt'
 ];
 
-var parts = reportFileToParts(reportFiles[0].file);
+var parts = reportFileToParts(reportFiles[0]);
 parts = R.reject(R.propEq('attribute', 'virtual'), parts);
 console.log(parts)
 return;
