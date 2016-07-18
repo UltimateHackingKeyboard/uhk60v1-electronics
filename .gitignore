@@ -6,6 +6,7 @@ gerbers
 *.gbr
 *.gtl
 *.drl
+*.rpt
 *-bak
 _autosave-*
 *.swp
