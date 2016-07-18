@@ -11,10 +11,10 @@ var reportFiles = [
 ];
 
 function reportFileToParts(reportFilename) {
-    var reportString = fs.readFileSync(reportFilename, {encoding:'utf8'})
+    var reportString = fs.readFileSync(reportFilename, {encoding:'utf8'});
     var boardName = path.basename(reportFilename).replace(/\.[^/.]+$/, '');
 
-    return reportString
+    var parts= reportString
         .split('$EndMODULE')
         .map(function(componentString) {
             var component = {};
@@ -37,7 +37,7 @@ function reportFileToParts(reportFilename) {
                     var componentAttributeValue = matchedComponentPatterns[2];
                     var componentAttributeValuePatterns = componentAttributeValue.match(/^"(.*)"$/);
                     if (componentAttributeValuePatterns && componentAttributeValuePatterns.length === 2) {
-                        componentAttributeValue = componentAttributeValuePatterns[1]
+                        componentAttributeValue = componentAttributeValuePatterns[1];
                     }
 
                     component[componentAttributeName] = componentAttributeValue;
@@ -47,12 +47,14 @@ function reportFileToParts(reportFilename) {
                 delete component.undefined;
                 return component;
         })
+    parts.pop(); // Remove last undefined element.
+    return parts;
 };
 
 function filepathToBoardname(filename) {
     return path.basename(filename).replace(/\.[^/.]+$/, '');
 }
-
+//'SW13'.match(/^([A-Z]+)(\d+)$/)
 function arrayToCsv(array) {
     return array.map(function(element) {
         return '"' + element.replace(/"/g, '\\"') + '"';
@@ -68,9 +70,27 @@ function partsToCsvFile(parts, csvFilename) {
     fs.writeFileSync(csvFilename, csvFileContent);
 }
 
+function normalizePartProperties(part) {
+    if (part.value === 'FIDUCIAL') {
+        part.attribute = 'virtual';
+    }
+
+    if (part.footprint.indexOf('UGL:Cherry_MX_LED_') === 0) {
+        part.footprint = 'UGL:Cherry_MX_LED';
+    }
+
+    if (part.footprint.indexOf('UGL:Cherry_MX_Matias_Hybrid_') === 0) {
+        part.footprint = 'UGL:Cherry_MX_Matias_Hybrid';
+    }
+
+    if (part.footprint === 'UGL:Cherry_MX_Matias_Hybrid') {
+        part.value = '';
+    }
+}
+
 reportFiles.forEach(function(reportFile) {
     var parts = reportFileToParts(reportFile);
-    parts.pop();
+    parts.forEach(normalizePartProperties);
     parts = R.reject(R.propEq('attribute', 'virtual'), parts);
     partsToCsvFile(parts, filepathToBoardname(reportFile) + '.csv');
 });
