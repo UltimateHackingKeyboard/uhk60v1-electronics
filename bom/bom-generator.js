@@ -54,7 +54,7 @@ function reportFileToParts(reportFilename) {
 function filepathToBoardname(filename) {
     return path.basename(filename).replace(/\.[^/.]+$/, '');
 }
-//'SW13'.match(/^([A-Z]+)(\d+)$/)
+
 function arrayToCsv(array) {
     return array.map(function(element) {
         return '"' + element.replace(/"/g, '\\"') + '"';
@@ -88,9 +88,22 @@ function normalizePartProperties(part) {
     }
 }
 
+function addExtraPartProperties(part) {
+    var matches = part.reference.match(/^([A-Z]+)(\d+)$/);
+
+    if (!(matches && matches.length === 3)) {
+        return;
+    }
+
+    part.referenceName = matches[1];
+    part.referenceNumber = matches[2];
+    part.groupId = part.referenceName + ':' + part.value + ':' + part.footprint;
+}
+
 reportFiles.forEach(function(reportFile) {
     var parts = reportFileToParts(reportFile);
     parts.forEach(normalizePartProperties);
+    parts.forEach(addExtraPartProperties);
     parts = R.reject(R.propEq('attribute', 'virtual'), parts);
     partsToCsvFile(parts, filepathToBoardname(reportFile) + '.csv');
 });
