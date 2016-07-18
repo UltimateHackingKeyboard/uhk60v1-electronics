@@ -6,7 +6,6 @@
   "author": "Laszlo Monda",
   "license": "GPLv3",
   "dependencies": {
-    "kicad-bom-generator": "0.0.1",
     "ramda": "^0.13.0"
   }
 }
