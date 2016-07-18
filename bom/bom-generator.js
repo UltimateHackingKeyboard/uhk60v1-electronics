@@ -83,12 +83,6 @@ function normalizePartProperties(part) {
         part.footprint = 'UGL:Cherry_MX_Matias_Hybrid';
     }
 
-    if (part.footprint === 'UGL:Cherry_MX_Matias_Hybrid') {
-        part.value = '';
-    }
-}
-
-function addExtraPartProperties(part) {
     var matches = part.reference.match(/^([A-Z]+)(\d+)$/);
 
     if (!(matches && matches.length === 3)) {
@@ -97,29 +91,34 @@ function addExtraPartProperties(part) {
 
     part.referenceName = matches[1];
     part.referenceNumber = matches[2];
-    part.groupId = part.referenceName + ':' + part.value + ':' + part.footprint;
+
+    if (R.contains(part.referenceName, ['P', 'SW'])) {
+        part.value = '';
+    }
+
+    part.groupId = partToGroupId(part);
+}
+
+function partToGroupId(part) {
+    return part.referenceName + ':' + part.value + ':' + part.footprint;
+}
+
+function partsToGroupIds(parts) {
+    return R.uniq(parts.map(R.prop('groupId')));
 }
 
 reportFiles.forEach(function(reportFile) {
     var parts = reportFileToParts(reportFile);
     parts.forEach(normalizePartProperties);
-    parts.forEach(addExtraPartProperties);
     parts = R.reject(R.propEq('attribute', 'virtual'), parts);
+    console.log(partsToGroupIds(parts))
     partsToCsvFile(parts, filepathToBoardname(reportFile) + '.csv');
 });
 
 return;
 
 var components = [];
-reportFiles.forEach(function(bomFile) {
-    var kicadComponents = fs.readFileSync(bomFile.components, {encoding:'utf8'});
-    var kicadNetlist = fs.readFileSync(bomFile.netlist, {encoding:'utf8'});
-    var newComponents = kicadBomGenerator(kicadComponents, kicadNetlist);
-    newComponents.forEach(function(newComponent) {
-        newComponent.file = bomFile.name;
-    });
-    components = components.concat(newComponents);
-});
+components = components.concat(newComponents);
 
 components = components.map(function(component) {
     var type = R.uniq([component.libsource.part, component.value, component.component.module]).join(' ');
