@@ -3,7 +3,8 @@
 var fs = require('fs');
 var R = require('ramda');
 
-reportStringToParts = function(reportString) {
+reportFileToParts = function(reportFilename) {
+    var reportString = fs.readFileSync(reportFilename, {encoding:'utf8'})
     return reportString
         .split('$EndMODULE')
         .map(function(componentString) {
@@ -52,8 +53,7 @@ var reportFiles = [
     }
 ];
 
-var reportString = fs.readFileSync(reportFiles[0].file, {encoding:'utf8'});
-var parts = reportStringToParts(reportString);
+var parts = reportFileToParts(reportFiles[0].file);
 parts = R.reject(R.propEq('attribute', 'virtual'), parts);
 console.log(parts)
 return;
