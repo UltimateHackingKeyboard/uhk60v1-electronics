@@ -7,6 +7,7 @@ gerbers
 *.gtl
 *.drl
 *.rpt
+*.csv
 *-bak
 _autosave-*
 *.swp
