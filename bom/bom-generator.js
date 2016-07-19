@@ -150,20 +150,34 @@ partTypes.sort(function(partTypeA, partTypeB) {
     }
 });
 
-var csv = partTypes.map(function(partType) {
-    return arrayToCsv([
-        partType.referenceName,
-        partType.value,
-        partType.footprint,
-        partType.attribute,
-        partType.partsPerBoard.leftMain.length,
-        partType.partsPerBoard.leftMain.join(', '),
-        partType.partsPerBoard.rightMain.length,
-        partType.partsPerBoard.rightMain.join(', '),
-        partType.partsPerBoard.display.length,
-        partType.partsPerBoard.display.join(', '),
-        partType.quantity
-    ]);
-}).join('\n')
+var csvFields = [[
+    'ref name',
+    'value',
+    'footprint',
+    'attribute',
+    'left main QTY',
+    'left main refs',
+    'right main QTY',
+    'right main refs',
+    'display QTY',
+    'display refs',
+    'QTY SUM',
+]].concat(
+    partTypes.map(function(partType) {
+        return arrayToCsv([
+            partType.referenceName,
+            partType.value,
+            partType.footprint,
+            partType.attribute,
+            partType.partsPerBoard.leftMain.length,
+            partType.partsPerBoard.leftMain.join(', '),
+            partType.partsPerBoard.rightMain.length,
+            partType.partsPerBoard.rightMain.join(', '),
+            partType.partsPerBoard.display.length,
+            partType.partsPerBoard.display.join(', '),
+            partType.quantity
+        ]);
+    })
+);
 
-fs.writeFileSync('bom.csv', csv);
+fs.writeFileSync('bom.csv', csvFields.join('\n'));
