@@ -150,8 +150,6 @@ partTypes.sort(function(partTypeA, partTypeB) {
     }
 });
 
-//console.log(JSON.stringify(partTypes, null, 4))
-
 var csv = partTypes.map(function(partType) {
     return arrayToCsv([
         partType.referenceName,
@@ -168,38 +166,4 @@ var csv = partTypes.map(function(partType) {
     ]);
 }).join('\n')
 
-//console.log(csv);
 fs.writeFileSync('bom.csv', csv);
-
-//partsToCsvFile(allParts, 'bom.csv');
-return;
-
-var components = [];
-components = components.concat(newComponents);
-
-components = components.map(function(component) {
-    var type = R.uniq([component.libsource.part, component.value, component.component.module]).join(' ');
-    return {
-        type: type,
-        reference: component.ref,
-        file: component.file
-    };
-});
-
-var componentTypes = R.uniq(components.map(R.prop('type'))).sort();
-
-var componentsStatistics = componentTypes.map(function(componentType) {
-    return [
-        componentType,
-        components.filter(R.propEq('type', componentType)).length,
-        components.filter(R.where({type:componentType, file:'left-main'})).length,
-        components.filter(R.where({type:componentType, file:'right-main'})).length,
-        components.filter(R.where({type:componentType, file:'display'})).length
-    ];
-});
-
-var componentStatisticsCsv = componentsStatistics.map(function(componentStatistic) {
-    return componentStatistic.join(',');
-}).join('\n');
-
-fs.writeFileSync(__dirname + '/bom.csv', componentStatisticsCsv);
