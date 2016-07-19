@@ -96,25 +96,46 @@ function normalizePartProperties(part) {
         part.value = '';
     }
 
-    part.groupId = partToGroupId(part);
+    part.partType = partToPartType(part);
 }
 
-function partToGroupId(part) {
+function partToPartType(part) {
     return part.referenceName + ':' + part.value + ':' + part.footprint;
 }
 
-function partsToGroupIds(parts) {
-    return R.uniq(parts.map(R.prop('groupId')));
+function partsToPartTypes(parts) {
+    return R.uniq(parts.map(R.prop('partType')));
 }
+
+var allParts = [];
 
 reportFiles.forEach(function(reportFile) {
     var parts = reportFileToParts(reportFile);
     parts.forEach(normalizePartProperties);
     parts = R.reject(R.propEq('attribute', 'virtual'), parts);
-    console.log(partsToGroupIds(parts))
-    partsToCsvFile(parts, filepathToBoardname(reportFile) + '.csv');
+    allParts = allParts.concat(parts);
 });
 
+var partTypes = R.uniq(allParts.map(R.prop('partType')));
+partTypes = partTypes.map(function(partType) {
+    var filteredParts = allParts.filter(R.where({partType:partType}));
+    console.log(filteredParts)
+    var firstPart = filteredParts[0];
+    return {
+        quantity: filteredParts.length,
+        partsPerBoard: {
+            leftMain: filteredParts.filter(R.where({board:'left-main'})).map(R.prop('reference')),
+            rightMain: filteredParts.filter(R.where({board:'right-main'})).map(R.prop('reference')),
+            display: filteredParts.filter(R.where({board:'display'})).map(R.prop('reference'))
+        },
+        value: firstPart.value,
+        footprint: firstPart.footprint,
+        attribute: firstPart.attribute
+    };
+})
+
+console.log(JSON.stringify(partTypes, null, 4))
+partsToCsvFile(allParts, 'bom.csv');
 return;
 
 var components = [];
