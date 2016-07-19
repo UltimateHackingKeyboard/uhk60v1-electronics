@@ -57,7 +57,7 @@ function filepathToBoardname(filename) {
 
 function arrayToCsv(array) {
     return array.map(function(element) {
-        return '"' + element.replace(/"/g, '\\"') + '"';
+        return '"' + element.toString().replace(/"/g, '\\"') + '"';
     }).join(',');
 }
 
@@ -119,7 +119,6 @@ reportFiles.forEach(function(reportFile) {
 var partTypes = R.uniq(allParts.map(R.prop('partType')));
 partTypes = partTypes.map(function(partType) {
     var filteredParts = allParts.filter(R.where({partType:partType}));
-    console.log(filteredParts)
     var firstPart = filteredParts[0];
     return {
         quantity: filteredParts.length,
@@ -128,14 +127,51 @@ partTypes = partTypes.map(function(partType) {
             rightMain: filteredParts.filter(R.where({board:'right-main'})).map(R.prop('reference')),
             display: filteredParts.filter(R.where({board:'display'})).map(R.prop('reference'))
         },
+        referenceName: firstPart.referenceName,
         value: firstPart.value,
         footprint: firstPart.footprint,
         attribute: firstPart.attribute
     };
 })
 
-console.log(JSON.stringify(partTypes, null, 4))
-partsToCsvFile(allParts, 'bom.csv');
+partTypes.sort(function(partTypeA, partTypeB) {
+    if (partTypeA.referenceName < partTypeB.referenceName) {
+        return -1;
+    } else if (partTypeA.referenceName > partTypeB.referenceName) {
+        return 1;
+    } else {
+        if (partTypeA.value < partTypeB.value) {
+            return -1;
+        } else if (partTypeA.value > partTypeB.value) {
+            return 1;
+        } else {
+            return partTypeA.footprint < partTypeB.footprint ? -1 : 1;
+        }
+    }
+});
+
+//console.log(JSON.stringify(partTypes, null, 4))
+
+var csv = partTypes.map(function(partType) {
+    return arrayToCsv([
+        partType.referenceName,
+        partType.value,
+        partType.footprint,
+        partType.attribute,
+        partType.partsPerBoard.leftMain.length,
+        partType.partsPerBoard.leftMain.join(', '),
+        partType.partsPerBoard.rightMain.length,
+        partType.partsPerBoard.rightMain.join(', '),
+        partType.partsPerBoard.display.length,
+        partType.partsPerBoard.display.join(', '),
+        partType.quantity
+    ]);
+}).join('\n')
+
+//console.log(csv);
+fs.writeFileSync('bom.csv', csv);
+
+//partsToCsvFile(allParts, 'bom.csv');
 return;
 
 var components = [];
