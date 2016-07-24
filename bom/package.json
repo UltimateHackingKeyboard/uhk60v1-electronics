@@ -6,6 +6,7 @@
   "author": "Laszlo Monda",
   "license": "GPLv3",
   "dependencies": {
+    "babyparse": "^0.4.6",
     "ramda": "^0.13.0"
   }
 }

@@ -3,12 +3,15 @@
 var fs = require('fs');
 var path = require('path');
 var R = require('ramda');
+var parseCsv = require('babyparse').parse;
 
 var reportFiles = [
     __dirname + '/../left-main/left-main.rpt',
     __dirname + '/../right-main/right-main.rpt',
     __dirname + '/../display/display.rpt'
 ];
+
+componentTypesFile = 'UHK BOM - Component types.csv';
 
 function reportFileToParts(reportFilename) {
     var reportString = fs.readFileSync(reportFilename, {encoding:'utf8'});
@@ -107,6 +110,18 @@ function partsToPartTypes(parts) {
     return R.uniq(parts.map(R.prop('partType')));
 }
 
+var componentTypes = {};
+var componentTypesCsv = fs.readFileSync(componentTypesFile, 'utf8');
+var componentTypesArray = parseCsv(componentTypesCsv, {delimiter:'"'}).data;
+componentTypesArray.forEach(function(componentType) {
+    if (!componentType[0]) {
+        return;
+    }
+    var partType = componentType[0];
+    componentType.shift();
+    componentTypes[partType] = componentType;
+});
+
 var allParts = [];
 
 reportFiles.forEach(function(reportFile) {
@@ -121,6 +136,7 @@ partTypes = partTypes.map(function(partType) {
     var filteredParts = allParts.filter(R.where({partType:partType}));
     var firstPart = filteredParts[0];
     return {
+        partType: partType,
         quantity: filteredParts.length,
         partsPerBoard: {
             leftMain: filteredParts.filter(R.where({board:'left-main'})).map(R.prop('reference')),
@@ -151,9 +167,9 @@ partTypes.sort(function(partTypeA, partTypeB) {
 });
 
 var csvFields = [[
-    'ref name',
-    'value',
     'footprint',
+    'value',
+    'ref name',
     'attribute',
     'left main QTY',
     'left main refs',
@@ -165,6 +181,7 @@ var csvFields = [[
 ]].concat(
     partTypes.map(function(partType) {
         return arrayToCsv([
+            partType.partType,
             partType.referenceName,
             partType.value,
             partType.footprint,
@@ -176,7 +193,7 @@ var csvFields = [[
             partType.partsPerBoard.display.length,
             partType.partsPerBoard.display.join(', '),
             partType.quantity
-        ]);
+        ].concat(componentTypes[partType.partType] || []));
     })
 );
 
