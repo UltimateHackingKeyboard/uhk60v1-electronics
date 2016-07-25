@@ -117,7 +117,6 @@ var componentTypesCsv = fs.readFileSync(componentTypesFile, 'utf8');
 var componentTypesArray = parseCsv(componentTypesCsv, {delimiter:'"'}).data;
 
 var componentTypesHeader = componentTypesArray.shift();
-var componentTypesDescriptions = componentTypesArray.shift();
 
 componentTypesArray.forEach(function(componentTypeArray) {
     if (!componentTypeArray[0]) {
@@ -190,16 +189,13 @@ var csvFields = [[
     partTypes.map(function(partType) {
         return arrayToCsv([
             componentTypes[partType.partType].description,
-//            partType.partType,
             partType.partsPerBoard.leftMain.length,
-  //          partType.partsPerBoard.leftMain.join(', '),
             partType.partsPerBoard.rightMain.length,
-  //          partType.partsPerBoard.rightMain.join(', '),
             partType.partsPerBoard.display.length,
-  //          partType.partsPerBoard.display.join(', '),
             partType.quantity,
             componentTypes[partType.partType].avl1,
-            componentTypes[partType.partType].avl1pn
+            componentTypes[partType.partType].avl1pn,
+            componentTypes[partType.partType].avl1url
         ]);
     })
 );
