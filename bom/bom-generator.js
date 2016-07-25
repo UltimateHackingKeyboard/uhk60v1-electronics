@@ -181,34 +181,30 @@ partTypes.sort(function(partTypeA, partTypeB) {
 
 boards.forEach(function(board) {
     attributes.forEach(function(attribute) {
+        var camelCasedBoard = board.replace(/-([a-z])/g, function (g) { return g[1].toUpperCase(); });
         fs.writeFileSync(
             board + '-' + attribute + '-bom.csv',
             [[
+                'QTY',
                 'description',
-                'left main QTY',
-                'right main QTY',
-                'display QTY',
-                'QTY SUM',
+                'package',
+                'reference designators',
                 'AVL1',
-                'AVL1 P/N',
-                'AVL1 URL'
+                'AVL1 P/N'
             ]].concat(
                 partTypes
                 .filter(function(partType) {
-                    var camelCasedBoard = board.replace(/-([a-z])/g, function (g) { return g[1].toUpperCase(); });
                     return partType.partsPerBoard[camelCasedBoard].length > 0 &&
                         (attribute == 'all' ? true : partType.attribute == attribute);
                 })
                 .map(function(partType) {
                     return arrayToCsv([
+                        partType.partsPerBoard[camelCasedBoard].length,
                         componentTypes[partType.partType].description,
-                        partType.partsPerBoard.leftMain.length,
-                        partType.partsPerBoard.rightMain.length,
-                        partType.partsPerBoard.display.length,
-                        partType.quantity,
+                        componentTypes[partType.partType].package,
+                        partType.partsPerBoard[camelCasedBoard].join(','),
                         componentTypes[partType.partType].avl1,
-                        componentTypes[partType.partType].avl1pn,
-                        componentTypes[partType.partType].avl1url
+                        componentTypes[partType.partType].avl1pn
                     ]);
                 })
             ).join('\n')
