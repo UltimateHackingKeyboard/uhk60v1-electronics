@@ -156,7 +156,7 @@ partTypes = partTypes.map(function(partType) {
         referenceName: firstPart.referenceName,
         value: firstPart.value,
         footprint: firstPart.footprint,
-        attribute: {smd:'SMD', none:'PTH'}[firstPart.attribute] || 'n/a'
+        attribute: {smd:'smd', none:'pth'}[firstPart.attribute] || 'n/a'
     };
 })
 
@@ -176,28 +176,33 @@ partTypes.sort(function(partTypeA, partTypeB) {
     }
 });
 
-var csvFields = [[
-    'description',
-    'left main QTY',
-    'right main QTY',
-    'display QTY',
-    'QTY SUM',
-    'AVL1',
-    'AVL1 P/N',
-    'AVL1 URL'
-]].concat(
-    partTypes.map(function(partType) {
-        return arrayToCsv([
-            componentTypes[partType.partType].description,
-            partType.partsPerBoard.leftMain.length,
-            partType.partsPerBoard.rightMain.length,
-            partType.partsPerBoard.display.length,
-            partType.quantity,
-            componentTypes[partType.partType].avl1,
-            componentTypes[partType.partType].avl1pn,
-            componentTypes[partType.partType].avl1url
-        ]);
-    })
-);
-
-fs.writeFileSync('bom.csv', csvFields.join('\n'));
+['all', 'smd', 'pth'].forEach(function(attributeFilter) {
+    var csvFields = [[
+        'description',
+        'left main QTY',
+        'right main QTY',
+        'display QTY',
+        'QTY SUM',
+        'AVL1',
+        'AVL1 P/N',
+        'AVL1 URL'
+    ]].concat(
+        partTypes
+        .filter(function(partType) {
+            return attributeFilter == 'all' ? true : partType.attribute == attributeFilter;
+        })
+        .map(function(partType) {
+            return arrayToCsv([
+                componentTypes[partType.partType].description,
+                partType.partsPerBoard.leftMain.length,
+                partType.partsPerBoard.rightMain.length,
+                partType.partsPerBoard.display.length,
+                partType.quantity,
+                componentTypes[partType.partType].avl1,
+                componentTypes[partType.partType].avl1pn,
+                componentTypes[partType.partType].avl1url
+            ]);
+        })
+    );
+    fs.writeFileSync('boards-' + attributeFilter + '-bom.csv', csvFields.join('\n'));
+});
