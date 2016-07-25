@@ -57,7 +57,11 @@ function filepathToBoardname(filename) {
 
 function arrayToCsv(array) {
     return array.map(function(element) {
-        return '"' + element.toString().replace(/"/g, '\\"') + '"';
+        if (element === undefined) {
+            return '';
+        } else {
+            return '"' + element.toString().replace(/"/g, '\\"') + '"';
+        }
     }).join(',');
 }
 
@@ -131,6 +135,8 @@ function sortReferenceDesignators(referenceDesignators) {
 // Construct optional component types data structure.
 
 var componentTypes = {};
+
+try {
 var componentTypesCsv = fs.readFileSync(componentTypesFile, 'utf8');
 var componentTypesArray = parseCsv(componentTypesCsv, {delimiter:'"'}).data;
 
@@ -147,8 +153,10 @@ componentTypesArray.forEach(function(componentTypeArray) {
     });
     componentTypes[componentType.partType] = componentType;
 });
+} catch (exception) {
 
-// Read report files.
+}
+// Read parts from report files.
 
 var allParts = [];
 
@@ -159,6 +167,8 @@ boards.forEach(function(board) {
     parts = R.reject(R.propEq('attribute', 'virtual'), parts);
     allParts = allParts.concat(parts);
 });
+
+// Extract part types.
 
 var partTypes = R.uniq(allParts.map(R.prop('partType')));
 partTypes = partTypes.map(function(partType) {
@@ -179,6 +189,8 @@ partTypes = partTypes.map(function(partType) {
     };
 })
 
+// Sort part types.
+
 partTypes.sort(function(partTypeA, partTypeB) {
     if (partTypeA.referenceName < partTypeB.referenceName) {
         return -1;
@@ -194,6 +206,8 @@ partTypes.sort(function(partTypeA, partTypeB) {
         }
     }
 });
+
+// Generate per-board BOMs.
 
 boards.forEach(function(board) {
     attributes.forEach(function(attribute) {
@@ -214,19 +228,22 @@ boards.forEach(function(board) {
                         (attribute == 'all' ? true : partType.attribute == attribute);
                 })
                 .map(function(partType) {
+                    var componentType = componentTypes[partType.partType] || {};
                     return arrayToCsv([
                         partType.partsPerBoard[camelCasedBoard].length,
-                        componentTypes[partType.partType].description,
-                        componentTypes[partType.partType].package,
+                        componentType.description,
+                        componentType.package,
                         sortReferenceDesignators(partType.partsPerBoard[camelCasedBoard]).join(','),
-                        componentTypes[partType.partType].avl1,
-                        componentTypes[partType.partType].avl1pn
+                        componentType.avl1,
+                        componentType.avl1pn
                     ]);
                 })
             ).join('\n')
         );
     });
 });
+
+// Generate BOMs including every board.
 
 ['all', 'smd', 'pth'].forEach(function(attributeFilter) {
     fs.writeFileSync(
@@ -246,15 +263,16 @@ boards.forEach(function(board) {
                 return attributeFilter == 'all' ? true : partType.attribute == attributeFilter;
             })
             .map(function(partType) {
+                var componentType = componentTypes[partType.partType] || {};
                 return arrayToCsv([
-                    componentTypes[partType.partType].description,
+                    componentType.description,
                     partType.partsPerBoard.leftMain.length,
                     partType.partsPerBoard.rightMain.length,
                     partType.partsPerBoard.display.length,
                     partType.quantity,
-                    componentTypes[partType.partType].avl1,
-                    componentTypes[partType.partType].avl1pn,
-                    componentTypes[partType.partType].avl1url
+                    componentType.avl1,
+                    componentType.avl1pn,
+                    componentType.avl1url
                 ]);
             })
         ).join('\n')
