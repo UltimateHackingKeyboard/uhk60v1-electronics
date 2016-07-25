@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 0.201604222031+6709~44~ubuntu14.04.1-product)
+(kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201607190716+6983~46~ubuntu16.04.1-product)
 
   (general
     (links 5)
@@ -61,8 +61,8 @@
     (mod_edge_width 0.381)
     (mod_text_size 1.524 1.524)
     (mod_text_width 0.3048)
-    (pad_size 2.6 2.6)
-    (pad_drill 0)
+    (pad_size 1.65 1.65)
+    (pad_drill 1.65)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
@@ -265,7 +265,7 @@
       (net 5 N-000005))
   )
 
-  (module UGL:UHK_Connector_Left_Inner_Drill locked (layer F.Cu) (tedit 57269255) (tstamp 57269827)
+  (module UGL:UHK_Connector_Left_Inner_Drill locked (layer F.Cu) (tedit 579691C6) (tstamp 57269827)
     (at 118.837 109.237)
     (fp_text reference REF** (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
@@ -273,10 +273,10 @@
     (fp_text value VAL** (at 0 1.905) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask F.SilkS))
+    (pad "" np_thru_hole circle (at 0 0) (size 1.65 1.65) (drill 1.65) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module UGL:UHK_Connector_Left_Inner_Drill locked (layer F.Cu) (tedit 57269255) (tstamp 5726983C)
+  (module UGL:UHK_Connector_Left_Inner_Drill locked (layer F.Cu) (tedit 579694B0) (tstamp 5726983C)
     (at 122.237 109.237)
     (fp_text reference REF** (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
@@ -284,10 +284,10 @@
     (fp_text value VAL** (at 0 1.905) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask F.SilkS))
+    (pad "" np_thru_hole circle (at 0 0) (size 1.65 1.65) (drill 1.65) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module UGL:UHK_Connector_Left_Inner_Drill locked (layer F.Cu) (tedit 57269255) (tstamp 57269845)
+  (module UGL:UHK_Connector_Left_Inner_Drill locked (layer F.Cu) (tedit 579694B6) (tstamp 57269845)
     (at 125.637 109.237)
     (fp_text reference REF** (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
@@ -295,10 +295,10 @@
     (fp_text value VAL** (at 0 1.905) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask F.SilkS))
+    (pad "" np_thru_hole circle (at 0 0) (size 1.65 1.65) (drill 1.65) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module UGL:UHK_Connector_Left_Inner_Drill locked (layer F.Cu) (tedit 57269255) (tstamp 5726984E)
+  (module UGL:UHK_Connector_Left_Inner_Drill locked (layer F.Cu) (tedit 579694BF) (tstamp 5726984E)
     (at 129.037 109.237)
     (fp_text reference REF** (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
@@ -306,10 +306,10 @@
     (fp_text value VAL** (at 0 1.905) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask F.SilkS))
+    (pad "" np_thru_hole circle (at 0 0) (size 1.65 1.65) (drill 1.65) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module UGL:UHK_Connector_Left_Inner_Drill locked (layer F.Cu) (tedit 57269255) (tstamp 57269857)
+  (module UGL:UHK_Connector_Left_Inner_Drill locked (layer F.Cu) (tedit 579694CC) (tstamp 57269857)
     (at 132.437 109.237)
     (fp_text reference REF** (at 0 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
@@ -317,7 +317,7 @@
     (fp_text value VAL** (at 0 1.905) (layer F.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask F.SilkS))
+    (pad "" np_thru_hole circle (at 0 0) (size 1.65 1.65) (drill 1.65) (layers *.Cu *.Mask F.SilkS))
   )
 
   (module UGL:UHK_Connector_Left_Inner_Pad locked (layer B.Cu) (tedit 572692B6) (tstamp 5726542C)
