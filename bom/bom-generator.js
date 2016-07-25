@@ -8,12 +8,6 @@ var parseCsv = require('babyparse').parse;
 var boards = ['left-main', 'right-main', 'display'];
 var attributes = ['all', 'smd', 'pth'];
 
-var reportFiles = [
-    __dirname + '/../left-main/left-main.rpt',
-    __dirname + '/../right-main/right-main.rpt',
-    __dirname + '/../display/display.rpt'
-];
-
 componentTypesFile = 'UHK BOM - Component types.csv';
 
 function reportFileToParts(reportFilename) {
@@ -137,7 +131,8 @@ componentTypesArray.forEach(function(componentTypeArray) {
 
 var allParts = [];
 
-reportFiles.forEach(function(reportFile) {
+boards.forEach(function(board) {
+    var reportFile = __dirname + '/../' + board + '/' + board + '.rpt';
     var parts = reportFileToParts(reportFile);
     parts.forEach(normalizePartProperties);
     parts = R.reject(R.propEq('attribute', 'virtual'), parts);
