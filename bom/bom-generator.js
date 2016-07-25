@@ -110,17 +110,28 @@ function partsToPartTypes(parts) {
     return R.uniq(parts.map(R.prop('partType')));
 }
 
+// Construct optional component types data structure.
+
 var componentTypes = {};
 var componentTypesCsv = fs.readFileSync(componentTypesFile, 'utf8');
 var componentTypesArray = parseCsv(componentTypesCsv, {delimiter:'"'}).data;
-componentTypesArray.forEach(function(componentType) {
-    if (!componentType[0]) {
+
+var componentTypesHeader = componentTypesArray.shift();
+var componentTypesDescriptions = componentTypesArray.shift();
+
+componentTypesArray.forEach(function(componentTypeArray) {
+    if (!componentTypeArray[0]) {
         return;
     }
-    var partType = componentType[0];
-    componentType.shift();
-    componentTypes[partType] = componentType;
+    var componentType = {};
+    var fieldIndex = 0;
+    componentTypeArray.forEach(function(componentTypeField) {
+        componentType[componentTypesHeader[fieldIndex++]] = componentTypeField;
+    });
+    componentTypes[componentType.partType] = componentType;
 });
+
+// Read report files.
 
 var allParts = [];
 
@@ -146,7 +157,7 @@ partTypes = partTypes.map(function(partType) {
         referenceName: firstPart.referenceName,
         value: firstPart.value,
         footprint: firstPart.footprint,
-        attribute: firstPart.attribute
+        attribute: {smd:'SMD', none:'PTH'}[firstPart.attribute] || 'n/a'
     };
 })
 
@@ -167,33 +178,29 @@ partTypes.sort(function(partTypeA, partTypeB) {
 });
 
 var csvFields = [[
-    'footprint',
-    'value',
-    'ref name',
-    'attribute',
+    'description',
     'left main QTY',
-    'left main refs',
     'right main QTY',
-    'right main refs',
     'display QTY',
-    'display refs',
     'QTY SUM',
+    'AVL1',
+    'AVL1 P/N',
+    'AVL1 URL'
 ]].concat(
     partTypes.map(function(partType) {
         return arrayToCsv([
-            partType.partType,
-            partType.referenceName,
-            partType.value,
-            partType.footprint,
-            partType.attribute,
+            componentTypes[partType.partType].description,
+//            partType.partType,
             partType.partsPerBoard.leftMain.length,
-            partType.partsPerBoard.leftMain.join(', '),
+  //          partType.partsPerBoard.leftMain.join(', '),
             partType.partsPerBoard.rightMain.length,
-            partType.partsPerBoard.rightMain.join(', '),
+  //          partType.partsPerBoard.rightMain.join(', '),
             partType.partsPerBoard.display.length,
-            partType.partsPerBoard.display.join(', '),
-            partType.quantity
-        ].concat(componentTypes[partType.partType] || []));
+  //          partType.partsPerBoard.display.join(', '),
+            partType.quantity,
+            componentTypes[partType.partType].avl1,
+            componentTypes[partType.partType].avl1pn
+        ]);
     })
 );
 
