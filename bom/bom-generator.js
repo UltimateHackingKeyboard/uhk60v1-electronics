@@ -70,6 +70,8 @@ function partsToCsvFile(parts, csvFilename) {
     fs.writeFileSync(csvFilename, csvFileContent);
 }
 
+var referenceDesignatorRegExp = /^([A-Z]+)(\d+)$/;
+
 function normalizePartProperties(part) {
     if (part.value === 'FIDUCIAL') {
         part.attribute = 'virtual';
@@ -83,7 +85,7 @@ function normalizePartProperties(part) {
         part.footprint = 'UGL:Cherry_MX_Matias_Hybrid';
     }
 
-    var matches = part.reference.match(/^([A-Z]+)(\d+)$/);
+    var matches = part.reference.match(referenceDesignatorRegExp);
 
     if (!(matches && matches.length === 3)) {
         return;
@@ -105,6 +107,25 @@ function partToPartType(part) {
 
 function partsToPartTypes(parts) {
     return R.uniq(parts.map(R.prop('partType')));
+}
+
+function sortReferenceDesignators(referenceDesignators) {
+    return referenceDesignators.sort(function(a, b) {
+        var aMatch = a.match(referenceDesignatorRegExp);
+        var bMatch = b.match(referenceDesignatorRegExp);
+        var aLetter = aMatch[1];
+        var bLetter = bMatch[1];
+        var aNumber = parseInt(aMatch[2]);
+        var bNumber = parseInt(bMatch[2]);
+
+        if (aLetter < bLetter) {
+            return -1;
+        } else if (aLetter < bLetter) {
+            return 1;
+        } else {
+            return aNumber < bNumber ? -1 : 1;
+        }
+    });
 }
 
 // Construct optional component types data structure.
@@ -197,7 +218,7 @@ boards.forEach(function(board) {
                         partType.partsPerBoard[camelCasedBoard].length,
                         componentTypes[partType.partType].description,
                         componentTypes[partType.partType].package,
-                        partType.partsPerBoard[camelCasedBoard].join(','),
+                        sortReferenceDesignators(partType.partsPerBoard[camelCasedBoard]).join(','),
                         componentTypes[partType.partType].avl1,
                         componentTypes[partType.partType].avl1pn
                     ]);
