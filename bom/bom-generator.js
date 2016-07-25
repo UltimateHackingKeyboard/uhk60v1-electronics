@@ -5,6 +5,9 @@ var path = require('path');
 var R = require('ramda');
 var parseCsv = require('babyparse').parse;
 
+var boards = ['left-main', 'right-main', 'display'];
+var attributes = ['all', 'smd', 'pth'];
+
 var reportFiles = [
     __dirname + '/../left-main/left-main.rpt',
     __dirname + '/../right-main/right-main.rpt',
@@ -174,6 +177,43 @@ partTypes.sort(function(partTypeA, partTypeB) {
             return partTypeA.footprint < partTypeB.footprint ? -1 : 1;
         }
     }
+});
+
+boards.forEach(function(board) {
+    attributes.forEach(function(attribute) {
+        fs.writeFileSync(
+            board + '-' + attribute + '-bom.csv',
+            [[
+                'description',
+                'left main QTY',
+                'right main QTY',
+                'display QTY',
+                'QTY SUM',
+                'AVL1',
+                'AVL1 P/N',
+                'AVL1 URL'
+            ]].concat(
+                partTypes
+                .filter(function(partType) {
+                    var camelCasedBoard = board.replace(/-([a-z])/g, function (g) { return g[1].toUpperCase(); });
+                    return partType.partsPerBoard[camelCasedBoard].length > 0 &&
+                        (attribute == 'all' ? true : partType.attribute == attribute);
+                })
+                .map(function(partType) {
+                    return arrayToCsv([
+                        componentTypes[partType.partType].description,
+                        partType.partsPerBoard.leftMain.length,
+                        partType.partsPerBoard.rightMain.length,
+                        partType.partsPerBoard.display.length,
+                        partType.quantity,
+                        componentTypes[partType.partType].avl1,
+                        componentTypes[partType.partType].avl1pn,
+                        componentTypes[partType.partType].avl1url
+                    ]);
+                })
+            ).join('\n')
+        );
+    });
 });
 
 ['all', 'smd', 'pth'].forEach(function(attributeFilter) {
