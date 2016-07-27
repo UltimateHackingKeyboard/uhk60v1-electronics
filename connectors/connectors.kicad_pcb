@@ -426,7 +426,7 @@
   (gr_text r4 (at 140.9446 108.9406) (layer B.Cu)
     (effects (font (size 2.032 1.524) (thickness 0.3048)) (justify mirror))
   )
-  (gr_text "* design is 30mil-10mil-14mil trace-clearance-minimum_drill\n* 2.5mm board thickness\n* black soldermask\n* ENIG finish\n* no silkscreen\n" (at 99.2124 87.7443) (layer Cmts.User) (tstamp 53DA31C9)
+  (gr_text "design is 30mil-10mil-14mil trace-clearance-minimum_drill\n2.5mm board thickness\nblack solder mask\nENIG finish\nno silk screen" (at 99.2124 87.7443) (layer Cmts.User) (tstamp 53DA31C9)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_arc (start 157.553 109.379893) (end 158.053 109.379893) (angle 44.99944414) (layer Edge.Cuts) (width 0.01))
