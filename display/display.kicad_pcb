@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201607031448+6962~45~ubuntu14.04.1-product)
+(kicad_pcb (version 4) (host pcbnew 4.1.0-alpha+201607190716+6983~46~ubuntu16.04.1-product)
 
   (general
     (links 14)
@@ -65,7 +65,7 @@
     (grid_origin 121.875 109.075)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x010f0_ffffffff)
+      (layerselection 0x012f0_ffffffff)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.150000)
