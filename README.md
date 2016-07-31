@@ -14,4 +14,4 @@ Now, you should be able to open any of the 4 [KiCad](http://kicad-pcb.org/) proj
 * [left-main](left-main) contains main PCB of left keyboard half.
 * [right-main](right-main) contains the main PCB of the right keyboard half.
 * [display](display) contains the PCB that interfaces our custom manufactured LED segment display with the left main PCB.
-* [connector](connector) is a very small PCB that is soldered vertically to the right main circuit board to act as the female board to board connector that interconnects the keyboard halves without needing a bridge cable.
+* [connectors](connectors) are very small PCBs that are soldered vertically to the left and right main circuit boards to interconnect the keyboard halves without needing a bridge cable.
