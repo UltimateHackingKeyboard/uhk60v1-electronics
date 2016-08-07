@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/right-main/right-main.sch)
-    (date "Sat 06 Aug 2016 23:57:10 CEST")
+    (date "Sun 07 Aug 2016 11:46:12 CEST")
     (tool "Eeschema 4.1.0-alpha+201607190716+6983~46~ubuntu16.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -532,7 +532,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 53E61793))
     (comp (ref C13)
-      (value 4700pF)
+      (value 4.7nF)
       (footprint UGL:SM0805)
       (libsource (lib ugl) (part C))
       (sheetpath (names /) (tstamps /))
