@@ -251,8 +251,11 @@ boards.forEach(function(board) {
         [[
             'description',
             'left main QTY',
+            'left main reference designators',
             'right main QTY',
+            'right main reference designators',
             'display QTY',
+            'display reference designators',
             'QTY SUM',
             'AVL1',
             'AVL1 P/N',
@@ -267,8 +270,11 @@ boards.forEach(function(board) {
                 return arrayToCsv([
                     componentType.description,
                     partType.partsPerBoard.leftMain.length,
+                    sortReferenceDesignators(partType.partsPerBoard.leftMain).join(','),
                     partType.partsPerBoard.rightMain.length,
+                    sortReferenceDesignators(partType.partsPerBoard.rightMain).join(','),
                     partType.partsPerBoard.display.length,
+                    sortReferenceDesignators(partType.partsPerBoard.display).join(','),
                     partType.quantity,
                     componentType.avl1,
                     componentType.avl1pn,
