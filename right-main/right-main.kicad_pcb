@@ -3,9 +3,9 @@
   (general
     (links 477)
     (no_connects 0)
-    (area 121.459999 29.899987 271.605001 153.305001)
+    (area 27.953 17.20178 276.600001 157.900001)
     (thickness 1.6)
-    (drawings 433)
+    (drawings 435)
     (tracks 1827)
     (zones 0)
     (modules 263)
@@ -20,8 +20,8 @@
   )
 
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -6009,6 +6009,10 @@
       (solder_mask_margin 1) (clearance 1.2))
   )
 
+  (gr_text 1 (at 197.975 92.675) (layer Dwgs.User)
+    (effects (font (size 0.75 0.75) (thickness 0.15)))
+  )
+  (gr_circle (center 197.88 92.6) (end 197.88 97.6) (layer Eco1.User) (width 0.01))
   (dimension 123.39574 (width 0.3) (layer Cmts.User)
     (gr_text "123.396 mm = 4.8581 in" (at 111.11428 91.60213 90) (layer Cmts.User) (tstamp 57A666ED)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
