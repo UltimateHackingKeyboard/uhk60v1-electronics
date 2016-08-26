@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/left-main/left-main.sch)
-    (date "Fri 05 Aug 2016 10:28:49 CEST")
+    (date "Fri 26 Aug 2016 21:20:20 CEST")
     (tool "Eeschema 4.1.0-alpha+201607190716+6983~46~ubuntu16.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -839,9 +839,9 @@
         (field (name Reference) VR)
         (field (name Value) AZ1117E))
       (pins
-        (pin (num 1) (name Vin) (type passive))
-        (pin (num 2) (name GND) (type passive))
-        (pin (num 3) (name Vout) (type passive))))
+        (pin (num 1) (name GND) (type passive))
+        (pin (num 2) (name Vout) (type passive))
+        (pin (num 3) (name Vin) (type passive))))
     (libpart (lib ugl) (part C)
       (description "Condensateur non polarise")
       (footprints
@@ -1087,7 +1087,7 @@
       (node (ref C8) (pin 2))
       (node (ref L2) (pin 2))
       (node (ref P6) (pin 1))
-      (node (ref VR1) (pin 1))
+      (node (ref VR1) (pin 3))
       (node (ref U2) (pin 2))
       (node (ref C10) (pin 2))
       (node (ref C1) (pin 2)))
@@ -1119,7 +1119,7 @@
       (node (ref C6) (pin 1))
       (node (ref C5) (pin 1))
       (node (ref U4) (pin 2))
-      (node (ref VR1) (pin 2))
+      (node (ref VR1) (pin 1))
       (node (ref C10) (pin 1))
       (node (ref C12) (pin 1))
       (node (ref U2) (pin 18))
@@ -1130,7 +1130,7 @@
       (node (ref C4) (pin 2))
       (node (ref P3) (pin 1))
       (node (ref C12) (pin 2))
-      (node (ref VR1) (pin 3))
+      (node (ref VR1) (pin 2))
       (node (ref U1) (pin 3))
       (node (ref P7) (pin 1))
       (node (ref P4) (pin 1))
