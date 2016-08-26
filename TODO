@@ -1,0 +1,8 @@
+* Exchange the SDA and SCL 4P4C pins, so that the pin order will be unified.
+* Remove the crystal and its 2 capacitors as soon as we make sure that they aren't needed.
+* Add orientation marker in a unified manner inside of outside of every component where orientation is questionable.
+* Feature the part number of every component where it's not obvious.
+* Leave a generous amount of space between each track, possibly by using thinner tracks where needed.
+* Some tracks are very close to the edge of the boards. Route them farther.
+* Improve silk screen for maximum readability. Make sure that every relevant information is easily readable.
+* Improve DFM based on manufacturer recommendations.
