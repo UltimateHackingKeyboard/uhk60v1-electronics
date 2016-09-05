@@ -1049,9 +1049,9 @@ KEYS_ROW4
 Text Label 3300 7100 2    40   ~ 0
 KEYS_ROW5
 Text Label 2200 3450 2    40   ~ 0
-SDA
-Text Label 2200 3100 2    40   ~ 0
 SCL
+Text Label 2200 3100 2    40   ~ 0
+SDA
 Text Label 1300 950  0    40   ~ 0
 UDB_DP_IN
 Text Label 1400 1100 0    40   ~ 0
@@ -1200,9 +1200,9 @@ F 3 "" H 1650 1700 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text Label 1250 3200 0    40   ~ 0
-SDA_TOP
-Text Label 1250 3100 0    40   ~ 0
 SCL_TOP
+Text Label 1250 3100 0    40   ~ 0
+SDA_TOP
 Text Label 1400 2800 0    40   ~ 0
 VCC_TOP
 $Comp

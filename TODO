@@ -1,4 +1,3 @@
-* Exchange the SDA and SCL 4P4C pins, so that the pin order will be unified.
 * Remove the crystal and its 2 capacitors as soon as we make sure that they aren't needed.
 * Add orientation marker in a unified manner inside of outside of every component where orientation is questionable.
 * Feature the part number of every component where it's not obvious.

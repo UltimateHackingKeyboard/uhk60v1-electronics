@@ -1516,9 +1516,9 @@ F 3 "" H 1100 3750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 2350 1600 2    40   ~ 0
-SCL
-Text Label 2350 1950 2    40   ~ 0
 SDA
+Text Label 2350 1950 2    40   ~ 0
+SCL
 $Comp
 L ZENER U3
 U 3 1 5768A62B
@@ -1553,7 +1553,7 @@ F 3 "" H 4450 3700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1400 1700 0    40   ~ 0
-SDA_SRC1
+SCL_SRC1
 Text Label 1550 1300 0    40   ~ 0
 VCC_TOP
 $Comp
@@ -1695,7 +1695,7 @@ F 3 "" H 2250 2150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text Label 1400 1600 0    40   ~ 0
-SCL_SRC1
+SDA_SRC1
 $Comp
 L GND #PWR012
 U 1 1 576BED7D
