@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/right-main/right-main.sch)
-    (date "Tue 13 Sep 2016 23:34:12 CEST")
+    (date "Tue 13 Sep 2016 23:41:09 CEST")
     (tool "Eeschema 4.1.0-alpha+201608261546+7096~46~ubuntu16.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -538,7 +538,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 53E6221D))
     (comp (ref U2)
-      (value EEPROM)
+      (value CAT24C256WI-GT3)
       (footprint UGL:EEPROM-SOIC8)
       (libsource (lib opendous) (part 24xx512_EEPROM))
       (sheetpath (names /) (tstamps /))
@@ -1239,10 +1239,10 @@
         (pin (num 4) (name C) (type passive))
         (pin (num 5) (name C) (type passive)))))
   (libraries
-    (library (logical opendous)
-      (uri /home/laci/projects/uhk/electronics/libs/opendous/library/opendous.lib))
     (library (logical ugl)
-      (uri /home/laci/projects/uhk/electronics/libs/ugl/library/ugl.lib)))
+      (uri /home/laci/projects/uhk/electronics/libs/ugl/library/ugl.lib))
+    (library (logical opendous)
+      (uri /home/laci/projects/uhk/electronics/libs/opendous/library/opendous.lib)))
   (nets
     (net (code 1) (name /KEYS_ROW5)
       (node (ref U1) (pin 63))
