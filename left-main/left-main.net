@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/left-main/left-main.sch)
-    (date "Tue 06 Sep 2016 00:48:08 CEST")
+    (date "Tue 13 Sep 2016 21:10:48 CEST")
     (tool "Eeschema 4.1.0-alpha+201608261546+7096~46~ubuntu16.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -412,7 +412,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 51C91DDE))
     (comp (ref P5)
-      (value CONN_10)
+      (value SFV10R-2STE1HLF)
       (footprint UGL:FFC_Connector_SFV10R-4STE1HLF)
       (libsource (lib ugl) (part CONN_10))
       (sheetpath (names /) (tstamps /))
