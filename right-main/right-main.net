@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/right-main/right-main.sch)
-    (date "Tue 13 Sep 2016 23:30:29 CEST")
+    (date "Tue 13 Sep 2016 23:34:12 CEST")
     (tool "Eeschema 4.1.0-alpha+201608261546+7096~46~ubuntu16.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -454,7 +454,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 50CD1B69))
     (comp (ref J1)
-      (value USBCONN)
+      (value 548190519)
       (footprint UGL:USB_Mini_B_Connector_0548190519)
       (libsource (lib opendous) (part USBCONN))
       (sheetpath (names /) (tstamps /))
