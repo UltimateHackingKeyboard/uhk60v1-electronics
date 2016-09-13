@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/left-main/left-main.sch)
-    (date "Tue 13 Sep 2016 21:18:03 CEST")
+    (date "Tue 13 Sep 2016 22:44:01 CEST")
     (tool "Eeschema 4.1.0-alpha+201608261546+7096~46~ubuntu16.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -629,7 +629,7 @@
       (tstamp 5748A800))
     (comp (ref U2)
       (value IS31FL3731)
-      (footprint Input_Club:SSOP-28)
+      (footprint UGL:SSOP-28)
       (fields
         (field (name Field4) Dual-row))
       (libsource (lib ugl) (part IS31FL3731))
@@ -775,7 +775,7 @@
       (tstamp 576A1319))
     (comp (ref VR1)
       (value AZ1117E)
-      (footprint Input_Club:SOT-223)
+      (footprint UGL:SOT-223)
       (libsource (lib ugl) (part AZ1117E))
       (sheetpath (names /) (tstamps /))
       (tstamp 57733360))
