@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/right-main/right-main.sch)
-    (date "Tue 13 Sep 2016 23:08:37 CEST")
+    (date "Tue 13 Sep 2016 23:30:29 CEST")
     (tool "Eeschema 4.1.0-alpha+201608261546+7096~46~ubuntu16.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -581,7 +581,7 @@
       (tstamp 552FFC67))
     (comp (ref U1)
       (value MK22FN512VLH12)
-      (footprint Input_Club:LQFP64)
+      (footprint UGL:LQFP64)
       (libsource (lib ugl) (part MK22FN512VLH12))
       (sheetpath (names /) (tstamps /))
       (tstamp 57208451))
