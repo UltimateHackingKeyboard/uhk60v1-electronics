@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/right-main/right-main.sch)
-    (date "Tue 13 Sep 2016 21:21:56 CEST")
+    (date "Tue 13 Sep 2016 23:08:37 CEST")
     (tool "Eeschema 4.1.0-alpha+201608261546+7096~46~ubuntu16.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -574,7 +574,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5527B234))
     (comp (ref SW1)
-      (value SPST)
+      (value CT05-3050-G1)
       (footprint UGL:Reed_Switch_CT05-3050-G1)
       (libsource (lib ugl) (part SPST))
       (sheetpath (names /) (tstamps /))
@@ -797,7 +797,7 @@
       (tstamp 5754978E))
     (comp (ref U3)
       (value IS31FL3731)
-      (footprint Input_Club:SSOP-28)
+      (footprint UGL:SSOP-28)
       (fields
         (field (name Field4) Dual-row))
       (libsource (lib ugl) (part IS31FL3731))

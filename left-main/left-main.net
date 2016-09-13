@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/left-main/left-main.sch)
-    (date "Tue 13 Sep 2016 22:44:01 CEST")
+    (date "Tue 13 Sep 2016 22:53:50 CEST")
     (tool "Eeschema 4.1.0-alpha+201608261546+7096~46~ubuntu16.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -654,7 +654,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 574BF707))
     (comp (ref SW1)
-      (value SPST)
+      (value CT05-3050-G1)
       (footprint UGL:Reed_Switch_CT05-3050-G1)
       (libsource (lib ugl) (part SPST))
       (sheetpath (names /) (tstamps /))
