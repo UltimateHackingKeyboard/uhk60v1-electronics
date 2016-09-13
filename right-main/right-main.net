@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/right-main/right-main.sch)
-    (date "Tue 06 Sep 2016 00:36:45 CEST")
+    (date "Tue 13 Sep 2016 21:21:56 CEST")
     (tool "Eeschema 4.1.0-alpha+201608261546+7096~46~ubuntu16.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -568,7 +568,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 53FE8B2B))
     (comp (ref P1)
-      (value CONN_4)
+      (value 955012441)
       (footprint UGL:4P4C_Jack_0955012441)
       (libsource (lib ugl) (part CONN_4))
       (sheetpath (names /) (tstamps /))
@@ -1239,10 +1239,10 @@
         (pin (num 4) (name C) (type passive))
         (pin (num 5) (name C) (type passive)))))
   (libraries
-    (library (logical ugl)
-      (uri /home/laci/projects/uhk/electronics/libs/ugl/library/ugl.lib))
     (library (logical opendous)
-      (uri /home/laci/projects/uhk/electronics/libs/opendous/library/opendous.lib)))
+      (uri /home/laci/projects/uhk/electronics/libs/opendous/library/opendous.lib))
+    (library (logical ugl)
+      (uri /home/laci/projects/uhk/electronics/libs/ugl/library/ugl.lib)))
   (nets
     (net (code 1) (name /KEYS_ROW5)
       (node (ref U1) (pin 63))

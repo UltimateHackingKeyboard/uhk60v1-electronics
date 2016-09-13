@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/left-main/left-main.sch)
-    (date "Tue 13 Sep 2016 21:10:48 CEST")
+    (date "Tue 13 Sep 2016 21:18:03 CEST")
     (tool "Eeschema 4.1.0-alpha+201608261546+7096~46~ubuntu16.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -696,7 +696,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5768A62B))
     (comp (ref P1)
-      (value CONN_4)
+      (value 955012441)
       (footprint UGL:4P4C_Jack_0955012441)
       (libsource (lib ugl) (part CONN_4))
       (sheetpath (names /) (tstamps /))
