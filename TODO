@@ -6,3 +6,4 @@
 * Some tracks are very close to the edge of the boards. Route them farther.
 * Improve silk screen for maximum readability. Make sure that every relevant information is easily readable.
 * Improve DFM based on manufacturer recommendations.
+* Possibly rotate 10 pin ARM SWD headers by 180 degrees. It'd be more comfortable to connect LPC-Link2 then.
