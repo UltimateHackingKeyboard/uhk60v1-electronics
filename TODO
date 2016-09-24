@@ -8,3 +8,4 @@
 * Improve DFM based on manufacturer recommendations.
 * Possibly rotate 10 pin ARM SWD headers by 180 degrees. It'd be more comfortable to connect LPC-Link2 then.
 * Give a try to tantalum caps for the LED driver ICs because ceramic caps make some noise.
+* Wire some unused pins to GND so that further PCB revisions can use VCC to make the firmware able to detect various PCB revisions.
