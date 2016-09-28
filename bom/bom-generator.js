@@ -250,6 +250,7 @@ boards.forEach(function(board) {
         'boards-' + attributeFilter + '-bom.csv',
         [[
             'description',
+            'package',
             'left main QTY',
             'left main reference designators',
             'right main QTY',
@@ -269,6 +270,7 @@ boards.forEach(function(board) {
                 var componentType = componentTypes[partType.partType] || {};
                 return arrayToCsv([
                     componentType.description,
+                    componentType.package,
                     partType.partsPerBoard.leftMain.length,
                     sortReferenceDesignators(partType.partsPerBoard.leftMain).join(','),
                     partType.partsPerBoard.rightMain.length,
