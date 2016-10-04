@@ -2774,4 +2774,10 @@ Wire Notes Line
 Wire Wire Line
 	4250 1100 4750 1100
 Connection ~ 4400 1100
+Text Notes 5650 975  0    40   ~ 0
+SMD test LED
+Text Notes 5450 725  0    40   ~ 0
+resistor legged test LED
+Text Notes 3700 1015 0    40   ~ 0
+reed switch
 $EndSCHEMATC

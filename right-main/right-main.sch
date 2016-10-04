@@ -3353,4 +3353,14 @@ F 3 "" H 6150 1300 50  0000 C CNN
 	1    6150 1300
 	1    0    0    -1  
 $EndComp
+Text Notes 7550 3975 0    40   ~ 0
+reed switch
+Text Notes 7450 3525 0    40   ~ 0
+reset button
+Text Notes 6400 1600 1    40   ~ 0
+"enable LEDs"\nsolder jumper
+Text Notes 4150 1725 0    40   ~ 0
+SMD test LED
+Text Notes 4075 1200 0    40   ~ 0
+resistor legged test LED
 $EndSCHEMATC
