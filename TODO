@@ -1,10 +1,7 @@
 * Remove the crystal and its 2 capacitors as soon as we make sure that they aren't needed.
-* Add orientation marker in a unified manner inside of outside of every component where orientation is questionable.
-* Feature the part number of every component where it's not obvious.
 * Add testing points, so that the fully assembled inner assembly can be tested in a jig.
 * Leave a generous amount of space between each track, possibly by using thinner tracks where needed.
 * Some tracks are very close to the edge of the boards. Route them farther.
-* Improve silk screen for maximum readability. Make sure that every relevant information is easily readable.
 * Improve DFM based on manufacturer recommendations.
 * Give a try to tantalum caps for the LED driver ICs because ceramic caps make some noise.
 * Wire some unused pins to GND so that further PCB revisions can use VCC to make the firmware able to detect various PCB revisions.
