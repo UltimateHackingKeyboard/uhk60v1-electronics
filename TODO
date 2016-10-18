@@ -7,3 +7,5 @@
 * Wire some unused pins to GND so that further PCB revisions can use VCC to make the firmware able to detect various PCB revisions.
 * Invert the pads of the LEDs of the LED matrix because they're in reverse.
 * Use 1uF caps for the LED matrix ICs as featured on the datasheet.
+* Connect the LED jumper to GND instead of 3.3V.
+* Label every net to be easily recognizable in pcbnew.
