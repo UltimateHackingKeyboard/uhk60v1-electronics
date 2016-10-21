@@ -9,3 +9,5 @@
 * Use 1uF caps for the LED matrix ICs as featured on the datasheet.
 * Connect the LED jumper to GND instead of 3.3V.
 * Label every net to be easily recognizable in pcbnew.
+* Reverse the diodes of keyboard matrices.
+* Add switches for the ISO jumper and LED jumper for development purposes.
