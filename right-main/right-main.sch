@@ -784,17 +784,6 @@ F 3 "" H 3750 6050 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CRYSTAL X1
-U 1 1 50CB7FC4
-P 6600 4600
-F 0 "X1" H 6600 4700 40  0000 C CNN
-F 1 "16Mhz" H 6600 4500 40  0000 C CNN
-F 2 "UGL:2-SMD" H 6600 4600 60  0001 C CNN
-F 3 "" H 6600 4600 60  0001 C CNN
-	1    6600 4600
-	-1   0    0    -1  
-$EndComp
-$Comp
 L R R5
 U 1 1 50CB9AE1
 P 1800 950
@@ -826,17 +815,6 @@ F 2 "UGL:SMV" H 2500 1250 60  0001 C CNN
 F 3 "" H 2500 1250 60  0001 C CNN
 	1    2500 1250
 	0    1    -1   0   
-$EndComp
-$Comp
-L GND #PWR01
-U 1 1 50CCF7B6
-P 6600 4800
-F 0 "#PWR01" H 6600 4800 30  0001 C CNN
-F 1 "GND" H 6600 4730 30  0001 C CNN
-F 2 "" H 6600 4800 60  0001 C CNN
-F 3 "" H 6600 4800 60  0001 C CNN
-	1    6600 4800
-	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR02
@@ -936,28 +914,6 @@ F 2 "UGL:SM0805" H 5950 5200 60  0001 C CNN
 F 3 "" H 5950 5200 60  0001 C CNN
 	1    5950 5200
 	1    0    0    -1  
-$EndComp
-$Comp
-L C C2
-U 1 1 50DA3122
-P 6900 4700
-F 0 "C2" H 6900 4800 40  0000 C CNN
-F 1 "15pF" H 6900 4590 40  0000 C CNN
-F 2 "UGL:SM0805" H 6900 4700 60  0001 C CNN
-F 3 "" H 6900 4700 60  0001 C CNN
-	1    6900 4700
-	0    1    1    0   
-$EndComp
-$Comp
-L C C1
-U 1 1 50DA313C
-P 6350 4700
-F 0 "C1" H 6350 4800 40  0000 C CNN
-F 1 "15pF" H 6350 4590 40  0000 C CNN
-F 2 "UGL:SM0805" H 6350 4700 60  0001 C CNN
-F 3 "" H 6350 4700 60  0001 C CNN
-	1    6350 4700
-	0    1    1    0   
 $EndComp
 $Comp
 L C C8
@@ -2620,16 +2576,6 @@ Connection ~ 10450 5550
 Wire Wire Line
 	10450 5550 10350 5550
 Connection ~ 10350 5100
-Wire Wire Line
-	6350 4800 6900 4800
-Connection ~ 6900 4600
-Wire Wire Line
-	6900 4600 6700 4600
-Connection ~ 6350 4600
-Wire Wire Line
-	6150 4600 6500 4600
-Wire Wire Line
-	6900 3850 6900 4600
 Connection ~ 1900 1500
 Connection ~ 1500 1500
 Wire Wire Line
@@ -2932,7 +2878,6 @@ Connection ~ 2100 2800
 Connection ~ 1900 1300
 Connection ~ 1650 1700
 Connection ~ 2100 3650
-Connection ~ 6600 4800
 Wire Wire Line
 	3550 2650 3900 2650
 Wire Wire Line
@@ -3212,10 +3157,6 @@ Text Label 5550 4600 3    40   ~ 0
 INTB
 Text Label 5350 4600 3    40   ~ 0
 SDB
-Text Label 6350 4600 0    40   ~ 0
-XTAL1
-Text Label 6700 4600 0    40   ~ 0
-XTAL2
 Wire Wire Line
 	6900 3550 7250 3550
 Wire Wire Line

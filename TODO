@@ -1,4 +1,3 @@
-* Remove the crystal and its 2 capacitors as soon as we make sure that they aren't needed.
 * Add testing points, so that the fully assembled inner assembly can be tested in a jig.
 * Leave a generous amount of space between each track, possibly by using thinner tracks where needed.
 * Some tracks are very close to the edge of the boards. Route them farther.
