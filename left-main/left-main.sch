@@ -55,7 +55,7 @@ F 1 "DIODE" H 8800 1300 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 8800 1400 60  0001 C CNN
 F 3 "" H 8800 1400 60  0001 C CNN
 	1    8800 1400
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D14
@@ -66,7 +66,7 @@ F 1 "DIODE" H 9300 1300 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 9300 1400 60  0001 C CNN
 F 3 "" H 9300 1400 60  0001 C CNN
 	1    9300 1400
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D15
@@ -77,7 +77,7 @@ F 1 "DIODE" H 9800 1300 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 9800 1400 60  0001 C CNN
 F 3 "" H 9800 1400 60  0001 C CNN
 	1    9800 1400
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D16
@@ -88,7 +88,7 @@ F 1 "DIODE" H 10300 1300 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 10300 1400 60  0001 C CNN
 F 3 "" H 10300 1400 60  0001 C CNN
 	1    10300 1400
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D17
@@ -99,7 +99,7 @@ F 1 "DIODE" H 10800 1300 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 10800 1400 60  0001 C CNN
 F 3 "" H 10800 1400 60  0001 C CNN
 	1    10800 1400
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D21
@@ -110,7 +110,7 @@ F 1 "DIODE" H 7800 1600 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 7800 1700 60  0001 C CNN
 F 3 "" H 7800 1700 60  0001 C CNN
 	1    7800 1700
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D22
@@ -121,7 +121,7 @@ F 1 "DIODE" H 8300 1600 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 8300 1700 60  0001 C CNN
 F 3 "" H 8300 1700 60  0001 C CNN
 	1    8300 1700
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D23
@@ -132,7 +132,7 @@ F 1 "DIODE" H 8800 1600 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 8800 1700 60  0001 C CNN
 F 3 "" H 8800 1700 60  0001 C CNN
 	1    8800 1700
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D24
@@ -143,7 +143,7 @@ F 1 "DIODE" H 9300 1600 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 9300 1700 60  0001 C CNN
 F 3 "" H 9300 1700 60  0001 C CNN
 	1    9300 1700
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D25
@@ -154,7 +154,7 @@ F 1 "DIODE" H 9800 1600 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 9800 1700 60  0001 C CNN
 F 3 "" H 9800 1700 60  0001 C CNN
 	1    9800 1700
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D27
@@ -165,7 +165,7 @@ F 1 "DIODE" H 10800 1600 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 10800 1700 60  0001 C CNN
 F 3 "" H 10800 1700 60  0001 C CNN
 	1    10800 1700
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D31
@@ -176,7 +176,7 @@ F 1 "DIODE" H 7800 1900 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 7800 2000 60  0001 C CNN
 F 3 "" H 7800 2000 60  0001 C CNN
 	1    7800 2000
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D32
@@ -187,7 +187,7 @@ F 1 "DIODE" H 8300 1900 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 8300 2000 60  0001 C CNN
 F 3 "" H 8300 2000 60  0001 C CNN
 	1    8300 2000
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D33
@@ -198,7 +198,7 @@ F 1 "DIODE" H 8800 1900 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 8800 2000 60  0001 C CNN
 F 3 "" H 8800 2000 60  0001 C CNN
 	1    8800 2000
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D34
@@ -209,7 +209,7 @@ F 1 "DIODE" H 9300 1900 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 9300 2000 60  0001 C CNN
 F 3 "" H 9300 2000 60  0001 C CNN
 	1    9300 2000
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D35
@@ -220,7 +220,7 @@ F 1 "DIODE" H 9800 1900 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 9800 2000 60  0001 C CNN
 F 3 "" H 9800 2000 60  0001 C CNN
 	1    9800 2000
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D37
@@ -231,7 +231,7 @@ F 1 "DIODE" H 10800 1900 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 10800 2000 60  0001 C CNN
 F 3 "" H 10800 2000 60  0001 C CNN
 	1    10800 2000
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D41
@@ -242,7 +242,7 @@ F 1 "DIODE" H 7800 2200 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 7800 2300 60  0001 C CNN
 F 3 "" H 7800 2300 60  0001 C CNN
 	1    7800 2300
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D42
@@ -253,7 +253,7 @@ F 1 "DIODE" H 8300 2200 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 8300 2300 60  0001 C CNN
 F 3 "" H 8300 2300 60  0001 C CNN
 	1    8300 2300
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D43
@@ -264,7 +264,7 @@ F 1 "DIODE" H 8800 2200 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 8800 2300 60  0001 C CNN
 F 3 "" H 8800 2300 60  0001 C CNN
 	1    8800 2300
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D44
@@ -275,7 +275,7 @@ F 1 "DIODE" H 9300 2200 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 9300 2300 60  0001 C CNN
 F 3 "" H 9300 2300 60  0001 C CNN
 	1    9300 2300
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D45
@@ -286,7 +286,7 @@ F 1 "DIODE" H 9800 2200 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 9800 2300 60  0001 C CNN
 F 3 "" H 9800 2300 60  0001 C CNN
 	1    9800 2300
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D46
@@ -297,7 +297,7 @@ F 1 "DIODE" H 10300 2200 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 10300 2300 60  0001 C CNN
 F 3 "" H 10300 2300 60  0001 C CNN
 	1    10300 2300
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D51
@@ -308,7 +308,7 @@ F 1 "DIODE" H 7800 2500 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 7800 2600 60  0001 C CNN
 F 3 "" H 7800 2600 60  0001 C CNN
 	1    7800 2600
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D52
@@ -319,7 +319,7 @@ F 1 "DIODE" H 8300 2500 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 8300 2600 60  0001 C CNN
 F 3 "" H 8300 2600 60  0001 C CNN
 	1    8300 2600
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D53
@@ -330,7 +330,7 @@ F 1 "DIODE" H 8800 2500 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 8800 2600 60  0001 C CNN
 F 3 "" H 8800 2600 60  0001 C CNN
 	1    8800 2600
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D54
@@ -341,7 +341,7 @@ F 1 "DIODE" H 9300 2500 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 9300 2600 60  0001 C CNN
 F 3 "" H 9300 2600 60  0001 C CNN
 	1    9300 2600
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D55
@@ -352,7 +352,7 @@ F 1 "DIODE" H 9800 2500 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 9800 2600 60  0001 C CNN
 F 3 "" H 9800 2600 60  0001 C CNN
 	1    9800 2600
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D56
@@ -363,7 +363,7 @@ F 1 "DIODE" H 10300 2500 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 10300 2600 60  0001 C CNN
 F 3 "" H 10300 2600 60  0001 C CNN
 	1    10300 2600
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D11
@@ -374,7 +374,7 @@ F 1 "DIODE" H 7800 1300 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 7800 1400 60  0001 C CNN
 F 3 "" H 7800 1400 60  0001 C CNN
 	1    7800 1400
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L DIODE D12
@@ -385,7 +385,7 @@ F 1 "DIODE" H 8300 1300 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 8300 1400 60  0001 C CNN
 F 3 "" H 8300 1400 60  0001 C CNN
 	1    8300 1400
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L SPST SW11
@@ -728,17 +728,17 @@ F 3 "" H 10050 2600 60  0000 C CNN
 	1    10050 2600
 	1    0    0    -1  
 $EndComp
-Text Label 7900 2700 3    40   ~ 0
+Text Label 7900 2750 3    40   ~ 0
 KEYS_COL1
-Text Label 8400 2700 3    40   ~ 0
+Text Label 8400 2750 3    40   ~ 0
 KEYS_COL2
-Text Label 8900 2700 3    40   ~ 0
+Text Label 8900 2750 3    40   ~ 0
 KEYS_COL3
-Text Label 9400 2700 3    40   ~ 0
+Text Label 9400 2750 3    40   ~ 0
 KEYS_COL4
-Text Label 9900 2700 3    40   ~ 0
+Text Label 9900 2750 3    40   ~ 0
 KEYS_COL5
-Text Label 10400 2700 3    40   ~ 0
+Text Label 10400 2750 3    40   ~ 0
 KEYS_COL6
 Text Notes 6600 700  0    60   ~ 12
 Keyboard matrix
@@ -802,7 +802,7 @@ F 3 "" H 1600 6150 60  0000 C CNN
 	1    1600 6150
 	1    0    0    -1  
 $EndComp
-Text Label 10900 2700 3    40   ~ 0
+Text Label 10900 2750 3    40   ~ 0
 KEYS_COL7
 $Comp
 L C C11
@@ -879,7 +879,7 @@ F 1 "DIODE" H 10800 2200 40  0001 C CNN
 F 2 "UGL:SOD-123_Diode" H 10800 2300 60  0001 C CNN
 F 3 "" H 10800 2300 60  0001 C CNN
 	1    10800 2300
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 Text Notes 6200 4500 0    60   ~ 12
 LED matrix
@@ -1251,8 +1251,8 @@ Text Label 8450 6200 3    40   ~ 0
 CA7
 Text Label 8700 6200 3    40   ~ 0
 CA8
-Text Notes 9800 2750 2    40   ~ 0
-↑       \ncase button
+Text Notes 9800 2800 2    40   ~ 0
+↑       \n|       \ncase button
 $Comp
 L IS31FL3731 U2
 U 1 1 5764F0BA
@@ -2208,7 +2208,9 @@ Connection ~ 5050 950
 Wire Wire Line
 	5050 750  5250 750 
 Wire Wire Line
-	5600 750  5600 1050
+	5600 750  5600 950 
+Wire Wire Line
+	5600 950  5600 1050
 Wire Wire Line
 	5350 950  5400 950 
 Wire Wire Line
@@ -2219,7 +2221,9 @@ Connection ~ 8200 2300
 Wire Wire Line
 	8200 2300 8200 2400
 Wire Wire Line
-	5050 750  5050 1350
+	5050 750  5050 950 
+Wire Wire Line
+	5050 950  5050 1350
 Connection ~ 3500 2200
 Connection ~ 3500 2000
 Wire Wire Line
@@ -2251,9 +2255,19 @@ Connection ~ 2650 3550
 Connection ~ 2650 4200
 Connection ~ 2650 3850
 Wire Wire Line
-	2650 3550 2650 4250
+	2650 3550 2650 3850
 Wire Wire Line
-	1650 3550 2650 3550
+	2650 3850 2650 4200
+Wire Wire Line
+	2650 4200 2650 4250
+Wire Wire Line
+	1650 3550 1850 3550
+Wire Wire Line
+	1850 3550 2050 3550
+Wire Wire Line
+	2050 3550 2350 3550
+Wire Wire Line
+	2350 3550 2650 3550
 Wire Wire Line
 	2650 3350 2650 3300
 Connection ~ 2350 3350
@@ -2280,27 +2294,47 @@ Wire Wire Line
 Wire Wire Line
 	2200 1950 2350 1950
 Wire Wire Line
-	1550 2150 2550 2150
+	1550 2150 1950 2150
+Wire Wire Line
+	1950 2150 2250 2150
+Wire Wire Line
+	2250 2150 2550 2150
 Connection ~ 2250 2150
 Connection ~ 2250 1300
 Connection ~ 2550 2150
 Connection ~ 2550 1500
 Wire Wire Line
-	2550 1500 2550 2200
+	2550 1500 2550 1800
+Wire Wire Line
+	2550 1800 2550 2150
+Wire Wire Line
+	2550 2150 2550 2200
 Wire Wire Line
 	1550 2150 1550 1800
 Wire Wire Line
 	1550 1800 1400 1800
 Connection ~ 1750 1300
 Wire Wire Line
-	2200 1300 2550 1300
+	2200 1300 2250 1300
 Wire Wire Line
-	1650 1950 2000 1950
+	2250 1300 2550 1300
 Wire Wire Line
-	1400 1600 2000 1600
+	1650 1950 1950 1950
+Wire Wire Line
+	1950 1950 2000 1950
+Wire Wire Line
+	1400 1600 1950 1600
+Wire Wire Line
+	1950 1600 2000 1600
 Connection ~ 1550 1300
 Wire Wire Line
-	1550 1500 2550 1500
+	1550 1500 1750 1500
+Wire Wire Line
+	1750 1500 1950 1500
+Wire Wire Line
+	1950 1500 2250 1500
+Wire Wire Line
+	2250 1500 2550 1500
 Connection ~ 1950 1500
 Wire Wire Line
 	1400 1700 1650 1700
@@ -2315,20 +2349,34 @@ Wire Wire Line
 	1950 1800 2550 1800
 Connection ~ 2550 1800
 Wire Wire Line
-	1400 1300 2000 1300
+	1400 1300 1550 1300
+Wire Wire Line
+	1550 1300 1750 1300
+Wire Wire Line
+	1750 1300 1950 1300
+Wire Wire Line
+	1950 1300 2000 1300
 Wire Wire Line
 	2300 4000 2450 4000
 Wire Wire Line
-	1650 4200 1650 3850
+	1650 4200 1650 3950
+Wire Wire Line
+	1650 3950 1650 3850
 Wire Wire Line
 	1650 3850 1500 3850
 Connection ~ 1850 3350
 Wire Wire Line
-	2300 3350 2650 3350
+	2300 3350 2350 3350
 Wire Wire Line
-	1750 4000 2100 4000
+	2350 3350 2650 3350
 Wire Wire Line
-	1500 3650 2100 3650
+	1750 4000 2050 4000
+Wire Wire Line
+	2050 4000 2100 4000
+Wire Wire Line
+	1500 3650 2050 3650
+Wire Wire Line
+	2050 3650 2100 3650
 Connection ~ 1650 3350
 Connection ~ 2050 3550
 Wire Wire Line
@@ -2345,7 +2393,13 @@ Wire Wire Line
 Wire Wire Line
 	2050 3850 2650 3850
 Wire Wire Line
-	1500 3350 2100 3350
+	1500 3350 1650 3350
+Wire Wire Line
+	1650 3350 1850 3350
+Wire Wire Line
+	1850 3350 2050 3350
+Wire Wire Line
+	2050 3350 2100 3350
 Wire Notes Line
 	3150 4650 450  4650
 Wire Notes Line
@@ -2363,7 +2417,11 @@ Connection ~ 1600 5700
 Wire Wire Line
 	1300 5700 1600 5700
 Wire Wire Line
-	1600 5500 1600 6150
+	1600 5500 1600 5700
+Wire Wire Line
+	1600 5700 1600 6100
+Wire Wire Line
+	1600 6100 1600 6150
 Wire Wire Line
 	1300 5500 1600 5500
 Connection ~ 4100 6950
@@ -2372,7 +2430,9 @@ Wire Wire Line
 Wire Wire Line
 	4250 6850 4100 6850
 Wire Wire Line
-	4100 6850 4100 7000
+	4100 6850 4100 6950
+Wire Wire Line
+	4100 6950 4100 7000
 Wire Wire Line
 	4250 6650 4100 6650
 Wire Wire Line
@@ -2384,7 +2444,9 @@ Wire Wire Line
 Wire Wire Line
 	4250 6100 4100 6100
 Wire Wire Line
-	3900 5250 4250 5250
+	3900 5250 4200 5250
+Wire Wire Line
+	4200 5250 4250 5250
 Connection ~ 7150 2150
 Wire Wire Line
 	7150 2300 7150 2150
@@ -2403,29 +2465,155 @@ Wire Wire Line
 Wire Wire Line
 	10700 2300 10650 2300
 Wire Wire Line
-	7050 2450 9950 2450
+	7050 2450 7450 2450
 Wire Wire Line
-	7050 2150 10450 2150
+	7450 2450 7950 2450
 Wire Wire Line
-	7050 1850 10450 1850
+	7950 2450 8450 2450
 Wire Wire Line
-	7050 1550 10450 1550
+	8450 2450 8950 2450
 Wire Wire Line
-	7050 1250 10450 1250
+	8950 2450 9450 2450
+Wire Wire Line
+	9450 2450 9950 2450
+Wire Wire Line
+	7050 2150 7150 2150
+Wire Wire Line
+	7150 2150 7450 2150
+Wire Wire Line
+	7450 2150 7950 2150
+Wire Wire Line
+	7950 2150 8450 2150
+Wire Wire Line
+	8450 2150 8950 2150
+Wire Wire Line
+	8950 2150 9450 2150
+Wire Wire Line
+	9450 2150 9950 2150
+Wire Wire Line
+	9950 2150 10450 2150
+Wire Wire Line
+	7050 1850 7450 1850
+Wire Wire Line
+	7450 1850 7950 1850
+Wire Wire Line
+	7950 1850 8450 1850
+Wire Wire Line
+	8450 1850 8950 1850
+Wire Wire Line
+	8950 1850 9450 1850
+Wire Wire Line
+	9450 1850 10450 1850
+Wire Wire Line
+	7050 1550 7450 1550
+Wire Wire Line
+	7450 1550 7950 1550
+Wire Wire Line
+	7950 1550 8450 1550
+Wire Wire Line
+	8450 1550 8950 1550
+Wire Wire Line
+	8950 1550 9450 1550
+Wire Wire Line
+	9450 1550 10450 1550
+Wire Wire Line
+	7050 1250 7450 1250
+Wire Wire Line
+	7450 1250 7950 1250
+Wire Wire Line
+	7950 1250 8450 1250
+Wire Wire Line
+	8450 1250 8950 1250
+Wire Wire Line
+	8950 1250 9450 1250
+Wire Wire Line
+	9450 1250 9950 1250
+Wire Wire Line
+	9950 1250 10450 1250
 Connection ~ 6850 5650
 Connection ~ 8450 6100
 Wire Wire Line
-	6700 5900 8350 5900
+	6700 5900 7100 5900
 Wire Wire Line
-	6700 5650 8600 5650
+	7100 5900 7350 5900
 Wire Wire Line
-	6700 5400 8600 5400
+	7350 5900 7600 5900
 Wire Wire Line
-	6700 5150 8600 5150
+	7600 5900 7850 5900
 Wire Wire Line
-	6700 4900 8600 4900
+	7850 5900 7950 5900
 Wire Wire Line
-	7950 5100 7950 5900
+	7950 5900 8350 5900
+Wire Wire Line
+	6700 5650 6850 5650
+Wire Wire Line
+	6850 5650 7100 5650
+Wire Wire Line
+	7100 5650 7350 5650
+Wire Wire Line
+	7350 5650 7600 5650
+Wire Wire Line
+	7600 5650 7700 5650
+Wire Wire Line
+	7700 5650 7850 5650
+Wire Wire Line
+	7850 5650 8100 5650
+Wire Wire Line
+	8100 5650 8350 5650
+Wire Wire Line
+	8350 5650 8600 5650
+Wire Wire Line
+	6700 5400 7100 5400
+Wire Wire Line
+	7100 5400 7350 5400
+Wire Wire Line
+	7350 5400 7450 5400
+Wire Wire Line
+	7450 5400 7600 5400
+Wire Wire Line
+	7600 5400 7850 5400
+Wire Wire Line
+	7850 5400 8100 5400
+Wire Wire Line
+	8100 5400 8600 5400
+Wire Wire Line
+	6700 5150 7100 5150
+Wire Wire Line
+	7100 5150 7200 5150
+Wire Wire Line
+	7200 5150 7350 5150
+Wire Wire Line
+	7350 5150 7600 5150
+Wire Wire Line
+	7600 5150 7850 5150
+Wire Wire Line
+	7850 5150 8100 5150
+Wire Wire Line
+	8100 5150 8600 5150
+Wire Wire Line
+	6700 4900 6950 4900
+Wire Wire Line
+	6950 4900 7100 4900
+Wire Wire Line
+	7100 4900 7350 4900
+Wire Wire Line
+	7350 4900 7600 4900
+Wire Wire Line
+	7600 4900 7850 4900
+Wire Wire Line
+	7850 4900 8100 4900
+Wire Wire Line
+	8100 4900 8350 4900
+Wire Wire Line
+	8350 4900 8600 4900
+Wire Wire Line
+	7950 5100 7950 5350
+Wire Wire Line
+	7950 5350 7950 5600
+Wire Wire Line
+	7950 5600 7950 5850
+Wire Wire Line
+	7950 5850 7950 5900
 Connection ~ 7950 5900
 Connection ~ 7700 5650
 Connection ~ 7450 5400
@@ -2468,7 +2656,13 @@ Connection ~ 6950 4900
 Wire Wire Line
 	6950 6100 7100 6100
 Wire Wire Line
-	6950 4900 6950 6100
+	6950 4900 6950 5350
+Wire Wire Line
+	6950 5350 6950 5600
+Wire Wire Line
+	6950 5600 6950 5850
+Wire Wire Line
+	6950 5850 6950 6100
 Connection ~ 8700 5850
 Wire Wire Line
 	8700 5850 8600 5850
@@ -2489,7 +2683,9 @@ Wire Wire Line
 	7200 5850 7350 5850
 Connection ~ 6950 5850
 Wire Wire Line
-	6850 5850 7100 5850
+	6850 5850 6950 5850
+Wire Wire Line
+	6950 5850 7100 5850
 Connection ~ 8700 5600
 Wire Wire Line
 	8700 5600 8600 5600
@@ -2524,32 +2720,66 @@ Connection ~ 7450 5350
 Wire Wire Line
 	7350 5350 7450 5350
 Wire Wire Line
-	8700 5100 8700 6200
+	8700 5100 8700 5350
+Wire Wire Line
+	8700 5350 8700 5600
+Wire Wire Line
+	8700 5600 8700 5850
+Wire Wire Line
+	8700 5850 8700 6200
 Wire Wire Line
 	8600 5100 8700 5100
 Wire Wire Line
-	8450 5100 8450 6200
+	8450 5100 8450 5850
+Wire Wire Line
+	8450 5850 8450 6100
+Wire Wire Line
+	8450 6100 8450 6200
 Wire Wire Line
 	8350 5100 8450 5100
 Wire Wire Line
-	8200 5100 8200 6200
+	8200 5100 8200 5350
+Wire Wire Line
+	8200 5350 8200 5600
+Wire Wire Line
+	8200 5600 8200 5850
+Wire Wire Line
+	8200 5850 8200 6200
 Wire Wire Line
 	8100 5100 8200 5100
 Wire Wire Line
 	7850 5100 7950 5100
 Wire Wire Line
-	7700 5100 7700 6100
+	7700 5100 7700 5350
+Wire Wire Line
+	7700 5350 7700 5600
+Wire Wire Line
+	7700 5600 7700 5650
+Wire Wire Line
+	7700 5650 7700 6100
 Wire Wire Line
 	7600 5100 7700 5100
 Wire Wire Line
-	7450 5100 7450 6100
+	7450 5100 7450 5350
+Wire Wire Line
+	7450 5350 7450 5400
+Wire Wire Line
+	7450 5400 7450 5850
+Wire Wire Line
+	7450 5850 7450 6100
 Wire Wire Line
 	7350 5100 7450 5100
 Connection ~ 6950 5350
 Wire Wire Line
 	7100 5350 6950 5350
 Wire Wire Line
-	7200 5100 7200 6100
+	7200 5100 7200 5150
+Wire Wire Line
+	7200 5150 7200 5600
+Wire Wire Line
+	7200 5600 7200 5850
+Wire Wire Line
+	7200 5850 7200 6100
 Wire Wire Line
 	7100 5100 7200 5100
 Wire Wire Line
@@ -2601,17 +2831,61 @@ Connection ~ 7900 2000
 Connection ~ 7900 1700
 Connection ~ 7450 1250
 Wire Wire Line
-	7900 1400 7900 2700
+	7900 1400 7900 1700
 Wire Wire Line
-	10400 1400 10400 2700
+	7900 1700 7900 2000
 Wire Wire Line
-	9900 1400 9900 2700
+	7900 2000 7900 2300
 Wire Wire Line
-	9400 1400 9400 2700
+	7900 2300 7900 2600
 Wire Wire Line
-	8900 1400 8900 2700
+	7900 2600 7900 2750
 Wire Wire Line
-	8400 1400 8400 2700
+	10400 1400 10400 2300
+Wire Wire Line
+	10400 2300 10400 2600
+Wire Wire Line
+	10400 2600 10400 2750
+Wire Wire Line
+	9900 1400 9900 1700
+Wire Wire Line
+	9900 1700 9900 2000
+Wire Wire Line
+	9900 2000 9900 2300
+Wire Wire Line
+	9900 2300 9900 2600
+Wire Wire Line
+	9900 2600 9900 2750
+Wire Wire Line
+	9400 1400 9400 1700
+Wire Wire Line
+	9400 1700 9400 2000
+Wire Wire Line
+	9400 2000 9400 2300
+Wire Wire Line
+	9400 2300 9400 2600
+Wire Wire Line
+	9400 2600 9400 2750
+Wire Wire Line
+	8900 1400 8900 1700
+Wire Wire Line
+	8900 1700 8900 2000
+Wire Wire Line
+	8900 2000 8900 2300
+Wire Wire Line
+	8900 2300 8900 2600
+Wire Wire Line
+	8900 2600 8900 2750
+Wire Wire Line
+	8400 1400 8400 1700
+Wire Wire Line
+	8400 1700 8400 2000
+Wire Wire Line
+	8400 2000 8400 2300
+Wire Wire Line
+	8400 2300 8400 2600
+Wire Wire Line
+	8400 2600 8400 2750
 Connection ~ 9950 2450
 Wire Wire Line
 	10150 2600 10200 2600
@@ -2740,16 +3014,26 @@ Wire Wire Line
 Wire Wire Line
 	7650 1400 7700 1400
 Wire Wire Line
-	10900 1400 10900 2700
+	10900 1400 10900 1700
+Wire Wire Line
+	10900 1700 10900 2000
+Wire Wire Line
+	10900 2000 10900 2300
+Wire Wire Line
+	10900 2300 10900 2750
 Connection ~ 1850 3550
 Wire Wire Line
-	2650 4200 1650 4200
+	2650 4200 2050 4200
+Wire Wire Line
+	2050 4200 1650 4200
 Connection ~ 2050 3350
 Wire Wire Line
 	4250 3700 4450 3700
 Connection ~ 4450 3700
 Wire Wire Line
-	4250 3650 4250 3750
+	4250 3650 4250 3700
+Wire Wire Line
+	4250 3700 4250 3750
 Wire Wire Line
 	4250 3950 4450 3950
 Wire Wire Line
@@ -2772,7 +3056,9 @@ Wire Notes Line
 Wire Notes Line
 	6450 4250 6450 450 
 Wire Wire Line
-	4250 1100 4750 1100
+	4250 1100 4400 1100
+Wire Wire Line
+	4400 1100 4750 1100
 Connection ~ 4400 1100
 Text Notes 5650 975  0    40   ~ 0
 SMD test LED
