@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/left-main/left-main.sch)
-    (date "Fri 28 Oct 2016 21:45:49 CEST")
+    (date "Fri 28 Oct 2016 22:35:32 CEST")
     (tool "Eeschema no-vcs-found-undefined")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -762,7 +762,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 57597A6D))
     (comp (ref C9)
-      (value 10uF)
+      (value 1uF)
       (footprint UGL:SM0805)
       (libsource (lib ugl) (part C))
       (sheetpath (names /) (tstamps /))
