@@ -7,6 +7,5 @@
 * Connect the LED jumper to GND instead of 3.3V.
 * Label every net to be easily recognizable in pcbnew.
 * Add switches for the ISO jumper and LED jumper for development purposes.
-* Replace the reset switch with an alternate part that is not obsoleted.
 * Reposition FFC connectors according to updates CAD data.
 * Replace solder jumpers with 0 ohm 0805 resistors.
