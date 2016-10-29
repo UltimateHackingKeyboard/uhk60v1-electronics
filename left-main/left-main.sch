@@ -2097,17 +2097,6 @@ F 3 "" H 5600 1050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
-U 1 1 577F4A59
-P 5350 750
-F 0 "D1" H 5350 850 40  0000 C CNN
-F 1 "LED" H 5350 650 40  0001 C CNN
-F 2 "UGL:3mm_LED" H 5350 750 60  0001 C CNN
-F 3 "" H 5350 750 60  0000 C CNN
-	1    5350 750 
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR030
 U 1 1 577FB0E0
 P 5400 2950
@@ -2186,20 +2175,10 @@ Wire Wire Line
 	2550 5800 2650 5800
 Wire Wire Line
 	2650 6200 2550 6200
-Connection ~ 5600 950 
-Wire Wire Line
-	5450 750  5600 750 
-Connection ~ 5050 950 
-Wire Wire Line
-	5050 750  5250 750 
-Wire Wire Line
-	5600 750  5600 1050
 Wire Wire Line
 	5350 950  5400 950 
 Wire Wire Line
 	5050 950  5150 950 
-Wire Wire Line
-	5050 750  5050 1350
 Connection ~ 3500 2200
 Connection ~ 3500 2000
 Wire Wire Line
@@ -2754,10 +2733,12 @@ Wire Notes Line
 Wire Wire Line
 	4250 1100 4750 1100
 Connection ~ 4400 1100
-Text Notes 5650 975  0    40   ~ 0
-SMD test LED
-Text Notes 5450 725  0    40   ~ 0
-resistor legged test LED
+Text Notes 5400 800  0    40   ~ 0
+test LED
 Text Notes 3700 1015 0    40   ~ 0
 reed switch
+Wire Wire Line
+	5050 950  5050 1350
+Wire Wire Line
+	5600 950  5600 1050
 $EndSCHEMATC
