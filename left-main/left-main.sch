@@ -2063,21 +2063,6 @@ $EndComp
 NoConn ~ 5700 2100
 Text Label 5050 1350 1    40   ~ 0
 TEST_LED
-Text Label 4950 1350 1    40   ~ 0
-ISO_DETECT
-Text Label 8200 2400 2    40   ~ 0
-ISO_PIN
-$Comp
-L VIA V2
-U 1 1 576DF620
-P 4950 950
-F 0 "V2" V 4950 1075 40  0000 C CNN
-F 1 "VIA" H 4950 1150 60  0001 C CNN
-F 2 "UGL:ISO_Ring" H 4950 950 60  0001 C CNN
-F 3 "" H 4950 950 60  0001 C CNN
-	1    4950 950 
-	0    -1   -1   0   
-$EndComp
 $Comp
 L R R2
 U 1 1 577F1EDC
@@ -2213,11 +2198,6 @@ Wire Wire Line
 	5350 950  5400 950 
 Wire Wire Line
 	5050 950  5150 950 
-Wire Wire Line
-	4950 1350 4950 950 
-Connection ~ 8200 2300
-Wire Wire Line
-	8200 2300 8200 2400
 Wire Wire Line
 	5050 750  5050 1350
 Connection ~ 3500 2200
