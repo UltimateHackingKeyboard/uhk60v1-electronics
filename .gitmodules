@@ -1,9 +1,9 @@
 [submodule "libs/opendous"]
 	path = libs/opendous
-	url = git@github.com:UltimateHackingKeyboard/opendous-kicad-lib.git
+	url = https://github.com/UltimateHackingKeyboard/opendous-kicad-lib.git
 [submodule "libs/ugl"]
 	path = libs/ugl
-	url = git@github.com:UltimateHackingKeyboard/ugl-kicad-lib.git
+	url = https://github.com/UltimateHackingKeyboard/ugl-kicad-lib.git
 [submodule "libs/kiibohd"]
 	path = libs/kiibohd
-	url = git@github.com:kiibohd/pcb.git
+	url = https://github.com/kiibohd/pcb.git
