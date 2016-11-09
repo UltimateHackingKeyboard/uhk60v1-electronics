@@ -2512,7 +2512,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 5600 1450 5250
 Wire Wire Line
-	2450 4950 2450 5600
+	2450 5600 2450 4950
 Connection ~ 2450 4950
 Connection ~ 2450 5600
 Wire Wire Line
@@ -3065,7 +3065,7 @@ Connection ~ 1850 5800
 Wire Wire Line
 	1300 5800 1950 5800
 Wire Wire Line
-	2450 5600 1450 5600
+	1450 5600 2450 5600
 Connection ~ 1900 1700
 Wire Wire Line
 	2700 950  2700 1150
@@ -3181,29 +3181,29 @@ $EndComp
 $Comp
 L GND #PWR042
 U 1 1 577D7CA7
-P 4150 1200
-F 0 "#PWR042" H 4150 1200 30  0001 C CNN
-F 1 "GND" H 4150 1130 30  0001 C CNN
-F 2 "" H 4150 1200 60  0001 C CNN
-F 3 "" H 4150 1200 60  0001 C CNN
-	1    4150 1200
+P 3850 1200
+F 0 "#PWR042" H 3850 1200 30  0001 C CNN
+F 1 "GND" H 3850 1130 30  0001 C CNN
+F 2 "" H 3850 1200 60  0001 C CNN
+F 3 "" H 3850 1200 60  0001 C CNN
+	1    3850 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D1
 U 1 1 577D93E4
-P 4300 1150
-F 0 "D1" H 4300 1250 40  0000 C CNN
-F 1 "LED" H 4300 1050 40  0001 C CNN
-F 2 "UGL:SM0805_Diode" H 4300 1150 60  0001 C CNN
-F 3 "" H 4300 1150 60  0000 C CNN
-	1    4300 1150
+P 4000 1150
+F 0 "D1" H 4000 1250 40  0000 C CNN
+F 1 "LED" H 4000 1050 40  0001 C CNN
+F 2 "UGL:SM0805_Diode" H 4000 1150 60  0001 C CNN
+F 3 "" H 4000 1150 60  0000 C CNN
+	1    4000 1150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4400 1150 4450 1150
+	4100 1150 4450 1150
 Wire Wire Line
-	4200 1150 4150 1150
+	3900 1150 3850 1150
 $Comp
 L CONN_6 P5
 U 1 1 5780859B
@@ -3252,7 +3252,7 @@ Text Notes 7550 3825 0    40   ~ 0
 reed switch
 Text Notes 7550 3375 0    40   ~ 0
 reset button
-Text Notes 4200 1050 0    40   ~ 0
+Text Notes 3900 1050 0    40   ~ 0
 test LED
 NoConn ~ 6150 4450
 NoConn ~ 6900 3700
@@ -3263,5 +3263,75 @@ NoConn ~ 3900 2300
 Wire Wire Line
 	4650 1150 4650 1450
 Wire Wire Line
-	4150 1150 4150 1200
+	3850 1150 3850 1200
+Text Label 3650 6050 1    40   ~ 0
+SW11_D
+Text Label 4150 6050 1    40   ~ 0
+SW12_D
+Text Label 4650 6050 1    40   ~ 0
+SW13_D
+Text Label 5150 6050 1    40   ~ 0
+SW14_D
+Text Label 5650 6050 1    40   ~ 0
+SW15_D
+Text Label 6150 6050 1    40   ~ 0
+SW16_D
+Text Label 6650 6050 1    40   ~ 0
+SW17_D
+Text Label 3650 6350 1    40   ~ 0
+SW21_D
+Text Label 4150 6350 1    40   ~ 0
+SW22_D
+Text Label 4650 6350 1    40   ~ 0
+SW23_D
+Text Label 5150 6350 1    40   ~ 0
+SW24_D
+Text Label 5650 6350 1    40   ~ 0
+SW25_D
+Text Label 6150 6350 1    40   ~ 0
+SW26_D
+Text Label 6650 6350 1    40   ~ 0
+SW27_D
+Text Label 6650 6650 1    40   ~ 0
+SW37_D
+Text Label 6150 6650 1    40   ~ 0
+SW36_D
+Text Label 5650 6650 1    40   ~ 0
+SW35_D
+Text Label 5150 6650 1    40   ~ 0
+SW34_D
+Text Label 4650 6650 1    40   ~ 0
+SW33_D
+Text Label 4150 6650 1    40   ~ 0
+SW32_D
+Text Label 3650 6650 1    40   ~ 0
+SW31_D
+Text Label 3650 6950 1    40   ~ 0
+SW41_D
+Text Label 4150 6950 1    40   ~ 0
+SW42_D
+Text Label 4650 6950 1    40   ~ 0
+SW43_D
+Text Label 5150 6950 1    40   ~ 0
+SW44_D
+Text Label 5650 6950 1    40   ~ 0
+SW45_D
+Text Label 6150 6950 1    40   ~ 0
+SW46_D
+Text Label 6650 6950 1    40   ~ 0
+SW47_D
+Text Label 6650 7250 1    40   ~ 0
+SW57_D
+Text Label 6150 7250 1    40   ~ 0
+SW56_D
+Text Label 5650 7250 1    40   ~ 0
+SW55_D
+Text Label 5150 7250 1    40   ~ 0
+SW54_D
+Text Label 4650 7250 1    40   ~ 0
+SW53_D
+Text Label 4150 7250 1    40   ~ 0
+SW52_D
+Text Label 4100 1150 0    40   ~ 0
+TEST_LED_R
 $EndSCHEMATC

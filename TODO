@@ -4,4 +4,3 @@
 * Improve DFM based on manufacturer recommendations.
 * Give a try to tantalum caps for the LED driver ICs because ceramic caps make some noise.
 * Wire some unused pins to GND so that further PCB revisions can use VCC to make the firmware able to detect various PCB revisions.
-* Label every net to be easily recognizable in pcbnew.
