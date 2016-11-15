@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/right-main/right-main.sch)
-    (date "Sat 12 Nov 2016 23:50:38 CET")
+    (date "Tue 15 Nov 2016 21:30:54 CET")
     (tool "Eeschema no-vcs-found-undefined")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -149,7 +149,7 @@
       (tstamp 50C9AD2E))
     (comp (ref SW42)
       (value N)
-      (footprint UGL:Cherry_MX_Matias_Hybrid)
+      (footprint UGL:Cherry_MX_Matias_Hybrid_Right_Pin)
       (libsource (lib ugl) (part SPST))
       (sheetpath (names /) (tstamps /))
       (tstamp 50C9AD34))
