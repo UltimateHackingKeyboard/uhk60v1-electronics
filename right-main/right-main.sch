@@ -4352,4 +4352,5 @@ F 3 "" H 10400 4450 60  0001 C CNN
 $EndComp
 Text Label 10400 4450 2    40   ~ 0
 LED_PWM_DRAIN
+Connection ~ 7900 3650
 $EndSCHEMATC
