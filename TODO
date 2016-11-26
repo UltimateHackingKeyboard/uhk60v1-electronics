@@ -1,4 +1,3 @@
 * Leave a generous amount of space between each track, possibly by using thinner tracks where needed.
 * Some tracks are very close to the edge of the boards. Route them farther.
-* Give a try to tantalum caps for the LED driver ICs because ceramic caps make some noise.
 * Wire some unused pins to GND so that further PCB revisions can use VCC to make the firmware able to detect various PCB revisions.
