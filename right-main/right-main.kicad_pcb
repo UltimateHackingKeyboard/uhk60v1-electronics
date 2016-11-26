@@ -8669,7 +8669,7 @@
   (gr_text "The Eco2.User layer contains soft keepout areas\nfor the top layer." (at 27.953 53.55) (layer Eco2.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
-  (gr_text "design is 7mil-7mil-22mil trace-clearance-minimum_drill\n1.55mm board thickness\ngreen solder mask\nwhite silk screen" (at 28 31) (layer Cmts.User)
+  (gr_text "design is 7mil-7mil-22mil trace-clearance-minimum_drill\n1.55mm board thickness\nblack solder mask\nwhite silk screen" (at 28 31) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_text "The Eco1.User layer contains soft keepout areas for the\nbottom layer where component height is limited.\n" (at 28 43.5) (layer Eco1.User)
