@@ -39,7 +39,7 @@ encoding utf-8
 Sheet 1 1
 Title "Ultimate Hacking Keyboard - LED Display Board"
 Date "7 mar 2013"
-Rev "3"
+Rev "7.0"
 Comp "Ultimate Gadget Laboratories Kft."
 Comment1 ""
 Comment2 ""

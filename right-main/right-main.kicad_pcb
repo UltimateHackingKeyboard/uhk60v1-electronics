@@ -15,7 +15,7 @@
   (page A4)
   (title_block
     (title "Ultimate Hacking Keyboard - Right Main Board")
-    (rev 6)
+    (rev 7.0)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
@@ -8901,7 +8901,7 @@
       (xy -2.82075 -2.070409)) (layer B.Mask) (width 0.01))
   )
 
-  (gr_text "Keyboard: UHK60 | PCB: uhk60_right_v6.0" (at 262.4 100.7 270) (layer B.SilkS) (tstamp 583A35F7)
+  (gr_text "Keyboard: UHK60 | PCB: uhk60_right_v7.0" (at 262.4 100.7 270) (layer B.SilkS) (tstamp 583A35F7)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
   (gr_line (start 225.7 106.8) (end 233.4 106.8) (angle 90) (layer B.SilkS) (width 0.15))
@@ -8917,7 +8917,7 @@
   )
   (gr_circle (center 197.88 92.6) (end 197.88 97.6) (layer Eco1.User) (width 0.01))
   (dimension 123.39574 (width 0.3) (layer Cmts.User)
-    (gr_text "123.396 mm = 4.8581 in" (at 111.11428 91.60213 90) (layer Cmts.User) (tstamp 583CF713)
+    (gr_text "123.396 mm = 4.8581 in" (at 111.11428 91.60213 90) (layer Cmts.User) (tstamp 583CFCC7)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 168.69734 29.90426) (xy 109.76428 29.90426)))
@@ -8934,7 +8934,7 @@
   )
   (gr_line (start 187.41 33.6) (end 168 30.4) (angle 90) (layer Eco1.User) (width 0.01))
   (dimension 150.13432 (width 0.3) (layer Cmts.User)
-    (gr_text "150.134 mm = 5.9108 in" (at 196.53284 18.55178) (layer Cmts.User) (tstamp 583CF714)
+    (gr_text "150.134 mm = 5.9108 in" (at 196.53284 18.55178) (layer Cmts.User) (tstamp 583CFCC8)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 271.6 73.09954) (xy 271.6 17.20178)))
