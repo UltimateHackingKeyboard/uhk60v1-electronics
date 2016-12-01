@@ -1,4 +1,2 @@
-* Leave a generous amount of space between each track, possibly by using thinner tracks where needed.
-* Some tracks are very close to the edge of the boards. Route them farther.
 * Wire some unused pins to GND so that further PCB revisions can use VCC to make the firmware able to detect various PCB revisions.
-* Increment revision numbers and update issue dates.
+* Update issue dates.
