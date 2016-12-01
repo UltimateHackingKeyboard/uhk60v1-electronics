@@ -1,2 +1,4 @@
 * Wire some unused pins to GND so that further PCB revisions can use VCC to make the firmware able to detect various PCB revisions.
+* Spruce up silk screen.
+* Write kicad_pcb merge script.
 * Update issue dates.
