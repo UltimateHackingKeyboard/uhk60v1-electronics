@@ -20,8 +20,8 @@
   )
 
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -7921,8 +7921,8 @@
       (xy -2.82075 -2.070409)) (layer B.Mask) (width 0.01))
   )
 
-  (gr_text "Keyboard: UHK60 | PCB: uhk60_left_v7.0" (at 146.20046 99.91872 90) (layer B.SilkS) (tstamp 583A32F1)
-    (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
+  (gr_text "Keyboard: UHK 60 | PCB: uhk60_left_v7.0" (at 146.20046 99.91872 90) (layer B.SilkS) (tstamp 583A32F1)
+    (effects (font (size 0.75 0.73) (thickness 0.15)) (justify mirror))
   )
   (gr_circle (center 256.463741 54.763959) (end 256.463741 57.263959) (layer Eco1.User) (width 0.01))
   (gr_text TC2030 (at 175.80046 151.51872 90) (layer F.SilkS)
