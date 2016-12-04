@@ -95,7 +95,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ../gerbers/left-main))
+      (outputdirectory ../gerbers/panel))
   )
 
   (net 0 "")
