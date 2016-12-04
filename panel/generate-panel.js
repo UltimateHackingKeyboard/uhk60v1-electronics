@@ -67,7 +67,7 @@ function writeFooter() {
     console.log(')\n');
 }
 
-writeHeader('panel/empty-panel.kicad_pcb');
+writeHeader('empty-panel.kicad_pcb');
 writeContent('../left-main/left-main.kicad_pcb', -60, 40);
 writeContent('../right-main/right-main.kicad_pcb', 90, 40);
 writeFooter();
