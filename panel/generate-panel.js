@@ -70,4 +70,6 @@ function writeFooter() {
 writeHeader('empty-panel.kicad_pcb');
 writeContent('../left-main/left-main.kicad_pcb', -60, 40);
 writeContent('../right-main/right-main.kicad_pcb', 90, 40);
+writeContent('../display/display.kicad_pcb', 80, -25);
+writeContent('../display/display.kicad_pcb', 170, -25);
 writeFooter();
