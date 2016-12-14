@@ -1,4 +1,4 @@
-(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-undefined)
+(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-7393~56~ubuntu16.04.1)
 
   (general
     (links 619)
@@ -8374,10 +8374,10 @@
     )
   )
 
-  (module UGL:UHK_Logo_6mm_height (layer B.Cu) (tedit 5839C32B) (tstamp 583A05D8)
+  (module UGL:UHK_Logo_6mm_height (layer B.Cu) (tedit 58509D64) (tstamp 583A05D8)
     (at 266.6 108.7 90)
     (descr "UHK Logo, 6mm height")
-    (fp_text reference G*** (at 0 0 90) (layer B.SilkS) hide
+    (fp_text reference G1 (at 0 0 90) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
     (fp_text value LOGO (at 0.75 0 90) (layer B.SilkS) hide
@@ -8437,10 +8437,10 @@
       (xy 4.763752 2.972129) (xy 4.821108 2.982452) (xy 4.905411 2.985591) (xy 5.022106 2.985106)) (layer B.Mask) (width 0.01))
   )
 
-  (module UGL:OSHW_Logo_6mm_height (layer B.Cu) (tedit 5839D702) (tstamp 583A05FA)
+  (module UGL:OSHW_Logo_6mm_height (layer B.Cu) (tedit 58509D6C) (tstamp 583A05FA)
     (at 266.6 91.6 90)
     (descr "OSHW Logo, 6mm height")
-    (fp_text reference G*** (at 0 0 90) (layer B.SilkS) hide
+    (fp_text reference G2 (at 0 0 90) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
     (fp_text value LOGO (at 0.75 0 90) (layer B.SilkS) hide
@@ -9101,7 +9101,7 @@
   )
   (gr_circle (center 197.88 92.6) (end 197.88 97.6) (layer Eco1.User) (width 0.01))
   (dimension 123.39574 (width 0.3) (layer Cmts.User)
-    (gr_text "123.396 mm = 4.8581 in" (at 111.11428 91.60213 90) (layer Cmts.User) (tstamp 5844B0E5)
+    (gr_text "123.396 mm = 4.8581 in" (at 111.11428 91.60213 90) (layer Cmts.User) (tstamp 5850A062)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 168.69734 29.90426) (xy 109.76428 29.90426)))
@@ -9118,7 +9118,7 @@
   )
   (gr_line (start 187.41 33.6) (end 168 30.4) (angle 90) (layer Eco1.User) (width 0.01))
   (dimension 150.13432 (width 0.3) (layer Cmts.User)
-    (gr_text "150.134 mm = 5.9108 in" (at 196.53284 18.55178) (layer Cmts.User) (tstamp 5844B0E6)
+    (gr_text "150.134 mm = 5.9108 in" (at 196.53284 18.55178) (layer Cmts.User) (tstamp 5850A063)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 271.6 73.09954) (xy 271.6 17.20178)))
