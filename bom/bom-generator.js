@@ -16,16 +16,14 @@ function reportFileToParts(reportFilename) {
 
     var parts= reportString
         .split('$EndMODULE')
-        .map(function(componentString) {
+        .map(componentString => {
             var component = {};
             componentString.split('\n')
-                .map(function(componentLine) {
-                    return componentLine.match(/^(\w+) (.*)$/);
-                })
-                .filter(function(matchedComponentPatterns) {
-                    return matchedComponentPatterns && matchedComponentPatterns.length === 3;
-                })
-                .forEach(function(matchedComponentPatterns) {
+                .map(componentLine => componentLine.match(/^(\w+) (.*)$/))
+                .filter(matchedComponentPatterns =>
+                    matchedComponentPatterns && matchedComponentPatterns.length === 3
+                )
+                .forEach(matchedComponentPatterns => {
                     var componentAttributeName = matchedComponentPatterns[1];
                     componentAttributeName = {
                         reference: 'reference',
@@ -56,7 +54,7 @@ function filepathToBoardname(filename) {
 }
 
 function arrayToCsv(array) {
-    return array.map(function(element) {
+    return array.map(element => {
         if (element === undefined) {
             return '';
         } else {
@@ -67,9 +65,7 @@ function arrayToCsv(array) {
 
 function partsToCsvFile(parts, csvFilename) {
     var csvFileContent = parts
-        .map(function(part) {
-            return [part.reference, part.value, part.footprint, part.attribute];
-        })
+        .map(part => [part.reference, part.value, part.footprint, part.attribute])
         .map(arrayToCsv).join('\n');
     fs.writeFileSync(csvFilename, csvFileContent);
 }
@@ -114,7 +110,7 @@ function partsToPartTypes(parts) {
 }
 
 function sortReferenceDesignators(referenceDesignators) {
-    return referenceDesignators.sort(function(a, b) {
+    return referenceDesignators.sort((a, b) => {
         var aMatch = a.match(referenceDesignatorRegExp);
         var bMatch = b.match(referenceDesignatorRegExp);
         var aLetter = aMatch[1];
@@ -137,22 +133,22 @@ function sortReferenceDesignators(referenceDesignators) {
 var componentTypes = {};
 
 try {
-var componentTypesCsv = fs.readFileSync(componentTypesFile, 'utf8');
-var componentTypesArray = parseCsv(componentTypesCsv, {delimiter:'"'}).data;
+    var componentTypesCsv = fs.readFileSync(componentTypesFile, 'utf8');
+    var componentTypesArray = parseCsv(componentTypesCsv, {delimiter:'"'}).data;
 
-var componentTypesHeader = componentTypesArray.shift();
+    var componentTypesHeader = componentTypesArray.shift();
 
-componentTypesArray.forEach(function(componentTypeArray) {
-    if (!componentTypeArray[0]) {
-        return;
-    }
-    var componentType = {};
-    var fieldIndex = 0;
-    componentTypeArray.forEach(function(componentTypeField) {
-        componentType[componentTypesHeader[fieldIndex++]] = componentTypeField;
+    componentTypesArray.forEach(componentTypeArray => {
+        if (!componentTypeArray[0]) {
+            return;
+        }
+        var componentType = {};
+        var fieldIndex = 0;
+        componentTypeArray.forEach(componentTypeField => {
+            componentType[componentTypesHeader[fieldIndex++]] = componentTypeField;
+        });
+        componentTypes[componentType.partType] = componentType;
     });
-    componentTypes[componentType.partType] = componentType;
-});
 } catch (exception) {
 
 }
@@ -160,7 +156,7 @@ componentTypesArray.forEach(function(componentTypeArray) {
 
 var allParts = [];
 
-boards.forEach(function(board) {
+boards.forEach(board => {
     var reportFile = __dirname + '/../' + board + '/' + board + '.rpt';
     var parts = reportFileToParts(reportFile);
     parts.forEach(normalizePartProperties);
@@ -171,7 +167,7 @@ boards.forEach(function(board) {
 // Extract part types.
 
 var partTypes = R.uniq(allParts.map(R.prop('partType')));
-partTypes = partTypes.map(function(partType) {
+partTypes = partTypes.map(partType => {
     var filteredParts = allParts.filter(R.where({partType:partType}));
     var firstPart = filteredParts[0];
     return {
@@ -191,7 +187,7 @@ partTypes = partTypes.map(function(partType) {
 
 // Sort part types.
 
-partTypes.sort(function(partTypeA, partTypeB) {
+partTypes.sort((partTypeA, partTypeB) => {
     if (partTypeA.referenceName < partTypeB.referenceName) {
         return -1;
     } else if (partTypeA.referenceName > partTypeB.referenceName) {
@@ -209,9 +205,9 @@ partTypes.sort(function(partTypeA, partTypeB) {
 
 // Generate per-board BOMs.
 
-boards.forEach(function(board) {
-    attributes.forEach(function(attribute) {
-        var camelCasedBoard = board.replace(/-([a-z])/g, function (g) { return g[1].toUpperCase(); });
+boards.forEach(board => {
+    attributes.forEach(attribute => {
+        var camelCasedBoard = board.replace(/-([a-z])/g, g => g[1].toUpperCase());
         fs.writeFileSync(
             board + '-' + attribute + '-bom.csv',
             [[
@@ -223,11 +219,11 @@ boards.forEach(function(board) {
                 'AVL1 P/N'
             ]].concat(
                 partTypes
-                .filter(function(partType) {
-                    return partType.partsPerBoard[camelCasedBoard].length > 0 &&
-                        (attribute == 'all' ? true : partType.attribute == attribute);
-                })
-                .map(function(partType) {
+                .filter(partType =>
+                    partType.partsPerBoard[camelCasedBoard].length > 0 &&
+                        (attribute == 'all' ? true : partType.attribute == attribute)
+                )
+                .map(partType => {
                     var componentType = componentTypes[partType.partType] || {};
                     return arrayToCsv([
                         partType.partsPerBoard[camelCasedBoard].length,
@@ -245,7 +241,7 @@ boards.forEach(function(board) {
 
 // Generate BOMs including every board.
 
-['all', 'smd', 'pth'].forEach(function(attributeFilter) {
+['all', 'smd', 'pth'].forEach((attributeFilter) => {
     fs.writeFileSync(
         'boards-' + attributeFilter + '-bom.csv',
         [[
@@ -263,10 +259,8 @@ boards.forEach(function(board) {
             'AVL1 URL'
         ]].concat(
             partTypes
-            .filter(function(partType) {
-                return attributeFilter == 'all' ? true : partType.attribute == attributeFilter;
-            })
-            .map(function(partType) {
+            .filter(partType => attributeFilter == 'all' ? true : partType.attribute == attributeFilter)
+            .map(partType => {
                 var componentType = componentTypes[partType.partType] || {};
                 return arrayToCsv([
                     componentType.description,
