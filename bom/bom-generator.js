@@ -211,6 +211,7 @@ boards.forEach(board => {
         fs.writeFileSync(
             board + '-' + attribute + '-bom.csv',
             [[
+                'part code',
                 'QTY',
                 'description',
                 'package',
@@ -226,6 +227,7 @@ boards.forEach(board => {
                 .map(partType => {
                     var componentType = componentTypes[partType.partType] || {};
                     return arrayToCsv([
+                        partType.partType,
                         partType.partsPerBoard[camelCasedBoard].length,
                         componentType.description,
                         componentType.package,
@@ -241,10 +243,11 @@ boards.forEach(board => {
 
 // Generate BOMs including every board.
 
-['all', 'smd', 'pth'].forEach((attributeFilter) => {
+['all', 'smd', 'pth'].forEach(attributeFilter => {
     fs.writeFileSync(
         'boards-' + attributeFilter + '-bom.csv',
         [[
+            'part code',
             'description',
             'package',
             'left main QTY',
@@ -263,6 +266,7 @@ boards.forEach(board => {
             .map(partType => {
                 var componentType = componentTypes[partType.partType] || {};
                 return arrayToCsv([
+                    partType.partType,
                     componentType.description,
                     componentType.package,
                     partType.partsPerBoard.leftMain.length,
