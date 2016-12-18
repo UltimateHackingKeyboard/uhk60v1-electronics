@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/right-main/right-main.sch)
-    (date "Thu 15 Dec 2016 12:59:06 CET")
+    (date "Sun 18 Dec 2016 21:13:45 CET")
     (tool "Eeschema no-vcs-found-7399~56~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1374,7 +1374,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 58406786))
     (comp (ref C34)
-      (value 10nF)
+      (value 0.1uF)
       (footprint UGL:SM0805)
       (libsource (lib ugl) (part C))
       (sheetpath (names /) (tstamps /))
@@ -1874,10 +1874,10 @@
         (pin (num 4) (name C) (type passive))
         (pin (num 5) (name C) (type passive)))))
   (libraries
-    (library (logical ugl)
-      (uri /home/laci/projects/uhk/electronics/libs/ugl/library/ugl.lib))
     (library (logical opendous)
-      (uri /home/laci/projects/uhk/electronics/libs/opendous/library/opendous.lib)))
+      (uri /home/laci/projects/uhk/electronics/libs/opendous/library/opendous.lib))
+    (library (logical ugl)
+      (uri /home/laci/projects/uhk/electronics/libs/ugl/library/ugl.lib)))
   (nets
     (net (code 1) (name "Net-(R2-Pad1)")
       (node (ref U1) (pin 64))
