@@ -1,4 +1,4 @@
-(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-undefined)
+(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-7404~56~ubuntu16.04.1)
 
   (general
     (links 5)
@@ -22,18 +22,12 @@
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
-    (32 B.Adhes user)
-    (33 F.Adhes user)
-    (34 B.Paste user)
-    (35 F.Paste user)
     (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user)
-    (42 Eco1.User user)
-    (43 Eco2.User user)
     (44 Edge.Cuts user)
   )
 
@@ -125,7 +119,7 @@
     (fp_text value VAL** (at 0 -2.54 180) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (pad "" smd rect (at 0 0 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
+    (pad "" smd rect (at 0 0 180) (size 2.6 2.6) (layers B.Cu B.Mask))
   )
 
   (module UGL:UHK_Connector_Left_Inner_Pad locked (layer B.Cu) (tedit 5726931D) (tstamp 57265471)
@@ -136,7 +130,7 @@
     (fp_text value VAL** (at 0 -2.54 180) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (pad "" smd rect (at 0 0.4 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
+    (pad "" smd rect (at 0 0.4 180) (size 2.6 2.6) (layers B.Cu B.Mask))
   )
 
   (module UGL:UHK_Connector_Right_Inner_Pad locked (layer B.Cu) (tedit 57266932) (tstamp 57264E54)
@@ -148,7 +142,7 @@
     (fp_text value CONN_1 (at 0 -2.2) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (pad 1 smd rect (at 0 0) (size 1.62 2.6) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at 0 0) (size 1.62 2.6) (layers B.Cu B.Mask)
       (net 1 N-000001))
   )
 
@@ -161,7 +155,7 @@
     (fp_text value CONN_1 (at 0 -2.2) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (pad 1 smd rect (at 0 0) (size 1.62 2.6) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at 0 0) (size 1.62 2.6) (layers B.Cu B.Mask)
       (net 3 N-000003))
   )
 
@@ -174,7 +168,7 @@
     (fp_text value CONN_1 (at 0 -2.2) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (pad 1 smd rect (at 0 0) (size 1.62 2.6) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at 0 0) (size 1.62 2.6) (layers B.Cu B.Mask)
       (net 4 N-000004))
   )
 
@@ -187,7 +181,7 @@
     (fp_text value CONN_1 (at 0 -2.2) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (pad 1 smd rect (at 0 0) (size 1.62 2.6) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at 0 0) (size 1.62 2.6) (layers B.Cu B.Mask)
       (net 2 N-000002))
   )
 
@@ -200,7 +194,7 @@
     (fp_text value CONN_1 (at 0 -2.2) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (pad 1 smd rect (at 0 0) (size 1.62 2.6) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at 0 0) (size 1.62 2.6) (layers B.Cu B.Mask)
       (net 5 N-000005))
   )
 
@@ -332,7 +326,7 @@
     (fp_text value VAL** (at 0 -2.54 180) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (pad "" smd rect (at 0 0 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
+    (pad "" smd rect (at 0 0 180) (size 2.6 2.6) (layers B.Cu B.Mask))
   )
 
   (module UGL:UHK_Connector_Left_Inner_Pad locked (layer B.Cu) (tedit 572692B6) (tstamp 57265375)
@@ -343,7 +337,7 @@
     (fp_text value VAL** (at 0 -2.54 180) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (pad "" smd rect (at 0 0 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
+    (pad "" smd rect (at 0 0 180) (size 2.6 2.6) (layers B.Cu B.Mask))
   )
 
   (module UGL:UHK_Connector_Left_Inner_Pad locked (layer B.Cu) (tedit 572692B6) (tstamp 57264DED)
@@ -354,14 +348,14 @@
     (fp_text value VAL** (at 0 -2.54 180) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (pad "" smd rect (at 0 0 180) (size 2.6 2.6) (layers B.Cu B.Paste B.Mask))
+    (pad "" smd rect (at 0 0 180) (size 2.6 2.6) (layers B.Cu B.Mask))
   )
 
   (gr_text "0.736 in" (at 148.77288 103.79964) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (dimension 18.70202 (width 0.3) (layer Cmts.User)
-    (gr_text "18.7 mm" (at 148.70303 100.46208) (layer Cmts.User) (tstamp 58399879)
+    (gr_text "18.7 mm" (at 148.70303 100.46208) (layer Cmts.User) (tstamp 5864443E)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 158.05404 108.27004) (xy 158.05404 98.83648)))
@@ -373,7 +367,7 @@
     (arrow2b (pts (xy 139.35202 102.08768) (xy 140.478524 101.501259)))
   )
   (dimension 4.8006 (width 0.3) (layer Cmts.User)
-    (gr_text " " (at 161.67862 109.4867 90) (layer Cmts.User) (tstamp 5839987A)
+    (gr_text " " (at 161.67862 109.4867 90) (layer Cmts.User) (tstamp 5864443F)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 156.8704 107.0864) (xy 163.30422 107.0864)))
@@ -385,7 +379,7 @@
     (arrow2b (pts (xy 160.05302 111.887) (xy 159.466599 110.760496)))
   )
   (dimension 4.8006 (width 0.3) (layer Cmts.User)
-    (gr_text " " (at 112.7125 109.4359 90) (layer Cmts.User) (tstamp 5839987B)
+    (gr_text " " (at 112.7125 109.4359 90) (layer Cmts.User) (tstamp 58644440)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 117.52072 107.0356) (xy 111.0869 107.0356)))
@@ -400,7 +394,7 @@
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (dimension 18.69948 (width 0.3) (layer Cmts.User)
-    (gr_text "18.7 mm" (at 125.68682 100.41382) (layer Cmts.User) (tstamp 5839987C)
+    (gr_text "18.7 mm" (at 125.68682 100.41382) (layer Cmts.User) (tstamp 58644441)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 135.03656 108.21924) (xy 135.03656 98.78822)))

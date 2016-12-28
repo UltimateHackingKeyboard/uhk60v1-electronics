@@ -1,4 +1,4 @@
-(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-undefined)
+(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-7404~56~ubuntu16.04.1)
 
   (general
     (links 23)
@@ -28,7 +28,6 @@
     (39 F.Mask user)
     (41 Cmts.User user)
     (42 Eco1.User user)
-    (43 Eco2.User user)
     (44 Edge.Cuts user)
   )
 
@@ -482,7 +481,7 @@
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (dimension 13.46454 (width 0.3) (layer Cmts.User)
-    (gr_text "13.465 mm" (at 109.875 102.275 90) (layer Cmts.User) (tstamp 58445EF1)
+    (gr_text "13.465 mm" (at 109.875 102.275 90) (layer Cmts.User) (tstamp 58644412)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 153.86884 95.613) (xy 108.62382 95.613)))
@@ -494,7 +493,7 @@
     (arrow2b (pts (xy 111.87502 109.07754) (xy 111.288599 107.951036)))
   )
   (dimension 32.4993 (width 0.3) (layer Cmts.User)
-    (gr_text "32.5 mm = 1.279528 in" (at 138.10941 84.4497) (layer Cmts.User) (tstamp 58445EF2)
+    (gr_text "32.5 mm = 1.279528 in" (at 138.10941 84.4497) (layer Cmts.User) (tstamp 58644413)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 154.35906 101.52612) (xy 154.35906 82.8241)))
