@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 27.953 17.20178 276.600001 157.900001)
     (thickness 1.6)
-    (drawings 415)
+    (drawings 416)
     (tracks 2346)
     (zones 0)
     (modules 394)
@@ -9118,6 +9118,9 @@
       (net 3 GNDPWR))
   )
 
+  (gr_text SS-01D (at 135 150.9) (layer F.SilkS)
+    (effects (font (size 0.75 0.75) (thickness 0.15)))
+  )
   (gr_line (start 203.75 138.85) (end 203.75 142.85) (angle 90) (layer B.SilkS) (width 0.15))
   (gr_text SWD (at 261.2 151.4 90) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
