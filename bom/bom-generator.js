@@ -1,30 +1,30 @@
 #!/usr/bin/env node
 
-var fs = require('fs');
-var path = require('path');
-var R = require('ramda');
-var parseCsv = require('babyparse').parse;
+let fs = require('fs');
+let path = require('path');
+let R = require('ramda');
+let parseCsv = require('babyparse').parse;
 
-var boards = ['left-main', 'right-main', 'display'];
-var attributes = ['all', 'smd', 'pth'];
+let boards = ['left-main', 'right-main', 'display'];
+let attributes = ['all', 'smd', 'pth'];
 
 componentTypesFile = 'UHK BOM - Component types.csv';
 
 function reportFileToParts(reportFilename) {
-    var reportString = fs.readFileSync(reportFilename, {encoding:'utf8'});
-    var boardName = path.basename(reportFilename).replace(/\.[^/.]+$/, '');
+    let reportString = fs.readFileSync(reportFilename, {encoding:'utf8'});
+    let boardName = path.basename(reportFilename).replace(/\.[^/.]+$/, '');
 
-    var parts= reportString
+    let parts= reportString
         .split('$EndMODULE')
         .map(componentString => {
-            var component = {};
+            let component = {};
             componentString.split('\n')
                 .map(componentLine => componentLine.match(/^(\w+) (.*)$/))
                 .filter(matchedComponentPatterns =>
                     matchedComponentPatterns && matchedComponentPatterns.length === 3
                 )
                 .forEach(matchedComponentPatterns => {
-                    var componentAttributeName = matchedComponentPatterns[1];
+                    let componentAttributeName = matchedComponentPatterns[1];
                     componentAttributeName = {
                         reference: 'reference',
                         value: 'value',
@@ -32,8 +32,8 @@ function reportFileToParts(reportFilename) {
                         attribut: 'attribute'
                     }[componentAttributeName];
 
-                    var componentAttributeValue = matchedComponentPatterns[2];
-                    var componentAttributeValuePatterns = componentAttributeValue.match(/^"(.*)"$/);
+                    let componentAttributeValue = matchedComponentPatterns[2];
+                    let componentAttributeValuePatterns = componentAttributeValue.match(/^"(.*)"$/);
                     if (componentAttributeValuePatterns && componentAttributeValuePatterns.length === 2) {
                         componentAttributeValue = componentAttributeValuePatterns[1];
                     }
@@ -64,13 +64,13 @@ function arrayToCsv(array) {
 }
 
 function partsToCsvFile(parts, csvFilename) {
-    var csvFileContent = parts
+    let csvFileContent = parts
         .map(part => [part.reference, part.value, part.footprint, part.attribute])
         .map(arrayToCsv).join('\n');
     fs.writeFileSync(csvFilename, csvFileContent);
 }
 
-var referenceDesignatorRegExp = /^([A-Z]+)(\d+)$/;
+let referenceDesignatorRegExp = /^([A-Z]+)(\d+)$/;
 
 function normalizePartProperties(part) {
     if (part.value === 'FIDUCIAL') {
@@ -85,7 +85,7 @@ function normalizePartProperties(part) {
         part.footprint = 'UGL:Cherry_MX_Matias_Hybrid';
     }
 
-    var matches = part.reference.match(referenceDesignatorRegExp);
+    let matches = part.reference.match(referenceDesignatorRegExp);
 
     if (!(matches && matches.length === 3)) {
         return;
@@ -111,12 +111,12 @@ function partsToPartTypes(parts) {
 
 function sortReferenceDesignators(referenceDesignators) {
     return referenceDesignators.sort((a, b) => {
-        var aMatch = a.match(referenceDesignatorRegExp);
-        var bMatch = b.match(referenceDesignatorRegExp);
-        var aLetter = aMatch[1];
-        var bLetter = bMatch[1];
-        var aNumber = parseInt(aMatch[2]);
-        var bNumber = parseInt(bMatch[2]);
+        let aMatch = a.match(referenceDesignatorRegExp);
+        let bMatch = b.match(referenceDesignatorRegExp);
+        let aLetter = aMatch[1];
+        let bLetter = bMatch[1];
+        let aNumber = parseInt(aMatch[2]);
+        let bNumber = parseInt(bMatch[2]);
 
         if (aLetter < bLetter) {
             return -1;
@@ -130,20 +130,20 @@ function sortReferenceDesignators(referenceDesignators) {
 
 // Construct optional component types data structure.
 
-var componentTypes = {};
+let componentTypes = {};
 
 try {
-    var componentTypesCsv = fs.readFileSync(componentTypesFile, 'utf8');
-    var componentTypesArray = parseCsv(componentTypesCsv, {delimiter:'"'}).data;
+    let componentTypesCsv = fs.readFileSync(componentTypesFile, 'utf8');
+    let componentTypesArray = parseCsv(componentTypesCsv, {delimiter:'"'}).data;
 
-    var componentTypesHeader = componentTypesArray.shift();
+    let componentTypesHeader = componentTypesArray.shift();
 
     componentTypesArray.forEach(componentTypeArray => {
         if (!componentTypeArray[0]) {
             return;
         }
-        var componentType = {};
-        var fieldIndex = 0;
+        let componentType = {};
+        let fieldIndex = 0;
         componentTypeArray.forEach(componentTypeField => {
             componentType[componentTypesHeader[fieldIndex++]] = componentTypeField;
         });
@@ -154,11 +154,11 @@ try {
 }
 // Read parts from report files.
 
-var allParts = [];
+let allParts = [];
 
 boards.forEach(board => {
-    var reportFile = __dirname + '/../' + board + '/' + board + '.rpt';
-    var parts = reportFileToParts(reportFile);
+    let reportFile = __dirname + '/../' + board + '/' + board + '.rpt';
+    let parts = reportFileToParts(reportFile);
     parts.forEach(normalizePartProperties);
     parts = R.reject(R.propEq('attribute', 'virtual'), parts);
     allParts = allParts.concat(parts);
@@ -166,10 +166,10 @@ boards.forEach(board => {
 
 // Extract part types.
 
-var partTypes = R.uniq(allParts.map(R.prop('partType')));
+let partTypes = R.uniq(allParts.map(R.prop('partType')));
 partTypes = partTypes.map(partType => {
-    var filteredParts = allParts.filter(R.where({partType:partType}));
-    var firstPart = filteredParts[0];
+    let filteredParts = allParts.filter(R.where({partType:partType}));
+    let firstPart = filteredParts[0];
     return {
         partType: partType,
         quantity: filteredParts.length,
@@ -207,7 +207,7 @@ partTypes.sort((partTypeA, partTypeB) => {
 
 boards.forEach(board => {
     attributes.forEach(attribute => {
-        var camelCasedBoard = board.replace(/-([a-z])/g, g => g[1].toUpperCase());
+        let camelCasedBoard = board.replace(/-([a-z])/g, g => g[1].toUpperCase());
         fs.writeFileSync(
             board + '-' + attribute + '-bom.csv',
             [[
@@ -225,7 +225,7 @@ boards.forEach(board => {
                         (attribute == 'all' ? true : partType.attribute == attribute)
                 )
                 .map(partType => {
-                    var componentType = componentTypes[partType.partType] || {};
+                    let componentType = componentTypes[partType.partType] || {};
                     return arrayToCsv([
                         partType.partType,
                         partType.partsPerBoard[camelCasedBoard].length,
@@ -264,7 +264,7 @@ boards.forEach(board => {
             partTypes
             .filter(partType => attributeFilter == 'all' ? true : partType.attribute == attributeFilter)
             .map(partType => {
-                var componentType = componentTypes[partType.partType] || {};
+                let componentType = componentTypes[partType.partType] || {};
                 return arrayToCsv([
                     partType.partType,
                     componentType.description,
