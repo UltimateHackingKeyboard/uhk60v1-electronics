@@ -1,3 +1,4 @@
+* Rename proximity sensor to merge sensor because the latter is a more accurate name.
 * Add paste layer.
 * Protect against reverse polarity bridge cable.
 * Reverse bridge cable pins because currently it's designed for straight-through cables, not crossover cables.
