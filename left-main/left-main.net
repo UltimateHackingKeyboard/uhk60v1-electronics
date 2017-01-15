@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/left-main/left-main.sch)
-    (date "Sat 31 Dec 2016 14:33:24 CET")
-    (tool "Eeschema no-vcs-found-7404~56~ubuntu16.04.1")
+    (date "Mon 16 Jan 2017 00:03:47 CET")
+    (tool "Eeschema no-vcs-found-7424~56~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Ultimate Hacking Keyboard - Left Main Board")
@@ -1380,7 +1380,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5837E010))
     (comp (ref R8)
-      (value 270K)
+      (value 1M)
       (footprint UGL:SM0805)
       (libsource (lib ugl) (part R))
       (sheetpath (names /) (tstamps /))
