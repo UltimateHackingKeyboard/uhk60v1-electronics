@@ -758,7 +758,7 @@ U 1 1 5130F33C
 P 950 5750
 F 0 "P3" V 900 5750 60  0000 C CNN
 F 1 "3220-10-0100-00" V 1000 5750 60  0000 C CNN
-F 2 "UGL:2x5_0.05_pitch_pin_shrouded_header" H 950 5750 60  0001 C CNN
+F 2 "UGL:2x5_0.05_pitch_pin_shrouded_header_min" H 950 5750 60  0001 C CNN
 F 3 "" H 950 5750 60  0000 C CNN
 	1    950  5750
 	-1   0    0    -1  
