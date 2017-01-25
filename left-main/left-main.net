@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/left-main/left-main.sch)
-    (date "Mon 16 Jan 2017 00:03:47 CET")
-    (tool "Eeschema no-vcs-found-7424~56~ubuntu16.04.1")
+    (date "Wed 25 Jan 2017 20:10:36 CET")
+    (tool "Eeschema no-vcs-found-7498~57~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Ultimate Hacking Keyboard - Left Main Board")
@@ -412,8 +412,8 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 51C91DDE))
     (comp (ref P5)
-      (value SFV10R-2STE1HLF)
-      (footprint UGL:FFC_Connector_SFV10R-4STE1HLF)
+      (value 51281-1094)
+      (footprint UGL:FFC_Connector_51281-1094)
       (libsource (lib ugl) (part CONN_10))
       (sheetpath (names /) (tstamps /))
       (tstamp 52A33478))
