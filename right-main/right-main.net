@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/right-main/right-main.sch)
-    (date "Tue 24 Jan 2017 23:58:12 CET")
+    (date "Wed 25 Jan 2017 22:53:41 CET")
     (tool "Eeschema no-vcs-found-7498~57~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -443,7 +443,7 @@
       (tstamp 50CD16C3))
     (comp (ref P3)
       (value 3220-10-0100-00)
-      (footprint UGL:2x5_0.05_pitch_pin_shrouded_header)
+      (footprint UGL:2x5_0.05_pitch_pin_shrouded_header_min)
       (libsource (lib ugl) (part CONN_10))
       (sheetpath (names /) (tstamps /))
       (tstamp 50CD1B69))

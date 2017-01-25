@@ -856,7 +856,7 @@ U 1 1 50CD1B69
 P 900 7000
 F 0 "P3" V 850 7000 60  0000 C CNN
 F 1 "3220-10-0100-00" V 950 7000 60  0000 C CNN
-F 2 "UGL:2x5_0.05_pitch_pin_shrouded_header" H 900 7000 60  0001 C CNN
+F 2 "UGL:2x5_0.05_pitch_pin_shrouded_header_min" H 900 7000 60  0001 C CNN
 F 3 "" H 900 7000 60  0001 C CNN
 	1    900  7000
 	-1   0    0    -1  
