@@ -1,13 +1,13 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/display/display.sch)
-    (date "Wed 09 Nov 2016 01:20:28 CET")
-    (tool "Eeschema no-vcs-found-undefined")
+    (date "Wed 25 Jan 2017 01:48:46 CET")
+    (tool "Eeschema no-vcs-found-7498~57~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Ultimate Hacking Keyboard - LED Display Board")
         (company "Ultimate Gadget Laboratories Kft.")
-        (rev 3)
+        (rev 7.0)
         (date "7 mar 2013")
         (source display.sch)
         (comment (number 1) (value ""))
@@ -16,8 +16,8 @@
         (comment (number 4) (value "")))))
   (components
     (comp (ref P1)
-      (value SFV10R-2STE1HLF)
-      (footprint UGL:FFC_Connector_SFV10R-4STE1HLF)
+      (value 51281-1094)
+      (footprint UGL:FFC_Connector_51281-1094)
       (libsource (lib ugl) (part CONN_10))
       (sheetpath (names /) (tstamps /))
       (tstamp 5758FEC2))
