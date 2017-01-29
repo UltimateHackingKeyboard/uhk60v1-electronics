@@ -1,3 +1,0 @@
-* Protect against reverse polarity bridge cable.
-* Reverse bridge cable pins because currently it's designed for straight-through cables, not crossover cables.
-* Replace TVS arrays with 6 pin footprints.
