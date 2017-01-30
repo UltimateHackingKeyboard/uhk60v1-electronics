@@ -4200,4 +4200,6 @@ Connection ~ 2450 1950
 Wire Wire Line
 	2450 1600 2450 1450
 Connection ~ 2450 1450
+Text Label 2000 1450 1    40   ~ 0
+PFET_DRAIN
 $EndSCHEMATC
