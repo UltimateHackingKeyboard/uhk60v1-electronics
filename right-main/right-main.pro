@@ -1,4 +1,4 @@
-update=Tue 22 Nov 2016 02:26:41 CET
+update=31/01/2017 22:08:04
 last_client=kicad
 [cvpcb]
 version=1
@@ -61,3 +61,5 @@ LibName29=valves
 LibName30=device
 LibName31=opendous
 LibName32=ICEDLeft
+[general]
+version=1
