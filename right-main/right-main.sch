@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:device
 LIBS:opendous
 LIBS:ICEDLeft
+LIBS:right-main-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1194,9 +1195,9 @@ F 3 "" H 5300 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3800 2450 2    40   ~ 0
-USB_DP
+USB_D+
 Text Label 3800 2550 2    40   ~ 0
-USB_DM
+USB_D-
 $Comp
 L GND #PWR08
 U 1 1 5725A62C
