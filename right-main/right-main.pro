@@ -1,30 +1,10 @@
-update=03/02/2017 22:53:42
+update=05/02/2017 21:30:10
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[pcbnew]
-version=1
-PageLayoutDescrFile=
-LastNetListRead=right-main.net
-UseCmpFile=1
-PadDrill=0.635
-PadDrillOvalY=0.635
-PadSizeH=0.889
-PadSizeV=0.889
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.01
-ModuleOutlineThickness=0.15
 [eeschema]
 version=1
 LibDir=../libs/ugl/library;../libs/opendous/library;../libs/kiibohd/ICED - Left/lib
@@ -61,5 +41,24 @@ LibName29=valves
 LibName30=device
 LibName31=opendous
 LibName32=ICEDLeft
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=right-main.net
+PadDrill=0
+PadDrillOvalY=0
+PadSizeH=1.2
+PadSizeV=1.4
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.15
+BoardOutlineThickness=0.09999999999999999
+ModuleOutlineThickness=0.15
 [general]
 version=1
