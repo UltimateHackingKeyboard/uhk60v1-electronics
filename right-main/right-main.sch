@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:device
 LIBS:opendous
 LIBS:ICEDLeft
+LIBS:right-main-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -38,7 +39,7 @@ encoding utf-8
 Sheet 1 1
 Title "Ultimate Hacking Keyboard - Right Main Board"
 Date "12 mar 2013"
-Rev "8.0"
+Rev "7.1"
 Comp "Ultimate Gadget Laboratories Kft."
 Comment1 ""
 Comment2 ""
