@@ -4891,7 +4891,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 5150 5000 5200
 Wire Wire Line
-	5000 5200 5500 5200
+	5000 5200 5900 5200
 Wire Wire Line
 	5250 5200 5250 5250
 Wire Wire Line
@@ -4911,4 +4911,46 @@ Wire Wire Line
 Connection ~ 5400 5200
 Text Label 10400 5000 2    40   ~ 0
 USB_D_IN-
+$Comp
+L VIA GndVia7
+U 1 1 58ABCD14
+P 5700 5150
+F 0 "GndVia7" V 5700 5250 40  0000 L CNN
+F 1 "VIA" H 5700 5075 40  0001 C CNN
+F 2 "UGL:via_28_42mil_solid_con" H 5700 5150 60  0001 C CNN
+F 3 "" H 5700 5150 60  0001 C CNN
+	1    5700 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VIA GndVia8
+U 1 1 58ABD050
+P 5800 5150
+F 0 "GndVia8" V 5800 5250 40  0000 L CNN
+F 1 "VIA" H 5800 5075 40  0001 C CNN
+F 2 "UGL:via_28_42mil_solid_con" H 5800 5150 60  0001 C CNN
+F 3 "" H 5800 5150 60  0001 C CNN
+	1    5800 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VIA GndVia9
+U 1 1 58ABD387
+P 5900 5150
+F 0 "GndVia9" V 5900 5250 40  0000 L CNN
+F 1 "VIA" H 5900 5075 40  0001 C CNN
+F 2 "UGL:via_28_42mil_solid_con" H 5900 5150 60  0001 C CNN
+F 3 "" H 5900 5150 60  0001 C CNN
+	1    5900 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 5200 5900 5150
+Connection ~ 5500 5200
+Wire Wire Line
+	5700 5150 5700 5200
+Connection ~ 5700 5200
+Wire Wire Line
+	5800 5150 5800 5200
+Connection ~ 5800 5200
 $EndSCHEMATC
