@@ -1,4 +1,4 @@
-(kicad_pcb (version 20160815) (host pcbnew "(2017-01-22 revision 6a1b068)-makepkg")
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-7650~57~ubuntu16.04.1)
 
   (general
     (links 499)
@@ -407,6 +407,7 @@
   (module UGL:via_28_42mil_solid_con (layer F.Cu) (tedit 58A625E1) (tstamp 58ABFB86)
     (at 184.2 37.8)
     (path /58ABCD14)
+    (attr virtual)
     (fp_text reference GndVia7 (at 0 1.27) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -420,6 +421,7 @@
   (module UGL:via_28_42mil_solid_con (layer F.Cu) (tedit 58A625E1) (tstamp 58ABFB69)
     (at 182.6 37.8)
     (path /58ABD387)
+    (attr virtual)
     (fp_text reference GndVia9 (at 0 1.27) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -433,6 +435,7 @@
   (module UGL:via_28_42mil_solid_con (layer F.Cu) (tedit 58A625E1) (tstamp 58ABFB4C)
     (at 183.6 39)
     (path /58ABD050)
+    (attr virtual)
     (fp_text reference GndVia8 (at 0 1.27) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1554,6 +1557,7 @@
   (module UGL:via_28_42mil_solid_con (layer F.Cu) (tedit 58A60E69) (tstamp 58A77E3B)
     (at 175.2 126.9)
     (path /58A716AA)
+    (attr virtual)
     (fp_text reference GndVia3 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1567,6 +1571,7 @@
   (module UGL:via_28_42mil_solid_con (layer F.Cu) (tedit 58A60E69) (tstamp 58A77E2E)
     (at 176 137.7)
     (path /58A6A97E)
+    (attr virtual)
     (fp_text reference GndVia1 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1580,6 +1585,7 @@
   (module UGL:via_28_42mil_solid_con (layer F.Cu) (tedit 58A60E69) (tstamp 58A77E21)
     (at 173.8 126.9)
     (path /58A7136F)
+    (attr virtual)
     (fp_text reference GndVia2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1593,6 +1599,7 @@
   (module UGL:via_28_42mil_solid_con (layer F.Cu) (tedit 58A60E69) (tstamp 58A77E14)
     (at 176 136.4)
     (path /58A72041)
+    (attr virtual)
     (fp_text reference GndVia6 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1606,6 +1613,7 @@
   (module UGL:via_28_42mil_solid_con (layer F.Cu) (tedit 58A60E69) (tstamp 58A77E07)
     (at 172.5 126.9)
     (path /58A71D0D)
+    (attr virtual)
     (fp_text reference GndVia5 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1619,6 +1627,7 @@
   (module UGL:via_28_42mil_solid_con (layer F.Cu) (tedit 58A60E69) (tstamp 58A77DFA)
     (at 176 139.1)
     (path /58A719DC)
+    (attr virtual)
     (fp_text reference GndVia4 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -8089,7 +8098,7 @@
   )
   (gr_circle (center 197.88 92.6) (end 197.88 97.6) (layer Eco1.User) (width 0.01))
   (dimension 123.39574 (width 0.3) (layer Cmts.User)
-    (gr_text "123.396 mm = 4.8581 in" (at 111.11428 91.60213 90) (layer Cmts.User) (tstamp 58ACB5AA)
+    (gr_text "123.396 mm = 4.8581 in" (at 111.11428 91.60213 90) (layer Cmts.User) (tstamp 58ADE80B)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 168.69734 29.90426) (xy 109.76428 29.90426)))
@@ -8106,7 +8115,7 @@
   )
   (gr_line (start 187.41 33.6) (end 168 30.4) (angle 90) (layer Eco1.User) (width 0.01))
   (dimension 150.13432 (width 0.3) (layer Cmts.User)
-    (gr_text "150.134 mm = 5.9108 in" (at 196.53284 18.55178) (layer Cmts.User) (tstamp 58ACB5AB)
+    (gr_text "150.134 mm = 5.9108 in" (at 196.53284 18.55178) (layer Cmts.User) (tstamp 58ADE80C)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 271.6 73.09954) (xy 271.6 17.20178)))
