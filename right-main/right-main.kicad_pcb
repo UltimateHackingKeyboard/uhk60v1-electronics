@@ -449,6 +449,7 @@
   (module UGL:OSHW_Logo_6mm_height_BCu locked (layer B.Cu) (tedit 5839D702) (tstamp 583A05FA)
     (at 266.6 91.6 90)
     (descr "OSHW Logo, 6mm height")
+    (attr virtual)
     (fp_text reference G2 (at 0 0 90) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
@@ -1442,6 +1443,7 @@
   (module UGL:UHK_Logo_6mm_height_BCu locked (layer B.Cu) (tedit 58AB4E10) (tstamp 58AA04B4)
     (at 266.7 108.7 90)
     (descr "UHK Logo, 6mm height")
+    (attr virtual)
     (fp_text reference G1 (at 0 0 90) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
