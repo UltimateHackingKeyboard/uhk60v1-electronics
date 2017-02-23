@@ -259,7 +259,9 @@ boards.forEach(board => {
             'QTY SUM',
             'AVL1',
             'AVL1 P/N',
-            'AVL1 URL'
+            'AVL1 URL',
+            'price per part',
+            'price SUM'
         ]].concat(
             partTypes
             .filter(partType => attributeFilter == 'all' ? true : partType.attribute == attributeFilter)
@@ -278,7 +280,9 @@ boards.forEach(board => {
                     partType.quantity,
                     componentType.avl1,
                     componentType.avl1pn,
-                    componentType.avl1url
+                    componentType.avl1url,
+                    componentType.price,
+                    componentType.price * partType.quantity
                 ]);
             })
         ).join('\n')
