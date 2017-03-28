@@ -1787,17 +1787,6 @@ F 3 "" H 1250 3450 60  0001 C CNN
 $EndComp
 $Comp
 L ZENER U4
-U 2 1 576A1CDB
-P 1450 3450
-F 0 "U4" H 1450 3370 40  0000 C CNN
-F 1 "ESD" H 1450 3400 20  0001 C CNN
-F 2 "UGL:SC-74-TVS" H 1450 3450 60  0001 C CNN
-F 3 "" H 1450 3450 60  0001 C CNN
-	2    1450 3450
-	0    1    -1   0   
-$EndComp
-$Comp
-L ZENER U4
 U 4 1 576A5A5D
 P 1650 3750
 F 0 "U4" H 1650 3670 40  0000 C CNN
@@ -3578,7 +3567,6 @@ Connection ~ 4450 3850
 Wire Wire Line
 	4250 3850 4450 3850
 Connection ~ 1650 3350
-Connection ~ 1450 3550
 Wire Wire Line
 	10900 1050 10900 2400
 Wire Wire Line
@@ -3969,8 +3957,6 @@ Wire Wire Line
 Wire Notes Line
 	3150 2650 450  2650
 Wire Wire Line
-	1100 3350 1750 3350
-Wire Wire Line
 	1650 3850 2600 3850
 Wire Wire Line
 	1100 3550 1100 3350
@@ -3989,7 +3975,6 @@ Wire Wire Line
 	1100 3650 1750 3650
 Wire Wire Line
 	1350 4000 1750 4000
-Connection ~ 1450 3350
 Wire Wire Line
 	1250 3850 1100 3850
 Wire Wire Line
@@ -4115,4 +4100,6 @@ Wire Wire Line
 	3650 6000 3650 6050
 Wire Wire Line
 	3650 6250 3650 6300
+Wire Wire Line
+	1100 3350 1750 3350
 $EndSCHEMATC
