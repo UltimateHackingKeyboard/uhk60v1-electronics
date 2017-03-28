@@ -1,5 +1,5 @@
-update=Fri 10 Apr 2015 11:56:59 AM CEST
-last_client=pcbnew
+update=26/03/2017 16:24:05
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -71,3 +71,5 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.01
 ModuleOutlineThickness=0.25
+[general]
+version=1
