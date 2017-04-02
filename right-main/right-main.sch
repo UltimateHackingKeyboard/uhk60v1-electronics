@@ -1144,9 +1144,9 @@ F 3 "" H 1850 1600 60  0000 C CNN
 	1    1850 1600
 	-1   0    0    1   
 $EndComp
-Text Label 1650 3200 0    40   ~ 0
+Text Label 1050 2950 0    40   ~ 0
 SCL_TOP
-Text Label 1650 2850 0    40   ~ 0
+Text Label 1050 2850 0    40   ~ 0
 SDA_TOP
 Text Label 1350 2550 0    40   ~ 0
 VCC_TOP
