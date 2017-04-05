@@ -5385,4 +5385,6 @@ Wire Wire Line
 	1550 2750 1550 2550
 Wire Wire Line
 	1550 2550 1650 2550
+Text Label 1700 1200 0    40   ~ 0
+VBUS_MID
 $EndSCHEMATC
