@@ -109,10 +109,18 @@ function partsToPartTypes(parts) {
     return R.uniq(parts.map(R.prop('partType')));
 }
 
+function extractReferenceDesignator(referenceDesignator) {
+    let extractedReferenceDesignator = referenceDesignator.match(referenceDesignatorRegExp);
+    if (!extractedReferenceDesignator) {
+        throw new Error(`Invalid reference designator: ${referenceDesignator}`);
+    }
+    return extractedReferenceDesignator;
+}
+
 function sortReferenceDesignators(referenceDesignators) {
     return referenceDesignators.sort((a, b) => {
-        let aMatch = a.match(referenceDesignatorRegExp);
-        let bMatch = b.match(referenceDesignatorRegExp);
+        let aMatch = extractReferenceDesignator(a);
+        let bMatch = extractReferenceDesignator(b);
         let aLetter = aMatch[1];
         let bLetter = bMatch[1];
         let aNumber = parseInt(aMatch[2]);
