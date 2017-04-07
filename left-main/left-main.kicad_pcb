@@ -1915,7 +1915,7 @@
       (net 2 /KEYS_COL2))
   )
 
-  (module UGL:Test_Point (layer B.Cu) (tedit 584215BF) (tstamp 5818E157)
+  (module UGL:Test_Point (layer B.Cu) (tedit 58E7FDC7) (tstamp 5818E157)
     (at 184.10046 128.31872 180)
     (descr FID)
     (tags FIDUCIAL)
@@ -1924,7 +1924,7 @@
     (fp_text reference TP_KEYS_COL3 (at 0 1.3 180) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value KEYS_COL3 (at -3.9 0 180) (layer B.SilkS)
+    (fp_text value KEYS_COL3 (at 3.9 0 180) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
     (pad 1 smd circle (at 0 0 180) (size 1.2 1.2) (layers B.Cu B.Mask)
@@ -6899,7 +6899,7 @@
   )
 
   (module UGL:label locked (layer B.Cu) (tedit 58E7F9A6) (tstamp 5874D867)
-    (at 198.50046 128.41872)
+    (at 199.20046 128.41872)
     (attr virtual)
     (fp_text reference LABEL1 (at 0 -3.5) (layer B.SilkS) hide
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
@@ -7518,7 +7518,7 @@
   )
   (gr_circle (center 191.7 93.620217) (end 196.7 93.620217) (layer Eco1.User) (width 0.01))
   (dimension 123.4567 (width 0.3) (layer Dwgs.User)
-    (gr_text "123.457 mm = 4.8605 in" (at 125.6708 92.59103 90) (layer Dwgs.User) (tstamp 58E7FEB7)
+    (gr_text "123.457 mm = 4.8605 in" (at 125.6708 92.59103 90) (layer Dwgs.User) (tstamp 58E80D3D)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 240.8001 30.86268) (xy 124.3208 30.86268)))
@@ -7548,7 +7548,7 @@
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
   (dimension 135.9 (width 0.3) (layer Dwgs.User)
-    (gr_text "135.9 mm = 5.35 in" (at 204.97046 19.56872) (layer Dwgs.User) (tstamp 58E7FEB8)
+    (gr_text "135.9 mm = 5.35 in" (at 204.97046 19.56872) (layer Dwgs.User) (tstamp 58E80D3E)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 272.92046 111.91872) (xy 272.92046 18.21872)))
