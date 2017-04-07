@@ -8125,9 +8125,10 @@
       (net 3 GNDPWR))
   )
 
-  (module UGL:via_28_42mil_solid_con (layer F.Cu) (tedit 58E77DD9) (tstamp 58E7821B)
+  (module UGL:via_28_42mil_solid_con (layer F.Cu) (tedit 58E7F9FC) (tstamp 58E7821B)
     (at 268.2 138.3)
-    (fp_text reference REF** (at 0 1.27) (layer F.SilkS) hide
+    (attr virtual)
+    (fp_text reference VIA1 (at 0 1.27) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value via_28_42mil_solid_con (at 0 -1.27) (layer F.Fab) hide
@@ -8137,9 +8138,10 @@
       (net 2 GND) (solder_mask_margin 0.127) (zone_connect 2))
   )
 
-  (module UGL:via_28_42mil_solid_con (layer F.Cu) (tedit 58E77DDC) (tstamp 58E78224)
+  (module UGL:via_28_42mil_solid_con (layer F.Cu) (tedit 58E7FA05) (tstamp 58E78224)
     (at 268.2 141.7)
-    (fp_text reference REF** (at 0 1.27) (layer F.SilkS) hide
+    (attr virtual)
+    (fp_text reference VIA2 (at 0 1.27) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value via_28_42mil_solid_con (at 0 -1.27) (layer F.Fab) hide
@@ -8150,7 +8152,7 @@
   )
 
   (dimension 150.13432 (width 0.3) (layer Dwgs.User)
-    (gr_text "150.134 mm = 5.9108 in" (at 196.53284 18.55178) (layer Dwgs.User) (tstamp 58E78482)
+    (gr_text "150.134 mm = 5.9108 in" (at 196.53284 18.55178) (layer Dwgs.User) (tstamp 58E80105)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 271.6 73.09954) (xy 271.6 17.20178)))
@@ -8162,7 +8164,7 @@
     (arrow2b (pts (xy 121.46568 19.90178) (xy 122.592184 19.315359)))
   )
   (dimension 123.39574 (width 0.3) (layer Dwgs.User)
-    (gr_text "123.396 mm = 4.8581 in" (at 111.11428 91.60213 90) (layer Dwgs.User) (tstamp 58E78483)
+    (gr_text "123.396 mm = 4.8581 in" (at 111.11428 91.60213 90) (layer Dwgs.User) (tstamp 58E80106)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 168.69734 29.90426) (xy 109.76428 29.90426)))
