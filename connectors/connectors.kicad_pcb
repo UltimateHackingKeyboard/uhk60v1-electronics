@@ -400,7 +400,7 @@
   (gr_text "4.8 mm = 0.189 in" (at 102.09132 109.24396) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "design is 30mil-10mil-14mil trace-clearance-minimum_drill\n2.5mm board thickness\nblack solder mask\nENIG finish\nno silk screen" (at 99.1754 87.7073) (layer Cmts.User) (tstamp 53DA31C9)
+  (gr_text "design is 30mil-10mil-14mil trace-clearance-minimum_drill\n2.5mm board thickness\nblack solder mask\nhard gold finish\nno silk screen" (at 99.1754 87.7073) (layer Cmts.User) (tstamp 53DA31C9)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_text "0.736 in" (at 148.71988 103.71264) (layer Cmts.User)
