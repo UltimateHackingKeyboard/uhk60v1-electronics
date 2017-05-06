@@ -2028,7 +2028,7 @@ F 1 "LED" H 5700 850 40  0001 C CNN
 F 2 "UGL:SM0805_Diode" H 5700 950 60  0001 C CNN
 F 3 "" H 5700 950 60  0000 C CNN
 	1    5700 950 
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR029

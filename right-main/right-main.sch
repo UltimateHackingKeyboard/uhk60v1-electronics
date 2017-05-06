@@ -2426,7 +2426,7 @@ F 1 "LED" H 3900 900 40  0001 C CNN
 F 2 "UGL:SM0805_Diode" H 3900 1000 60  0001 C CNN
 F 3 "" H 3900 1000 60  0000 C CNN
 	1    3900 1000
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_6 P5

@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/left-main/left-main.sch)
-    (date "Thu 06 Apr 2017 21:10:29 CEST")
-    (tool "Eeschema no-vcs-found-8f3423b~58~ubuntu16.04.1")
+    (date "Sat 06 May 2017 21:20:26 CEST")
+    (tool "Eeschema no-vcs-found-57ded58~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Ultimate Hacking Keyboard - Left Main Board")
@@ -1839,7 +1839,7 @@
       (node (ref C4) (pin 1))
       (node (ref C11) (pin 1))
       (node (ref P7) (pin 5))
-      (node (ref D2) (pin 2))
+      (node (ref D2) (pin 1))
       (node (ref P6) (pin 5))
       (node (ref C5) (pin 1))
       (node (ref C10) (pin 1))
@@ -2139,7 +2139,7 @@
       (node (ref U2) (pin 3)))
     (net (code 89) (name /TEST_LED_R)
       (node (ref R2) (pin 1))
-      (node (ref D2) (pin 1))
+      (node (ref D2) (pin 2))
       (node (ref TP_TEST_LED_R1) (pin 1)))
     (net (code 90) (name /R_EXT)
       (node (ref R8) (pin 2))
