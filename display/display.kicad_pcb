@@ -15,7 +15,7 @@
   (page A4)
   (title_block
     (title "Ultimate Hacking Keyboard - LED Display Board")
-    (rev 7.2)
+    (rev 7.3.0)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
@@ -422,7 +422,7 @@
   )
 
   (dimension 13.46454 (width 0.3) (layer Eco1.User)
-    (gr_text "13.465 mm" (at 109.875 102.275 90) (layer Eco1.User) (tstamp 59107467)
+    (gr_text "13.465 mm" (at 109.875 102.275 90) (layer Eco1.User) (tstamp 591D5AB2)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 153.86884 95.613) (xy 108.62382 95.613)))
@@ -476,7 +476,7 @@
   (gr_line (start 122.273471 102.870416) (end 134.027958 100.846843) (layer Edge.Cuts) (width 0.1))
   (gr_arc (start 133.8583 99.86134) (end 134.027958 100.846843) (angle -80.23208807) (layer Edge.Cuts) (width 0.1))
   (dimension 32.50184 (width 0.3) (layer Eco1.User)
-    (gr_text "32.5 mm = 1.279528 in" (at 138.10814 84.4497) (layer Eco1.User) (tstamp 59107468)
+    (gr_text "32.5 mm = 1.279528 in" (at 138.10814 84.4497) (layer Eco1.User) (tstamp 591D5AB3)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 154.35906 103.35238) (xy 154.35906 82.8241)))
@@ -494,7 +494,7 @@
   (gr_text "0.53 in" (at 113.775 102.175 90) (layer Eco1.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text uhk60_display_v7.2 (at 123.475 106.775) (layer F.SilkS) (tstamp 528901BF)
+  (gr_text uhk60_display_v7.3.0 (at 123.475 106.775) (layer F.SilkS) (tstamp 528901BF)
     (effects (font (size 0.7 0.7) (thickness 0.14)) (justify left))
   )
   (gr_text "design is 8mil-8mil-20mil trace-clearance-minimum_drill\n1.55mm board thickness\nblack solder mask\nwhite silk screen" (at 108.975 73.175) (layer Cmts.User)
