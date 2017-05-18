@@ -8485,7 +8485,7 @@
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
   (gr_line (start 131.8 142.2) (end 131.6 141.3) (angle 90) (layer B.SilkS) (width 0.15))
-  (gr_text "Model: UHK 60 | PCB: uhk60_right_v7.3.0" (at 262.5 100.5 270) (layer B.SilkS) (tstamp 583A35F7)
+  (gr_text "Model: UHK 60 | PCB: uhk60_right_7.3.0" (at 262.5 100.5 270) (layer B.SilkS) (tstamp 583A35F7)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
   (gr_line (start 225.7 106.5) (end 233.4 106.5) (angle 90) (layer B.SilkS) (width 0.15))
