@@ -38,8 +38,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Ultimate Hacking Keyboard - LED Display Board"
-Date "7 mar 2013"
-Rev "7.0"
+Date ""
+Rev "7.5.1"
 Comp "Ultimate Gadget Laboratories Kft."
 Comment1 ""
 Comment2 ""
