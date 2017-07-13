@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/laci/projects/uhk/electronics/left-main/left-main.sch)
-    (date "Wed 05 Jul 2017 20:51:57 CEST")
+    (date "Thu 13 Jul 2017 03:04:30 CEST")
     (tool "Eeschema no-vcs-found-1724f90~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -407,7 +407,7 @@
       (tstamp 5134D4EB))
     (comp (ref C11)
       (value 0.1uF)
-      (footprint UGL:SM0805)
+      (footprint UGL:SM0603)
       (libsource (lib ugl) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 51C91DDE))
@@ -739,7 +739,7 @@
       (tstamp 57597A6D))
     (comp (ref C9)
       (value 1uF)
-      (footprint UGL:SM0805)
+      (footprint UGL:SM0603)
       (libsource (lib ugl) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 5759A63B))
