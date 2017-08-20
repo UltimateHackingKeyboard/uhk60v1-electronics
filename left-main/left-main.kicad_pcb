@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-1724f90~58~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-90873a1~59~ubuntu16.04.1)
 
   (general
     (thickness 1.6)
@@ -6668,6 +6668,7 @@
     (descr SOT-223)
     (tags SOT-223)
     (path /57733360)
+    (attr smd)
     (fp_text reference VR1 (at 0 5.9 180) (layer B.SilkS)
       (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
     )
@@ -7701,7 +7702,7 @@
   )
   (gr_circle (center 191.7 93.620217) (end 196.7 93.620217) (layer Eco1.User) (width 0.01))
   (dimension 123.4567 (width 0.3) (layer Dwgs.User)
-    (gr_text "123.457 mm = 4.8605 in" (at 125.6708 92.59103 90) (layer Dwgs.User) (tstamp 5996F373)
+    (gr_text "123.457 mm = 4.8605 in" (at 125.6708 92.59103 90) (layer Dwgs.User) (tstamp 5999EDDA)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 240.8001 30.86268) (xy 124.3208 30.86268)))
@@ -7731,7 +7732,7 @@
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
   (dimension 135.9 (width 0.3) (layer Dwgs.User)
-    (gr_text "135.9 mm = 5.35 in" (at 204.97046 19.56872) (layer Dwgs.User) (tstamp 5996F374)
+    (gr_text "135.9 mm = 5.35 in" (at 204.97046 19.56872) (layer Dwgs.User) (tstamp 5999EDDB)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 272.92046 111.91872) (xy 272.92046 18.21872)))
