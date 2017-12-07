@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-1724f90~58~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew no-vcs-found-694ad93~61~ubuntu16.04.1)
 
   (general
     (thickness 1.6002)
@@ -69,6 +69,7 @@
       (usegerberextensions true)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.150000)
       (plotframeref false)
@@ -419,7 +420,7 @@
   )
 
   (dimension 13.46454 (width 0.3) (layer Eco1.User)
-    (gr_text "13.465 mm" (at 109.875 102.275 90) (layer Eco1.User) (tstamp 5988508D)
+    (gr_text "13.465 mm" (at 109.875 102.275 90) (layer Eco1.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 153.86884 95.613) (xy 108.62382 95.613)))
@@ -473,7 +474,7 @@
   (gr_line (start 122.273471 102.870416) (end 134.027958 100.846843) (layer Edge.Cuts) (width 0.1))
   (gr_arc (start 133.8583 99.86134) (end 134.027958 100.846843) (angle -80.23208807) (layer Edge.Cuts) (width 0.1))
   (dimension 32.50184 (width 0.3) (layer Eco1.User)
-    (gr_text "32.5 mm = 1.279528 in" (at 138.10814 84.4497) (layer Eco1.User) (tstamp 5988508E)
+    (gr_text "32.5 mm = 1.279528 in" (at 138.10814 84.4497) (layer Eco1.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 154.35906 103.35238) (xy 154.35906 82.8241)))
