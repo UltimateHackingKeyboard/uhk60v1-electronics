@@ -1,4 +1,4 @@
-update=Sun 09 Apr 2017 17:59:04 CEST
+update=Thu 07 Dec 2017 22:50:32 CET
 last_client=kicad
 [cvpcb]
 version=1
@@ -28,37 +28,4 @@ ModuleOutlineThickness=0.15
 version=1
 [eeschema]
 version=1
-LibDir=../libs/ugl/library;../libs/opendous/library;../libs/kiibohd/ICED - Left/lib
-[eeschema/libraries]
-LibName1=ugl
-LibName2=power
-LibName3=transistors
-LibName4=conn
-LibName5=linear
-LibName6=regul
-LibName7=74xx
-LibName8=cmos4000
-LibName9=adc-dac
-LibName10=memory
-LibName11=xilinx
-LibName12=microcontrollers
-LibName13=dsp
-LibName14=microchip
-LibName15=analog_switches
-LibName16=motorola
-LibName17=texas
-LibName18=intel
-LibName19=audio
-LibName20=interface
-LibName21=digital-audio
-LibName22=philips
-LibName23=display
-LibName24=cypress
-LibName25=siliconi
-LibName26=opto
-LibName27=atmel
-LibName28=contrib
-LibName29=valves
-LibName30=device
-LibName31=opendous
-LibName32=ICEDLeft
+LibDir=
