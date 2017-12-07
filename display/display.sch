@@ -1,36 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:ugl
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:opendous
-LIBS:ICEDLeft
+EESchema Schematic File Version 4
 LIBS:display-cache
 EELAYER 26 0
 EELAYER END
@@ -83,7 +51,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 3850 5900 3850
 $Comp
-L CONN_10 P1
+L ugl:CONN_10 P1
 U 1 1 5758FEC2
 P 5400 3500
 F 0 "P1" V 5350 3500 60  0000 C CNN
@@ -94,7 +62,7 @@ F 3 "" H 5400 3500 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 577F758F
 P 6350 4000
 F 0 "#PWR01" H 6350 3750 50  0001 C CNN
@@ -105,9 +73,9 @@ F 3 "" H 6350 4000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 3950 6600 3950
+	5750 3950 5900 3950
 $Comp
-L PWR_FLAG #FLG02
+L ICEDLeft:PWR_FLAG #FLG02
 U 1 1 578047A6
 P 5900 3950
 F 0 "#FLG02" H 5900 4045 50  0001 C CNN
@@ -118,7 +86,7 @@ F 3 "" H 5900 3950 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST_POINT TP_CB1
+L ugl:TEST_POINT TP_CB1
 U 1 1 583582CE
 P 6600 3050
 F 0 "TP_CB1" V 6570 3130 40  0000 L CNN
@@ -131,7 +99,7 @@ $EndComp
 Text Label 6600 3050 2    40   ~ 0
 CB1
 $Comp
-L TEST_POINT TP_CB2
+L ugl:TEST_POINT TP_CB2
 U 1 1 583585D9
 P 6600 3150
 F 0 "TP_CB2" V 6570 3230 40  0000 L CNN
@@ -144,7 +112,7 @@ $EndComp
 Text Label 6600 3150 2    40   ~ 0
 CB2
 $Comp
-L TEST_POINT TP_CB3
+L ugl:TEST_POINT TP_CB3
 U 1 1 58358610
 P 6600 3250
 F 0 "TP_CB3" V 6570 3330 40  0000 L CNN
@@ -157,7 +125,7 @@ $EndComp
 Text Label 6600 3250 2    40   ~ 0
 CB3
 $Comp
-L TEST_POINT TP_CB4
+L ugl:TEST_POINT TP_CB4
 U 1 1 58358617
 P 6600 3350
 F 0 "TP_CB4" V 6570 3430 40  0000 L CNN
@@ -170,7 +138,7 @@ $EndComp
 Text Label 6600 3350 2    40   ~ 0
 CB4
 $Comp
-L TEST_POINT TP_CB5
+L ugl:TEST_POINT TP_CB5
 U 1 1 5835885C
 P 6600 3450
 F 0 "TP_CB5" V 6570 3530 40  0000 L CNN
@@ -183,7 +151,7 @@ $EndComp
 Text Label 6600 3450 2    40   ~ 0
 CB5
 $Comp
-L TEST_POINT TP_CB6
+L ugl:TEST_POINT TP_CB6
 U 1 1 58358863
 P 6600 3550
 F 0 "TP_CB6" V 6570 3630 40  0000 L CNN
@@ -196,7 +164,7 @@ $EndComp
 Text Label 6600 3550 2    40   ~ 0
 CB6
 $Comp
-L TEST_POINT TP_CB7
+L ugl:TEST_POINT TP_CB7
 U 1 1 5835886A
 P 6600 3650
 F 0 "TP_CB7" V 6570 3730 40  0000 L CNN
@@ -209,7 +177,7 @@ $EndComp
 Text Label 6600 3650 2    40   ~ 0
 CB7
 $Comp
-L TEST_POINT TP_CB8
+L ugl:TEST_POINT TP_CB8
 U 1 1 58358871
 P 6600 3750
 F 0 "TP_CB8" V 6570 3830 40  0000 L CNN
@@ -222,7 +190,7 @@ $EndComp
 Text Label 6600 3750 2    40   ~ 0
 CB8
 $Comp
-L TEST_POINT TP_CB9
+L ugl:TEST_POINT TP_CB9
 U 1 1 58358AD8
 P 6600 3850
 F 0 "TP_CB9" V 6570 3930 40  0000 L CNN
@@ -235,7 +203,7 @@ $EndComp
 Text Label 6600 3850 2    40   ~ 0
 CB9
 $Comp
-L TEST_POINT TP_GND1
+L ugl:TEST_POINT TP_GND1
 U 1 1 58358ADF
 P 6600 3950
 F 0 "TP_GND1" V 6570 4030 40  0000 L CNN
@@ -246,7 +214,7 @@ F 3 "" H 6600 3950 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_9 P2
+L ugl:CONN_9 P2
 U 1 1 53C24053
 P 6250 3500
 F 0 "P2" V 6200 3500 60  0000 C CNN
@@ -260,4 +228,8 @@ Wire Wire Line
 	6350 4000 6350 3950
 Connection ~ 6350 3950
 Connection ~ 5900 3950
+Wire Wire Line
+	6350 3950 6600 3950
+Wire Wire Line
+	5900 3950 6350 3950
 $EndSCHEMATC
