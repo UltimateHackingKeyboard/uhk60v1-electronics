@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title "Ultimate Hacking Keyboard - LED Display Board")
-    (rev 7.9.0)
+    (rev 7.8.1)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
@@ -492,7 +492,7 @@
   (gr_text "0.53 in" (at 113.775 102.175 90) (layer Eco1.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "PCB ID:\nuhk60_display_7.9.0" (at 123.175 106.175) (layer F.SilkS) (tstamp 528901BF)
+  (gr_text "PCB ID:\nuhk60_display_7.8.1" (at 123.175 106.175) (layer F.SilkS) (tstamp 528901BF)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify left))
   )
   (gr_text "design is 8mil-8mil-15mil trace-clearance-minimum_drill\n1.55mm board thickness\nblack solder mask\nwhite silk screen" (at 108.975 73.175) (layer Cmts.User)
