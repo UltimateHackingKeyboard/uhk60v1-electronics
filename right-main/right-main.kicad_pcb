@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title "Ultimate Hacking Keyboard - Right Main Board")
-    (rev 7.8.0)
+    (rev 7.9.0)
     (company "Ultimate Gadget Laboratories Kft.")
   )
 
@@ -8364,7 +8364,7 @@
   (gr_text RESET (at 258.6 150.8 90) (layer F.SilkS) (tstamp 5A297924)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text "PCB ID:\nuhk60_right_7.8.0" (at 172.2 48.3) (layer F.SilkS) (tstamp 5956EC7B)
+  (gr_text "PCB ID:\nuhk60_right_7.9.0" (at 172.2 48.3) (layer F.SilkS) (tstamp 5956EC7B)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify left))
   )
   (gr_line (start 240 144.525) (end 257.3 144.525) (layer Eco2.User) (width 0.1))
@@ -8694,7 +8694,7 @@
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
   (gr_line (start 131.8 142.2) (end 131.6 141.3) (angle 90) (layer B.SilkS) (width 0.15))
-  (gr_text "Model: UHK 60 | PCB ID: uhk60_right_7.8.0" (at 262.5 99.9 270) (layer B.SilkS) (tstamp 583A35F7)
+  (gr_text "Model: UHK 60 | PCB ID: uhk60_right_7.9.0" (at 262.5 99.9 270) (layer B.SilkS) (tstamp 583A35F7)
     (effects (font (size 0.75 0.75) (thickness 0.15)) (justify mirror))
   )
   (gr_line (start 225.7 106.5) (end 233.4 106.5) (angle 90) (layer B.SilkS) (width 0.15))
