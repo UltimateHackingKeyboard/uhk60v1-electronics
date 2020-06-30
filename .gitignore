@@ -14,6 +14,6 @@ _autosave-*
 node_modules
 bom.csv
 .DS_Store
-
 .vagrant/
 plot/
+fp-info-cache
