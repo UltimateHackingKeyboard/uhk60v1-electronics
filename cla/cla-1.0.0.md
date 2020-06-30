@@ -1,4 +1,4 @@
-# Contributor Agreement
+﻿# Contributor Agreement
 ## Individual Contributor Exclusive License Agreement version 1.0.0
 
 Thank you for your interest in contributing to Ultimate Gadget Laboratories Kft.'s Ultimate Hacking Keyboard electronics design ("We" or "Us").
@@ -97,3 +97,6 @@ IF THE DISCLAIMER AND DAMAGE WAIVER MENTIONED IN SECTION 4. AND SECTION 5. CANNO
 
 I have read this Agreement, and fully agree to it by signing it with my GitHub username:
 
+- @ipanti
+- @mondalaci
+- @spuder
