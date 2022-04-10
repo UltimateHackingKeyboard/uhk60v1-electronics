@@ -7,7 +7,7 @@ Contained are the schematics and board layout KiCad files for the [Ultimate Hack
 
 Please make sure to clone this repo with:
 
-`git clone --recursive git@github.com:UltimateHackingKeyboard/electronics.git`
+`git clone --recursive https://github.com/UltimateHackingKeyboard/uhk60v1-electronics.git`
 
 Now, you should be able to open any of the 4 [KiCad](https://kicad.org/) projects of the repo:
 
